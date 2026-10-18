@@ -64,10 +64,10 @@ button{cursor:pointer}
 .nav .caret{font-size:9px;margin-left:4px}
 .dd{position:relative}
 .menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);background:var(--bg);border:1px solid var(--line);box-shadow:0 18px 40px rgba(30,28,27,.10);width:max-content;min-width:min(390px,calc(100vw - 32px));max-width:calc(100vw - 32px);padding:14px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));text-transform:none;letter-spacing:0}
-.menu .col{display:flex;flex-direction:column;min-width:0}
+.menu .col,.menu .col > div{display:flex;flex-direction:column;min-width:0}
 .menu .col + .col{border-left:1px solid var(--line)}
 .menu .grp{padding:4px 20px 6px;color:var(--muted);font-size:10px;letter-spacing:.2em;text-transform:uppercase}
-.menu button{text-align:left;padding:6px 20px;font-size:14px;font-weight:500;letter-spacing:0;text-transform:none}
+.menu button{display:block;width:100%;text-align:left;padding:6px 20px;font-size:14px;font-weight:500;letter-spacing:0;text-transform:none;white-space:nowrap}
 .menu button:hover{background:var(--soft)}
 
 /* Slider + hero có hộp chữ */
@@ -248,13 +248,18 @@ footer a:hover{color:inherit}
   .hero-box{min-height:400px}
   .hero-box .box{padding:24px}
   .topbar .wrap{justify-content:center}
-  .nav .wrap{gap:0 18px}
+  .nav .wrap{gap:0 16px;font-size:11px;letter-spacing:.1em;padding-left:max(12px,env(safe-area-inset-left,0px));padding-right:max(12px,env(safe-area-inset-right,0px))}
+  .nav button{padding:13px 0}
+  .brand{padding-block:26px 20px}
   aside{min-width:0;flex-basis:100%}
   .g .txt{grid-column:auto}
   .st-mosaic{margin:0 -20px;padding:22px 20px}
   .st-mosaic h3{font-size:34px}
   .st-full .imgs > div:first-child{min-height:220px}
-  .menu{grid-template-columns:1fr}
+  .nav .wrap{position:relative}
+  .dd{position:static}
+  .menu{left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));transform:none;width:auto;min-width:0;max-width:none;max-height:70vh;overflow-y:auto;grid-template-columns:1fr}
   .menu .col + .col{border-left:0;border-top:1px solid var(--line);margin-top:8px;padding-top:8px}
+  .menu button{white-space:normal}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
