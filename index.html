@@ -3,18 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Đi Rồi Kể</title>
-  <meta name="description" content="Blog du lịch của Mely: những nơi đã đi qua ở Việt Nam, Malaysia và Singapore, những món đã thưởng thức và những ngày muốn nhớ.">
+  <title>Đi Rồi Kể – Blog du lịch Việt Nam, Malaysia, Singapore của Mely</title>
+  <meta name="description" content="Blog du lịch tự túc của Mely: kinh nghiệm, lịch trình, món ngon và những câu chuyện trải nghiệm ở Việt Nam, Malaysia và Singapore.">
+  <meta property="og:title" content="Đi Rồi Kể – Blog du lịch của Mely">
+  <meta property="og:description" content="Kinh nghiệm du lịch tự túc và những câu chuyện trên đường đi ở Việt Nam, Malaysia, Singapore.">
+  <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,500&family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@500;700&display=swap">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div class="topbar"><div class="wrap">
   <span>Blog &amp; trải nghiệm</span>
-  <span class="soc"><a href="#news">Nhận bản tin</a><a href="#about">Giới thiệu</a><a href="#contact">Liên hệ</a></span>
+  <span class="soc"><a href="#gioi-thieu" data-view="about">Giới thiệu</a><a href="#contact">Liên hệ</a></span>
 </div></div>
 
 <header class="brand wrap">
@@ -32,12 +35,12 @@
       <div class="col"><div class="grp">Singapore</div><div id="m-sg"></div></div>
     </div>
   </div>
-  <button type="button" data-filter="Cẩm nang">Cẩm nang</button>
-  <button type="button" data-view="rt" id="rt-link">Blogs</button>
+  <button type="button" data-view="guide" data-nav="guide">Cẩm nang</button>
+  <button type="button" data-view="rt" data-nav="rt">Blogs</button>
 </div></nav>
 
 <!-- Trang chủ -->
-<main id="top">
+<main id="v-home">
   <div class="wrap">
     <section class="hero-box slider" id="slider" aria-roledescription="carousel" aria-label="Bài nổi bật"></section>
 
@@ -73,19 +76,82 @@
     </div>
   </div>
 
-  <section class="news" id="news"><div class="wrap">
-    <div class="label accent">Bản tin</div>
-    <h2>Đừng bỏ lỡ chuyến đi tiếp theo</h2>
-    <p>Mỗi tháng một email: bài viết mới, lịch trình gợi ý và vài quán ăn mình vừa tìm ra.</p>
-    <form id="nform"><input id="email" type="email" required placeholder="Email của bạn" aria-label="Email"><button class="btn solid">Đăng ký</button></form>
-    <div class="ok" id="ok" hidden>✓ Cảm ơn bạn đã đăng ký!</div>
-  </div></section>
-
   <div class="strip" id="strip"></div>
 </main>
 
+<!-- Giới thiệu -->
+<main id="v-about" hidden>
+  <section class="ab-hero wrap">
+    <div class="ab-text">
+      <span class="kicker">Về mình</span>
+      <h1>Xin chào,<br><em>mình là Mely</em></h1>
+      <p>Mình là Mely, một người yêu thích du lịch, khám phá những vùng đất mới và lưu giữ những khoảnh khắc qua ống kính. Đây là góc nhỏ để mình chia sẻ những câu chuyện, trải nghiệm, món ngon và những địa điểm thú vị trên hành trình của mình.</p>
+      <div class="ab-cta">
+        <button type="button" class="pill-btn solid" data-view="home">Đọc blog</button>
+        <a class="pill-btn" href="#contact">Liên hệ</a>
+      </div>
+    </div>
+    <div class="ab-photos">
+      <div class="arch" id="abHero"></div>
+      <div class="inset" id="abHero2"></div>
+    </div>
+  </section>
+
+  <section class="ab-stats"><div class="wrap" id="abStats"></div></section>
+
+  <section class="ab-story wrap">
+    <div class="ab-grid" id="abStory"></div>
+    <div class="ab-text">
+      <span class="kicker">Câu chuyện của mình</span>
+      <h2>Hành trình bắt đầu từ chiếc ba lô đầu tiên</h2>
+      <p>Malaysia là đất nước đầu tiên mình đặt chân đến khi ra nước ngoài, cũng là nơi mình gắn bó suốt hai năm thanh xuân, vừa đi làm, vừa khám phá. Những ngày ở Kuala Lumpur cho mình thật nhiều kỷ niệm, từ những ngày vui vẻ đến những khoảng thời gian không mấy dễ dàng.</p>
+      <p>Trở về Việt Nam, mình tiếp tục xách ba lô lên và đi, từ những cung đường vùng cao Hà Giang đến phố núi Đà Lạt. Hy vọng những điều mình viết sẽ mang đến cho bạn một chút cảm hứng để khám phá thế giới theo cách riêng của mình.</p>
+      <div class="script-sig">Mely</div>
+    </div>
+  </section>
+
+  <section class="ab-values"><div class="wrap">
+    <div class="head">
+      <span class="kicker">Điều mình tin</span>
+      <h2>Vì sao mình viết blog này</h2>
+    </div>
+    <div class="cards">
+      <div class="card"><span class="no">01</span><h3>Đi chậm</h3><p>Không chạy theo lịch trình dày đặc, mình thích ngồi lại một quán nhỏ, đi bộ qua những con phố và cảm nhận nhịp sống của từng nơi.</p></div>
+      <div class="card"><span class="no">02</span><h3>Chân thật</h3><p>Mọi bài viết đều từ trải nghiệm của chính mình, có chỗ đẹp, có chỗ chưa như mong đợi, để bạn có cái nhìn thật nhất trước mỗi chuyến đi.</p></div>
+      <div class="card"><span class="no">03</span><h3>Sẻ chia</h3><p>Từ cách di chuyển, món nên thử đến những mẹo nhỏ, mình mong blog là cuốn sổ tay giúp hành trình của bạn suôn sẻ hơn.</p></div>
+    </div>
+  </div></section>
+
+  <section class="ab-places wrap">
+    <span class="kicker">Những nơi mình đã đi</span>
+    <div class="places" id="abPlaces"></div>
+  </section>
+
+  <section class="ab-cta-box">
+    <h2>Cùng mình đi tiếp nhé?</h2>
+    <p>Nếu bạn có câu hỏi về một điểm đến, muốn hợp tác hay chỉ đơn giản là muốn trò chuyện, đừng ngại nhắn cho mình.</p>
+    <a class="pill-btn solid" href="#contact">Liên hệ với mình</a>
+  </section>
+</main>
+
+<!-- Cẩm nang -->
+<main id="v-guide" hidden>
+  <section class="gd-banner">
+    <div class="bg" id="gdBanner"></div>
+    <div class="shade"></div>
+    <div class="inner">
+      <div class="eyebrow"><span class="line"></span><span>Sổ tay hành trình · Mely</span></div>
+      <h1>Cẩm nang<br><em>cho người thích đi</em></h1>
+      <p>Những ghi chép thực tế sau mỗi chuyến đi: nên đến lúc nào, di chuyển ra sao, ăn gì và vài mẹo nhỏ để hành trình của bạn suôn sẻ hơn.</p>
+      <div class="maps" id="gdMaps"></div>
+    </div>
+    <div class="tabs" id="gdTabs"></div>
+  </section>
+  <div class="gd-grid wrap" id="gdGrid"></div>
+</main>
+
 <!-- Blogs: du lịch có trách nhiệm -->
-<main id="rt" hidden>
+<main id="v-rt" hidden>
   <div class="wrap">
     <section class="hero-box rt-hero">
       <div class="bg" id="rtArt"></div>
@@ -124,11 +190,44 @@
   </div>
 </main>
 
-<footer id="contact"><div class="wrap">
-  <span class="logo">Đi Rồi Kể</span>
-  <span>© 2026 · Bảo lưu mọi quyền</span>
-  <span>Liên hệ hợp tác: <a href="mailto:email@cuaban.com">email@cuaban.com</a></span>
-</div></footer>
+<!-- Liên hệ -->
+<footer id="contact">
+  <div class="wrap ct">
+    <div class="ct-info">
+      <span class="kicker gold">Liên hệ</span>
+      <h2>Cùng trò chuyện<br><em>về những chuyến đi</em></h2>
+      <p>Bạn có câu hỏi về một điểm đến, muốn hợp tác hay chỉ đơn giản là muốn kể cho mình nghe về chuyến đi của bạn? Mình luôn sẵn lòng lắng nghe và thường trả lời trong vòng 2–3 ngày.</p>
+      <a class="ct-mail" href="mailto:myduyenwork123@gmail.com">
+        <span class="ic">@</span>
+        <span class="t"><span class="l">Email</span><span>myduyenwork123@gmail.com</span></span>
+      </a>
+      <div class="socials">
+        <a href="https://www.instagram.com/mely132001/" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" aria-disabled="true">TikTok</a>
+        <a href="https://www.facebook.com/myduyen.meliora" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <form class="ct-form" id="ctForm">
+      <div class="topics">
+        <span class="l">Bạn muốn nói về</span>
+        <div class="chips" id="ctTopics"></div>
+      </div>
+      <div class="two">
+        <input id="ctName" name="name" required placeholder="Tên của bạn" aria-label="Tên của bạn">
+        <input id="ctEmail" name="email" type="email" required placeholder="Email" aria-label="Email">
+      </div>
+      <textarea id="ctMsg" name="msg" required rows="5" placeholder="Viết lời nhắn cho mình…" aria-label="Lời nhắn"></textarea>
+      <div class="send">
+        <span class="note" id="ctNote"></span>
+        <button type="submit">Gửi lời nhắn →</button>
+      </div>
+    </form>
+  </div>
+  <div class="ct-bottom"><div class="wrap">
+    <span class="logo">Đi Rồi Kể</span>
+    <span>© 2026 · Mely · Bảo lưu mọi quyền</span>
+  </div></div>
+</footer>
 
 <!-- Trang đọc bài -->
 <div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-label="Bài viết">
