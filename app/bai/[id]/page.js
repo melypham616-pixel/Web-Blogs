@@ -42,7 +42,6 @@ export default async function PostPage({ params }) {
   const hasChapter = stories.some(s => s.layout === "chapter");
   const related = (isGuide(p) ? GUIDES : POSTS).filter(x => x.id !== p.id).slice(0, 3);
   const img = shareImage(p);
-  const closing = SLOTS[p.id + "-closing"]; // kích thước thật của ảnh khép lại; khung full ngang, thấp hơn 1/3 so với ảnh (×1,5 tỉ lệ)
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -89,7 +88,7 @@ export default async function PostPage({ params }) {
 
           {p.closing && (
             <section className="closing">
-              <div className={"wide" + (hasChapter ? " bleed-x" : "")} style={closing?.w ? { "--ar": closing.w / closing.h * 1.5 } : undefined}><Photo id={p.id + "-closing"} caption="Ảnh khép lại hành trình" /></div>
+              <div className={"wide" + (hasChapter ? " bleed-x" : "")}><Photo id={p.id + "-closing"} caption="Ảnh khép lại hành trình" /></div>
               <div className="txt"><div className="rule" /><p>{p.closing}</p><div className="label accent">Mely</div></div>
             </section>
           )}
