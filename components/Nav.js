@@ -2,16 +2,16 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { POSTS, postUrl } from "@/lib/site";
+import { getDict, route } from "@/lib/i18n";
+import { postUrl } from "@/lib/site";
 
-const GROUPS = [["vn", "Việt Nam"], ["my", "Malaysia"], ["sg", "Singapore"]];
-
-export default function Nav() {
+export default function Nav({ lang, groups }) {
   const path = usePathname();
+  const d = getDict(lang);
   const [open, setOpen] = useState(false);
   const dd = useRef(null);
-
   const first = useRef(path);
+
   useEffect(() => {
     setOpen(false);
     if (path !== first.current) window.__driInApp = true; // để nút "Quay lại" biết có trang trước trong blog
@@ -24,23 +24,23 @@ export default function Nav() {
     return () => { document.removeEventListener("click", onDoc); document.removeEventListener("keydown", onKey); };
   }, []);
 
-  const on = p => (path.startsWith(p) ? "on" : undefined);
+  const home = route(lang, "home"), guide = route(lang, "guide"), blogs = route(lang, "blogs");
   return (
-    <nav className="nav" aria-label="Menu chính"><div className="wrap">
-      <Link href="/" className={path === "/" ? "on" : undefined}>Trang chủ</Link>
+    <nav className="nav" aria-label={d.nav.label}><div className="wrap">
+      <Link href={home} className={path === home ? "on" : undefined}>{d.nav.home}</Link>
       <div className="dd" ref={dd}>
-        <button type="button" aria-expanded={open} aria-controls="dd-menu" onClick={() => setOpen(o => !o)}>Điểm đến <span className="caret">▼</span></button>
+        <button type="button" aria-expanded={open} aria-controls="dd-menu" onClick={() => setOpen(o => !o)}>{d.nav.destinations} <span className="caret">▼</span></button>
         <div className="menu" id="dd-menu" hidden={!open}>
-          {GROUPS.map(([c, name]) => (
-            <div className="col" key={c}>
-              <div className="grp">{name}</div>
-              <div>{POSTS.filter(p => p.c === c).map(p => <Link key={p.id} href={postUrl(p.id)}>{p.menu || p.place}</Link>)}</div>
+          {groups.map(g => (
+            <div className="col" key={g.code}>
+              <div className="grp">{g.name}</div>
+              <div>{g.items.map(it => <Link key={it.id} href={postUrl(lang, it.id)}>{it.name}</Link>)}</div>
             </div>
           ))}
         </div>
       </div>
-      <Link href="/cam-nang/" className={on("/cam-nang")}>Cẩm nang</Link>
-      <Link href="/blogs/" className={on("/blogs")}>Blogs</Link>
+      <Link href={guide} className={path.startsWith(guide) ? "on" : undefined}>{d.nav.guide}</Link>
+      <Link href={blogs} className={path.startsWith(blogs) ? "on" : undefined}>{d.nav.blogs}</Link>
     </div></nav>
   );
 }

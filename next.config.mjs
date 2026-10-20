@@ -3,6 +3,8 @@ const nextConfig = {
   output: "export",
   trailingSlash: true,
   images: { unoptimized: true },
+  // Cho phép một trang 404 chung khi site có nhiều layout gốc (tiếng Việt và /en)
+  experimental: { globalNotFound: true },
 };
 
 export default nextConfig;
