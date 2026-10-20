@@ -25,6 +25,37 @@ export const EN_2 = {
     tip: "Bring a light jacket because it is quite windy at the top, and go on a weekday to avoid the crowds.",
   },
 
+  "con-thoi-son": {
+    title: "Con Thoi Son – A Day Rowing Through Water Coconut Palms",
+    ex: "A few hours from Saigon is a green island in the Tien River: row a small boat through water-coconut canals, sip honey tea and eat fruit right in the garden.",
+    place: "Con Thoi Son",
+    body: [["", "Con Thoi Son is an islet in the middle of the Tien River in My Tho, Tien Giang, about two hours from Saigon by road. I went on a weekend with a group of friends, with no plan more elaborate than sitting in a rowing boat, eating fruit and walking slowly through the gardens. It turned out to be exactly the easy kind of trip I needed."]],
+    stories: [
+      {
+        k: "On the river", h: "Rowing through the water coconut canals", where: "Water coconut canal · noon",
+        t: "The highlight of the trip is the rowing-boat ride through narrow canals. On both sides are lush water-coconut palms whose leaves meet overhead and nearly hide the sky, and on the water a long line of boats follows one another. The boatwoman rows evenly, her conical hat tilted, and now and then lifts a branch out of our way. It was crowded for a weekend so the boats moved slowly, but that slow pace made this stretch of river the part I remember best.",
+        ph: ["A busy water-coconut canal", "Boats in a line under the leaves", "Waiting for the boats among the palms"],
+      },
+      {
+        k: "On foot", h: "A small bridge and riverside paths", where: "Bridges and paths on the islet · morning",
+        t: "There are a few small bridges over the river branches on the islet, and walking across them is cool thanks to the wind from the water. I walked slowly along brick paths and dirt lanes, stopping to look at the muddy brown water or to browse conical hats and souvenirs sold by locals. I wore a silk ao dai with a checked scarf to match the Mekong mood, so every photo felt right.",
+        ph: ["A bridge over the canal", "Strolling by the river", "A path between the gardens"],
+      },
+      {
+        k: "Photo spot", h: "A flower gate and a heart frame in the garden", where: "Tourist garden · morning",
+        t: "Every stop on the islet has a few corners built for photos. My favourite was the heart frame among the green plants, where one shot is enough to capture a sunny day. At the entrance there is also a colourful flower arch, where our group lined up for a photo before starting the trip.",
+        ph: ["The colourful flower gate", "The heart frame in the garden", "A corner of the garden"],
+      },
+      {
+        k: "What to eat", h: "Honey tea and a plate of fresh fruit", where: "Local garden house · noon",
+        t: "We stopped at a garden house, where the group was invited to sit under a leaf roof, sip hot honey tea and eat seasonal fruit already laid out on plates. The fruit was fresh, gently sweet and left us feeling cooler. I also watched how some local specialities are made and bought a few small things to take home as gifts.",
+        ph: ["A plate of seasonal fruit", "Honey tea under the leaf roof", "Local specialities on sale"],
+      },
+    ],
+    closing: "Con Thoi Son is nothing grand, just water-coconut palms, the soft sound of oars and a day slowed down in the Mekong Delta. With a free day near Saigon, I would happily go again.",
+    tip: "Go on a weekday or set off early to avoid crowded boats; bring a hat and sunscreen, and ask for the all-in price before getting on the boat.",
+  },
+
   "vung-tau": {
     title: "Vung Tau – Close Sea, Cool Breeze, Fresh Seafood",
     ex: "Windy coastal roads, a street covered in flowers, a barefoot afternoon on the sand and hot, crispy banh khot. An easy weekend trip from Saigon.",
