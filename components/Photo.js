@@ -24,7 +24,7 @@ function frame(img, { s = 1, x = 0, y = 0 }) {
  */
 export default function Photo({ id, fallback, caption = "", eager = false }) {
   // Ô chưa có ảnh riêng mà dự phòng là một bài viết: dùng ảnh danh sách / ảnh bìa của bài đó
-  const postSlot = fallback && typeof fallback === "object" && fallback.id && (SLOTS["list-" + fallback.id] || SLOTS["cover-" + fallback.id]);
+  const postSlot = fallback && typeof fallback === "object" && fallback.id && (SLOTS["list-" + fallback.id] || SLOTS["cover-" + fallback.id] || SLOTS["guide-" + fallback.id]);
   const sl = (id ? SLOTS[id] : null) || postSlot || null;
   const framed = sl && (sl.s || sl.x || sl.y);
   const ref = useRef(null);
