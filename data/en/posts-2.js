@@ -39,17 +39,17 @@ export const EN_2 = {
       {
         k: "On foot", h: "A small bridge and riverside paths", where: "Bridges and paths on the islet · morning",
         t: "There are a few small bridges over the river branches on the islet, and walking across them is cool thanks to the wind from the water. I walked slowly along brick paths and dirt lanes, stopping to look at the muddy brown water or to browse conical hats and souvenirs sold by locals. I wore a silk ao dai with a checked scarf to match the Mekong mood, so every photo felt right.",
-        ph: ["A bridge over the canal", "Strolling by the river", "A path between the gardens"],
+        ph: ["Boats seen from the bridge", "Walking on the bridge by the river", "Water coconut palms along the canal"],
       },
       {
         k: "Photo spot", h: "A flower gate and a heart frame in the garden", where: "Tourist garden · morning",
         t: "Every stop on the islet has a few corners built for photos. My favourite was the heart frame among the green plants, where one shot is enough to capture a sunny day. At the entrance there is also a colourful flower arch, where our group lined up for a photo before starting the trip.",
-        ph: ["The colourful flower gate", "The heart frame in the garden", "A corner of the garden"],
+        ph: ["The heart frame in the garden", "A corner of the garden", "The colourful flower gate"],
       },
       {
         k: "What to eat", h: "Honey tea and a plate of fresh fruit", where: "Local garden house · noon",
         t: "We stopped at a garden house, where the group was invited to sit under a leaf roof, sip hot honey tea and eat seasonal fruit already laid out on plates. The fruit was fresh, gently sweet and left us feeling cooler. I also watched how some local specialities are made and bought a few small things to take home as gifts.",
-        ph: ["A plate of seasonal fruit", "Honey tea under the leaf roof", "Local specialities on sale"],
+        ph: ["A plate of seasonal fruit", "Local specialities on sale", "Cheers with cool drinks in the garden"],
       },
     ],
     closing: "Con Thoi Son is nothing grand, just water-coconut palms, the soft sound of oars and a day slowed down in the Mekong Delta. With a free day near Saigon, I would happily go again.",
