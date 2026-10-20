@@ -108,7 +108,11 @@ export default function Story({ post, st, i, arr }) {
     case "story":
       return (
         <section className="st-story">
-          <div className="head"><div className="meta-line"><span>{st.k}</span><i /><span>{st.time || st.where || ""}</span></div><h3>{st.h}</h3></div>
+          <div className="head">
+            <div className="meta-line"><span>{st.k}</span><i /><span>{st.time || st.where || ""}</span></div>
+            <h3>{st.h}</h3>
+            {st.time && st.where && <div className="st-where">{st.where}</div>}
+          </div>
           {slot("a", p1, "wide")}
           <Text t={st.t} />
           <div className="row">{ph.slice(1).map((c, j) => <figure key={j}><Box id={base + "-" + "bcd"[j]} caption={c} /><figcaption>{c}</figcaption></figure>)}</div>

@@ -23,7 +23,9 @@ function frame(img, { s = 1, x = 0, y = 0 }) {
  * sau đó tới `fallback` (đường dẫn ảnh, hoặc một bài viết để vẽ SVG), cuối cùng là ô trống có chú thích.
  */
 export default function Photo({ id, fallback, caption = "", eager = false }) {
-  const sl = id ? SLOTS[id] : null;
+  // Ô chưa có ảnh riêng mà dự phòng là một bài viết: dùng ảnh danh sách / ảnh bìa của bài đó
+  const postSlot = fallback && typeof fallback === "object" && fallback.id && (SLOTS["list-" + fallback.id] || SLOTS["cover-" + fallback.id]);
+  const sl = (id ? SLOTS[id] : null) || postSlot || null;
   const framed = sl && (sl.s || sl.x || sl.y);
   const ref = useRef(null);
 
