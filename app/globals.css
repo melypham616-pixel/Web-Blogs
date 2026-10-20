@@ -578,13 +578,7 @@ main{overflow-x:clip}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
-/* Banner kiểu "thẻ tối phủ trên ảnh toàn khung": ảnh ấm, thẻ xanh đen, chữ trắng đậm */
-.hero-box.slider{justify-items:start}
-.hero-box.slider .bg::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(10,30,38,.35) 0%,rgba(10,30,38,0) 60%),linear-gradient(0deg,rgba(255,190,120,.18),rgba(255,190,120,0) 50%)}
-.hero-box.slider .bg img{filter:saturate(1.2) contrast(1.06) sepia(.12)}
-.hero-box.slider .box{background:#0C2A33;color:#fff;text-align:left;justify-self:start;align-self:center;margin:44px 0 80px clamp(16px,5vw,64px);padding:40px 44px;max-width:min(520px,calc(100% - 32px));box-shadow:0 24px 60px rgba(0,0,0,.35)}
-.hero-box.slider .box h2{color:#fff;font-weight:700;line-height:1.15;margin:14px 0 26px}
-.hero-box.slider .box .label{color:#F2B57A}
-.hero-box.slider .box .btn{background:#fff;color:#0C2A33;border-color:#fff}
-.hero-box.slider .box .btn:hover{background:#F2B57A;border-color:#F2B57A}
-@media(max-width:700px){.hero-box.slider .box{padding:26px 24px;margin:32px 16px 84px}}
+/* Lớp màu phủ ảnh banner: ấm ở trên, tối nhẹ ở dưới để ảnh ám xám vẫn có chiều sâu */
+.hero-box.slider .bg::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(255,196,140,.22) 0%,rgba(255,196,140,0) 45%),linear-gradient(0deg,rgba(24,38,52,.45) 0%,rgba(24,38,52,0) 55%)}
+.hero-box.slider .bg img{filter:saturate(1.18) contrast(1.05)}
+.hero-box.slider .box{background:rgba(255,252,247,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
