@@ -1,5 +1,6 @@
 import Photo, { Box } from "@/components/Photo";
 import { pad2 } from "@/lib/site";
+import { getDict } from "@/lib/i18n";
 
 export const METRO_COLORS = ["#D6334A", "#2F6FB3", "#D98E04", "#2E9466"];
 const LETTERS = "abcdefghijkl";
@@ -14,7 +15,8 @@ const Text = ({ t }) => <p className="st-t">{t}</p>;
  * không có layout: "full" (k = "Cà phê" hoặc full: true) hoặc "split".
  * Mã ô ảnh giữ đúng như bản thiết kế để ảnh khớp với SLOTS.
  */
-export default function Story({ post, st, i, arr }) {
+export default function Story({ lang = "vi", post, st, i, arr }) {
+  const d = getDict(lang).post;
   const base = st.sid ? post.id + "-" + st.sid : post.id;
   const id = st.sid ? base : post.id + "-st-" + arr.slice(0, i).filter(x => !x.sid).length;
   const ph = st.ph || [];
@@ -23,8 +25,8 @@ export default function Story({ post, st, i, arr }) {
   const num = pad2(i + 1);
   const flip = i % 2 ? " flip" : "";
   const notLast = i < arr.length - 1;
-  const p1 = cap(0, st.layout === "mosaic" ? "Toàn cảnh " + st.h : "Ảnh chính: " + st.h);
-  const s2 = cap(1, "Ảnh chi tiết"), s3 = cap(2, "Ảnh chi tiết");
+  const p1 = cap(0, st.layout === "mosaic" ? d.panorama(st.h) : d.mainPhoto(st.h));
+  const s2 = cap(1, d.detail), s3 = cap(2, d.detail);
 
   switch (st.layout) {
     case "essay":
@@ -77,7 +79,7 @@ export default function Story({ post, st, i, arr }) {
           </div>
           <div className="taped">
             <figure>{slot("b", s2)}</figure><figure>{slot("c", s3)}</figure>
-            {ph.length === 4 && <figure>{slot("d", cap(3, "Chân dung"))}</figure>}
+            {ph.length === 4 && <figure>{slot("d", cap(3, d.portraitCap))}</figure>}
           </div>
         </section>
       );
@@ -137,7 +139,7 @@ export default function Story({ post, st, i, arr }) {
       return (
         <section className={"st-chapter bleed-x" + flip} style={vars}>
           <div className="head"><span className="big">{num}</span><div><div className="k">{st.k}</div><h3>{st.h}</h3></div><div className="where">{st.where}</div></div>
-          <div className="body"><Text t={st.t} /><div className={"imgs" + (four ? " four" : "")}>{slot("a", p1)}{slot("b", s2)}{slot("c", s3)}{four && slot("d", cap(3, "Chân dung"))}</div></div>
+          <div className="body"><Text t={st.t} /><div className={"imgs" + (four ? " four" : "")}>{slot("a", p1)}{slot("b", s2)}{slot("c", s3)}{four && slot("d", cap(3, d.portraitCap))}</div></div>
           {ph.length > 4 && <div className="strip4">{ph.slice(3).map((c, j) => <Box key={j} id={base + "-" + "defg"[j]} caption={c} />)}</div>}
         </section>
       );
@@ -150,7 +152,7 @@ export default function Story({ post, st, i, arr }) {
         <section className="st-metro" style={{ "--mc": mc, "--mline": line, "--mbottom": last ? "0px" : "-48px" }}>
           <div className="rail"><div className="dot">{num}</div></div>
           <div className="content">
-            <div className="st-head"><div className="tags"><span className="ga">Ga {st.station || ""}</span><span>{st.k}</span></div><h3>{st.h}</h3><div className="st-where plain">{st.where}</div></div>
+            <div className="st-head"><div className="tags"><span className="ga">{d.stop(st.station || "")}</span><span>{st.k}</span></div><h3>{st.h}</h3><div className="st-where plain">{st.where}</div></div>
             <div className="imgs">{slot("a", p1)}{slot("b", s2)}{slot("c", s3)}</div>
             <Text t={st.t} />
             {ph.length > 4 && <div className="hstrip">{ph.slice(3).map((c, j) => <figure key={j}><Box id={base + "-" + "defg"[j]} caption={c} /><figcaption>{c}</figcaption></figure>)}</div>}
@@ -159,7 +161,8 @@ export default function Story({ post, st, i, arr }) {
       );
     }
     case "mosaic": {
-      const caps = [p1, cap(1, "Mặt hồ xanh ngọc"), cap(2, "Chi tiết"), cap(3, "Chân dung"), cap(4, "Đồi thông"), cap(5, "Góc check-in"), cap(6, "Panorama đồi và hồ")];
+      const mc = d.mosaicCaps;
+      const caps = [p1, cap(1, mc[0]), cap(2, mc[1]), cap(3, mc[2]), cap(4, mc[3]), cap(5, mc[4]), cap(6, mc[5])];
       return (
         <section className="st-mosaic bleed-x">
           <div className="top"><div><div className="label st-k">{num} · {st.k}</div><h3>{st.h}</h3><div className="st-where">{st.where}</div></div><Text t={st.t} /></div>
@@ -172,12 +175,15 @@ export default function Story({ post, st, i, arr }) {
 
   const head = <div className="st-head"><div className="label st-k">{num} · {st.k}</div><h3>{st.h}</h3><div className="st-where">{st.where}</div><Text t={st.t} /></div>;
   if (!st.layout && (st.k === "Cà phê" || st.full)) {
-    const caps = [p1, cap(1, "Không gian"), cap(2, "Đồ uống"), cap(3, "Góc chụp ảnh"), cap(4, "Chi tiết"), cap(5, "View")];
+    const fc = d.fullCaps;
+    const caps = [p1, cap(1, fc[0]), cap(2, fc[1]), cap(3, fc[2]), cap(4, fc[3]), cap(5, fc[4])];
     return <section className="st-full">{head}<div className="imgs">{caps.map((c, n) => <Box key={n} id={id + "-" + LETTERS[n]} caption={c} />)}</div></section>;
   }
+  // Ảnh phụ (b, c) có thể ẩn riêng từng ảnh bằng hide: ["b"] trong data/posts.js
+  const extras = st.layout === "single" ? [] : ["b", "c"].filter(L => !(st.hide || []).includes(L));
   return (
     <section className={"st-split" + flip}>
-      <div className="imgs">{slot("a", p1)}{st.layout !== "single" && <>{slot("b", s2)}{slot("c", s3)}</>}</div>
+      <div className={"imgs" + (extras.length === 1 ? " one" : "")}>{slot("a", p1)}{extras.map(L => <Box key={L} id={id + "-" + L} caption={L === "b" ? s2 : s3} />)}</div>
       {head}
     </section>
   );

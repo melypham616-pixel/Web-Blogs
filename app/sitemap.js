@@ -1,9 +1,22 @@
-import { ALL, SITE_URL, postUrl } from "@/lib/site";
+import { allIds } from "@/lib/content";
+import { LOCALES, route } from "@/lib/i18n";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
+// Mỗi trang xuất hiện ở mọi ngôn ngữ, kèm hreflang để Google biết các bản dịch của nhau.
+const entries = (key, id, priority, changeFrequency) =>
+  LOCALES.map(lang => ({
+    url: SITE_URL + route(lang, key, id),
+    changeFrequency,
+    priority,
+    alternates: { languages: Object.fromEntries(LOCALES.map(l => [l, SITE_URL + route(l, key, id)])) },
+  }));
+
 export default function sitemap() {
-  const pages = ["/", "/gioi-thieu/", "/cam-nang/", "/blogs/"].map(path => ({ url: SITE_URL + path, changeFrequency: "weekly", priority: path === "/" ? 1 : 0.8 }));
-  const posts = ALL.map(p => ({ url: SITE_URL + postUrl(p.id), changeFrequency: "monthly", priority: 0.7 }));
-  return [...pages, ...posts];
+  return [
+    ...entries("home", undefined, 1, "weekly"),
+    ...["about", "guide", "blogs"].flatMap(key => entries(key, undefined, 0.8, "weekly")),
+    ...allIds().flatMap(id => entries("post", id, 0.7, "monthly")),
+  ];
 }
