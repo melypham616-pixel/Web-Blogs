@@ -179,9 +179,11 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
     const caps = [p1, cap(1, fc[0]), cap(2, fc[1]), cap(3, fc[2]), cap(4, fc[3]), cap(5, fc[4])];
     return <section className="st-full">{head}<div className="imgs">{caps.map((c, n) => <Box key={n} id={id + "-" + LETTERS[n]} caption={c} />)}</div></section>;
   }
+  // Ảnh phụ (b, c) có thể ẩn riêng từng ảnh bằng hide: ["b"] trong data/posts.js
+  const extras = st.layout === "single" ? [] : ["b", "c"].filter(L => !(st.hide || []).includes(L));
   return (
     <section className={"st-split" + flip}>
-      <div className="imgs">{slot("a", p1)}{st.layout !== "single" && <>{slot("b", s2)}{slot("c", s3)}</>}</div>
+      <div className={"imgs" + (extras.length === 1 ? " one" : "")}>{slot("a", p1)}{extras.map(L => <Box key={L} id={id + "-" + L} caption={L === "b" ? s2 : s3} />)}</div>
       {head}
     </section>
   );
