@@ -2,6 +2,7 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import LangSwitch from "@/components/LangSwitch";
+import Analytics from "@/components/Analytics";
 import LegacyHash from "@/components/LegacyHash";
 import { fontVariables } from "@/lib/fonts";
 import { getDict, route, DEFAULT_LOCALE } from "@/lib/i18n";
@@ -20,6 +21,7 @@ export default function SiteLayout({ lang, children }) {
   return (
     <html lang={lang} className={fontVariables}>
       <body>
+        <Analytics />
         {lang === DEFAULT_LOCALE && <LegacyHash />}
         <div className="topbar"><div className="wrap">
           <span>{d.topbar.left}</span>
