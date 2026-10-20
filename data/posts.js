@@ -1,6 +1,6 @@
 // Nội dung mẫu — thay bằng bài viết và ảnh thật của bạn.
 // c: "vn" | "my" | "sg" | "all"; scene + colors dùng để vẽ ảnh minh hoạ SVG (xem art.js).
-// Muốn dùng ảnh thật: thêm trường img: "images/ten-anh.jpg" vào bài viết.
+// Ảnh nằm trong public/images. Muốn dùng ảnh riêng cho bài: thêm trường img: "images/ten-anh.jpg".
 const POSTS = [
   {id:"ha-giang",c:"vn",place:"Hà Giang",cat:"Cẩm nang",scene:"mount",colors:["#E9DCC6","#D9A35E","#6E8B5A","#34503A"],
    title:"Hà Giang – Hành trình qua những cung đường vùng cao",
@@ -269,3 +269,5 @@ const GUIDES = [
    body:[["","Với các chặng ngắn và vừa, tàu hoả thường thải ít khí hơn máy bay rất nhiều tính trên mỗi hành khách. Bù lại, bạn được ngắm cảnh suốt đường."],["Gợi ý","Ở Việt Nam, đoạn Huế – Đà Nẵng qua đèo Hải Vân rất đẹp. Ở Malaysia, tàu ETS nối Kuala Lumpur với Ipoh và Penang (qua Butterworth)."]],
    tip:"Đặt vé sớm vào dịp lễ Tết vì tàu hết chỗ rất nhanh."}
 ];
+
+export { POSTS, GUIDES };
