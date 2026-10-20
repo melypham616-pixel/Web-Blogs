@@ -39,8 +39,17 @@ export const EN_2 = {
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Saigon",
         quote: "Leave early, have a slightly late lunch, and be back before rush hour.",
-        t: "6:30 – 7:00  Leave Saigon and drive about two hours toward My Tho.\n\n9:00  Reach the pier and take the boat to the islet before the big groups arrive.\n\n9:30 – 11:30  Row through the water coconut canals, stop at a garden house for honey tea and fruit and hold a python and a honeycomb frame and hear don ca tai tu music.\n\n11:30 – 13:00  Lunch at a restaurant or stall on the islet, then rest in the shade.\n\n13:00 – 14:30  Walk across the bridges, take photos and buy gifts.\n\n14:30  Leave the islet and head back to Saigon to avoid rush-hour traffic.",
+        ph: ["Water coconut palms along the canal"],
+        steps: [
+          { time: "6:30", title: "Leave Saigon", text: "Drive about two hours toward My Tho." },
+          { time: "9:00", title: "Out to the islet", text: "Reach the pier and take the boat to the islet before the big groups arrive." },
+          { time: "9:30", title: "Boats and garden houses", text: "Row through the water coconut canals, then stop at a garden house to hold a python and a honeycomb frame, hear don ca tai tu music, and enjoy honey tea and fruit." },
+          { time: "11:30", title: "Lunch", text: "Eat at a restaurant or stall on the islet, then rest in the shade." },
+          { time: "13:00", title: "Bridges and gifts", text: "Walk across the bridges, take photos and buy gifts." },
+          { time: "14:30", title: "Back to Saigon", text: "Leave the islet early to avoid rush-hour traffic." },
+        ],
       },
+
       {
         k: "Experiences", h: "Holding a python, a honeycomb frame and don ca tai tu music", where: "Garden houses on the islet",
         quote: "Three small activities, grouped into one stop at a garden house.",
