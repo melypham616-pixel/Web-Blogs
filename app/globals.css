@@ -577,3 +577,8 @@ main{overflow-x:clip}
   .st-night .body{padding:20px 18px 24px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* Lớp màu phủ ảnh banner: ấm ở trên, tối nhẹ ở dưới để ảnh ám xám vẫn có chiều sâu */
+.hero-box.slider .bg::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(255,196,140,.22) 0%,rgba(255,196,140,0) 45%),linear-gradient(0deg,rgba(24,38,52,.45) 0%,rgba(24,38,52,0) 55%)}
+.hero-box.slider .bg img{filter:saturate(1.18) contrast(1.05)}
+.hero-box.slider .box{background:rgba(255,252,247,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
