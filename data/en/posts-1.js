@@ -95,32 +95,37 @@ export const EN_1 = {
 
   "sa-pa": {
     title: "Sa Pa – A Town in the Mist",
-    ex: "Terraced rice fields, villages tucked into mountainsides and the Fansipan peak above a sea of clouds. A Sa Pa that is both grand and simple.",
+    ex: "The Stone Church by day and lit up at night, photo spots in thick fog and terraced fields under the clouds. A chilly, hazy Sa Pa that is well worth remembering.",
     place: "Sa Pa",
     body: [["", "Sa Pa lies in the Hoang Lien Son range, cool all year round and often covered in mist in the morning. Every season has its own beauty, from the golden ripe rice to cold winter days when you may even catch snow."]],
     stories: [
       {
-        k: "Roof of Indochina", h: "Climbing Fansipan", where: "Sun World cable car · early morning",
-        t: "I rode the cable car over deep valleys and primeval forest up to the summit of Fansipan, at 3,143 m. When the clouds cleared, the whole Hoang Lien Son range spread out layer upon layer below. Go very early for a chance to see the sea of clouds and avoid the crowds, and bring a warm jacket because it is much colder at the top than in town.",
-        ph: ["The Fansipan summit", "The cable car over the valley", "A sea of clouds", "A temple on the mountain", "Stone steps to the top", "The 3,143 m marker"],
+        k: "The town centre", h: "The Stone Church and Sa Pa's main square", where: "Town centre · morning",
+        t: "I began my day in Sa Pa at the main square, where the Stone Church, built in the French colonial era, stands in the middle of town. Its grey stone walls, pointed spire and arched door make it look like it stepped out of a small European town. Around the square are pale yellow buildings, a path with an iron arch in the garden and a lake lying still under a grey sky. It was cold, with low cloud pressing down, but that very chill made a slow stroll feel pleasant.",
+        ph: ["Sa Pa Stone Church", "The church facade", "The main square", "An iron arch in the garden", "A pale yellow building", "The lake under a grey sky"],
       },
       {
-        k: "Harvest season", h: "Muong Hoa terraced fields", where: "Lao Chai · Ta Van · September",
-        t: "Muong Hoa Valley has the most beautiful terraced fields in Sa Pa. In harvest season the whole hillside turns golden, winding like soft brushstrokes across the mountains.",
-        ph: ["Muong Hoa terraced fields", "Golden ripe rice", "Winding hillsides", "A road through the fields", "The valley in the mist", "A stilt house by the fields", "A view of the whole valley"],
+        k: "At night", h: "Sa Pa at night: the lit-up church and coloured streets", where: "Square and town centre · after 6pm",
+        t: "When darkness falls, the town changes completely. The Stone Church is lit in gold along its rooflines, standing out against the night and the cold. The streets light up, the SAPA sign glows in neon and hotels shine along both sides of the road. I walked around the square, stopped to take a few photos and only then strolled back, because Sa Pa nights are best when you walk very slowly.",
+        ph: ["The Stone Church lit up", "The glowing SAPA sign", "A hotel lit up", "The church at night", "A Sa Pa street at night", "A building bright with lights", "A glowing doorway"],
       },
       {
-        k: "Villages", h: "Walking through Cat Cat Village", where: "About 3 km from the centre",
-        t: "Cat Cat Village of the Hmong people lies at the foot of the mountain, with wooden houses, water wheels turning steadily by the stream and brocade cloth drying in front of porches. Walking down the slope to the village, you will see children playing, women sitting to weave cloth and the very slow rhythm of the highlands.",
-        ph: ["Cat Cat Village", "A water wheel by the stream", "A Hmong wooden house", "Brocade cloth", "A waterfall", "Children of the highlands", "The slope down to the village"],
+        k: "Check-in", h: "Photo spots in the mist", where: "A hillside near the centre · early morning",
+        t: "The mist in Sa Pa can be so thick you see only a few metres ahead, but that same mist creates frames all of its own. I stopped at a hillside with many photo spots: a big SA PA sign, a red door frame, a wooden ring, stone hands, a swing and heart-shaped frames. Standing in the white air, dressed warmly and watching everything fade into the fog, I felt every photo looked like an ink painting.",
+        ph: ["The SA PA sign in the mist", "A red door frame", "A wooden ring", "A swing", "A heart-shaped frame", "The big SA PA letters", "Stone hands in the mist"],
       },
       {
-        k: "What to eat", h: "Flavours of the mountain town", where: "Sa Pa night market · evening",
-        t: "Sa Pa nights are cold, so nothing fits better than a hot pot of salmon, a few grilled skewers of pork, bamboo-tube sticky rice and sweet potatoes roasted on glowing charcoal. Sitting by the fire at the night market, listening to the chatter around me, even the highland cold felt more comfortable.",
-        ph: ["Salmon hot pot", "Night market skewers", "Bamboo-tube sticky rice"],
+        k: "Terraces", h: "Terraced fields under the clouds", where: "Roadside outside town · morning",
+        t: "Leaving town, I stopped by the road to look at terraced fields stretching down into the valley. When I came, the rice was not yet ripe, and the plots were only a pale green, with low cloud on the hillside and mist drifting between the terraces. Not as brilliant as golden harvest season, but that hazy quiet made me stand and look for a very long time.",
+        ph: ["Terraced fields in the mist", "Cloud over the hillside", "The valley seen from the roadside"],
+      },
+      {
+        k: "What to eat", h: "Flavours of the mountain town", where: "Sa Pa centre · evening",
+        t: "Sa Pa nights are cold, so nothing fits better than a steaming bowl of pho, a few grilled snacks at the night market and stalls wrapped in smoke. Sitting to eat in the chilly air, with golden street lights falling on the road, even the highland cold felt more comfortable.",
+        ph: ["A hot bowl of pho", "Street food", "The night market lit up"],
       },
     ],
-    closing: "Sa Pa is not just a place to look at scenery. It is the morning mist over the valley, the smiles of highland children and the cold that makes me want to sit by the fire a little longer. Having gone once, I am sure I will want to come back.",
+    closing: "Sa Pa is not just a place to look at scenery. It is the morning mist over the town, the lights of the Stone Church in the cold night and the feeling of walking slowly through low cloud. Having gone once, I am sure I will want to come back, perhaps in the ripe rice season.",
     tip: "The ripe rice is at its best around September, so book rooms early because this time of year is very busy.",
   },
 };
