@@ -33,18 +33,18 @@ export const EN_2 = {
     stories: [
       {
         k: "What's there", h: "Water coconut canals and rowing boats", where: "An islet in the Tien River",
-        t: "The islet's signature is its narrow canals packed with water coconut palms. Visitors sit in hand-rowed boats, a few people per boat, drifting slowly under leaves that meet overhead and hide most of the sky. Besides the boats, people usually stop at garden houses for honey tea, seasonal fruit, a chance to hold a python for a photo, some don ca tai tu music and a walk between the gardens. Everything moves slowly, with nothing you have to rush to catch.",
+        t: "The islet's signature is its narrow canals packed with water coconut palms. Visitors sit in hand-rowed boats, a few people per boat, drifting slowly under leaves that meet overhead and hide most of the sky. Besides the boats, people usually stop at garden houses for honey tea, seasonal fruit, a chance to hold a python and a honeycomb frame for photos, some don ca tai tu music and a walk between the gardens. Everything moves slowly, with nothing you have to rush to catch.",
         ph: ["Boats weaving through the water coconut palms"],
       },
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Saigon",
         quote: "Leave early, have a slightly late lunch, and be back before rush hour.",
-        t: "6:30 – 7:00  Leave Saigon and drive about two hours toward My Tho.\n\n9:00  Reach the pier and take the boat to the islet before the big groups arrive.\n\n9:30 – 11:30  Row through the water coconut canals, stop at a garden house for honey tea and fruit and hold a python for a photo and hear don ca tai tu music.\n\n11:30 – 13:00  Lunch at a restaurant or stall on the islet, then rest in the shade.\n\n13:00 – 14:30  Walk across the bridges, take photos and buy gifts.\n\n14:30  Leave the islet and head back to Saigon to avoid rush-hour traffic.",
+        t: "6:30 – 7:00  Leave Saigon and drive about two hours toward My Tho.\n\n9:00  Reach the pier and take the boat to the islet before the big groups arrive.\n\n9:30 – 11:30  Row through the water coconut canals, stop at a garden house for honey tea and fruit and hold a python and a honeycomb frame and hear don ca tai tu music.\n\n11:30 – 13:00  Lunch at a restaurant or stall on the islet, then rest in the shade.\n\n13:00 – 14:30  Walk across the bridges, take photos and buy gifts.\n\n14:30  Leave the islet and head back to Saigon to avoid rush-hour traffic.",
       },
       {
-        k: "Experiences", h: "Holding a python and don ca tai tu music", where: "Garden houses on the islet",
-        quote: "Two small activities, grouped into one stop at a garden house.",
-        t: "At the garden houses on the islet, these activities are usually combined into a single stop so you do not need to go to many places.\n\n• Holding a python: the garden houses keep pythons used to people so visitors can drape one over their shoulders for a photo. Only do it with the keeper standing next to you, stay calm, do not jerk or squeeze it, and wash your hands afterwards. If you feel nervous, just watch; it is still a fun moment.\n\n• Don ca tai tu: listen to a few songs of this Southern folk music while sipping honey tea, a familiar part of Mekong Delta culture. If you like, you can tip the musicians a small amount.",
+        k: "Experiences", h: "Holding a python, a honeycomb frame and don ca tai tu music", where: "Garden houses on the islet",
+        quote: "Three small activities, grouped into one stop at a garden house.",
+        t: "At the garden houses on the islet, these activities are usually combined into a single stop so you do not need to go to many places.\n\n• Holding a python: the garden houses keep pythons used to people so visitors can drape one over their shoulders for a photo. Only do it with the keeper standing next to you, stay calm, do not jerk or squeeze it, and wash your hands afterwards. If you feel nervous, just watch; it is still a fun moment.\n\n• Holding a honeycomb frame: the keeper hands you a whole frame covered in honeybees to hold for a photo and watch the bees at work up close. Only do it with the keeper guiding you: stand still, move slowly, and never wave your hands or blow on the bees. Wear sleeves or a scarf, and skip it if you are allergic to bee stings.\n\n• Don ca tai tu: listen to a few songs of this Southern folk music while sipping honey tea, a familiar part of Mekong Delta culture. If you like, you can tip the musicians a small amount.",
         ph: ["Holding a python at the garden house"],
       },
 
