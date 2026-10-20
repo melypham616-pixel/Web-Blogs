@@ -26,34 +26,34 @@ export const EN_2 = {
   },
 
   "con-thoi-son": {
-    title: "Con Thoi Son – A Day Rowing Through Water Coconut Palms",
-    ex: "A few hours from Saigon is a green island in the Tien River: row a small boat through water-coconut canals, sip honey tea and eat fruit right in the garden.",
+    title: "Con Thoi Son – A Guide to a Day Rowing Through Water Coconut Palms",
+    ex: "A green islet in the Tien River only a few hours from Saigon: how to get there, what to do, what to eat and how to pace the day so it is easy, not rushed.",
     place: "Con Thoi Son",
-    body: [["", "Con Thoi Son is an islet in the middle of the Tien River in My Tho, Tien Giang, about two hours from Saigon by road. I went on a weekend with a group of friends, with no plan more elaborate than sitting in a rowing boat, eating fruit and walking slowly through the gardens. It turned out to be exactly the easy kind of trip I needed."]],
+    body: [["", "Con Thoi Son is an islet in the middle of the Tien River in My Tho, Tien Giang. It is about two hours by road from Saigon, which makes it a good day trip. This post simply notes what you need to know: what is there, how to go and a reasonable schedule so you do not get tired."]],
     stories: [
       {
-        k: "On the river", h: "Rowing through the water coconut canals", where: "Water coconut canal · noon",
-        t: "The highlight of the trip is the rowing-boat ride through narrow canals. On both sides are lush water-coconut palms whose leaves meet overhead and nearly hide the sky, and on the water a long line of boats follows one another. The boatwoman rows evenly, her conical hat tilted, and now and then lifts a branch out of our way. It was crowded for a weekend so the boats moved slowly, but that slow pace made this stretch of river the part I remember best.",
-        ph: ["A busy water-coconut canal", "Boats in a line under the leaves", "Waiting for the boats among the palms"],
+        k: "What's there", h: "Water coconut canals and rowing boats", where: "An islet in the Tien River",
+        t: "The islet's signature is its narrow canals packed with water coconut palms. Visitors sit in hand-rowed boats, a few people per boat, drifting slowly under leaves that meet overhead and hide most of the sky. Besides the boats, people usually stop at garden houses for honey tea, seasonal fruit, a look at how some local specialities are made and a walk between the gardens. Everything moves slowly, with nothing you have to rush to catch.",
+        ph: ["Boats weaving through the water coconut palms"],
       },
       {
-        k: "On foot", h: "A small bridge and riverside paths", where: "Bridges and paths on the islet · morning",
-        t: "There are a few small bridges over the river branches on the islet, and walking across them is cool thanks to the wind from the water. I walked slowly along brick paths and dirt lanes, stopping to look at the muddy brown water or to browse conical hats and souvenirs sold by locals. I wore a silk ao dai with a checked scarf to match the Mekong mood, so every photo felt right.",
-        ph: ["Boats seen from the bridge", "Walking on the bridge by the river", "Water coconut palms along the canal"],
+        k: "Itinerary", h: "How to spend the day", where: "A day trip from Saigon",
+        quote: "Leave early, have a slightly late lunch, and be back before rush hour.",
+        t: "6:30 – 7:00  Leave Saigon and drive about two hours toward My Tho.\n\n9:00  Reach the pier and take the boat to the islet before the big groups arrive.\n\n9:30 – 11:30  Row through the water coconut canals, stop at a garden house for honey tea and fruit and see how specialities are made.\n\n11:30 – 13:00  Lunch at a restaurant or stall on the islet, then rest in the shade.\n\n13:00 – 14:30  Walk across the bridges, take photos and buy gifts.\n\n14:30  Leave the islet and head back to Saigon to avoid rush-hour traffic.",
       },
       {
-        k: "Photo spot", h: "A flower gate and a heart frame in the garden", where: "Tourist garden · morning",
-        t: "Every stop on the islet has a few corners built for photos. My favourite was the heart frame among the green plants, where one shot is enough to capture a sunny day. At the entrance there is also a colourful flower arch, where our group lined up for a photo before starting the trip.",
-        ph: ["The heart frame in the garden", "A corner of the garden", "The colourful flower gate"],
+        k: "Food", h: "Fresh fruit and local specialities", where: "Garden houses on the islet",
+        t: "Fruit here usually comes cut on a plate, fresh and gently sweet, and it cools you down after a morning in the sun. Try the seasonal fruits of the Mekong Delta. If you want gifts to take home, you can buy specialities right at the garden house, but ask the price first.",
+        ph: ["A plate of seasonal fruit"],
       },
       {
-        k: "What to eat", h: "Honey tea and a plate of fresh fruit", where: "Local garden house · noon",
-        t: "We stopped at a garden house, where the group was invited to sit under a leaf roof, sip hot honey tea and eat seasonal fruit already laid out on plates. The fruit was fresh, gently sweet and left us feeling cooler. I also watched how some local specialities are made and bought a few small things to take home as gifts.",
-        ph: ["A plate of seasonal fruit", "Local specialities on sale", "Cheers with cool drinks in the garden"],
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Asking for an all-in price before getting on the boat makes the trip easier.",
+        t: "• Go on a weekday or leave early to avoid crowded boats.\n\n• Bring a hat, sunscreen and a light shirt; the canals have shade but the walking sections are quite sunny.\n\n• Wear easy shoes or sandals, since some paths on the islet get wet.\n\n• Ask exactly what the all-in price covers (boat, tea, fruit, lunch) before booking.\n\n• Carry some cash for gifts, a tip for the boat rower and small costs.\n\n• If you go at the weekend, book a tour or transport in advance.",
       },
     ],
-    closing: "Con Thoi Son is nothing grand, just water-coconut palms, the soft sound of oars and a day slowed down in the Mekong Delta. With a free day near Saigon, I would happily go again.",
-    tip: "Go on a weekday or set off early to avoid crowded boats; bring a hat and sunscreen, and ask for the all-in price before getting on the boat.",
+    closing: "Con Thoi Son is nothing grand, just water coconut palms, the soft sound of oars and a day slowed down in the Mekong Delta. A little preparation is enough to make the trip complete.",
+    tip: "Leave early, agree an all-in price clearly and be back before rush hour to avoid traffic.",
   },
 
   "vung-tau": {
