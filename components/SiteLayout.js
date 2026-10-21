@@ -20,10 +20,13 @@ export default function SiteLayout({ lang, children }) {
   const rest = POSTS.filter(p => p.c === "vn" && !placed.has(p.id)).map(p => item(localize(p, lang)));
   // Việt Nam chia thành các miền → vùng → bài; bài chưa xếp vùng vào "Khác" của miền cuối
   const groups = [
-    ...VN_REGIONS.map((r, n, all) => ({
-      code: "vn-" + r.key, name: r.name[lang] || r.name.vi,
-      areas: [...r.areas.map(a => ({ name: a.name[lang] || a.name.vi, items: local(a.ids) })), ...(n === all.length - 1 && rest.length ? [{ name: d.nav.other, items: rest }] : [])],
-    })),
+    {
+      code: "vn", name: d.countries.vn,
+      regions: VN_REGIONS.map((r, n, all) => ({
+        name: r.name[lang] || r.name.vi,
+        areas: [...r.areas.map(a => ({ name: a.name[lang] || a.name.vi, items: local(a.ids) })), ...(n === all.length - 1 && rest.length ? [{ name: d.nav.other, items: rest }] : [])],
+      })),
+    },
     ...["my", "sg"].map(c => ({ code: c, name: d.countries[c], items: POSTS.filter(p => p.c === c).map(p => item(localize(p, lang))) })),
   ];
   return (
