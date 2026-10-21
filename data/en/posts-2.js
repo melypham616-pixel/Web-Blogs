@@ -190,9 +190,9 @@ export const EN_2 = {
         quote: "Vietnam has 54 ethnic groups, and this village wants to bring their cultures to one place.",
         t: "Each people has its own houses, clothing, language, festivals and instruments, yet many people in the cities rarely get a chance to know them. The village by Dong Mo Lake was created to address that.",
         cards: [
-          { tag: "Background", title: "54 peoples living together", text: "Vietnam is home to 54 ethnic groups, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta." },
-          { tag: "The idea", title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
-          { tag: "Today", title: "A village that keeps growing", text: "Since it opened, the village has been built up and added to with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals." },
+          { title: "54 peoples living together", text: "Vietnam is home to 54 ethnic groups, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta." },
+          { title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
+          { title: "A village that keeps growing", text: "Since it opened, the village has been built up and added to with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals." },
         ],
         note: "This post gives no founding year or exact figures for the village; for those, check the official information.",
       },
@@ -218,10 +218,10 @@ export const EN_2 = {
         quote: "Many folk games began as part of festivals and working life.",
         t: "Most folk games of the ethnic groups come from work and festivals, usually tied to the farming seasons, especially early spring and after the harvest, when the whole village plays together.",
         cards: [
-          { tag: "Thai · Muong", title: "Nhay chap", text: "It resembles the sap dance familiar among northern mountain peoples: pairs of bamboo poles are struck in rhythm and the dancers must step in and out in time. In the common telling, it comes from the rhythm of pounding rice and grain and became a festival dance." },
-          { tag: "Thai · Tay · Muong · Nung", title: "Ne con", text: "An early-spring game: the con is a cloth bag filled with seeds, with tassels, thrown through a ring at the top of the con pole. In old belief the ring is the sun and the con a seed, so getting it through is a prayer for a good harvest, and also a chance for young people to meet." },
-          { tag: "Central Highlands · UNESCO 2005", title: "Gongs", text: "The cultural space of the Central Highlands gongs was proclaimed by UNESCO in 2005. The sound of gongs is tied to the festivals and life of many communities, and is still kept and passed on." },
-          { tag: "Tay · Nung · Thai · UNESCO 2019", title: "Then singing and the dan tinh", text: "The practice of Then among the Tay, Nung and Thai was inscribed in 2019. The singer plucks the dan tinh lute and sings, like the artist in the village's stilt house." },
+          { title: "Nhay chap", text: "It resembles the sap dance familiar among northern mountain peoples: pairs of bamboo poles are struck in rhythm and the dancers must step in and out in time. In the common telling, it comes from the rhythm of pounding rice and grain and became a festival dance." },
+          { title: "Ne con", text: "An early-spring game: the con is a cloth bag filled with seeds, with tassels, thrown through a ring at the top of the con pole. In old belief the ring is the sun and the con a seed, so getting it through is a prayer for a good harvest, and also a chance for young people to meet." },
+          { title: "Gongs", text: "The cultural space of the Central Highlands gongs was proclaimed by UNESCO in 2005. The sound of gongs is tied to the festivals and life of many communities, and is still kept and passed on." },
+          { title: "Then singing and the dan tinh", text: "The practice of Then among the Tay, Nung and Thai was inscribed in 2019. The singer plucks the dan tinh lute and sings, like the artist in the village's stilt house." },
         ],
       },
 

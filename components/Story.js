@@ -52,7 +52,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
           <div className="row">
             {(st.cards || []).map((c, n) => (
               <article key={n}>
-                <span className="tag">{c.tag}</span>
+                {c.tag && <span className="tag">{c.tag}</span>}
                 <h4>{c.title}</h4>
                 <p>{c.text}</p>
               </article>
