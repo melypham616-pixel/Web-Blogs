@@ -209,8 +209,15 @@ export const EN_2 = {
       {
         k: "Origins of the games", h: "Where these games come from", where: "From village to village green",
         quote: "Many folk games began as part of festivals and working life.",
-        t: "Most folk games of the ethnic groups come from work and festivals, usually tied to the farming seasons, especially early spring and after the harvest, when the whole village plays together.\n\nNhay chap resembles the sap dance familiar among northern mountain peoples such as the Thai and Muong: pairs of bamboo poles are struck in rhythm and the dancers must step in and out in time. In the common telling, the dance comes from the rhythm of pounding rice and grain, and became a dance at festivals.\n\nNe con is an early-spring game of many peoples including the Thai, Tay, Muong and Nung. The con is a cloth bag filled with seeds, with tassels, thrown through a ring at the top of the con pole. In old belief the ring is the sun and the con is a seed, so getting it through is a prayer for a good harvest, and it is also a chance for young men and women to meet.\n\nThe gongs of the Central Highlands and the then singing and dan tinh lute of the Tay, Nung and Thai are also heritage recognised by UNESCO. The cultural space of the Central Highlands gongs was proclaimed in 2005, and the practice of Then was inscribed in 2019. These are living traditions that the communities still keep and pass on.",
+        t: "Most folk games of the ethnic groups come from work and festivals, usually tied to the farming seasons, especially early spring and after the harvest, when the whole village plays together.",
+        cards: [
+          { tag: "Thai · Muong", title: "Nhay chap", text: "It resembles the sap dance familiar among northern mountain peoples: pairs of bamboo poles are struck in rhythm and the dancers must step in and out in time. In the common telling, it comes from the rhythm of pounding rice and grain and became a festival dance." },
+          { tag: "Thai · Tay · Muong · Nung", title: "Ne con", text: "An early-spring game: the con is a cloth bag filled with seeds, with tassels, thrown through a ring at the top of the con pole. In old belief the ring is the sun and the con a seed, so getting it through is a prayer for a good harvest, and also a chance for young people to meet." },
+          { tag: "Central Highlands · UNESCO 2005", title: "Gongs", text: "The cultural space of the Central Highlands gongs was proclaimed by UNESCO in 2005. The sound of gongs is tied to the festivals and life of many communities, and is still kept and passed on." },
+          { tag: "Tay · Nung · Thai · UNESCO 2019", title: "Then singing and the dan tinh", text: "The practice of Then among the Tay, Nung and Thai was inscribed in 2019. The singer plucks the dan tinh lute and sings, like the artist in the village's stilt house." },
+        ],
       },
+
       {
         k: "Khmer pagoda", h: "A Khmer-style pagoda in the village", where: "The pagoda area",
         ph: ["The gate and main hall of the Khmer-style pagoda"],
