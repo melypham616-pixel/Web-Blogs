@@ -34,11 +34,16 @@ export default function Nav({ lang, groups }) {
           {groups.map(g => (
             <div className="col" key={g.code}>
               <div className="grp">{g.name}</div>
-              {g.areas
-                ? g.areas.map(a => (
-                    <div className="area" key={a.name}>
-                      <div className="sub">{a.name}</div>
-                      {a.items.map(it => <Link key={it.id} href={postUrl(lang, it.id)}>{it.name}</Link>)}
+              {g.regions
+                ? g.regions.map(r => (
+                    <div className="reg" key={r.name}>
+                      <div className="rname">{r.name}</div>
+                      {r.areas.map(a => (
+                        <div className="area" key={a.name}>
+                          <div className="sub">{a.name}</div>
+                          {a.items.map(it => <Link key={it.id} href={postUrl(lang, it.id)}>{it.name}</Link>)}
+                        </div>
+                      ))}
                     </div>
                   ))
                 : <div>{g.items.map(it => <Link key={it.id} href={postUrl(lang, it.id)}>{it.name}</Link>)}</div>}
