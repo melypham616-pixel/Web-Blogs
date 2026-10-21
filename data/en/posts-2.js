@@ -186,10 +186,36 @@ export const EN_2 = {
         ph: ["The lake in the village", "A bridge by the lake", "The path to the stilt houses"],
       },
       {
-        k: "Folk games", h: "Nhay chap, ne con and games from childhood", where: "The play area in the village",
-        ph: ["A play area built of bamboo and wood"],
-        quote: "Nhay chap, ne con: playing the games of your childhood again under the trees.",
-        t: "The village has corners for folk games built of bamboo and wood: a swing hung under the trees, bamboo frames for climbing and balancing, and striped wooden poles. The two I remember best are nhay chap, jumping over pairs of bamboo poles struck in rhythm, and ne con, throwing the con ball through a ring at the top of the con pole, the tall striped post in the photo. There are also other familiar Vietnamese children's games such as tug of war and stilt walking, with someone to guide you depending on the day.\n\nIt is the most fun part when you go with friends or family, since anyone can replay the games of childhood. Ask first whether anything is organised that day, stay safe on the swing and climbing frames, and take turns when it is crowded.",
+        k: "History of the village", h: "Why there is a village of 54 peoples", where: "Dong Mo, Son Tay",
+        quote: "Vietnam has 54 ethnic groups, and this village wants to bring their cultures to one place.",
+        t: "Vietnam is home to 54 ethnic groups living together, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta. Each has its own houses, clothing, language, festivals and instruments, yet many people in the cities rarely get a chance to know them.\n\nThe Vietnam Village for Ethnic Culture and Tourism by Dong Mo Lake was created to address that: bringing the architecture and daily life of many peoples to one place so visitors can travel across the country in a single day. Since it opened, the village has been built up and added to over time with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals.\n\nI do not remember the exact founding year, so this post only gives the general meaning; for exact figures, check the village's official information.",
+      },
+      {
+        k: "Stilt house", h: "Listening to stories in a stilt house", where: "Inside a wooden stilt house",
+        ph: ["A local guide telling stories in the stilt house"],
+        quote: "Stepping into a stilt house is stepping into a people's everyday life.",
+        t: "Inside the wooden stilt house the tiles and plank walls have darkened over the years. On the wall are a small altar with red couplets, a portrait of Uncle Ho, a tea set and a thermos. A local person in an indigo blouse stands in the middle holding a microphone, telling about customs and family life. You sit on the mat, listen and drink tea, feeling as if you have been invited into someone's home.\n\nIt is the easiest way to understand a people beyond simply looking at the architecture: hear those who live it tell their own story.",
+      },
+      {
+        k: "Performances", h: "Gongs, dances and the dan tinh lute", where: "The performance yard and the stilt house",
+        ph: ["A dance beside a set of gongs", "An artist playing the dan tinh and singing"],
+        t: "In the dirt yard stand sets of gongs hung on painted bamboo frames, while women in brocade skirts step and dance to the rhythm. Inside the stilt house an artist sits cross-legged, plucking the dan tinh lute and singing into a microphone. Each people has its own instruments and melodies, and they need no translation, because you feel them just by listening.\n\nIf there is a schedule, arrive on time to see the whole show, keep quiet and silence your phone while the artist sings.",
+      },
+      {
+        k: "Folk games", h: "Nhay chap and ne con", where: "The play area in the village",
+        ph: ["Nhay chap over pairs of bamboo poles", "The con pole with its ring at the top"],
+        t: "The two games I remember best are nhay chap and ne con. Nhay chap is jumping over pairs of bamboo poles struck in rhythm, fun and tricky because you must step at the right moment; the guides sit on both sides striking the poles while visitors jump in between, and everyone laughs out loud. Ne con is throwing the con ball through a ring hung with coloured ribbons at the top of a very tall pole; when you get it through, the whole group cheers.\n\nThere are also swings, bamboo frames and other familiar Vietnamese children's games, with someone to guide you depending on the day. Ask first whether anything is organised that day, stay safe and take turns when it is crowded.",
+      },
+      {
+        k: "Origins of the games", h: "Where these games come from", where: "From village to village green",
+        quote: "Many folk games began as part of festivals and working life.",
+        t: "Most folk games of the ethnic groups come from work and festivals, usually tied to the farming seasons, especially early spring and after the harvest, when the whole village plays together.\n\nNhay chap resembles the sap dance familiar among northern mountain peoples such as the Thai and Muong: pairs of bamboo poles are struck in rhythm and the dancers must step in and out in time. In the common telling, the dance comes from the rhythm of pounding rice and grain, and became a dance at festivals.\n\nNe con is an early-spring game of many peoples including the Thai, Tay, Muong and Nung. The con is a cloth bag filled with seeds, with tassels, thrown through a ring at the top of the con pole. In old belief the ring is the sun and the con is a seed, so getting it through is a prayer for a good harvest, and it is also a chance for young men and women to meet.\n\nThe gongs of the Central Highlands and the then singing and dan tinh lute of the Tay, Nung and Thai are also heritage recognised by UNESCO. The cultural space of the Central Highlands gongs was proclaimed in 2005, and the practice of Then was inscribed in 2019. These are living traditions that the communities still keep and pass on.",
+      },
+      {
+        k: "Khmer pagoda", h: "A Khmer-style pagoda in the village", where: "The pagoda area",
+        ph: ["The gate and main hall of the Khmer-style pagoda"],
+        quote: "Bright gold in the sun, with stacked roofs unlike anywhere else in the village.",
+        t: "Beside the stilt houses and the Cham towers there is a pagoda in Khmer architecture: stacked roofs, gold relief ornament, a small arched gate in front of the yard and Buddhist flags fluttering in the wind. People come to pray at the main hall, so keep quiet and dress modestly when you go near.\n\nThe space is quite different from the rest of the village, a reminder that many layers of culture coexist in Vietnam.",
       },
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
