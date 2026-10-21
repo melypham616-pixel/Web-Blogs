@@ -200,7 +200,7 @@ export const EN_2 = {
       },
       {
         k: "Tips", h: "A few things to know", where: "Before you go",
-        ph: ["A wooden stilt house in the village"],
+        ph: ["Mountains and the lake seen from inside the village"],
         quote: "The village is large and has little shade in places, so prepare for a day of walking.",
         t: "• Bring a hat, sunscreen and water, since many stretches are outdoors.\n\n• Wear comfortable walking shoes; you will walk quite a lot.\n\n• Go on a weekday for quiet, or at the weekend for performances; ask about performance times and opening hours first.\n\n• Check the map on arrival and pick a few zones instead of trying to see everything.\n\n• Check the weather: the midday sun can be tiring, so go early or rest in the middle of the day.\n\n• Respect each zone: do not climb or touch exhibits, and ask permission before photographing local people or artists.",
       },
