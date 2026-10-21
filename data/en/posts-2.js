@@ -87,16 +87,19 @@ export const EN_2 = {
       },
       {
         k: "Imperial Academy", h: "The first exam and the first school", where: "1075 – 1076",
+        ph: ["A shrine hall inside"],
         quote: "From one exam and one school, study became the road into government.",
         t: "In 1075 the Ly dynasty held its first exam to select talent for office, the Minh kinh bac hoc exam, with Le Van Thinh placing first. In 1076 Emperor Ly Nhan Tong founded the Imperial Academy beside the Temple. At first it served princes and the children of officials, then gradually widened, and it is regarded as Vietnam's first university.\n\nFrom then on study and examinations were tied to the path to office, a major feature of Vietnamese society for centuries.",
       },
       {
         k: "The Tran dynasty", h: "The age of Chu Van An and the young laureates", where: "13th – 14th centuries",
+        ph: ["The exhibition on Confucian scholars of the Tran–Ho era"],
         quote: "The Tran both defended the country against the Mongols and widened learning.",
         t: "Under the Tran, learning widened: the Imperial Academy took in talented students beyond the royal family, and exams were held more regularly. The teacher Chu Van An, famed for his virtue and learning, served as a head of the Academy and taught here. Many talents passed in this period, such as Nguyen Hien, the young laureate, and Mac Dinh Chi, famed for his wit.\n\nThis was also the era of three resistance wars against the Mongol-Yuan armies in the 13th century, and learning was part of the strength that protected the country.",
       },
       {
         k: "Ho, Ming rule and Lam Son", h: "Interruption and revival", where: "1400 – 1428",
+        ph: ["A golden turtle on display in the hall"],
         quote: "The Ming passed through and books were lost, but learning was not.",
         t: "In the early 15th century the Ho dynasty took power (1400), and a few years later the Ming invaded and imposed rule (1407 – 1427). During this period many books and schools were destroyed and learning was badly disrupted.\n\nThe Lam Son uprising led by Le Loi won back independence, and in 1428 the Le dynasty was founded. Restoring education, examinations and the Imperial Academy became one of the new dynasty's key tasks.",
       },
@@ -108,6 +111,7 @@ export const EN_2 = {
       },
       {
         k: "Turbulent centuries", h: "Constant war but the lamps still burned", where: "16th – 18th centuries",
+        ph: ["An open-air exhibition in the courtyard"],
         quote: "The country was divided but exams went on.",
         t: "From the 16th century the country went through many upheavals: the Mac dynasty, then the restored Le with the rivalry between the Trinh lords in the north and the Nguyen lords in the south. In the late 18th century the Tay Son movement arose. Through all this turmoil exams were maintained in many periods, and learning remained an important way for people to change their lives.\n\nMany great scholars of the period, such as Le Quy Don, topped several exams and left huge works on history, geography and culture.",
       },
@@ -119,6 +123,7 @@ export const EN_2 = {
       },
       {
         k: "The French colonial period", h: "Chinese characters fade, quoc ngu rises", where: "1858 – 1945",
+        ph: ["A photo exhibition in front of an old tiled roof"],
         quote: "An old education system ends and a new one begins.",
         t: "From the mid-19th century French colonisers conquered Vietnam step by step, and by the end of the century had set up colonial rule across Indochina. The old education based on Chinese characters and examinations declined and was replaced by quoc ngu and a new Western-style school system. The last Chinese-character exam in Vietnam was held in 1919.\n\nDuring this period many Hanoi intellectuals promoted quoc ngu and science, most notably the Dong Kinh Nghia Thuc movement in 1907. The Temple was no longer an exam site, but remained a symbol of the love of learning.",
       },
