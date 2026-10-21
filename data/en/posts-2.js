@@ -72,6 +72,40 @@ export const EN_2 = {
     tip: "Leave early, agree an all-in price clearly and be back before rush hour to avoid traffic.",
   },
 
+  "ba-vi": {
+    title: "Ba Vi – A Guide to a Day Escaping to the Mountain Near Hanoi",
+    ex: "A green mountain less than two hours from Hanoi: how to get there, what to do and how to plan the day so you catch the valley views before the fog comes down.",
+    place: "Ba Vi",
+    body: [["", "Ba Vi is a mountain range west of Hanoi, known for green forest, cool air and viewpoints over the valley and lakes below. It is about an hour and a half to two hours from central Hanoi, which makes it a good day trip when you need a break from the city. This post notes what you need to know to go at an easy pace."]],
+    stories: [
+      {
+        k: "What's there", h: "Green forest, fog and viewpoints over the valley", where: "Ba Vi National Park",
+        t: "The road up winds through dense forest before opening onto viewpoints over the valley and lake. On a clear day you can see the land far below; on a cloudy one the mountain sinks into fog, so every hour looks different. Besides sightseeing and walking in the forest, there are temples, pagodas and spiritual sites to visit. The air is noticeably cooler than in the city, which makes it a comfortable place for slow walks.",
+        ph: ["Ba Vi mountain among the clouds"],
+      },
+      {
+        k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
+        quote: "Leave early to catch the valley before the fog comes down.",
+        ph: ["A pagoda tower on the mountain"],
+        steps: [
+          { time: "6:30", title: "Leave Hanoi", text: "Drive about an hour and a half to two hours toward Ba Vi; leave early to avoid crowds and the afternoon fog." },
+          { time: "8:30", title: "Enter the national park", text: "Park, then stroll along a shaded forest road and breathe the cool air." },
+          { time: "10:00", title: "Viewpoints over the valley", text: "Stop at the viewpoints looking out to the lake and valley; this is when the sky is clearest." },
+          { time: "12:00", title: "Lunch", text: "Eat at a stall at the foot of the mountain or bring snacks to rest under the trees." },
+          { time: "14:00", title: "Temples and pagodas", text: "Walk up to the spiritual sites on the mountain, dressing modestly and keeping quiet." },
+          { time: "15:30", title: "Back to Hanoi", text: "Head down before the fog thickens and the steep roads become harder." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "The weather changes fast on a mountain, so an extra layer is never too much.",
+        t: "• Bring a light jacket: it is cool and often windy and foggy, especially in the afternoon.\n\n• Wear shoes with good grip since forest and steep roads can be slippery when damp.\n\n• Go on a weekday or a day without festivals to avoid crowds and traffic jams.\n\n• Check the forecast first: on days with low cloud the view down the valley will be hidden.\n\n• Carry enough water and snacks, as some stretches are long between stalls.\n\n• At temples and pagodas, dress modestly, walk softly and speak quietly, and keep the forest clean by taking your rubbish down.",
+      },
+    ],
+    closing: "Ba Vi is not far and not noisy, just green forest, mountain wind and a valley opening out below. A single day is enough to slow your breathing before heading back to the city.",
+    tip: "Leave early, bring a light jacket and check the weather before going up.",
+  },
+
   "vung-tau": {
     title: "Vung Tau – Close Sea, Cool Breeze, Fresh Seafood",
     ex: "Windy coastal roads, a street covered in flowers, a barefoot afternoon on the sand and hot, crispy banh khot. An easy weekend trip from Saigon.",
