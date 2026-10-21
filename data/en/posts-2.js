@@ -244,34 +244,41 @@ export const EN_2 = {
   },
 
   "vung-tau": {
-    title: "Vung Tau – Close Sea, Cool Breeze, Fresh Seafood",
-    ex: "Windy coastal roads, a street covered in flowers, a barefoot afternoon on the sand and hot, crispy banh khot. An easy weekend trip from Saigon.",
+    title: "Vung Tau – A Guide to a Day Trip from Saigon",
+    ex: "Nearby sea, cool breeze and fresh seafood: how to get there, what to do, what to eat and how to plan a day that is easy and unrushed.",
     place: "Vung Tau",
-    body: [["", "Vung Tau is only about two hours by road from Saigon, and it is where I like to escape the heat and the rushed pace of the city on weekends. Nothing fancy: sea breeze, a motorbike and a few good dishes are enough for a very comfortable trip."]],
+    body: [["", "Vung Tau is only about two hours from Saigon and is where many people escape the heat and rushed pace of the city at weekends. This post notes what you need to know for a compact day trip: what is there, what to eat, how to plan it and a few small tips."]],
     stories: [
       {
-        k: "The road", h: "Riding along the coastal roads", where: "Coastal road · morning",
-        t: "The easiest way to get to know Vung Tau is to rent a motorbike and ride slowly along the coastal road. On one side is the grey-blue sea with its steady waves, on the other mountains thick with green trees. Whenever I found a railing looking out to sea, I stopped, took off my helmet, breathed in the salty wind and only then rode on.",
-        ph: ["A railing looking out to sea", "Stopping for the breeze", "A road along the green mountain"],
+        k: "What's there", h: "A nearby sea, mountain roads and cool breeze", where: "The coastal road and Small Mountain",
+        t: "The easiest way to get to know Vung Tau is to ride slowly along the coastal road, with the sea on one side and green mountain on the other. Along the way there are many sea-view stops, sandy beaches for swimming or strolling, and cafés looking out to the waves. The town is small and easy to get around, with little travel time between spots.",
+        ph: ["A headland and the sea from the coastal road"],
       },
       {
-        k: "Photo spot", h: "A street of purple bougainvillea", where: "A street near the sea · morning",
-        t: "On the ride I came across a stretch of street where purple bougainvillea bloomed on every branch and hung down over the road. In the early morning the traffic was still light, and fallen petals turned a corner of the pavement pink. I stayed for quite a while, taking one photo after another, because natural spots this beautiful are not always easy to find.",
-        ph: ["A street under flowers", "Standing under the blossoms", "Jumping in the flower street"],
+        k: "Itinerary", h: "How to spend the day", where: "A day trip from Saigon",
+        quote: "Go early to avoid crowds and return early to avoid traffic.",
+        steps: [
+          { time: "6:30", title: "Leave Saigon", text: "Drive about two hours; leave early to avoid weekend traffic." },
+          { time: "9:00", title: "Arrive and walk the coastal road", text: "Stop at the sea-view points along the coastal road and look at Small Mountain while it is still cool." },
+          { time: "10:30", title: "The beach", text: "Swim or stroll on the sand; go early because midday is hot." },
+          { time: "12:00", title: "Lunch", text: "Try local dishes such as banh khot, banh xeo, stingray hotpot or seafood." },
+          { time: "14:30", title: "Coffee or sightseeing", text: "Rest at a café with a sea view or visit one more nearby spot." },
+          { time: "16:00", title: "Back to Saigon", text: "Leave early to avoid the crowded roads on Sunday afternoon." },
+        ],
       },
       {
-        k: "The beach", h: "An afternoon on the sand", where: "Back Beach · afternoon",
-        t: "In the afternoon I took off my sandals and walked barefoot on the sand, letting waves wash gently over my ankles. The beach was lively with groups of friends and families bringing their kids out to play, while I held a cone of ice cream and watched clouds drift across the sky. You do not need to do much. A slow afternoon like this is enough to make the trip worthwhile.",
-        ph: ["The beach in the afternoon", "Sandals on the sand", "An ice cream cone by the sea"],
+        k: "What to eat", h: "Banh khot, fresh herbs and seafood", where: "Local restaurants",
+        t: "In Vung Tau you should try crispy banh khot wrapped in fresh herbs and dipped in sweet-and-sour fish sauce, plus seafood dishes and stingray hotpot. Meals are usually many plates shared at one table, so a group can order more dishes. If you choose seafood, ask the price and have it weighed first to avoid surprises at the bill.",
+        ph: ["A table with fresh herbs and dipping sauce"],
       },
       {
-        k: "What to eat", h: "Banh khot and fresh seafood", where: "Local eateries · lunch and evening",
-        t: "In Vung Tau you simply have to try crispy banh khot with fresh shrimp, wrapped with fresh herbs and dipped in sweet and sour fish sauce. Our group sat around the table, each with a small bowl of dipping sauce, wrapping and eating until it was all gone. In the evening we bought more crab, clams, shrimp and stir-fried greens to take back and eat together, simple and fun.",
-        ph: ["Banh khot with fresh shrimp", "Seafood bought to eat together", "A meal with many dishes"],
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Vung Tau is close, so just leave early and do not cram in too many spots.",
+        t: "• Go on a weekday or set off early in the morning; weekends and holidays make the road back to Saigon very busy.\n\n• Go to the beach early or in the late afternoon, since midday is hot; bring a hat, sunscreen and a change of clothes.\n\n• Ask the price and have seafood weighed before ordering.\n\n• Park where prices are clearly posted and keep belongings safe when you go into the sea.\n\n• If you want to stay overnight, book ahead for weekends and holidays.\n\n• Check the weather and sea conditions before leaving.",
       },
     ],
-    closing: "Vung Tau is not too far and not too glamorous, but it always finds a way to make me want to come back. It is the salty sea breeze, the roads along the mountain and the feeling of letting go after busy days.",
-    tip: "Go on a weekday to avoid the crowds, and book a room near Back Beach so swimming is easy.",
+    closing: "Vung Tau is not too far and not too fancy, but it always finds a way to make me want to return. It is the salty sea breeze, the roads along the mountains and the feeling of loosening up after busy days.",
+    tip: "Go on a weekday or set off early to avoid crowds and traffic.",
   },
 
   "da-lat": {
