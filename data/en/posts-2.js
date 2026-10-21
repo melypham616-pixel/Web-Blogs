@@ -186,13 +186,19 @@ export const EN_2 = {
         ph: ["The lake in the village", "A bridge by the lake", "The path to the stilt houses"],
       },
       {
+        k: "Folk games", h: "Swings, bamboo frames and games from childhood", where: "The play area in the village",
+        ph: ["A play area built of bamboo and wood"],
+        quote: "It feels like playing the games of your childhood again under the trees.",
+        t: "The village has corners for folk games built of bamboo and wood: a swing hung under the trees, bamboo frames for climbing and balancing, and striped wooden poles. Familiar Vietnamese children's games such as tug of war, stilt walking, sack races and throwing the con ball are usually held in areas like this, with someone to guide you depending on the day.\n\nIt is the most fun part when you go with friends or family, since anyone can replay the games of childhood. Ask first whether anything is organised that day, stay safe on the swing and climbing frames, and take turns when it is crowded.",
+      },
+      {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
         quote: "Choose a few zones to see in advance, as the village is large.",
         ph: ["A red-brick Cham-style tower"],
         steps: [
           { time: "7:30", title: "Leave Hanoi", text: "Drive about an hour and a half toward Son Tay; leave early so you can walk while it is still cool." },
           { time: "9:00", title: "Enter the village", text: "Buy tickets, pick up a map and choose a few zones to see in advance, as the village is large." },
-          { time: "9:30", title: "Walk through the ethnic zones", text: "Walk or take a buggy between stilt houses, Cham towers and traditional houses of many peoples, stopping for photos at your favourite corners." },
+          { time: "9:30", title: "Walk through the ethnic zones", text: "Walk or take a buggy between stilt houses, Cham towers and traditional houses of many peoples, stopping for photos and trying the folk games if they are on." },
           { time: "11:30", title: "Lunch", text: "Eat at a stall inside or bring snacks, and rest in the shade." },
           { time: "13:30", title: "Performances and the lake", text: "Watch a cultural performance if there is a schedule, then stroll by the lake and under the flower trellises." },
           { time: "15:30", title: "Back to Hanoi", text: "Leave before rush hour to avoid traffic." },
