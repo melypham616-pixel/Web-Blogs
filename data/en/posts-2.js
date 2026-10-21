@@ -73,37 +73,39 @@ export const EN_2 = {
   },
 
   "van-mieu": {
-    title: "Temple of Literature – A Guide to Half a Day in Old Hanoi",
-    ex: "Vietnam's first university in the heart of the capital: when to go, what to see and how to pace half a day so you can slow down and take it in.",
+    title: "Temple of Literature – Vietnam's First University",
+    ex: "Over a thousand years ago a temple to Confucius, and then a school for the royal family, opened in Thang Long. The story of that place is the story of learning in Vietnam.",
     place: "Temple of Literature",
     menu: "Temple of Literature",
-    body: [["", "The Temple of Literature – Imperial Academy sits right in central Hanoi. It is a temple to Confucius and also the country's first university. The grounds are shaded by old trees, with brick paths, ponds, gates and old pavilions, which makes it ideal for a slow walk. This post notes what you need to know to go at ease and see the main highlights."]],
+    body: [["", "Walking along the brick paths under old trees at the Temple of Literature, I kept thinking about the people who came here long before: students going to exams, officials coming to pay respects, and scholars hoping to see their names carved in stone. This post is not an itinerary; it tells the short history of the place, stage by stage."]],
     stories: [
       {
-        k: "What's there", h: "An old pavilion, doctoral steles and paths under the trees", where: "Dong Da District, Hanoi",
-        t: "The grounds are divided into several courtyards linked by old brick gates. The Khuê Văn Các pavilion reflected in the Thiên Quang Tỉnh pond is the most familiar view. Also memorable is the row of doctoral steles: stone slabs set on the backs of turtles, engraved with the names of those who passed over many exams. Between the courtyards are ponds, old trees and red-tiled halls. Inside the shrine halls there are many solemnly arranged artefacts. It is fairly quiet despite being in the city, and very pleasant for walking and photos.",
-        ph: ["An old stone gate under the trees", "A doctoral stele on a turtle", "A shrine hall inside"],
+        k: "Origins", h: "From a temple to Confucius to the first university", where: "1070 – 1076 · Thang Long",
+        ph: ["An old stone gate under the trees"],
+        quote: "A temple built in 1070 and a school opened in 1076.",
+        t: "In 1070 Emperor Ly Thanh Tong had the Temple of Literature built in the capital Thang Long to honour Confucius and the sages of Confucianism, and to promote learning and ethics. In 1076, under Emperor Ly Nhan Tong, the Imperial Academy was founded right beside it, at first for the children of the royal family and officials, and it is regarded as Vietnam's first university.\n\nFrom then on the place was both a site of ritual and a place to train talent for the country's civil service.",
       },
       {
-        k: "Itinerary", h: "How to spend a morning", where: "Half a day in central Hanoi",
-        quote: "Go early to have the quiet grounds to yourself.",
+        k: "Through the dynasties", h: "A school that changed with the country", where: "Tran, Le, Nguyen",
+        ph: ["A shrine hall inside"],
+        quote: "Each dynasty expanded or changed how people taught and studied here.",
+        t: "Under the Tran, the Academy was opened to talented students beyond the royal family, and the famous teacher Chu Van An worked here. Under the Le, especially Emperor Le Thanh Tong, study and examinations received more attention, the Thai Hoc hall was built and the place became the country's centre of education.\n\nIn the early 19th century, when the Nguyen made Hue the capital, the Imperial Academy was established in the new capital, while the site in Hanoi kept its role as the Temple of Literature, a place of worship and remembrance of the learning tradition.",
+      },
+      {
+        k: "Doctoral steles", h: "82 steles recording the names of those who passed", where: "15th – 18th centuries",
+        ph: ["A doctoral stele on a turtle"],
+        quote: "Names carved in stone to be kept for generations.",
+        t: "Under Emperor Le Thanh Tong the court began erecting stone steles with the names of those who passed the doctoral exams, to encourage learning and honour talent. 82 steles survive, set on the backs of stone turtles, recording over thirteen hundred doctors from the exams held between 1442 and 1779.\n\nEach stele is a small page of history, telling of an exam and reminding later generations of what learning means.",
+      },
+      {
+        k: "Architecture", h: "Courtyards and gates linked in sequence", where: "The Temple grounds",
         ph: ["A hall with a crane statue"],
-        steps: [
-          { time: "8:00", title: "Arrive early, enter the main gate", text: "Arrive right at opening time to take photos while it is quiet, then pass the main gate into the grounds." },
-          { time: "8:30", title: "Great Middle Gate and the first courtyards", text: "Walk through the big gate and stroll brick paths under old trees and past ponds." },
-          { time: "9:15", title: "The doctoral steles", text: "See the stone steles set on the backs of turtles, engraved with the names of those who passed the doctoral exams." },
-          { time: "10:15", title: "The shrine halls and the Imperial Academy area", text: "Enter the shrine halls and look at the displayed artefacts; walk softly and speak quietly." },
-          { time: "11:15", title: "Rest around the neighbourhood", text: "Have lunch or a coffee at nearby cafés before the next stop." },
-        ],
-      },
-      {
-        k: "Tips", h: "A few things to know", where: "Before you go",
-        quote: "It is a place of worship, so light steps and quiet voices are the best way to visit.",
-        t: "• Dress modestly and neatly, since it is a place of worship.\n\n• Go early or on a weekday to avoid crowds, especially on holidays and exam season.\n\n• Do not climb on steles, turtles or artefacts; just look and take photos.\n\n• Bring a hat and water; some stretches are outdoors but there is plenty of shade.\n\n• Ask about opening hours and ticket prices beforehand, as they can change.\n\n• Couples, friends and photographers also shoot here; share the best corners.",
+        quote: "Each gate feels like a step deeper into the place of study.",
+        t: "The grounds are divided into several courtyards linked by gates. At the centre is the Thien Quang Tinh pond, where the Khue Van Cac pavilion is reflected. Khue Van Cac is a two-storey wooden pavilion built in the early 19th century and is now a familiar symbol of Hanoi. The inner halls hold artefacts such as bronze cranes, altars and lacquered panels.\n\nOver the centuries the place has been damaged by war and restored many times to keep what remains.",
       },
     ],
-    closing: "The Temple of Literature is not loud but calming in the rhythm of Hanoi's streets. A slow morning here is enough to see that this city still keeps its quiet corners.",
-    tip: "Go early, dress modestly and check opening hours before you go.",
+    closing: "The Temple of Literature is more than a sightseeing stop. It keeps the memory of a whole nation's learning. Standing among the stone steles, I felt more than a thousand years of history still there, quiet and enduring.",
+    tip: "Go on a weekday morning for quiet, dress modestly and check opening hours before you go.",
   },
 
   "ba-vi": {
