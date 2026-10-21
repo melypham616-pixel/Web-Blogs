@@ -35,7 +35,7 @@ export default function Nav({ lang, groups }) {
             <div className="col" key={g.code}>
               <div className="grp">{g.name}</div>
               {g.regions
-                ? g.regions.map(r => (
+                ? <div className="regs">{g.regions.map(r => (
                     <div className="reg" key={r.name}>
                       <div className="rname">{r.name}</div>
                       {r.areas.map(a => (
@@ -45,7 +45,7 @@ export default function Nav({ lang, groups }) {
                         </div>
                       ))}
                     </div>
-                  ))
+                  ))}</div>
                 : <div>{g.items.map(it => <Link key={it.id} href={postUrl(lang, it.id)}>{it.name}</Link>)}</div>}
             </div>
           ))}
