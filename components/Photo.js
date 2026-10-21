@@ -7,15 +7,21 @@ const abs = src => (src && !src.startsWith("/") && !src.startsWith("http") && !s
 
 // Ảnh có dịch/phóng: tính lại kích thước theo tỉ lệ khung (giống cách bản thiết kế cắt ảnh).
 // Khung trên web có thể khác tỉ lệ so với lúc cắt, nên giới hạn độ dịch để ảnh luôn phủ kín khung.
-function frame(img, { s = 1, x = 0, y = 0 }) {
+function frame(img, { s = 1, x = 0, y = 0, r = 0 }) {
   if (!img || !img.naturalWidth) return;
   const box = img.parentElement, fw = box.clientWidth, fh = box.clientHeight;
   if (!fw || !fh) return;
   const iw = img.naturalWidth, ih = img.naturalHeight;
   const k = Math.max(fw / iw, fh / ih) * s;
-  const w = iw * k / fw * 100, h = ih * k / fh * 100;
+  let w = iw * k / fw * 100, h = ih * k / fh * 100;
+  // Ảnh xoay nhẹ để nắn thẳng (r độ): phóng thêm vừa đủ để góc ảnh không lộ ra ngoài khung
+  if (r) {
+    const a = Math.abs(r) * Math.PI / 180, c = Math.cos(a), sn = Math.sin(a);
+    const up = Math.max(1, (fw * c + fh * sn) / (w * fw / 100), (fw * sn + fh * c) / (h * fh / 100));
+    w *= up; h *= up;
+  }
   const clamp = (v, lim) => Math.max(-lim, Math.min(lim, v));
-  Object.assign(img.style, { width: w + "%", height: h + "%", left: 50 + clamp(x, w / 2 - 50) + "%", top: 50 + clamp(y, h / 2 - 50) + "%" });
+  Object.assign(img.style, { width: w + "%", height: h + "%", left: 50 + clamp(x, w / 2 - 50) + "%", top: 50 + clamp(y, h / 2 - 50) + "%", transform: r ? `translate(-50%, -50%) rotate(${r}deg)` : "" });
 }
 
 /**
@@ -26,7 +32,7 @@ export default function Photo({ id, fallback, caption = "", eager = false }) {
   // Ô chưa có ảnh riêng mà dự phòng là một bài viết: dùng ảnh danh sách / ảnh bìa của bài đó
   const postSlot = fallback && typeof fallback === "object" && fallback.id && (SLOTS["list-" + fallback.id] || SLOTS["cover-" + fallback.id] || SLOTS["guide-" + fallback.id]);
   const sl = (id ? SLOTS[id] : null) || postSlot || null;
-  const framed = sl && (sl.s || sl.x || sl.y);
+  const framed = sl && (sl.s || sl.x || sl.y || sl.r);
   const ref = useRef(null);
 
   useEffect(() => {
