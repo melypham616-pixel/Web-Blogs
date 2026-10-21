@@ -186,10 +186,10 @@ export const EN_2 = {
         ph: ["The lake in the village", "A bridge by the lake", "The path to the stilt houses"],
       },
       {
-        k: "Folk games", h: "Swings, bamboo frames and games from childhood", where: "The play area in the village",
+        k: "Folk games", h: "Nhay chap, ne con and games from childhood", where: "The play area in the village",
         ph: ["A play area built of bamboo and wood"],
-        quote: "It feels like playing the games of your childhood again under the trees.",
-        t: "The village has corners for folk games built of bamboo and wood: a swing hung under the trees, bamboo frames for climbing and balancing, and striped wooden poles. Familiar Vietnamese children's games such as tug of war, stilt walking, sack races and throwing the con ball are usually held in areas like this, with someone to guide you depending on the day.\n\nIt is the most fun part when you go with friends or family, since anyone can replay the games of childhood. Ask first whether anything is organised that day, stay safe on the swing and climbing frames, and take turns when it is crowded.",
+        quote: "Nhay chap, ne con: playing the games of your childhood again under the trees.",
+        t: "The village has corners for folk games built of bamboo and wood: a swing hung under the trees, bamboo frames for climbing and balancing, and striped wooden poles. The two I remember best are nhay chap, jumping over pairs of bamboo poles struck in rhythm, and ne con, throwing the con ball through a ring at the top of the con pole, the tall striped post in the photo. There are also other familiar Vietnamese children's games such as tug of war and stilt walking, with someone to guide you depending on the day.\n\nIt is the most fun part when you go with friends or family, since anyone can replay the games of childhood. Ask first whether anything is organised that day, stay safe on the swing and climbing frames, and take turns when it is crowded.",
       },
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
