@@ -194,7 +194,6 @@ export const EN_2 = {
           { title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
           { title: "A village that keeps growing", text: "Since it opened, the village has been built up and added to with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals." },
         ],
-        note: "This post gives no founding year or exact figures for the village; for those, check the official information.",
       },
 
       {
