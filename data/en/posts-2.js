@@ -106,6 +106,41 @@ export const EN_2 = {
     tip: "Leave early, bring a light jacket and check the weather before going up.",
   },
 
+  "lang-van-hoa": {
+    title: "The Vietnam Ethnic Villages – A Guide to a Day Through a Miniature Vietnam",
+    ex: "A day wandering among stilt houses, Cham towers and the traditional homes of many peoples, less than two hours from Hanoi.",
+    place: "Vietnam Ethnic Villages",
+    menu: "Ethnic Villages",
+    body: [["", "The Vietnam Village for Ethnic Culture and Tourism is in Dong Mo, Son Tay, west of Hanoi, and recreates the living spaces and architecture of many ethnic groups across the country. It is about an hour and a half from central Hanoi, which suits a day trip. This post notes what you need to know to go at a comfortable pace and see as much as possible."]],
+    stories: [
+      {
+        k: "What's there", h: "One zone per people, one architectural style per zone", where: "Dong Mo, Son Tay",
+        t: "The village is divided into zones, each with the house style and decoration of one ethnic group: wooden stilt houses, red-brick towers in the Cham style, signs pointing to villages such as the Tay and many others. Between the zones are tree-lined paths, lakes and flower trellises. If there is a schedule you can also watch cultural performances. It is an easy place to stroll, take photos and learn about the diversity of Vietnam's peoples.",
+        ph: ["The lake in the village"],
+      },
+      {
+        k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
+        quote: "Choose a few zones to see in advance, as the village is large.",
+        ph: ["A red-brick Cham-style tower"],
+        steps: [
+          { time: "7:30", title: "Leave Hanoi", text: "Drive about an hour and a half toward Son Tay; leave early so you can walk while it is still cool." },
+          { time: "9:00", title: "Enter the village", text: "Buy tickets, pick up a map and choose a few zones to see in advance, as the village is large." },
+          { time: "9:30", title: "Walk through the ethnic zones", text: "Walk or take a buggy between stilt houses, Cham towers and traditional houses of many peoples, stopping for photos at your favourite corners." },
+          { time: "11:30", title: "Lunch", text: "Eat at a stall inside or bring snacks, and rest in the shade." },
+          { time: "13:30", title: "Performances and the lake", text: "Watch a cultural performance if there is a schedule, then stroll by the lake and under the flower trellises." },
+          { time: "15:30", title: "Back to Hanoi", text: "Leave before rush hour to avoid traffic." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "The village is large and has little shade in places, so prepare for a day of walking.",
+        t: "• Bring a hat, sunscreen and water, since many stretches are outdoors.\n\n• Wear comfortable walking shoes; you will walk quite a lot.\n\n• Go on a weekday for quiet, or at the weekend for performances; ask about performance times and opening hours first.\n\n• Check the map on arrival and pick a few zones instead of trying to see everything.\n\n• Check the weather: the midday sun can be tiring, so go early or rest in the middle of the day.\n\n• Respect each zone: do not climb or touch exhibits, and ask permission before photographing local people or artists.",
+      },
+    ],
+    closing: "The Ethnic Villages is not only a place for nice photos but a slow day to see Vietnam's diversity in one big garden. One visit may not cover everything, so it is worth returning.",
+    tip: "Leave early, bring a hat and water, and choose a few zones to see in advance.",
+  },
+
   "vung-tau": {
     title: "Vung Tau – Close Sea, Cool Breeze, Fresh Seafood",
     ex: "Windy coastal roads, a street covered in flowers, a barefoot afternoon on the sand and hot, crispy banh khot. An easy weekend trip from Saigon.",
