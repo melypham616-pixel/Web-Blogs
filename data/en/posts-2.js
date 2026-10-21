@@ -143,6 +143,40 @@ export const EN_2 = {
     tip: "Leave early, bring a hat and water, and choose a few zones to see in advance.",
   },
 
+  "binh-phuoc": {
+    title: "Binh Phuoc – A Guide to a Day of Rest Among the Lake, Gardens and Pines",
+    ex: "An eco-resort in Binh Phuoc with a lake, stone towers, a Japanese-style garden, a pine lawn and a pool: how to get there and how to plan an easy day.",
+    place: "Binh Phuoc",
+    body: [["", "Binh Phuoc lies north of Ho Chi Minh City, about three hours by road. I visited an eco-resort here with a lake, stone formations built like ancient towers, a Japanese-style garden, palm-lined roads and a pine lawn. Nothing elaborate, just a day slowed down among greenery. This post notes what you need to know to go at an easy pace."]],
+    stories: [
+      {
+        k: "What's there", h: "A lake, gardens and paths under the palms", where: "An eco-resort",
+        t: "The resort spreads around a large lake, with stone formations built like ancient towers reflected in the water. From there brick-paved paths run under tall palms to a Japanese-style garden with stone lanterns, rockery and a small wooden pavilion. You can cycle on the internal roads, and if you are with family there is a pool with a slide. Everything is wide and open, with little crowding.",
+        ph: ["The path under the palms", "The Japanese-style garden", "The pool with a slide"],
+      },
+      {
+        k: "Itinerary", h: "How to spend the day", where: "A day trip from Ho Chi Minh City",
+        quote: "Leave early to walk the lake while the light is still soft.",
+        ph: ["The lake and stone towers"],
+        steps: [
+          { time: "7:00", title: "Leave Ho Chi Minh City", text: "Drive about three hours toward Binh Phuoc; leave early to arrive before the sun gets strong." },
+          { time: "10:00", title: "Arrive and stroll the lake", text: "Park and walk around the lake with its stone formations built like ancient towers, taking photos while the light is still soft." },
+          { time: "11:30", title: "Lunch", text: "Eat at a restaurant in the resort or a nearby stall, then rest in the shade." },
+          { time: "13:30", title: "Japanese-style garden and the palm-lined path", text: "Walk or cycle along the brick-paved road under the palms and visit the garden with stone lanterns and rockery." },
+          { time: "15:00", title: "The pool or the pine lawn", text: "Go down to the pool with its slide if you are with family, or lie on the lawn under the pines." },
+          { time: "16:30", title: "Back to Ho Chi Minh City", text: "Leave before dark to avoid empty roads and traffic." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Bring a hat, sunscreen and swimwear, because the days here are quite sunny.",
+        t: "• Bring a hat, sunscreen and water; many stretches are outdoors.\n\n• Bring swimwear and a towel if you want to use the pool.\n\n• Ask in advance about tickets, opening hours and rooms if you want to stay overnight.\n\n• Go on a weekday for quiet; weekends are usually busier.\n\n• Wear easy shoes as there are long stretches and lawns.\n\n• The road from Ho Chi Minh City is fairly long, so fill up and check your vehicle before leaving.",
+      },
+    ],
+    closing: "Binh Phuoc is not a noisy destination, just a resort with a lake, palms and a pine lawn to slow down for a day. If you need a day away from the city, it is an easy choice.",
+    tip: "Leave early and bring a hat, sunscreen and swimwear.",
+  },
+
   "vung-tau": {
     title: "Vung Tau – Close Sea, Cool Breeze, Fresh Seafood",
     ex: "Windy coastal roads, a street covered in flowers, a barefoot afternoon on the sand and hot, crispy banh khot. An easy weekend trip from Saigon.",
