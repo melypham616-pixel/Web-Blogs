@@ -72,6 +72,40 @@ export const EN_2 = {
     tip: "Leave early, agree an all-in price clearly and be back before rush hour to avoid traffic.",
   },
 
+  "van-mieu": {
+    title: "Temple of Literature – A Guide to Half a Day in Old Hanoi",
+    ex: "Vietnam's first university in the heart of the capital: when to go, what to see and how to pace half a day so you can slow down and take it in.",
+    place: "Temple of Literature",
+    menu: "Temple of Literature",
+    body: [["", "The Temple of Literature – Imperial Academy sits right in central Hanoi. It is a temple to Confucius and also the country's first university. The grounds are shaded by old trees, with brick paths, ponds, gates and old pavilions, which makes it ideal for a slow walk. This post notes what you need to know to go at ease and see the main highlights."]],
+    stories: [
+      {
+        k: "What's there", h: "An old pavilion, doctoral steles and paths under the trees", where: "Dong Da District, Hanoi",
+        t: "The grounds are divided into several courtyards linked by old brick gates. The Khuê Văn Các pavilion reflected in the Thiên Quang Tỉnh pond is the most familiar view. Also memorable is the row of doctoral steles: stone slabs set on the backs of turtles, engraved with the names of those who passed over many exams. Between the courtyards are ponds, old trees and red-tiled halls. Inside the shrine halls there are many solemnly arranged artefacts. It is fairly quiet despite being in the city, and very pleasant for walking and photos.",
+        ph: ["An old stone gate under the trees", "A doctoral stele on a turtle", "A shrine hall inside"],
+      },
+      {
+        k: "Itinerary", h: "How to spend a morning", where: "Half a day in central Hanoi",
+        quote: "Go early to have the quiet grounds to yourself.",
+        ph: ["A hall with a crane statue"],
+        steps: [
+          { time: "8:00", title: "Arrive early, enter the main gate", text: "Arrive right at opening time to take photos while it is quiet, then pass the main gate into the grounds." },
+          { time: "8:30", title: "Great Middle Gate and the first courtyards", text: "Walk through the big gate and stroll brick paths under old trees and past ponds." },
+          { time: "9:15", title: "The doctoral steles", text: "See the stone steles set on the backs of turtles, engraved with the names of those who passed the doctoral exams." },
+          { time: "10:15", title: "The shrine halls and the Imperial Academy area", text: "Enter the shrine halls and look at the displayed artefacts; walk softly and speak quietly." },
+          { time: "11:15", title: "Rest around the neighbourhood", text: "Have lunch or a coffee at nearby cafés before the next stop." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "It is a place of worship, so light steps and quiet voices are the best way to visit.",
+        t: "• Dress modestly and neatly, since it is a place of worship.\n\n• Go early or on a weekday to avoid crowds, especially on holidays and exam season.\n\n• Do not climb on steles, turtles or artefacts; just look and take photos.\n\n• Bring a hat and water; some stretches are outdoors but there is plenty of shade.\n\n• Ask about opening hours and ticket prices beforehand, as they can change.\n\n• Couples, friends and photographers also shoot here; share the best corners.",
+      },
+    ],
+    closing: "The Temple of Literature is not loud but calming in the rhythm of Hanoi's streets. A slow morning here is enough to see that this city still keeps its quiet corners.",
+    tip: "Go early, dress modestly and check opening hours before you go.",
+  },
+
   "ba-vi": {
     title: "Ba Vi – A Guide to a Day Escaping to the Mountain Near Hanoi",
     ex: "A green mountain less than two hours from Hanoi: how to get there, what to do and how to plan the day so you catch the valley views before the fog comes down.",
