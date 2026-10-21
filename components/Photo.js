@@ -14,13 +14,18 @@ function frame(img, { s = 1, x = 0, y = 0, r = 0 }) {
   const iw = img.naturalWidth, ih = img.naturalHeight;
   const k = Math.max(fw / iw, fh / ih) * s;
   let w = iw * k / fw * 100, h = ih * k / fh * 100;
-  // Ảnh xoay nhẹ để nắn thẳng (r độ): phóng thêm vừa đủ để góc ảnh không lộ ra ngoài khung
+  const clamp = (v, lim) => Math.max(-lim, Math.min(lim, v));
+  // Ảnh xoay nhẹ để nắn thẳng (r độ): phóng thêm vừa đủ để góc ảnh không lộ ra ngoài khung, kể cả khi ảnh bị dịch
   if (r) {
     const a = Math.abs(r) * Math.PI / 180, c = Math.cos(a), sn = Math.sin(a);
-    const up = Math.max(1, (fw * c + fh * sn) / (w * fw / 100), (fw * sn + fh * c) / (h * fh / 100));
-    w *= up; h *= up;
+    for (let n = 0; n < 4; n++) {
+      const dx = Math.abs(clamp(x, w / 2 - 50)) * fw / 100, dy = Math.abs(clamp(y, h / 2 - 50)) * fh / 100;
+      const ex = fw / 2 + dx, ey = fh / 2 + dy;
+      const up = Math.max(1, (ex * c + ey * sn) / (w * fw / 200), (ex * sn + ey * c) / (h * fh / 200));
+      if (up <= 1.0005) break;
+      w *= up; h *= up;
+    }
   }
-  const clamp = (v, lim) => Math.max(-lim, Math.min(lim, v));
   Object.assign(img.style, { width: w + "%", height: h + "%", left: 50 + clamp(x, w / 2 - 50) + "%", top: 50 + clamp(y, h / 2 - 50) + "%", transform: r ? `translate(-50%, -50%) rotate(${r}deg)` : "" });
 }
 
