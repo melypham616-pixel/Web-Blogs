@@ -58,6 +58,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
               </article>
             ))}
           </div>
+          {st.note && <p className="note">{st.note}</p>}
         </section>
       );
     case "timeline":

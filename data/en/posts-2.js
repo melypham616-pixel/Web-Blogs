@@ -188,8 +188,15 @@ export const EN_2 = {
       {
         k: "History of the village", h: "Why there is a village of 54 peoples", where: "Dong Mo, Son Tay",
         quote: "Vietnam has 54 ethnic groups, and this village wants to bring their cultures to one place.",
-        t: "Vietnam is home to 54 ethnic groups living together, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta. Each has its own houses, clothing, language, festivals and instruments, yet many people in the cities rarely get a chance to know them.\n\nThe Vietnam Village for Ethnic Culture and Tourism by Dong Mo Lake was created to address that: bringing the architecture and daily life of many peoples to one place so visitors can travel across the country in a single day. Since it opened, the village has been built up and added to over time with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals.\n\nI do not remember the exact founding year, so this post only gives the general meaning; for exact figures, check the village's official information.",
+        t: "Each people has its own houses, clothing, language, festivals and instruments, yet many people in the cities rarely get a chance to know them. The village by Dong Mo Lake was created to address that.",
+        cards: [
+          { tag: "Background", title: "54 peoples living together", text: "Vietnam is home to 54 ethnic groups, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta." },
+          { tag: "The idea", title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
+          { tag: "Today", title: "A village that keeps growing", text: "Since it opened, the village has been built up and added to with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals." },
+        ],
+        note: "This post gives no founding year or exact figures for the village; for those, check the official information.",
       },
+
       {
         k: "Stilt house", h: "Listening to stories in a stilt house", where: "Inside a wooden stilt house",
         ph: ["A local guide telling stories in the stilt house"],
