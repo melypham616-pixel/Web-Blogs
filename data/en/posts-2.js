@@ -81,7 +81,7 @@ export const EN_2 = {
       {
         k: "What's there", h: "Green forest, fog and viewpoints over the valley", where: "Ba Vi National Park",
         t: "The road up winds through dense forest before opening onto viewpoints over the valley and lake. On a clear day you can see the land far below; on a cloudy one the mountain sinks into fog, so every hour looks different. Besides sightseeing and walking in the forest, there are temples, pagodas and spiritual sites to visit. The air is noticeably cooler than in the city, which makes it a comfortable place for slow walks.",
-        ph: ["Ba Vi mountain among the clouds"],
+        ph: ["Ba Vi mountain among the clouds", "The valley and lake from above", "Green forest on the road up"],
       },
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
@@ -98,6 +98,7 @@ export const EN_2 = {
       },
       {
         k: "Tips", h: "A few things to know", where: "Before you go",
+        ph: ["The Ho Chi Minh memorial temple on Ba Vi mountain"],
         quote: "The weather changes fast on a mountain, so an extra layer is never too much.",
         t: "• Bring a light jacket: it is cool and often windy and foggy, especially in the afternoon.\n\n• Wear shoes with good grip since forest and steep roads can be slippery when damp.\n\n• Go on a weekday or a day without festivals to avoid crowds and traffic jams.\n\n• Check the forecast first: on days with low cloud the view down the valley will be hidden.\n\n• Carry enough water and snacks, as some stretches are long between stalls.\n\n• At temples and pagodas, dress modestly, walk softly and speak quietly, and keep the forest clean by taking your rubbish down.",
       },
@@ -116,7 +117,7 @@ export const EN_2 = {
       {
         k: "What's there", h: "One zone per people, one architectural style per zone", where: "Dong Mo, Son Tay",
         t: "The village is divided into zones, each with the house style and decoration of one ethnic group: wooden stilt houses, red-brick towers in the Cham style, signs pointing to villages such as the Tay and many others. Between the zones are tree-lined paths, lakes and flower trellises. If there is a schedule you can also watch cultural performances. It is an easy place to stroll, take photos and learn about the diversity of Vietnam's peoples.",
-        ph: ["The lake in the village"],
+        ph: ["The lake in the village", "A bridge by the lake", "The path to the stilt houses"],
       },
       {
         k: "Itinerary", h: "How to spend the day", where: "A day trip from Hanoi",
@@ -133,6 +134,7 @@ export const EN_2 = {
       },
       {
         k: "Tips", h: "A few things to know", where: "Before you go",
+        ph: ["A wooden stilt house in the village"],
         quote: "The village is large and has little shade in places, so prepare for a day of walking.",
         t: "• Bring a hat, sunscreen and water, since many stretches are outdoors.\n\n• Wear comfortable walking shoes; you will walk quite a lot.\n\n• Go on a weekday for quiet, or at the weekend for performances; ask about performance times and opening hours first.\n\n• Check the map on arrival and pick a few zones instead of trying to see everything.\n\n• Check the weather: the midday sun can be tiring, so go early or rest in the middle of the day.\n\n• Respect each zone: do not climb or touch exhibits, and ask permission before photographing local people or artists.",
       },
