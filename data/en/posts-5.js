@@ -71,6 +71,16 @@ export const EN_5 = {
     body: [["", "On my first visit to Singapore I was in no hurry to go far. I just wanted to go to Merlion Park and stand in front of the statue I had seen in countless photos, to find out what it feels like to see it with my own eyes. It turned out that what stayed with me was not the statue, but a whole evening by Marina Bay."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Merlion Park",
+        items: [
+          { k: "My trip", v: "Evening of 7 January 2025, staying until late" },
+          { k: "Spectra show", v: "Free; at 8 pm and 9 pm Sunday to Thursday, with an extra 10 pm show on Friday and Saturday; best viewed from the Event Plaza, and from Merlion Park you miss the projections and soundtrack" },
+          { k: "Getting there", v: "MRT to Raffles Place, then about a 5-minute walk" },
+          { k: "Best time", v: "Around 5:30 pm when the sun softens, staying until the lights come on" },
+        ],
+        note: "Show times can change; check before you go.",
+      },
+      {
         k: "Landmark", h: "Meeting the sea lion at sunset", where: "Merlion Park · late afternoon",
         t: "The Merlion is 8.6 m tall, half lion and half fish, spouting water straight out into the bay. The lion's head recalls the name Singapura, the lion city, while the fish body speaks of the small island's past as a fishing village. I arrived around 5:30pm, when the sun had softened and turned honey-gold, just right for taking a few photos without glare.\n\nStanding among a crowd of tourists trying to pose as if catching the water from the statue's mouth, I found it funny and endearing. Everyone wants to take home a photo proving they were here. After a few shots, I only wanted to sit down on the steps and look. Some famous places are not for exploring, but for touching something that once existed only in imagination.",
         ph: ["The Merlion spouting water", "The Merlion and Marina Bay Sands", "Visitors on the waterfront"],
@@ -92,6 +102,16 @@ export const EN_5 = {
     body: [["", "Some gardens are born from soil, and some are born from an idea. Gardens by the Bay is the second kind: more than 100 hectares of reclaimed land turned into a green world where real trees and steel trees stand side by side. I spent a whole afternoon into the evening here and still felt it was not enough."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Gardens by the Bay",
+        items: [
+          { k: "My trip", v: "8 January 2025, from about 10 am to 9 pm, crossing the Helix bridge and Marina Bay" },
+          { k: "Garden Rhapsody", v: "Free, at 7:45 pm and 8:45 pm at the Supertree Grove, about 10 minutes long" },
+          { k: "Tickets", v: "The outdoor garden is free; the two domes and OCBC Skyway need tickets" },
+          { k: "From Marina Bay Sands", v: "About a 10-minute walk to Gardens by the Bay" },
+        ],
+        note: "Ticket prices and show times can change; check before you go.",
+      },
+      {
         k: "Supertrees", h: "Under the canopy of the Supertrees", where: "Supertree Grove · afternoon to evening",
         t: "Supertree Grove is a cluster of Supertrees from 25 to 50 m tall, their trunks covered with thousands of species of ferns, orchids and climbing plants. By day, they look like ancient trees from another planet. When night falls, they glow in the Garden Rhapsody show at 7:45pm and 8:45pm, free of charge. I lay on the ground looking up at the canopies changing colour with the music, and for the first time in a long while I forgot to take out my phone to photograph it.",
         ph: ["The flower clock beside the dome", "The Supertrees and Marina Bay Sands", "Lying down waiting for Garden Rhapsody", "The glowing Supertrees and OCBC Skyway", "The Supertree canopy at dusk"],
@@ -107,6 +127,16 @@ export const EN_5 = {
     place: "Chinatown",
     body: [["", "If Marina Bay is Singapore's modern face, Chinatown is its memory. I got off at Chinatown MRT station one morning, with no map, only a short list of places I wanted to stop. Each stop was like a station on a journey, and each station told a different story about the people who built this island."]],
     stories: [
+      {
+        k: "Quick facts", h: "Before you go to Chinatown",
+        items: [
+          { k: "My trip", v: "7 January 2025, around the Tanjong Pagar and Chinatown area" },
+          { k: "Getting there", v: "Chinatown MRT, where exit A leads into Pagoda Street" },
+          { k: "Stops", v: "Buddha Tooth Relic Temple, Sri Mariamman Temple, Pagoda Street, Ann Siang Hill and Maxwell Food Centre" },
+          { k: "Lunch", v: "Maxwell is usually busy from noon; arrive early or wait a little" },
+        ],
+        note: "Opening hours at each site can change; check before you go.",
+      },
       {
         k: "Spiritual side", h: "The Buddha Tooth Relic Temple in the middle of the streets", where: "South Bridge Road · morning",
         t: "This five-storey red temple is built in Tang dynasty style and holds a relic of the Buddha's tooth. Stepping inside, the deep, warm chanting and the smell of incense made my heartbeat slow down. Right across the road is Sri Mariamman Temple, Singapore's oldest Hindu temple, with a gate tower covered in brightly coloured statues of deities. Two places of worship of different religions stand side by side in peace, and I think that may be the most beautiful thing about Singapore.",
@@ -136,6 +166,16 @@ export const EN_5 = {
     place: "Clarke Quay",
     body: [["", "Clarke Quay is an old port area beside the Singapore River, where 19th-century warehouses have become restaurants, bars and entertainment spots. By day it is fairly quiet, but when night falls the whole riverbank lights up with coloured lamps reflected in the water, and that is when Clarke Quay is at its most beautiful."]],
     stories: [
+      {
+        k: "Quick facts", h: "Before you go to Clarke Quay",
+        items: [
+          { k: "My trip", v: "The evenings of 7 and 8 January 2025, around Robertson Quay and Clarke Quay" },
+          { k: "Best time", v: "After 7 pm, when the riverside lights come on" },
+          { k: "On foot", v: "You can walk along the river from Marina Bay to Clarke Quay" },
+          { k: "Note", v: "The area is lively at night, so keep your things safe and ask prices before ordering" },
+        ],
+        note: "Opening hours of venues can change; check before you go.",
+      },
       {
         k: "Riverside", h: "A sparkling riverbank as the lights come on", where: "Singapore River · after 7pm",
         t: "I started on the walkway along the river. Colour-changing light art poles in green and purple stand in the middle of the water, and light from the buildings and restaurants on both banks falls onto the river in long streaks. The night breeze was cool, people strolled leisurely, and just by walking slowly and stopping a few times I got some lovely frames.",
