@@ -22,6 +22,7 @@ export default function HomePage({ lang }) {
   ];
   return (
     <main>
+      <h1 className="sr-only">{d.siteTitle}</h1>
       {jsonLd.map((j, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }} />)}
       <div className="wrap">
         <Slider lang={lang} slides={slides} />
