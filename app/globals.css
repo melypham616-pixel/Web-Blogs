@@ -634,3 +634,7 @@ main{overflow-x:clip}
 
 /* chữ chỉ dành cho trình đọc màn hình và công cụ tìm kiếm */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* liên kết nội bộ trong đoạn mở đầu */
+.sec p a.inlink{color:var(--accent-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.sec p a.inlink:hover{text-decoration-thickness:2px}
