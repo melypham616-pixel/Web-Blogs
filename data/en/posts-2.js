@@ -380,11 +380,11 @@ export const EN_2 = {
         t: "On the last morning, 15 October, I walked around Xuan Huong Lake from about nine until nearly midday. The still water in thin mist and the pine-shaded paths made me walk very slowly. It is the ideal place to feel Da Lat's slow rhythm, and the place I chose to say goodbye to the city.\n\nYou can stroll around the lake in the morning or late afternoon, when there are fewer people and the light is lovely. Sometimes simply sitting on a bench by the lake is enough to make a day feel worthwhile.",
       },
       {
-        k: "Coffee", h: "Nha Cua Thong", where: "Da Lat · best in the early morning",
+        k: "Coffee", full: true, h: "Nha Cua Thong", where: "Da Lat · best in the early morning",
         t: "On the afternoon of 12 October at ten past four I sat in a small wooden café among the pines, with two windows looking out to green hills, and ordered two hot flower teas in glass cups. The place is rustic, with wooden tables, brocade cloth and conical hats hanging on the walls. Wind from the hill gently moved the curtain.\n\nNha Cua Thong suits those who like to sit for a long time: I stayed almost two hours, talking and watching mist rise from the valley. Come early in the morning to avoid crowds and enjoy better light.",
       },
       {
-        k: "Coffee", h: "Binh Yen Garden", where: "Da Lat · best in the afternoon",
+        k: "Coffee", full: true, h: "Binh Yen Garden", where: "Da Lat · best in the afternoon",
         t: "True to its name, the café is a cool green garden with flowers and plants along every path. It is a quiet corner to read, chat or simply watch the afternoon sun fade over the mountain town. Afternoon is the loveliest time here: a light wind, golden light and nobody hurrying.",
       },
       {
