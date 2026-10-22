@@ -6,6 +6,22 @@ export const EN_5 = {
     body: [["", "Set at the top of Bukit Tinggi at about 800 m, Colmar Tropicale was built in the image of the town of Colmar in France's Alsace region. The cool air, the surrounding green forest and the pastel-coloured houses made me feel as if I had landed in Europe without boarding a plane."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Colmar Tropicale",
+        items: [
+          { k: "My trip", v: "Afternoon of 6 September 2025, about 1 to 4 pm" },
+          { k: "Location", v: "Berjaya Hills, Bukit Tinggi, Bentong, Pahang, about 45 minutes to an hour from Kuala Lumpur" },
+          { k: "Elevation", v: "About 790 – 820 m above sea level depending on the source" },
+          { k: "Inspiration", v: "Opened in 2000, inspired by the villages of Riquewihr, Turckheim and Kaysersberg near Colmar in Alsace" },
+          { k: "Entrance", v: "The official site says RM14 for adults and RM7 for children aged 4–12, including the Japanese Village and Rabbit Park; sources give different opening hours" },
+        ],
+        note: "Ticket prices and hours can change; check the official site.",
+      },
+      {
+        k: "An afternoon", h: "An afternoon in the French village", where: "6 September 2025",
+        quote: "On a street this short, every window has time to be looked at.",
+        t: "I reached Colmar Tropicale on the afternoon of Saturday 6 September 2025 and stayed about three hours, from one to four, taking nearly ninety photos on a single street. It was cloudy, and the awning stretched across the street and the colourful umbrellas beneath made the whole village glow against a grey sky.\n\nI had a late European-style lunch at a roadside restaurant: a hot cup of coffee on a red-and-white checked tablecloth, and a plate of tomato and prawn spaghetti with fries. Eating in a fake French village in the Pahang forest felt both strange and charming.",
+      },
+      {
         k: "The village", h: "Stepping through the gate into the French village", where: "Bukit Tinggi · morning",
         t: "Passing through a stone gateway, I felt as if I had walked into a small town in eastern France. Half-timbered houses in cream, pink and pale purple stood one after another along a cobbled street, with pointed bell towers among them. The main street is not long, so just walk very slowly, looking at every window and balcony, and you will already be happy.",
         ph: ["The village gateway", "Half-timbered houses", "The cobbled street"],
@@ -19,6 +35,29 @@ export const EN_5 = {
         k: "Nature", h: "The flower garden and the little stream", where: "Village entrance · afternoon",
         t: "Right at the entrance is a small garden with a COLMAR sign set among flower beds and a fountain. A little further on, a small stream curves around stone steps, the water clear and cool. Strolling in the cool mountain air and listening to running water is a gentle way to end a day in Bukit Tinggi.",
         ph: ["The flower garden and the COLMAR sign", "The stream in the village", "A garden corner"],
+      },
+      {
+        k: "What to eat", h: "Colmar Tropicale through a late lunch", where: "What I ate",
+        quote: "In a French village, have a European meal to match.",
+        t: "I ate only one meal here, but enough to remember.",
+        cards: [
+          { title: "Hot coffee", text: "A cup of coffee on a red-and-white checked tablecloth, sipped slowly on a cloudy afternoon." },
+          { title: "Tomato and prawn spaghetti", text: "A plate of spaghetti with prawns, tomato and chilli, with crisp fries." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "An afternoon at Colmar Tropicale", where: "A suggestion from my own trip",
+        quote: "Two to three hours is enough, but go very slowly.",
+        steps: [
+          { time: "Early afternoon", title: "Arrive and pass the gate", text: "Park, buy tickets and walk through the gate into the main street." },
+          { time: "Mid-afternoon", title: "Stroll and take photos", text: "Walk from one end of the street to the other, looking at the bell tower and wooden windows." },
+          { time: "Late afternoon", title: "A light meal and the flower garden", text: "Eat a European-style meal, then visit the garden near the entrance before heading back." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "A small village, so you do not need the whole day.",
+        t: "• The village has only one main street; two to three hours is enough.\n\n• Go on a weekday or in the morning to avoid crowds and photograph more easily.\n\n• Bring a light jacket and an umbrella, since the mountain often has clouds and light rain.\n\n• Check ticket prices and hours on the official site because sources differ.\n\n• Combine it with Genting Highlands or other nearby places if you want a full day.",
       },
     ],
     closing: "Colmar Tropicale may not be the real France, but walking through its pretty little streets in the cool breeze of the tropical hills feels very special. A gentle and memorable day trip from Kuala Lumpur.",

@@ -206,6 +206,22 @@ export const EN_4 = {
     body: [["", "Malacca was once one of the busiest trading ports in Southeast Asia, bearing the marks of the Portuguese, Dutch and British across centuries. Today the city is a UNESCO World Heritage Site, small, easy to walk and full of colour."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Malacca",
+        items: [
+          { k: "My trip", v: "10 November 2025, from about 10 am to 5 pm, walking around the old town" },
+          { k: "Heritage", v: "Malacca's historic centre was listed by UNESCO in 2008" },
+          { k: "Key buildings", v: "Christ Church (1753) and the Stadthuys (around 1650), around Dutch Square" },
+          { k: "Jonker Street", v: "The night market runs at weekends, sources say from Friday evening to Sunday; I went by day, when it is quieter" },
+          { k: "Getting there", v: "Bus or ride-hailing from Kuala Lumpur, about two hours; the old town is easy to walk" },
+        ],
+        note: "Market hours and ticket prices can change; check before you go.",
+      },
+      {
+        k: "A day in Malacca", h: "A day on foot from morning to afternoon", where: "10 November 2025",
+        quote: "A small city, so slow that every street has time to tell its story.",
+        t: "I reached Malacca on the morning of Monday 10 November 2025 and walked around the old town almost all day, from about ten until five in the afternoon. Most of the time I was around Jonker Street and nearby roads such as Jalan Hang Kasturi, Jalan Temenggong and Jalan Kota, where everything is close and the scene changes in a few steps.\n\nPast noon, with the sun fierce, I stopped at a roadside stall for a watermelon ice pop and a whole watermelon with a straw. Simple and cold, exactly what I needed in the heat of the old city.",
+      },
+      {
         k: "Old town", h: "The red Dutch Square", where: "Dutch Square · morning",
         t: "At the heart of the old town is Dutch Square, with Christ Church and the brick-red Stadthuys, standing beside a clock tower, a windmill and a small fountain. Around it are trishaws decorated with paper flowers and bright cartoon characters, blasting cheerful music. A few minutes' walk further is St. Francis Xavier Church with its two Gothic towers, a much quieter corner than the square.",
         ph: ["Christ Church and the windmill", "Red buildings around the square", "St. Francis Xavier Church"],
@@ -219,6 +235,30 @@ export const EN_4 = {
         k: "Riverside", h: "Along the Malacca River", where: "Malacca River · afternoon",
         t: "From the old town I followed the walkway along the Malacca River. Both banks are lined with houses painted pink, yellow and blue, and many walls are covered in bright paintings. From time to time a tourist boat passes, leaving long ripples across the water. This was my favourite stretch, because simply by walking slowly, the city appears at a very different rhythm.",
         ph: ["Colourful houses by the river", "The Malacca River", "Many-coloured walls"],
+      },
+      {
+        k: "What to eat", h: "Malacca through what I ate and drank", where: "What I tried",
+        quote: "A small city does not need many dishes, only the right moment.",
+        t: "I photographed fewer dishes in Malacca than elsewhere, so this is what I truly remember.",
+        cards: [
+          { title: "Watermelon ice pop", text: "An ice pop shaped like a slice of watermelon, cooling right in the midday sun." },
+          { title: "A whole watermelon", text: "A watermelon with a hole and a straw, drunk straight like a giant juice." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend a day in Malacca", where: "A suggestion from my own trip",
+        quote: "Walking is enough; do not cram in too many places.",
+        steps: [
+          { time: "Morning", title: "Dutch Square", text: "See Christ Church and the Stadthuys while it is still mild." },
+          { time: "Midday", title: "Jonker Street", text: "Eat lunch, browse the shops and rest in the shade." },
+          { time: "Afternoon", title: "Along the Malacca River", text: "Walk along the river to see rows of painted houses and murals." },
+          { time: "Late afternoon", title: "Back to Kuala Lumpur", text: "Leave before rush hour, or stay until evening if you want to see the Jonker market." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Malacca is hot, so bring water and a hat.",
+        t: "• Bring a hat, sunscreen and water since the old town has little shade at midday.\n\n• Wear comfortable shoes, because you will walk a lot.\n\n• To see the Jonker night market go at a weekend and confirm the hours.\n\n• At churches and temples dress modestly and keep quiet.\n\n• Ask the price before getting on a decorated trishaw or a river boat.",
       },
     ],
     closing: "Malacca is small, but every corner tells a story. Go slowly, eat a lot and let the colours of this old city lead the way, and you will understand why many people planned only one day and ended up wanting to stay longer.",
