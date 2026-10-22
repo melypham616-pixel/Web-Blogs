@@ -31,6 +31,7 @@ export default function SiteLayout({ lang, children }) {
   ];
   return (
     <html lang={lang} className={fontVariables}>
+      <head><link rel="preconnect" href="https://res.cloudinary.com" /></head>
       <body>
         <Analytics />
         {lang === DEFAULT_LOCALE && <LegacyHash />}
