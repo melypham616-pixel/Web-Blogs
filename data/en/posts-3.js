@@ -127,28 +127,67 @@ export const EN_3 = {
   },
 
   "cameron": {
-    title: "The Green Tea Hills of Cameron Highlands",
-    ex: "Malaysia's cool highlands, with rolling tea hills, strawberry farms and misty mornings.",
+    title: "Cameron Highlands in 2 Days: BOH Tea Hills, Strawberry Farms, Brinchang and Misty Afternoons",
+    ex: "A diary of a trip on 26–27 April 2025: the BOH Sungei Palas tea hills, strawberry farms, Brinchang town and a breakfast of egg toast, with quick facts, an itinerary, tips and sources.",
     place: "Cameron Highlands",
-    body: [["", "Cameron Highlands is about three to four hours by road from Kuala Lumpur, where Malaysians go to escape the city heat. The higher you climb, the cooler the air, with lush green tea hills rolling along the mountainsides and morning mist resting lightly on every slope."]],
+    body: [
+      ["", "Cameron Highlands is about three to four hours by road from Kuala Lumpur, where Malaysians go to escape the city heat. I arrived on the afternoon of Saturday 26 April 2025 and stayed until midday on Sunday 27 April, only two days but enough to see why the place is so loved: the higher you climb the cooler the air, with lush tea hills rolling along the mountainsides and mist resting lightly on every slope."],
+      ["A trip at the right pace", "I chose to go slowly: tea hills and strawberry picking in the afternoon, then the next morning a stroll through Brinchang and breakfast. I did not manage to go up to the Mossy Forest, so this post records only the places I truly visited."],
+    ],
     stories: [
       {
-        k: "Tea hills", h: "The endless BOH tea hills", where: "BOH Sungei Palas · early morning",
-        t: "The BOH tea hills are the best place to feel Cameron Highlands. Lush green rows of tea curve along the hillsides like soft terraces, with mist-covered mountains far beyond. You can walk between the tea rows, then stop at the tea shop on the hill, order a pot of hot tea and a scone, and sit looking at the whole green valley in front of you.",
-        ph: ["The BOH tea hills", "Lush green tea rows", "A pot of hot tea on the hill"],
+        k: "Quick facts", h: "Before you go up to Cameron Highlands",
+        items: [
+          { k: "My trip", v: "Afternoon of 26 April and morning of 27 April 2025, about two days and one night" },
+          { k: "Location", v: "Pahang state, about three to four hours by road from Kuala Lumpur; I stayed in the Brinchang area" },
+          { k: "BOH Sungei Palas", v: "According to BOH, the first tea garden in Cameron Highlands was set up by J.A. Russell in 1929; the tea centre is free to enter, offers free factory tours every 30 minutes and opens about 9 am to 4:30 pm Tuesday to Sunday, closed Mondays" },
+          { k: "Food", v: "Fresh strawberries sold by the box, and egg toast for breakfast" },
+          { k: "Weather", v: "Cool all year, with clouds and light rain often in the morning and afternoon" },
+        ],
+        note: "Opening hours and prices can change; check before you go.",
       },
       {
-        k: "Moss forest", h: "The fairytale moss forest", where: "Gunung Brinchang · morning",
-        t: "The Mossy Forest is a damp primeval forest where moss covers tree trunks, roots and even the ground. Walking along the boardwalk through the mist, hearing birds and dripping water, I felt as if I had wandered into a fairytale forest. Bring a jacket and shoes with good grip because it is cold and the path is quite slippery.",
-        ph: ["The Mossy Forest", "A boardwalk in the mist", "Moss on tree trunks", "Moss-covered roots", "Mist in the forest", "Fern leaves", "Brinchang peak", "The observation tower", "Light through the canopy"],
+        k: "Tea hills", h: "The endless BOH tea hills", where: "BOH Sungei Palas · afternoon of 26 April",
+        t: "The BOH tea hills are the best place to feel Cameron Highlands. Lush green rows of tea curve along the hillsides like soft terraces, with mist-covered mountains far beyond. I came on the afternoon of 26 April, when cloud had just cleared and blue sky showed between white clouds, with light falling on every tea row.\n\nYou can walk between the tea rows, then stop at the tea centre on the hill, order a pot of hot tea and a scone, and sit looking at the whole green valley in front of you. According to BOH, the centre offers free factory tours every half hour and a balcony overhanging the tea fields.",
+        ph: ["A bus under a big tree", "Lush green tea hills", "Purple flowers in the cloud"],
       },
       {
-        k: "Farms", h: "Strawberry farms and the farmers' market", where: "Brinchang · all day",
-        t: "Cameron is famous for its strawberry farms, flower gardens and clean-vegetable farms. You can pick strawberries yourself and try strawberry yoghurt or fresh strawberry ice cream. In the evening, stop at the Brinchang night market to buy vegetables and fruit and enjoy a few hot grilled snacks in the chilly highland weather.",
-        ph: ["A strawberry farm", "Fresh strawberries", "Brinchang night market"],
+        k: "Brinchang town", h: "A morning in Brinchang", where: "Brinchang · morning of 27 April",
+        t: "On the morning of 27 April I walked around Brinchang from about nine until nearly noon. The town sits among green hills, with a row of European-style hotels beside the road, car parks looking out over rain-wet tea hills and clusters of purple flowers among the clouds. From above, the buildings look like small bricks set in the green forest.\n\nThe morning here is cool and quiet, and what I liked most were the small moments: a pine tree under a crystal-clear sky and a lush green clump of plants beside the road.",
+        ph: ["Ferns and pines beside the road", "European-style hotel street", "A car park facing tea hills after rain", "The town from above", "Purple flowers", "", "Blue sky through the pine", "Egg toast breakfast", ""],
+      },
+      {
+        k: "Farms", h: "Strawberry farms and boxes of red fruit", where: "Tringkap and Kea Farm · 26 and 27 April",
+        t: "Cameron is famous for its strawberry farms, flower gardens and clean-vegetable farms. I stopped at a strawberry farm with a Big Red Strawberry Farm sign right at the gate and walked through the greenhouse, where hanging pots of strawberries run in long rows with red fruit peeking out of the leaves. I picked one myself and held it.\n\nYou can buy strawberries by the box right at the farm, and prices vary by season and size. I bought a few boxes and lined them up on the artificial grass, then tried one at once: mildly sweet, pleasantly tart, just right for highland strawberries.",
+        ph: ["A strawberry farm sign", "Fresh boxed strawberries", "Strawberries in the greenhouse"],
+      },
+      {
+        k: "What to eat", h: "Cameron Highlands through its meals", where: "What I actually ate",
+        quote: "In a cold place, something hot and something fresh is enough.",
+        t: "Below are the dishes I actually ate on this trip.",
+        cards: [
+          { title: "Egg toast", text: "Breakfast on 27 April: two slices of toast topped with egg and sausage, drizzled with red sauce and mayonnaise, eaten with a fork on brown paper." },
+          { title: "Fresh strawberries", text: "Boxes of red strawberries bought right at the farm and eaten while still cool." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend two days and one night", where: "A suggestion from my own trip",
+        quote: "Tea hills in the afternoon, town in the morning, strawberries to take home at noon.",
+        steps: [
+          { time: "Morning of day 1", title: "Leave Kuala Lumpur", text: "Three to four hours by road; stop for lunch on the way so you do not get hungry." },
+          { time: "Afternoon of day 1", title: "BOH tea hills", text: "Walk among the tea rows, drink hot tea on the hill and watch the clouds change colour." },
+          { time: "Late afternoon of day 1", title: "A strawberry farm", text: "Pick and buy strawberries; go before the farm closes." },
+          { time: "Morning of day 2", title: "Brinchang", text: "Eat breakfast, stroll the town and photograph the flower clusters." },
+          { time: "Midday of day 2", title: "Back to Kuala Lumpur", text: "Come down before afternoon rain makes the road slippery." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Bring a light jacket, since the highlands change weather fast.",
+        t: "• Bring a light jacket and a folding umbrella because cloud and light rain arrive fast.\n\n• Ask the price of strawberries per box before buying, since every place differs.\n\n• According to the sources I read, BOH is closed on Mondays, so check beforehand.\n\n• If you want to visit the Mossy Forest, go early and wear shoes with good grip because the path is slippery.\n\n• The mountain road has many bends; take motion-sickness medicine first if you are prone.\n\n• Bring a little cash for small roadside stalls.",
       },
     ],
-    closing: "Cameron Highlands is a place to slow down. You do not need a packed schedule, just a morning on the tea hills, a pot of hot tea and a little thin mist to feel lighter.",
-    tip: "Visit the tea hills in the morning for beautiful light and fewer people.",
+    closing: "Cameron Highlands is a place to slow down. You do not need a packed schedule, just an afternoon on the tea hills, a pot of hot tea and a little thin mist to feel lighter.",
+    tip: "Visit the tea hills in the morning or late afternoon for beautiful light and fewer people.",
   },
 };
