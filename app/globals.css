@@ -638,3 +638,17 @@ main{overflow-x:clip}
 /* liên kết nội bộ trong đoạn mở đầu */
 .sec p a.inlink{color:var(--accent-ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .sec p a.inlink:hover{text-decoration-thickness:2px}
+
+/* facts: thông tin nhanh */
+.st-facts{margin:8px 0 4px;padding:22px 24px;background:var(--soft);border-left:4px solid var(--accent);border-radius:4px}
+.st-facts .head{display:flex;flex-direction:column;gap:4px;margin-bottom:14px}
+.st-facts .k{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--accent-ink)}
+.st-facts h2{font-size:22px;line-height:1.25}
+.st-facts dl{margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px 24px}
+.st-facts dt{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:2px}
+.st-facts dd{margin:0;font-size:15px;line-height:1.55;color:var(--body-ink)}
+.st-facts .note{margin:14px 0 0;font-size:13px;color:var(--muted);font-style:italic}
+/* nguồn tham khảo */
+.sources{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);font-size:14px}
+.sources ul{margin:10px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:6px;color:var(--body-ink)}
+.sources a{color:var(--accent-ink);text-decoration:underline;text-underline-offset:3px;word-break:break-word}

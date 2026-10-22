@@ -11,7 +11,7 @@ const Text = ({ t }) => <p className="st-t">{t}</p>;
 
 /**
  * Một đoạn câu chuyện trong bài. `st.layout` chọn bố cục:
- * essay, timeline, cards, cloud, tide, postcard, gallery, terrace, story, night, chapter, metro, mosaic, single;
+ * essay, timeline, cards, facts, cloud, tide, postcard, gallery, terrace, story, night, chapter, metro, mosaic, single;
  * không có layout: "full" (k = "Cà phê" hoặc full: true) hoặc "split".
  * Mã ô ảnh giữ đúng như bản thiết kế để ảnh khớp với SLOTS.
  */
@@ -37,6 +37,14 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
             {ph.length > 0 && slot("a", p1, "pic")}
           </div>
           <div className="main-col">{st.quote && <blockquote>“{st.quote}”</blockquote>}<Text t={st.t} /></div>
+        </section>
+      );
+    case "facts":
+      return (
+        <section className="st-facts">
+          <div className="head"><span className="k">{st.k}</span><h2>{st.h}</h2></div>
+          <dl>{(st.items || []).map((x, n) => <div key={n}><dt>{x.k}</dt><dd>{x.v}</dd></div>)}</dl>
+          {st.note && <p className="note">{st.note}</p>}
         </section>
       );
     case "cards":
