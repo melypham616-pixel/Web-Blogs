@@ -3,7 +3,13 @@ import { useEffect, useRef } from "react";
 import { SLOTS } from "@/data/slots";
 import { art } from "@/lib/art";
 
-const abs = src => (src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src);
+// Nếu đặt NEXT_PUBLIC_IMAGE_CDN (ví dụ https://res.cloudinary.com/<cloud>/image/upload/f_auto,q_auto,a_exif/di-roi-ke)
+// thì ảnh trong /images/ được lấy từ Cloudinary; không đặt thì dùng ảnh trong thư mục public như trước.
+const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN;
+const abs = src => {
+  const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
+  return CDN && p && p.startsWith("/images/") ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
+};
 
 // Ảnh có dịch/phóng: tính lại kích thước theo tỉ lệ khung (giống cách bản thiết kế cắt ảnh).
 // Khung trên web có thể khác tỉ lệ so với lúc cắt, nên giới hạn độ dịch để ảnh luôn phủ kín khung.
