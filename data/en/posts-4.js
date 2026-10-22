@@ -151,14 +151,30 @@ export const EN_4 = {
     body: [["", "Genting Highlands sits on the Titiwangsa range at almost 2,000 m above sea level. Only about 50 km from Kuala Lumpur, yet temperatures here are usually just 15 to 22 degrees, with clouds covering it almost all year. For KL residents, Genting is a weekend escape from the heat. For me, it was a slow day to feel a very different side of Malaysia."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go up Genting",
+        items: [
+          { k: "My visits", v: "26 October 2024 (afternoon), 3 December 2024 (midday), 1 June 2026 (afternoon to evening); I also stopped at nearby Colmar Tropicale on 6 September 2025" },
+          { k: "Location", v: "Titiwangsa range, Pahang state, about 50 km from Kuala Lumpur" },
+          { k: "Cable car", v: "Awana Skyway links Sky Sentral (the Premium Outlets area), Chin Swee Temple and SkyAvenue on the summit in about 10 minutes, with glass-floor cabins. It has scheduled maintenance closures, when the Genting SkyWay runs instead" },
+          { k: "Temperature", v: "Cool and often cloudy, especially in the late afternoon and evening" },
+          { k: "Ticket and bus prices", v: "Prices are only shown on ticketing platforms and change by date; check the official site or a booking app" },
+        ],
+        note: "Ticket prices, schedules and cable car maintenance dates can change; check before you go.",
+      },
+      {
+        k: "My visits", h: "Genting across the times I went", where: "From 2024 to 2026",
+        quote: "Every time I go up Genting I bring back a bag and a little cold.",
+        t: "I first went up on the afternoon of 26 October 2024, at the shopping area at the foot of the mountain from about one to six in the afternoon. On 3 December 2024 I came back and had a late lunch of a Malaysian spread of many plates: yellow rice, sauced chicken, fried noodles, fried rolls and dipping sauce. On the most recent trip, 1 June 2026, I went to the summit from about three to seven in the evening, strolled through SkyAvenue and watched cloud cover everything white outside the glass.\n\nIf you like shopping, stop at the outlets right at the foot before or after going up; if you prefer going slowly, choose a weekday afternoon.",
+      },
+      {
         k: "Getting there", h: "The road up to the city in the clouds", where: "From Kuala Lumpur · about 1 hour",
-        t: "There are many ways to reach Genting. The cheapest is a bus from TBS or KL Sentral, about 10–15 RM one way, running straight to the Awana cable car station. If you travel in a group of three or more, booking a Grab is more convenient and faster, costing around 70–100 RM depending on the time.\n\nThe winding mountain road passes through deep green tropical forest. If you get carsick easily, sit in the front row and bring some medicated oil. I recommend leaving early in the morning, both to avoid weekend traffic and to have time to take it slowly at the top.",
+        t: "There are many ways to reach Genting. The cheapest is usually a bus from TBS or KL Sentral, running straight to the cable car area; if you travel in a group of three or more, a ride-hailing car is more convenient and faster. Prices change by time and season, so compare before you go.\n\nThe winding mountain road passes through deep green tropical forest. If you get carsick easily, sit in the front row and bring some medicated oil. I recommend leaving early in the morning, both to avoid weekend traffic and to have time to take it slowly at the top.",
         ph: ["The mountain road up to Genting"],
         quote: "The higher we climbed, the more the car windows fogged with mist, and KL's heat seemed to be left behind.",
       },
       {
         k: "Cable car", h: "Flying through the cloud forest", where: "Awana Skyway · 2.8 km",
-        t: "The Awana Skyway is a cable car line about 2.8 km long that takes visitors from the foot of the mountain to SkyAvenue at the top in around 10 minutes. There is a stop halfway at Chin Swee Temple for anyone who wants to visit. A return ticket costs about 20 RM, and there are glass-floor cabins if you want a more thrilling experience.\n\nThe best time is the morning, when the sky is still clear and you can see the primeval forest canopy below. From noon onwards, thick clouds roll in and the scenery turns hazy, like a film. Both are beautiful in their own way, so if you can, try going up in the morning and coming down in the afternoon.",
+        t: "The Awana Skyway is a cable car line about 2.8 km long that takes visitors from the foot of the mountain to SkyAvenue at the top in around 10 minutes. There is a stop halfway at Chin Swee Temple for anyone who wants to visit. Ticket prices depend on the cabin type and date, and there are glass-floor cabins if you want a more thrilling experience.\n\nThe best time is the morning, when the sky is still clear and you can see the primeval forest canopy below. From noon onwards, thick clouds roll in and the scenery turns hazy, like a film. Both are beautiful in their own way, so if you can, try going up in the morning and coming down in the afternoon.",
         ph: ["The Awana Skyway cable car"],
         quote: "There were moments when the cabin hung in a blank white, with no sky and no ground in sight.",
       },
@@ -173,6 +189,11 @@ export const EN_4 = {
         t: "There are lots of food choices at the top, from fast food and hot pot to familiar Malaysian dishes like nasi lemak, mee goreng or a steaming bowl of noodle soup. Prices are a little higher than in KL, so if you want to save, eat in the food court instead of a restaurant.\n\nA few things I learned from the trip: temperatures can drop below 15 degrees in the evening, so remember a jacket; go on a weekday because weekends and holidays are very crowded and the cable car queue can take an hour; and if you want to stay overnight, book early because hotels at the top are often full.",
         quote: "A light jacket may be the most important item in your backpack at Genting.",
       },
+    ],
+    sources: [
+      { t: "Wikipedia: Awana Skyway", u: "https://en.wikipedia.org/wiki/Awana_Skyway" },
+      { t: "Funex: Awana Skyway cable car tickets", u: "https://www.funex.com/tickets/asc-bmg/awana-skyway-cable-car-tickets-formerly-genting-highlands-premium-outlets-cable-car" },
+      { t: "Klook: Genting Highlands Premium Outlets cable car", u: "https://www.klook.com/en-SG/activity/15075-genting-highlands-premium-outlets-cable-car-ticket-genting-highlands/" },
     ],
     closing: "Genting does not have a great many sights, but it gave me the feeling of standing among the clouds, breathing rare tropical cold and leaving the noisy rhythm of the city behind for a while. Sometimes a short trip like that is exactly what I need.\n\nAnd if you love shopping, Genting is one more good reason to visit. Right at the foot of the mountain, Genting Highlands Premium Outlets has many brands such as Coach, Michael Kors, Nike, Adidas and Calvin Klein, with prices often cut by 30 to 70 percent, much kinder than buying in city shopping malls. My small tips: go on a weekday to avoid crowds, stop at the information counter for a tourist discount card, bring your passport because some stores have special offers for foreign visitors, and always compare prices with the official website before deciding. Shop on the way back so you do not have to carry things up the mountain.",
     tip: "Bring a light jacket because it is quite cold at the top, especially in the evening.",
