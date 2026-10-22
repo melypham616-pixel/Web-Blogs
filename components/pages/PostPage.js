@@ -24,12 +24,13 @@ export function postMetadata(lang, id) {
   if (!p) return {};
   const img = shareImage(p);
   const url = postUrl(lang, id);
-  const desc = trimDesc(p.ex);
+  const desc = trimDesc(p.desc || p.ex);
+  const seoTitle = p.seo || p.title;
   return pageMetadata(lang, paths("post", id), {
-    title: p.title,
+    title: seoTitle,
     description: desc,
-    openGraph: { type: "article", title: p.title, description: desc, url, locale: OG_LOCALE[lang], images: img ? [img] : undefined },
-    twitter: { card: img ? "summary_large_image" : "summary", title: p.title, description: desc, images: img ? [img] : undefined },
+    openGraph: { type: "article", title: seoTitle, description: desc, url, locale: OG_LOCALE[lang], images: img ? [img] : undefined },
+    twitter: { card: img ? "summary_large_image" : "summary", title: seoTitle, description: desc, images: img ? [img] : undefined },
   });
 }
 

@@ -1,6 +1,8 @@
 export const EN_5 = {
   "colmar-tropicale": {
     title: "Colmar Tropicale – A French Village in the Malaysian Hills",
+    seo: "Colmar Tropicale: French Village in Malaysia",
+    desc: "Colmar Tropicale in Bukit Tinggi, Pahang: an Alsace-style French village about an hour from Kuala Lumpur, tickets, photo spots, food and an itinerary.",
     ex: "Alsace-style half-timbered houses, a cobbled street and flower gardens at the top of Bukit Tinggi. A corner of Europe only about an hour from Kuala Lumpur.",
     place: "Colmar Tropicale French Village",
     body: [["", "Set at the top of Bukit Tinggi at about 800 m, Colmar Tropicale was built in the image of the town of Colmar in France's Alsace region. The cool air, the surrounding green forest and the pastel-coloured houses made me feel as if I had landed in Europe without boarding a plane."]],
@@ -65,6 +67,8 @@ export const EN_5 = {
 
   "merlion-park": {
     title: "Merlion Park Singapore: An Evening by Marina Bay",
+    seo: "Merlion Park Singapore: Tips and Spectra Show",
+    desc: "Merlion Park Singapore visitor guide: the best time for photos, the free Spectra show at Marina Bay Sands, the Helix bridge, snacks and an evening itinerary.",
     ex: "Tips for visiting Merlion Park in Singapore: when to go, great photo angles with Marina Bay Sands, the free Spectra show and my thoughts by Marina Bay as the lights come on.",
     place: "Merlion Park",
     body: [["", "On my first visit to Singapore I was in no hurry to go far. I just wanted to go to Merlion Park and stand in front of the statue I had seen in countless photos, to find out what it feels like to see it with my own eyes. It turned out that what stayed with me was not the statue, but a whole evening by Marina Bay."]],
@@ -119,6 +123,8 @@ export const EN_5 = {
 
   "gardens-by-the-bay": {
     title: "Gardens by the Bay Singapore: Lost in the Garden of the Future",
+    seo: "Gardens by the Bay Singapore: Visitor Guide",
+    desc: "Gardens by the Bay Singapore visitor guide: the Supertree Grove, the free Garden Rhapsody show, the two domes, tickets, an itinerary and tips.",
     ex: "Tips for visiting Gardens by the Bay: Supertree Grove, Flower Dome, Cloud Forest, the free Garden Rhapsody light show and the feeling of nature reborn in the middle of the city.",
     place: "Gardens by the Bay",
     body: [["", "Some gardens are born from soil, and some are born from an idea. Gardens by the Bay is the second kind: more than 100 hectares of reclaimed land turned into a green world where real trees and steel trees stand side by side. I spent a whole afternoon into the evening here and still felt it was not enough."]],
@@ -168,6 +174,8 @@ export const EN_5 = {
 
   "chinatown-sg": {
     title: "Chinatown Singapore: A Day Along the Chinese Quarter",
+    seo: "Chinatown Singapore: What to See and Eat",
+    desc: "Chinatown Singapore in a day: Buddha Tooth Relic Temple, Sri Mariamman Temple, Pagoda Street, Ann Siang Hill, Maxwell hawker food and an MRT itinerary.",
     ex: "How to explore Singapore's Chinatown by MRT: the Buddha Tooth Relic Temple, Sri Mariamman Temple, Pagoda Street, Ann Siang Hill and Maxwell hawker centre. An everyday, multicultural and very friendly Singapore.",
     place: "Chinatown",
     body: [["", "If Marina Bay is Singapore's modern face, Chinatown is its memory. I got off at Chinatown MRT station one morning, with no map, only a short list of places I wanted to stop. Each stop was like a station on a journey, and each station told a different story about the people who built this island."]],
@@ -231,6 +239,8 @@ export const EN_5 = {
 
   "clarke-quay": {
     title: "Clarke Quay at Night: Strolling the Singapore River as the Lights Come On",
+    seo: "Clarke Quay Singapore at Night: Visitor Guide",
+    desc: "Clarke Quay Singapore at night: a riverside walk, art lamps, the dome area, dinner by the river, an itinerary and tips.",
     ex: "Tips for an evening at Clarke Quay: walking along the Singapore River, watching colour-changing light art poles, glowing canopies and the lively atmosphere of the old port district.",
     place: "Clarke Quay",
     body: [["", "Clarke Quay is an old port area beside the Singapore River, where 19th-century warehouses have become restaurants, bars and entertainment spots. By day it is fairly quiet, but when night falls the whole riverbank lights up with coloured lamps reflected in the water, and that is when Clarke Quay is at its most beautiful."]],

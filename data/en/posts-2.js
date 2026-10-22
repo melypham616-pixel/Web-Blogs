@@ -1,6 +1,8 @@
 export const EN_2 = {
   "nui-ba-den": {
     title: "Ba Den Mountain in Half a Day: Cable Car, Sea of Clouds, the 986 m Summit and the Great Buddha Statue",
+    seo: "Ba Den Mountain by Cable Car: Visitor Guide",
+    desc: "Ba Den Mountain visitor guide: the cable car, a sea of clouds, the 986 m summit marker, the Guanyin statue, a half-day itinerary and tips.",
     ex: "A diary of one morning on Ba Den Mountain in Tay Ninh: the cable car to the summit, a sea of clouds, the 986 m marker, the bronze Guanyin statue and the bonsai gardens, with quick facts, an itinerary and tips.",
     place: "Ba Den Mountain",
     body: [
@@ -55,6 +57,8 @@ export const EN_2 = {
   },
   "con-thoi-son": {
     title: "Thoi Son Islet in 2 Days and 1 Night: Rowing Through Nipa Palms, Orchard Stops and Meals in My Tho",
+    seo: "Thoi Son Islet My Tho: Rowing Boats and Food",
+    desc: "Thoi Son Islet in My Tho for 2 days and 1 night: rowing through nipa canals, orchards, fruit, pho for breakfast, an itinerary and tips.",
     ex: "A diary of a trip: a night in My Tho, a bowl of pho for breakfast, a rowing boat through nipa-palm canals and a fruit plate at an orchard, with quick facts, an itinerary, tips and sources.",
     place: "Thoi Son Islet",
     body: [
@@ -128,6 +132,8 @@ export const EN_2 = {
   },
   "van-mieu": {
     title: "Temple of Literature – Vietnam's First University",
+    seo: "Temple of Literature Hanoi: Tickets, Tips",
+    desc: "Temple of Literature in Hanoi: history, doctoral steles, ticket prices, opening hours, how to get there and tips for a meaningful visit.",
     ex: "Over a thousand years ago a temple to Confucius, and then a school for the royal family, opened in Thang Long. The story of that place is the story of learning in Vietnam.",
     place: "Temple of Literature",
     menu: "Temple of Literature",
@@ -204,6 +210,8 @@ export const EN_2 = {
 
   "ba-vi": {
     title: "Ba Vi in a Day Escape: Mist, Clover, the Uncle Ho Temple and Valley Views from Above",
+    seo: "Ba Vi Day Trip from Hanoi: Visitor Guide",
+    desc: "Ba Vi day trip from Hanoi: the national park, Thuong Temple, the Uncle Ho Temple, valley viewpoints, an itinerary and tips for the mountain.",
     ex: "A diary of my visits to Ba Vi: green forest, valley and lake views from above, clover in the mist and the Uncle Ho Temple, with quick facts, an itinerary, tips and sources.",
     place: "Ba Vi",
     body: [
@@ -262,6 +270,8 @@ export const EN_2 = {
   },
   "lang-van-hoa": {
     title: "The Vietnam Ethnic Villages – A Guide to a Day Through a Miniature Vietnam",
+    seo: "Vietnam Ethnic Culture Village: Visitor Guide",
+    desc: "Vietnam Culture and Tourism Village of Ethnic Groups at Dong Mo, Son Tay: history, stilt houses, gongs, folk games, a day itinerary and tips.",
     ex: "A day wandering among stilt houses, Cham towers and the traditional homes of many peoples, less than two hours from Hanoi.",
     place: "Vietnam Ethnic Villages",
     menu: "Ethnic Villages",
@@ -353,6 +363,8 @@ export const EN_2 = {
 
   "binh-phuoc": {
     title: "Binh Phuoc for a Resort Morning: a Lake, Rock Towers, a Japanese Garden and a Pool in the June Sun",
+    seo: "Binh Phuoc Eco-Resort: Lake, Garden and Pool",
+    desc: "An eco-resort in Binh Phuoc about 3 hours from Ho Chi Minh City: a lake, rock towers, a Japanese-style garden, a pool, an itinerary and tips.",
     ex: "A diary of one morning at an eco-resort in the Binh Phuoc area: a lake walk, a Japanese-style garden, palm-lined paths and a pool with a slide, with quick facts, an itinerary and tips.",
     place: "Binh Phuoc",
     body: [
@@ -404,6 +416,8 @@ export const EN_2 = {
   },
   "vung-tau": {
     title: "Vung Tau as a Day Trip: Banh Khot, Seafood, Back Beach and the Times I Went Back",
+    seo: "Vung Tau Day Trip: What to Eat and Where to Go",
+    desc: "Vung Tau day trip from Saigon: Back Beach, Dau Beach, Dua Beach, banh khot, seafood, an itinerary and tips from several returns.",
     ex: "Several trips to Vung Tau: banh khot and takeaway seafood, strolls along Back Beach, Dau Beach, Dua Beach and the mountain road, with a day-trip itinerary, dishes to try and tips.",
     place: "Vung Tau",
     body: [
@@ -470,6 +484,8 @@ export const EN_2 = {
   },
   "da-lat": {
     title: "Da Lat in 4 Days and 3 Nights: Cloud Hunting, Cafés, Thon 13 and Hot Food in the Cold",
+    seo: "Da Lat in 4 Days: Itinerary, Cafés and Food",
+    desc: "Da Lat travel guide for 4 days and 3 nights: cloud hunting, wooden cafés, Thon 13, Truc Lam Monastery, grilled chicken, the night market and a daily itinerary.",
     ex: "A diary of four days in Da Lat: cloud hunting from 5 am, coffee and tea in wooden cafés, Thon 13, Truc Lam Zen Monastery, grilled chicken with bamboo rice and the night market, with an itinerary and tips.",
     place: "Da Lat in Me",
     menu: "Da Lat",

@@ -1,6 +1,8 @@
 export const EN_6 = {
   "rt-nhua": {
     title: "Travelling With Less Plastic: The Kit I Always Carry and How to Say No Politely",
+    seo: "Travel With Less Plastic: What to Pack",
+    desc: "Travelling with less plastic in Vietnam, Malaysia and Singapore: what to pack, how to refuse bags and straws in the local language and the rules.",
     ex: "A water bottle, a cloth bag, a steel straw, a food container and a few phrases for saying no in the local language: small habits that save me dozens of single-use items every trip in Vietnam, Malaysia and Singapore.",
     place: "Vietnam, Malaysia & Singapore",
     body: [
@@ -45,6 +47,8 @@ export const EN_6 = {
   },
   "rt-sapa": {
     title: "Responsible Trekking in Sa Pa: Hire a Local Guide, Stay in a Homestay and Take Photos Kindly",
+    seo: "Sa Pa Trekking: Hire a Local Guide",
+    desc: "Responsible Sa Pa trekking: hiring a Hmong or Red Dao guide, village homestays, photography etiquette, routes and reference prices.",
     ex: "Walk with a Hmong or Red Dao guide, sleep in a village homestay, ask before photographing and buy brocade directly from the maker. The trip gets deeper, with a route, reference prices and tips.",
     place: "Sa Pa",
     body: [
@@ -93,6 +97,8 @@ export const EN_6 = {
   },
   "rt-voi": {
     title: "Why I Do Not Ride Elephants in the Central Highlands: A Kinder Way to Meet Them for People and Elephants",
+    seo: "Why Not to Ride Elephants in Dak Lak",
+    desc: "Why not to ride elephants in Dak Lak: the state of domestic elephants, the end of rides at Buon Don, elephant-friendly tourism and how to choose a place.",
     ex: "Watch elephants bathe in a stream and walk with them in the forest instead of sitting on their backs. The story of Buon Don, Yok Don, elephant-friendly tourism and how to choose a kinder place.",
     place: "Dak Lak",
     body: [
@@ -137,6 +143,8 @@ export const EN_6 = {
   },
   "rt-den": {
     title: "Respecting Culture in Malaysia's Mosques: Clothing, Timing and Manners",
+    seo: "Visiting Mosques in Malaysia: Etiquette",
+    desc: "Visiting mosques in Malaysia: what to wear, borrowing robes, prayer times and manners at Masjid Negara and Putra Mosque.",
     ex: "Cover shoulders and legs, take off your shoes, avoid prayer times and ask before photographing. What to know before visiting Masjid Negara in Kuala Lumpur and Putra Mosque in Putrajaya.",
     place: "Kuala Lumpur & Putrajaya",
     body: [
@@ -180,6 +188,8 @@ export const EN_6 = {
   },
   "rt-tau": {
     title: "Take the Train Instead of Flying: Routes Worth Trying in Vietnam and Malaysia",
+    seo: "Train Instead of Flying: Malaysia and Vietnam",
+    desc: "Take the train instead of flying: the ETS from Kuala Lumpur to Ipoh and Butterworth in about 2 to 3.5 hours, and the Hue to Da Nang section over Hai Van.",
     ex: "The Reunification Express along Vietnam and the electric ETS in Malaysia. A little slower but gentler on the climate and on me, with travel times, how to book and tips.",
     place: "Vietnam, Malaysia & Singapore",
     body: [

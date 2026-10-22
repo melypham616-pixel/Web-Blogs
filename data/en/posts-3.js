@@ -1,6 +1,8 @@
 export const EN_3 = {
   "kuala-lumpur": {
     title: "Kuala Lumpur for First-Timers",
+    seo: "Kuala Lumpur for First-Timers: Where to Go",
+    desc: "Kuala Lumpur for first-timers: the Petronas Twin Towers, Batu Caves, Bukit Bintang, Jalan Alor, Merdeka Square, Thean Hou Temple, transport and tips.",
     ex: "The Petronas Twin Towers, Batu Caves and the Bukit Bintang district. How to get around, where to stay and what to eat in Malaysia's capital.",
     place: "Kuala Lumpur",
     body: [["", "Kuala Lumpur is a place where skyscrapers stand beside old temples, busy night markets and streets that carry all the colours of Malay, Chinese and Indian culture. The city is easier to get around than you might think, because the metro covers almost all the main sights."]],
@@ -58,6 +60,8 @@ export const EN_3 = {
 
   "penang": {
     title: "A 4-Day Independent Trip to Penang: Dim Sum, Street Art, the Beach and Penang Hill",
+    seo: "Penang in 4 Days: George Town and What to Eat",
+    desc: "Penang travel guide for 4 days: George Town, murals, Chew Jetty, Batu Ferringhi, Penang Hill, Kek Lok Si, dishes to eat and an itinerary.",
     ex: "A four-day diary from Penang: from a morning dim sum basket and George Town murals to Chew Jetty, blood cockles at Batu Ferringhi, Penang Hill and Kek Lok Si temple, with an itinerary and tips.",
     place: "Penang",
     body: [
@@ -143,6 +147,8 @@ export const EN_3 = {
 
   "cameron": {
     title: "Cameron Highlands in 2 Days: BOH Tea Hills, Strawberry Farms, Brinchang and Misty Afternoons",
+    seo: "Cameron Highlands in 2 Days: Tea Hills and Farms",
+    desc: "Cameron Highlands for 2 days and 1 night: the BOH Sungei Palas tea hills, strawberry farms, Brinchang town, food, an itinerary and tips.",
     ex: "A diary of a trip: the BOH Sungei Palas tea hills, strawberry farms, Brinchang town and a breakfast of egg toast, with quick facts, an itinerary, tips and sources.",
     place: "Cameron Highlands",
     body: [

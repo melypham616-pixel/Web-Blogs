@@ -4,6 +4,8 @@
 const POSTS = [
   {id:"ha-giang",c:"vn",place:"Hà Giang",cat:"Cẩm nang",scene:"mount",colors:["#E9DCC6","#D9A35E","#6E8B5A","#34503A"],
    title:"Hà Giang 4 ngày 3 đêm: Thẩm Mã, Lũng Cú, Đồng Văn và sông Nho Quế",
+   seo:"Kinh nghiệm du lịch Hà Giang 4 ngày 3 đêm",
+   desc:"Kinh nghiệm du lịch Hà Giang 4 ngày 3 đêm: dốc Thẩm Mã, Lũng Cú, Đồng Văn, sông Nho Quế, ăn gì và lịch trình chi tiết từng ngày.",
    ex:"Nhật ký hành trình Hà Giang vào mùa đông: dốc Thẩm Mã, cột cờ Lũng Cú, phố cổ Đồng Văn về đêm, sông Nho Quế và Dinh thự họ Vương, kèm lịch trình, món ăn và lời khuyên.",
    body:[["","Hành trình khám phá Hà Giang của mình bắt đầu vào chiều buổi tối, khi mình đến thành phố Hà Giang, nghỉ lại một đêm để chuẩn bị cho chuyến lên Đồng Văn. Hà Giang mang một vẻ đẹp rất riêng, không chỉ có những cung đường quanh co giữa núi đá hùng vĩ mà còn có cuộc sống bình dị của người dân vùng cao, những đứa trẻ với nụ cười trong trẻo và những bản làng nép mình bên sườn núi. Chuyến đi kéo dài đến buổi trưa, ba đêm, và là một trong những chuyến đi mình nhớ nhất."],["Cao nguyên đá Đồng Văn","Phần lớn hành trình nằm trong Cao nguyên đá Đồng Văn, vùng được UNESCO công nhận là Công viên địa chất toàn cầu vào năm 2010 và tái công nhận vào các năm 2014, 2019 và 2023. Đá ở đây không chỉ là cảnh đẹp mà còn là câu chuyện của người dân: họ xếp đá làm tường, làm ruộng bậc thang trên đá, và sống giữa những dãy núi đá tai mèo. Vì vậy cung đường nào cũng khiến mình đi chậm lại để nhìn."]],
    stories:[
@@ -23,6 +25,8 @@ const POSTS = [
    tip:"Đổ xăng đầy mỗi khi gặp cây xăng, vì đoạn từ Đồng Văn đi Mèo Vạc khá ít trạm."},
   {id:"ho-chi-minh",c:"vn",place:"Hồ Chí Minh",cat:"Cẩm nang",scene:"city",colors:["#F3D27A","#E07A3B","#B23A2E","#3B2A3A"],
    title:"Sài Gòn qua những buổi chiều tối: Quận 1, đường sách, ăn vặt và quán quen",
+   seo:"Du lịch Sài Gòn: đi đâu, ăn gì buổi tối",
+   desc:"Du lịch Sài Gòn: Nhà thờ Đức Bà, Bưu điện, phố sách, quán vỉa hè, quán cà phê và lịch trình một ngày ở Quận 1 kèm lời khuyên.",
    ex:"Sài Gòn qua những buổi chiều tối của mình: Nhà thờ Đức Bà, Bưu điện Thành phố, đường sách, quán vỉa hè, lẩu nướng, trà sữa và cà phê, kèm lịch trình một ngày và lời khuyên.",
    body:[["","Sài Gòn đẹp nhất vào sáng sớm khi phố còn mát và buổi tối khi cả thành phố đổ ra đường. Phần lớn ảnh của mình ở Sài Gòn chụp vào khoảng từ năm giờ chiều đến chín giờ tối, trong những buổi mình đi ăn, đi cà phê hoặc dạo quanh sau giờ làm, rải rác qua nhiều năm. Có lẽ vì thế mà với mình, Sài Gòn là một thành phố của chiều tối: nắng dịu lại, đèn bật lên và người ta bắt đầu ra khỏi nhà."],["Một thành phố ăn và ngồi","Điều mình nhớ về Sài Gòn không phải một điểm tham quan nào, mà là chuyện thành phố này luôn có chỗ cho bạn ngồi xuống: một quán cà phê có điều hòa, một chiếc ghế nhựa thấp bên đường, một bàn nướng ở góc quán. Chỉ cần một chiếc xe máy hoặc một đôi giày thoải mái, bạn sẽ thấy thành phố này luôn có điều gì đó để khám phá."]],
    stories:[
@@ -41,6 +45,8 @@ const POSTS = [
    tip:"Sài Gòn ngon nhất vào chiều tối; tránh đi bộ giữa trưa và luôn mang theo nước."},
   {id:"ha-noi",c:"vn",place:"Hà Nội",cat:"Cẩm nang",scene:"lantern",colors:["#EAD9B8","#D99A5B","#8C4A3A","#2F2A33"],
    title:"Hà Nội qua bốn lần ghé: Hồ Gươm, Chùa Một Cột, phố cổ và những món ăn quen",
+   seo:"Du lịch Hà Nội: ăn gì, chơi gì, lịch trình",
+   desc:"Du lịch Hà Nội: Hồ Gươm, Văn Miếu, Chùa Một Cột, phố cổ, món nên ăn như bún đậu, phở, cà phê trứng và lịch trình một ngày ở trung tâm.",
    ex:"Nhật ký bốn lần mình ghé Hà Nội: Hồ Gươm, Văn Miếu, Chùa Một Cột, phố cổ, cà phê bên hồ và những bữa ăn giản dị, kèm lịch trình một ngày và lời khuyên.",
    body:[["","Hà Nội đẹp nhất vào mùa thu, khi trời se lạnh, nắng vàng nhẹ và phố phường thoang thoảng mùi hoa sữa. Mình không ở Hà Nội lâu một lần, mà ghé nhiều lần ngắn: một buổi chiều, hai ngày giữa năm và hai ngày cuối tháng 12. Mỗi lần ghé là một lát cắt khác, và ghép lại mình thấy thành phố này không cần đi vội, chỉ cần đi chậm lại một chút là mỗi góc phố đều mang trong mình một câu chuyện."],["Hà Nội đi bộ được","Khu trung tâm quanh Hồ Gươm, phố cổ, Văn Miếu và Chùa Một Cột đều nằm trong vòng vài cây số, nên mình thường đi bộ và chỉ gọi xe khi trời mưa hoặc mệt. Đi bộ cũng là cách để bắt gặp quán nước vỉa hè, tiệm kem, hàng xôi và quán cà phê nhìn ra hồ."]],
    stories:[
@@ -59,6 +65,8 @@ const POSTS = [
    tip:"Hà Nội ngon nhất ở những quán nhỏ đông người địa phương, nên đi bộ và để ý quán nào đông."},
   {id:"sa-pa",c:"vn",place:"Sa Pa",cat:"Cẩm nang",scene:"mount",colors:["#E4E2D2","#E0B26A","#7C9A63","#3A5B3E"],
    title:"Sa Pa 2 ngày 1 đêm: thị trấn trong sương, Nhà thờ Đá và ruộng bậc thang",
+   seo:"Du lịch Sa Pa 2 ngày 1 đêm: lịch trình, ăn gì",
+   desc:"Du lịch Sa Pa 2 ngày 1 đêm: Nhà thờ Đá, ruộng bậc thang, thị trấn lên đèn, món nên ăn và lịch trình gợi ý từ chuyến đi thật.",
    ex:"Nhật ký hai ngày ở Sa Pa: Nhà thờ Đá lúc sáng và khi lên đèn, những góc check-in trong sương, ruộng bậc thang phủ mây, kèm lịch trình và lời khuyên.",
    body:[["","Sa Pa nằm giữa dãy Hoàng Liên Sơn, quanh năm mát mẻ và thường phủ sương vào buổi sớm. Mình đến đây buổi sáng và ở lại một đêm, chỉ hai ngày thôi, nhưng đủ để thấy thị trấn này đổi sắc theo từng giờ: nắng nhạt buổi sáng, ánh đèn vàng trước Nhà thờ Đá lúc tối và sương trắng phủ kín đồi vào sáng hôm sau. Mỗi mùa ở đây mang một vẻ đẹp riêng, từ mùa lúa chín vàng óng đến những ngày đông lạnh giá, còn mình đến vào đầu đông, khi trời đã se lạnh."],["Một thị trấn đi bộ được","Trung tâm Sa Pa khá nhỏ gọn, từ quảng trường, Nhà thờ Đá, hồ nước đến chợ đêm đều đi bộ được. Điều này khiến mình thích Sa Pa theo cách khác với những nơi phải di chuyển liên tục: mình có thể dừng lại bất cứ lúc nào, ngồi xuống uống một ly nước nóng rồi đi tiếp."]],
    stories:[
@@ -76,6 +84,8 @@ const POSTS = [
    tip:"Mùa lúa chín đẹp nhất vào khoảng tháng 9, nên đặt phòng sớm vì dịp này rất đông khách."},
   {id:"nui-ba-den",c:"vn",place:"Núi Bà Đen",cat:"Cẩm nang",scene:"mount",colors:["#E6E4DA","#D9B36A","#6E8A6A","#2E3F3A"],
    title:"Núi Bà Đen nửa ngày: cáp treo, biển mây, đỉnh 986 m và tượng Phật Bà",
+   seo:"Kinh nghiệm đi Núi Bà Đen bằng cáp treo",
+   desc:"Kinh nghiệm đi Núi Bà Đen Tây Ninh bằng cáp treo: biển mây, cột mốc 986 m, tượng Phật Bà Tây Bổ Đà Sơn, lịch trình nửa ngày và lời khuyên.",
    ex:"Nhật ký một buổi buổi sáng ở Núi Bà Đen, Tây Ninh: đi cáp treo lên đỉnh, ngắm biển mây, cột mốc 986 m, tượng Phật Bà bằng đồng và khu vườn bonsai, kèm thông tin nhanh, lịch trình và lời khuyên.",
    body:[["","Núi Bà Đen ở Tây Ninh là ngọn núi cao nhất Nam Bộ, và cột mốc trên đỉnh ghi rõ độ cao 986 mét. Mình lên núi vào một buổi sáng cuối tuần, chỉ một buổi sáng ngắn, nhưng là buổi sáng mà mình còn nhớ rất rõ: ngồi trong cabin nhìn mây nằm phía dưới chân mình, và đứng trước tượng Phật Bà sừng sững giữa nền trời xanh."],["Một chuyến đi ngắn, mà đủ","Mình không phải người thích leo núi, nên chọn đi cáp treo. Cả buổi chỉ chụp khoảng hai mươi tấm ảnh, vì phần lớn thời gian mình chỉ đứng nhìn. Có những nơi không cần ở lâu, chỉ cần đến đúng giờ và đủ chậm để nhìn."]],
    stories:[
@@ -91,6 +101,8 @@ const POSTS = [
    tip:"Mang theo áo khoác mỏng vì trên đỉnh khá gió, và nên đi ngày thường để tránh đông người."},
   {id:"van-mieu",c:"vn",place:"Văn Miếu – Quốc Tử Giám",menu:"Văn Miếu",cat:"Cẩm nang",scene:"lantern",colors:["#E9D8B5","#D79A55","#9C3B2A","#3D2B25"],
    title:"Văn Miếu – Quốc Tử Giám – Ngôi trường đại học đầu tiên của Việt Nam",
+   seo:"Văn Miếu Quốc Tử Giám: giá vé, kinh nghiệm",
+   desc:"Văn Miếu Quốc Tử Giám Hà Nội: lịch sử, bia tiến sĩ, giá vé, giờ mở cửa, cách đi và kinh nghiệm tham quan để hiểu hết ý nghĩa của nơi này.",
    ex:"Hơn nghìn năm trước, một ngôi miếu thờ Khổng Tử rồi một trường học dành cho con em hoàng tộc đã mở ra ở Thăng Long. Câu chuyện của nơi ấy là câu chuyện của việc học ở Việt Nam.",
    body:[["","Đi giữa những lối gạch dưới tán cây cổ thụ ở Văn Miếu – Quốc Tử Giám, mình cứ nghĩ về những người đã bước qua đây từ rất lâu trước: học trò đi thi, quan viên đến lễ, và những sĩ tử mong một lần được khắc tên lên bia đá. Bài này không kể lịch trình, mà đi qua lịch sử Việt Nam từ thời Lý đến nay thông qua chính nơi này: mỗi triều đại để lại một dấu ấn ở đây."]],
    stories:[
@@ -110,6 +122,8 @@ const POSTS = [
    tip:"Nên đi vào buổi sáng ngày thường để yên tĩnh, ăn mặc kín đáo và hỏi giờ mở cửa trước khi đi."},
   {id:"ba-vi",c:"vn",place:"Ba Vì",cat:"Cẩm nang",scene:"forest",colors:["#DDE8D6","#9DBF8A","#4C7F5B","#1F4A3B"],
    title:"Ba Vì một ngày trốn lên núi: sương mù, cỏ ba lá, đền Bác Hồ và thung lũng nhìn từ trên cao",
+   seo:"Kinh nghiệm đi Ba Vì 1 ngày từ Hà Nội",
+   desc:"Kinh nghiệm đi Ba Vì 1 ngày từ Hà Nội: vườn quốc gia, đền Thượng, đền Bác Hồ, điểm ngắm thung lũng, lịch trình và lời khuyên khi lên núi.",
    ex:"Nhật ký những lần mình lên Ba Vì: rừng xanh, thung lũng và hồ nhìn từ trên cao, cỏ ba lá trong sương, đền Bác Hồ, kèm thông tin nhanh, lịch trình, lời khuyên và nguồn.",
    body:[["","Ba Vì là dãy núi ở phía tây Hà Nội, nổi tiếng với rừng xanh, không khí mát và những điểm nhìn xuống thung lũng, hồ nước bên dưới. Mình lên đây ba lần, một buổi chiều, một buổi trưa và một buổi sáng, mỗi lần một dáng vẻ khác: có hôm trong vắt nhìn được cả thung lũng, có hôm sương phủ trắng đến mức chỉ thấy vài mét phía trước. Bài này là những gì mình thấy và những gì mình học được."],["Đi núi gần thành phố","Mình thích Ba Vì vì chỉ cần nửa ngày là đã khác hẳn Hà Nội: mát hơn, yên hơn và nhiều màu xanh hơn. Không cần chuẩn bị nhiều, chỉ cần một chiếc áo khoác mỏng và đôi giày dễ đi."]],
    stories:[
@@ -125,6 +139,8 @@ const POSTS = [
    tip:"Đi sớm, mang áo khoác mỏng và kiểm tra thời tiết trước khi lên núi."},
   {id:"lang-van-hoa",c:"vn",place:"Làng Văn hóa 54 dân tộc",menu:"Làng Văn hóa",cat:"Cẩm nang",scene:"forest",colors:["#F3DCC0","#D98E5B","#8C4A2F","#3E5B3A"],
    title:"Làng Văn hóa 54 dân tộc – Cẩm nang một ngày đi qua cả Việt Nam thu nhỏ",
+   seo:"Làng Văn hóa các dân tộc Việt Nam: kinh nghiệm",
+   desc:"Làng Văn hóa các dân tộc Việt Nam ở Đồng Mô, Sơn Tây: lịch sử, nhà sàn, cồng chiêng, trò chơi dân gian, lịch trình một ngày và lời khuyên.",
    ex:"Một ngày dạo giữa nhà sàn, tháp Chăm và những ngôi nhà truyền thống của nhiều dân tộc, cách Hà Nội chưa đầy hai giờ xe.",
    body:[["","Làng Văn hóa – Du lịch các dân tộc Việt Nam nằm ở Đồng Mô, Sơn Tây, phía tây Hà Nội, nơi tái hiện không gian sống và kiến trúc của nhiều dân tộc trên cả nước. Từ trung tâm Hà Nội đi khoảng một tiếng rưỡi là tới, hợp cho một chuyến đi trong ngày. Bài này mình ghi lại những gì cần biết để đi vừa sức và xem được nhiều nhất."]],
    stories:[
@@ -144,6 +160,8 @@ const POSTS = [
    tip:"Đi sớm, mang mũ nước và chọn trước vài khu muốn xem."},
   {id:"binh-phuoc",c:"vn",place:"Bình Phước",cat:"Cẩm nang",scene:"forest",colors:["#DDEBD2","#A8C98A","#4F8F5C","#2B5A45"],
    title:"Bình Phước một buổi sáng nghỉ dưỡng: hồ nước, khối đá như tháp cổ, vườn Nhật và hồ bơi giữa nắng tháng 6",
+   seo:"Nghỉ dưỡng Bình Phước: hồ, vườn Nhật, hồ bơi",
+   desc:"Khu nghỉ dưỡng sinh thái ở Bình Phước cách TP.HCM khoảng 3 giờ xe: hồ nước, khối đá như tháp cổ, vườn kiểu Nhật, hồ bơi, lịch trình và lời khuyên.",
    ex:"Nhật ký buổi buổi sáng ở một khu nghỉ dưỡng sinh thái vùng Bình Phước: dạo hồ, vườn kiểu Nhật, lối đi dưới hàng cọ và hồ bơi có cầu trượt, kèm thông tin nhanh, lịch trình, lời khuyên.",
    body:[["","Bình Phước nằm ở phía bắc TP.HCM, cách khoảng ba tiếng đi xe. Theo địa danh hành chính hiện nay, khu mình đến thuộc phường Tân Khai, tỉnh Đồng Nai sau đợt sáp nhập năm 2025. Mình ghé một khu nghỉ dưỡng sinh thái vào buổi sáng, từ khoảng chín giờ đến gần trưa, và chụp hơn ba trăm tấm ảnh chỉ trong ba tiếng đó, vì chỗ nào trong khu cũng đủ ánh sáng và màu xanh để dừng lại chụp."],["Một buổi sáng chậm","Không có gì cầu kỳ, chỉ là một buổi sáng chậm lại giữa cây xanh, nắng tháng 6 chói chang và những lối đi dưới hàng cọ. Mình nhớ cảm giác vừa đi vừa ngước nhìn những khối đá dựng như tháp cổ soi bóng xuống mặt hồ xanh."]],
    stories:[
@@ -157,6 +175,8 @@ const POSTS = [
    tip:"Đi sớm, mang mũ, kem chống nắng và đồ bơi."},
   {id:"vung-tau",c:"vn",place:"Vũng Tàu",cat:"Biển",scene:"sea",colors:["#DDEFF0","#F4CF7A","#3FA0A0","#1A5A62"],
    title:"Vũng Tàu đi về trong ngày: bánh khọt, hải sản, Bãi Sau và những lần mình quay lại",
+   seo:"Du lịch Vũng Tàu 1 ngày: ăn gì, đi đâu",
+   desc:"Du lịch Vũng Tàu đi về trong ngày từ Sài Gòn: Bãi Sau, Bãi Dâu, Bãi Dứa, bánh khọt, hải sản, lịch trình, lời khuyên và những lần mình quay lại.",
    ex:"Nhiều lần mình đến Vũng Tàu: ăn bánh khọt và hải sản mang về, dạo Bãi Sau, Bãi Dâu, Bãi Dứa và đường ven núi, kèm lịch trình đi về trong ngày, món nên thử và lời khuyên.",
    body:[["","Vũng Tàu chỉ cách Sài Gòn khoảng hai giờ xe, và từ 1/7/2025 nơi này đã thuộc TP.HCM sau đợt sáp nhập hành chính. Mình đến đây nhiều lần, mỗi lần chỉ một hai ngày. Có hôm mình chỉ ra ăn bánh khọt rồi ngồi nhìn sóng, có hôm đi dọc đường ven núi đến tận Bãi Dâu."],["Gần mà vẫn đáng đi","Điều mình thích nhất ở Vũng Tàu là nó gần đến mức không cần chuẩn bị nhiều. Một chiếc áo mỏng, đôi dép đi biển và một buổi sáng thức dậy sớm là đủ cho cả ngày. Bài này mình ghi lại những gì cần biết, theo đúng những gì mình đã làm."]],
    stories:[
@@ -173,6 +193,8 @@ const POSTS = [
    tip:"Nên đi ngày thường hoặc xuất phát sớm để tránh đông và kẹt xe."},
   {id:"con-thoi-son",c:"vn",place:"Cồn Thới Sơn",cat:"Cẩm nang",scene:"forest",colors:["#DCE9D2","#B9D08A","#4F8F5C","#23503F"],
    title:"Cồn Thới Sơn 2 ngày 1 đêm: chèo xuồng dừa nước, nhà vườn và những bữa ăn ở Mỹ Tho",
+   seo:"Cồn Thới Sơn Mỹ Tho: chèo xuồng, ăn gì",
+   desc:"Cồn Thới Sơn Mỹ Tho 2 ngày 1 đêm: chèo xuồng rạch dừa nước, nhà vườn, trái cây, phở sáng, lịch trình và lời khuyên cho chuyến miền Tây.",
    ex:"Nhật ký chuyến đi: một đêm ở Mỹ Tho, tô phở bữa sáng, chèo xuồng giữa rạch dừa nước, đĩa trái cây nhà vườn, kèm thông tin nhanh, lịch trình, lời khuyên và nguồn tham khảo.",
    body:[["","Cồn Thới Sơn là cù lao nằm giữa sông Tiền, nhánh Mỹ Tho, nay thuộc phường Thới Sơn, tỉnh Đồng Tháp sau đợt sáp nhập hành chính năm 2025 (trước đó thuộc Tiền Giang). Mình đi hai ngày một đêm: buổi chiều đến Mỹ Tho, ăn tối, nghỉ lại, buổi sáng ra cồn từ khoảng tám giờ và về lại thành phố trước trưa. Mình chụp hơn một trăm năm mươi tấm ảnh trong hai ngày, nhiều nhất là những chiếc xuồng nối đuôi nhau trong rạch."],["Một chuyến đi chậm","Mình thích Cồn Thới Sơn vì chỗ nào cũng chậm. Tiếng chèo khua nhẹ, tàu lá dừa nước chụm lại che gần hết bầu trời, mọi người ngồi trên xuồng không vội đi đâu. Nó là điểm dừng của một buổi sáng, chứ không phải một nơi để chạy đua cho đủ điểm."]],
    stories:[
@@ -190,6 +212,8 @@ const POSTS = [
    tip:"Đi sớm, đặt giá trọn gói rõ ràng và về trước giờ tan tầm để tránh kẹt xe."},
   {id:"da-lat",c:"vn",place:"Đà Lạt trong tôi",menu:"Đà Lạt",cat:"Ăn gì",scene:"pine",colors:["#C9D7E6","#93A8C4","#4F6E6B","#2C4A44"],
    title:"Đà Lạt 4 ngày 3 đêm: săn mây, cà phê, Thôn 13 và những món ăn nóng giữa trời lạnh",
+   seo:"Du lịch Đà Lạt 4 ngày 3 đêm: lịch trình, ăn gì",
+   desc:"Du lịch Đà Lạt 4 ngày 3 đêm: săn mây, quán cà phê gỗ, Thôn 13, Thiền viện Trúc Lâm, gà nướng cơm lam, chợ đêm và lịch trình từng ngày.",
    ex:"Nhật ký bốn ngày ở Đà Lạt: săn mây từ 5 giờ sáng, cà phê và trà trong quán gỗ, Thôn 13, Thiền viện Trúc Lâm, gà nướng cơm lam và chợ đêm, kèm lịch trình, chi phí gợi ý và lời khuyên.",
    body:[["","Đà Lạt nằm ở độ cao khoảng 1.500 mét trên cao nguyên Lâm Viên, nên quanh năm mát mẻ, và mình luôn thấy ở đây có một nhịp sống chậm hơn phần còn lại của đất nước. Mình đến Đà Lạt từ buổi sáng và ở lại đến buổi trưa, bốn ngày ba đêm, với hơn năm trăm tấm ảnh, đa số là cà phê, đồ ăn và những con dốc. Trước đó mình cũng đã ghé hai lần, nên lần này giống như về lại một nơi quen, đi chậm và ăn thật nhiều."],["Một thành phố của quán nhỏ","Điều khiến mình thích Đà Lạt là cách thành phố này tổ chức quanh những quán nhỏ: quán cà phê trên sườn đồi, quán gà nướng bên đường, xe đồ ăn ở chợ đêm. Mỗi ngày mình đều có một buổi ngồi lâu ở quán cà phê nhìn ra đồi, và đó là phần mình nhớ nhất."]],
    stories:[
@@ -212,6 +236,8 @@ const POSTS = [
    tip:"Chợ đêm đông nhất từ 19h đến 21h, nên đi sớm hơn để dễ tìm chỗ ngồi."},
   {id:"kuala-lumpur",c:"my",place:"Kuala Lumpur",cat:"Cẩm nang",scene:"city",colors:["#F2B57A","#D9775B","#4C7C8C","#22394A"],
    title:"Kuala Lumpur cho người lần đầu",
+   seo:"Du lịch Kuala Lumpur lần đầu: nên đi đâu",
+   desc:"Du lịch Kuala Lumpur lần đầu: tháp đôi Petronas, động Batu, Bukit Bintang, Jalan Alor, Merdeka, chùa Thiên Hậu, cách di chuyển và lời khuyên.",
    ex:"Tháp đôi Petronas, động Batu và khu phố Bukit Bintang. Cách di chuyển, ở đâu và ăn gì ở thủ đô Malaysia.",
    body:[["","Kuala Lumpur là nơi những toà nhà chọc trời đứng cạnh đền chùa cổ, khu chợ đêm nhộn nhịp và những con phố mang đủ sắc màu Mã Lai, Hoa, Ấn. Thành phố dễ đi hơn bạn nghĩ, vì tàu điện phủ gần hết các điểm tham quan chính."]],
    stories:[
@@ -228,6 +254,8 @@ const POSTS = [
    tip:"Mua thẻ Touch 'n Go để đi tàu và xe buýt cho tiện."},
   {id:"penang",c:"my",place:"Penang",cat:"Ăn gì",scene:"sea",colors:["#F7D8A0","#F0A35E","#3E9C9A","#1E5B66"],
    title:"Du lịch Penang tự túc 4 ngày: dimsum, tranh tường, biển và Penang Hill",
+   seo:"Du lịch Penang 4 ngày: George Town, ăn gì",
+   desc:"Du lịch Penang 4 ngày 4 đêm: phố cổ George Town, tranh tường, Chew Jetty, Batu Ferringhi, Penang Hill, Kek Lok Si, món nên ăn và lịch trình.",
    ex:"Nhật ký bốn ngày ở Penang: từ xửng dimsum buổi sáng, tranh tường George Town, Chew Jetty đến sò huyết ở Batu Ferringhi, Penang Hill và chùa Kek Lok Si, kèm lịch trình và lời khuyên.",
    body:[["","Có những thành phố mình đến để ngắm, và có những thành phố mình đến để sống chậm lại. Penang với mình là kiểu thứ hai. Mình đến đây vào buổi sáng, ở lại bốn đêm và rời đi vào buổi sáng, với một chiếc ba lô nhỏ, đôi giày đi bộ và một cái bụng thật đói. Mình đã sống ở Malaysia một thời gian, nhưng đây là lần đầu mình dành trọn gần một tuần cho riêng hòn đảo này, và nó khiến mình nhớ vì cách thành phố này đi chậm hơn mình tưởng."],["Vì sao Penang đáng đi","George Town, thủ phủ của đảo Penang, cùng với Melaka được UNESCO công nhận là Di sản Thế giới năm 2008. Thành phố giữ nguyên những dãy nhà phố cổ kiểu Hoa, những ngôi chùa, nhà thờ Hồi giáo và khu phố Ấn nằm sát cạnh nhau. Điều mình thích là mọi thứ đều đi bộ được: một buổi sáng có thể ăn dimsum trong tiệm người Hoa, đi qua một con hẻm treo ô nhiều màu, rồi ghé quán chè của người Ấn mà không cần gọi xe lần nào."]],
    stories:[
@@ -248,6 +276,8 @@ const POSTS = [
    tip:"Nhiều xe hàng chỉ bán buổi tối, nên lên lịch ăn theo giờ mở cửa."},
   {id:"cameron",c:"my",place:"Cameron Highlands",cat:"Cẩm nang",scene:"tea",colors:["#DDE7D3","#B9CF8F","#6F9A4E","#2F5A35"],
    title:"Cameron Highlands 2 ngày: đồi chè BOH, vườn dâu, phố Brinchang và những buổi chiều sương",
+   seo:"Cameron Highlands 2 ngày: đồi chè, vườn dâu",
+   desc:"Du lịch Cameron Highlands 2 ngày 1 đêm: đồi chè BOH Sungei Palas, vườn dâu tây, thị trấn Brinchang, món đã ăn, lịch trình và lời khuyên.",
    ex:"Nhật ký chuyến đi: đồi chè BOH Sungei Palas, vườn dâu tây, thị trấn Brinchang và bữa sáng bánh mì nướng trứng, kèm thông tin nhanh, lịch trình, lời khuyên và nguồn.",
    body:[["","Cameron Highlands cách Kuala Lumpur khoảng ba đến bốn giờ xe, là nơi người Malaysia lên trốn cái nóng của thành phố. Mình đến đây vào một buổi chiều cuối tuần và ở lại đến trưa hôm sau, chỉ hai ngày thôi nhưng đủ để thấy vì sao nơi này được yêu đến vậy: càng lên cao không khí càng mát, đồi chè xanh mướt trải dài theo sườn núi và sương phủ nhẹ trên từng con dốc."],["Một chuyến đi vừa sức","Mình chọn đi theo kiểu chậm: chiều ngắm đồi chè và hái dâu, sáng hôm sau dạo thị trấn Brinchang và ăn sáng. Mình chưa kịp lên Rừng rêu Mossy Forest, nên bài này chỉ ghi lại những nơi mình đã thật sự đến."]],
    stories:[
@@ -264,6 +294,8 @@ const POSTS = [
    tip:"Đến đồi chè vào buổi sáng hoặc cuối chiều để có ánh sáng đẹp và ít người."},
   {id:"ipoh",c:"my",place:"Ipoh",cat:"Ăn gì",scene:"lantern",colors:["#F3DDB5","#DE9A5A","#8C5A3C","#3A2A28"],
    title:"Ipoh 2 ngày 1 đêm: phố cổ, white coffee, sầu riêng buổi tối và những ngôi chùa trong hang đá",
+   seo:"Du lịch Ipoh 2 ngày: phố cổ, white coffee",
+   desc:"Du lịch Ipoh 2 ngày 1 đêm: phố cổ và Concubine Lane, white coffee, dim sum, sầu riêng, Tasik Cermin, chùa hang Gunung Rapat và lịch trình.",
    ex:"Nhật ký những lần mình đến Ipoh: phố cổ tranh tường, dim sum và white coffee, sầu riêng ở sạp ven đường, Tasik Cermin và chùa hang ở Gunung Rapat, kèm lịch trình, món đã ăn, lời khuyên và nguồn.",
    body:[["","Ipoh nằm giữa Kuala Lumpur và Penang, là thành phố cũ từng giàu lên nhờ mỏ thiếc. Mình đến đây hai lần: một chuyến hai ngày một đêm và một ngày dài. Cả hai lần mình đều làm cùng một việc, ăn thật nhiều và đi thật chậm, và Ipoh chưa bao giờ làm mình thất vọng."],["Thành phố để đi chậm","Ipoh không ồn ào như Kuala Lumpur, cũng không nổi tiếng như Penang, nhưng lại có một sự dễ chịu rất riêng. Phố cổ yên ả, đồ ăn ngon khó cưỡng, và ngoại ô có những dãy núi đá vôi giấu chùa hang và hồ nước."]],
    stories:[
@@ -282,6 +314,8 @@ const POSTS = [
    tip:"Đi tàu ETS từ KL chỉ khoảng hai tiếng rưỡi, rất tiện cho chuyến đi ngắn ngày."},
   {id:"pangkor",c:"my",place:"Pangkor",cat:"Biển",scene:"sea",colors:["#DDEFF0","#F4CF7A","#3FA0A0","#1A5A62"],
    title:"Đảo Pangkor Malaysia: những ngày sống chậm bên vịnh biển",
+   seo:"Đảo Pangkor Malaysia: biển, ăn gì, lịch trình",
+   desc:"Du lịch đảo Pangkor Malaysia: phà từ Lumut, biển Teluk Nipah, hoàng hôn Coral Beach, thánh đường nổi Al-Badr, món đã ăn và lịch trình 2 đêm.",
    ex:"Kinh nghiệm du lịch đảo Pangkor Malaysia: tắm biển Teluk Nipah, hoàng hôn Coral Beach, thánh đường nổi Al-Badr và những buổi chiều cho chim mỏ sừng ăn giữa con phố hoa giấy.",
    body:[["","Có những chuyến đi mình lên kế hoạch thật kỹ, và có những chuyến đi chỉ bắt đầu từ một câu nói: đi đâu đó có biển đi. Pangkor đến với mình như thế. Hòn đảo nhỏ ngoài khơi bang Perak không nổi tiếng như Langkawi hay Tioman, không có resort xa hoa hay phố đi bộ sầm uất, nhưng chính sự bình dị ấy lại khiến mình thương nó theo một cách rất riêng."]],
    stories:[
@@ -299,6 +333,8 @@ const POSTS = [
    tip:"Đi phà từ Lumut khoảng 30–40 phút, nên thuê xe máy để đi vòng quanh đảo."},
   {id:"genting",c:"my",place:"Genting Highlands",cat:"Cẩm nang",scene:"mount",colors:["#E0E6EE","#A9B8CC","#5C6F8C","#2A344A"],
    title:"Genting Highlands: thành phố trên mây",
+   seo:"Kinh nghiệm đi Genting Highlands từ KL",
+   desc:"Kinh nghiệm đi Genting Highlands từ Kuala Lumpur: cáp treo Awana Skyway, SkyAvenue, khu outlet, ăn gì, đi xe nào và những điều nên biết.",
    ex:"Cáp treo xuyên rừng mây, khu vui chơi trên đỉnh núi và không khí mát lạnh chỉ cách KL một giờ xe.",
    body:[["","Genting Highlands nằm trên dãy Titiwangsa, ở độ cao gần 2.000 m so với mực nước biển. Chỉ cách Kuala Lumpur khoảng 50 km nhưng nhiệt độ ở đây thường chỉ từ 15 đến 22 độ, mây gần như phủ quanh năm. Với người dân KL, Genting là nơi trốn nóng cuối tuần; còn với mình, đó là một ngày đi chậm để cảm nhận một Malaysia rất khác."]],
    stories:[
@@ -314,6 +350,8 @@ const POSTS = [
    tip:"Mang theo áo khoác mỏng vì trên đỉnh trời khá lạnh, nhất là buổi tối."},
   {id:"malacca",c:"my",place:"Malacca",cat:"Cẩm nang",scene:"lantern",colors:["#F4DCCB","#D9785A","#9C3B2E","#3A2A28"],
    title:"Malacca – Thành phố cổ bên dòng sông",
+   seo:"Du lịch Malacca 1 ngày: phố cổ, Jonker",
+   desc:"Du lịch Malacca 1 ngày: Dutch Square, phố Jonker, tranh tường, bờ sông Malacca, lịch trình đi bộ và lời khuyên cho chuyến đi từ Kuala Lumpur.",
    ex:"Quảng trường Hà Lan đỏ rực, phố Jonker với những bức tranh tường và dòng sông chảy qua những dãy nhà sặc sỡ. Một Malacca đầy màu sắc và lịch sử.",
    body:[["","Malacca từng là thương cảng sầm uất bậc nhất Đông Nam Á, nơi in dấu người Bồ Đào Nha, Hà Lan và Anh qua nhiều thế kỷ. Ngày nay, thành phố được UNESCO công nhận là di sản thế giới, nhỏ nhắn, dễ đi bộ và đầy màu sắc."]],
    stories:[
@@ -331,6 +369,8 @@ const POSTS = [
    tip:"Chợ đêm Jonker chỉ họp tối thứ 6 đến chủ nhật, nên sắp xếp lịch để kịp ghé."},
   {id:"colmar-tropicale",c:"my",place:"Làng Pháp Colmar Tropicale",cat:"Cẩm nang",scene:"mount",colors:["#EFE6D8","#D8A46A","#7A8C5A","#3A3A2E"],
    title:"Colmar Tropicale – Ngôi làng Pháp giữa núi rừng Malaysia",
+   seo:"Colmar Tropicale: làng Pháp ở Malaysia",
+   desc:"Colmar Tropicale ở Bukit Tinggi, Pahang: làng Pháp kiểu Alsace cách Kuala Lumpur khoảng 1 giờ, vé vào cổng, góc chụp ảnh, ăn gì và lịch trình.",
    ex:"Những ngôi nhà gỗ khung đan kiểu Alsace, con phố lát đá và vườn hoa trên đỉnh Bukit Tinggi. Một góc châu Âu chỉ cách Kuala Lumpur khoảng một giờ xe.",
    body:[["","Nằm trên đỉnh Bukit Tinggi ở độ cao khoảng 800 m, Colmar Tropicale được xây dựng theo hình mẫu thị trấn Colmar ở vùng Alsace nước Pháp. Không khí mát mẻ, rừng xanh bao quanh và những ngôi nhà màu pastel khiến mình có cảm giác như vừa lạc sang châu Âu mà không cần lên máy bay."]],
    stories:[
@@ -348,6 +388,8 @@ const POSTS = [
    tip:"Nên đi ngày thường để tránh đông, và mang theo áo khoác mỏng vì trên đỉnh khá mát."},
   {id:"merlion-park",c:"sg",place:"Merlion Park",cat:"Cẩm nang",scene:"city",colors:["#F4D9B8","#E79A6B","#4F7FA0","#1F3348"],
    title:"Merlion Park Singapore: một tối bên vịnh Marina",
+   seo:"Merlion Park Singapore: kinh nghiệm, xem Spectra",
+   desc:"Kinh nghiệm đi Merlion Park Singapore: giờ đẹp để chụp ảnh, xem Spectra miễn phí ở Marina Bay Sands, cầu Helix, món ăn nhẹ và lịch trình buổi tối.",
    ex:"Kinh nghiệm tham quan Merlion Park Singapore: nên đến lúc nào, góc chụp đẹp với Marina Bay Sands, xem show Spectra miễn phí và những suy nghĩ của mình bên vịnh Marina lúc lên đèn.",
    body:[["","Lần đầu đến Singapore, mình không vội đi đâu xa. Mình chỉ muốn ra Merlion Park, đứng trước bức tượng mà mình đã thấy trong không biết bao nhiêu tấm ảnh, để xem cảm giác khi tận mắt nhìn thấy nó sẽ thế nào. Hoá ra, điều đọng lại không phải là bức tượng, mà là cả một buổi tối bên vịnh Marina."]],
    stories:[
@@ -363,6 +405,8 @@ const POSTS = [
    tip:"Đi MRT đến ga Raffles Place, đi bộ khoảng 5 phút."},
   {id:"gardens-by-the-bay",c:"sg",place:"Gardens by the Bay",cat:"Cẩm nang",scene:"forest",colors:["#DDE8C8","#8DB87A","#3F7A6A","#1E3340"],
    title:"Gardens by the Bay Singapore: lạc giữa khu vườn của tương lai",
+   seo:"Gardens by the Bay Singapore: kinh nghiệm",
+   desc:"Kinh nghiệm đi Gardens by the Bay Singapore: Supertree Grove, show Garden Rhapsody miễn phí lúc 19h45, hai mái vòm, vé, lịch trình và lời khuyên.",
    ex:"Kinh nghiệm tham quan Gardens by the Bay: Supertree Grove, Flower Dome, Cloud Forest, show ánh sáng Garden Rhapsody miễn phí và cảm giác thiên nhiên được tái sinh giữa lòng thành phố.",
    body:[["","Có những khu vườn được sinh ra từ đất, và có những khu vườn được sinh ra từ một ý tưởng. Gardens by the Bay là kiểu thứ hai: hơn 100 ha đất lấn biển được biến thành một thế giới xanh, nơi cây thật và cây thép cùng đứng cạnh nhau. Mình dành cả một buổi chiều đến tối ở đây và vẫn thấy chưa đủ."]],
    stories:[
@@ -377,6 +421,8 @@ const POSTS = [
    tip:"Khu vườn ngoài trời miễn phí; chỉ hai mái vòm và OCBC Skyway cần mua vé."},
   {id:"chinatown-sg",c:"sg",place:"Chinatown",cat:"Cẩm nang",scene:"lantern",colors:["#F3D6B0","#E08A4E","#B0443A","#3A2830"],
    title:"Chinatown Singapore: một ngày đi dọc phố người Hoa",
+   seo:"Chinatown Singapore: đi đâu, ăn gì",
+   desc:"Chinatown Singapore trong một ngày: chùa Răng Phật, đền Sri Mariamman, phố Pagoda, Ann Siang Hill, hawker Maxwell, món nên ăn và lịch trình bằng MRT.",
    ex:"Kinh nghiệm khám phá Chinatown Singapore bằng MRT: chùa Răng Phật, đền Sri Mariamman, phố Pagoda, Ann Siang Hill và hawker Maxwell. Một Singapore đời thường, đa văn hoá và rất gần gũi.",
    body:[["","Nếu Marina Bay là gương mặt hiện đại của Singapore, thì Chinatown là ký ức. Mình xuống ga MRT Chinatown vào một buổi sáng, không có bản đồ, chỉ có một danh sách nhỏ những nơi muốn ghé. Mỗi điểm dừng như một ga tàu trên hành trình, và mỗi ga lại kể một câu chuyện khác nhau về những con người đã làm nên hòn đảo này."]],
    stories:[
@@ -392,6 +438,8 @@ const POSTS = [
    tip:"Xuống ga MRT Chinatown, lối ra A dẫn thẳng vào phố Pagoda."},
   {id:"clarke-quay",c:"sg",place:"Clarke Quay",cat:"Cẩm nang",scene:"city",colors:["#1E2A44","#F2C14E","#3D5A80","#0F1A2A"],
    title:"Clarke Quay về đêm: dạo bờ sông Singapore khi phố lên đèn",
+   seo:"Clarke Quay Singapore về đêm: kinh nghiệm",
+   desc:"Kinh nghiệm đi Clarke Quay Singapore về đêm: dạo bờ sông, cột đèn nghệ thuật, khu mái vòm, ăn tối bên sông, lịch trình và lời khuyên.",
    ex:"Kinh nghiệm dạo Clarke Quay buổi tối: đi bộ dọc sông Singapore, ngắm những cột đèn nghệ thuật đổi màu, mái vòm rực sáng và không khí náo nhiệt của khu bến cảng cũ.",
    body:[["","Clarke Quay là khu bến cảng cũ bên sông Singapore, nơi những dãy nhà kho từ thế kỷ 19 nay đã thành nhà hàng, quán bar và khu vui chơi. Ban ngày nơi này khá yên, nhưng khi trời tối, cả bờ sông bừng sáng với đèn màu phản chiếu xuống mặt nước, và đó là lúc Clarke Quay đẹp nhất."]],
    stories:[
@@ -409,6 +457,8 @@ const POSTS = [
 const GUIDES = [
   {id:"rt-nhua",c:"all",place:"Việt Nam, Malaysia & Singapore",cat:"Sống xanh",scene:"sea",colors:["#E3EEF0","#F2C46B","#5FA3A8","#2C5E66"],
    title:"Đi du lịch ít rác nhựa hơn: bộ đồ mình luôn mang theo và cách từ chối nhẹ nhàng",
+   seo:"Du lịch ít rác nhựa: bộ đồ nên mang theo",
+   desc:"Du lịch ít rác nhựa ở Việt Nam, Malaysia và Singapore: bộ đồ nên mang, cách từ chối túi nilon, ống hút bằng tiếng địa phương và quy định liên quan.",
    ex:"Bình nước, túi vải, ống hút inox, hộp đựng đồ ăn và vài câu từ chối bằng tiếng địa phương: những thói quen nhỏ giúp mình bớt hàng chục món nhựa dùng một lần sau mỗi chuyến đi ở Việt Nam, Malaysia và Singapore.",
    body:[["","Ở cả Việt Nam lẫn Malaysia, đồ ăn mang đi thường được gói bằng túi nilon và hộp xốp, và nước uống bán sẵn gần như luôn kèm ly nhựa, ống hút. Sau nhiều chuyến đi, mình nhận ra phần rác nhựa của một chuyến du lịch không nằm ở những thứ lớn, mà ở hàng chục thứ rất nhỏ, mỗi thứ chỉ dùng vài phút. Mang sẵn đồ của mình là cách dễ nhất để từ chối nhẹ nhàng mà không cần giải thích nhiều."],["Không phải để hoàn hảo","Mình không cố làm hoàn hảo. Có những ngày mình vẫn nhận một túi nilon vì đồ nóng hoặc vì quên mang đồ. Mục tiêu của mình đơn giản hơn: mỗi chuyến đi bớt đi một ít, và giữ cho thói quen đó đủ nhẹ để duy trì."]],
    stories:[
@@ -421,6 +471,8 @@ const GUIDES = [
    tip:"Học sẵn câu 'không cần túi' bằng tiếng địa phương: ở Malaysia là 'tak payah plastik'."},
   {id:"rt-sapa",c:"vn",place:"Sa Pa",cat:"Trekking",scene:"mount",colors:["#E4E2D2","#E0B26A","#7C9A63","#3A5B3E"],
    title:"Trekking Sa Pa có trách nhiệm: thuê người dẫn đường địa phương, ngủ homestay và chụp ảnh tử tế",
+   seo:"Trekking Sa Pa: thuê hướng dẫn địa phương",
+   desc:"Trekking Sa Pa có trách nhiệm: thuê hướng dẫn người H'Mông hoặc Dao đỏ, ngủ homestay trong bản, quy tắc chụp ảnh, lộ trình và giá tham khảo.",
    ex:"Đi cùng người H'Mông hoặc Dao đỏ, ngủ homestay trong bản, hỏi trước khi chụp ảnh và mua đồ thổ cẩm trực tiếp từ người làm ra. Chuyến đi vì thế cũng sâu hơn, kèm lộ trình, giá tham khảo và lời khuyên.",
    body:[["","Mình đến Sa Pa vào một ngày, và điều mình nhớ nhất không chỉ là ruộng bậc thang hay những buổi sáng mờ sương, mà là cảm giác mình đang đi qua nơi người ta sống và làm việc mỗi ngày. Những ngôi nhà, thửa ruộng và con đường mòn ở đó không phải là sân khấu. Vì vậy cách mình đi, ai dẫn đường, ngủ ở đâu, tiêu tiền cho ai, thật sự có ý nghĩa."],["Người dẫn đường biết nhiều hơn bản đồ","Người dẫn đường trong bản biết những lối mòn ít người đi, kể được chuyện về ruộng bậc thang, mùa vụ và đời sống của bản, và giúp tiền của bạn ở lại với gia đình họ thay vì chảy qua nhiều lớp trung gian."]],
    stories:[
@@ -434,6 +486,8 @@ const GUIDES = [
    tip:"Mua đồ thổ cẩm trực tiếp từ người làm ra thay vì từ các sạp bán sỉ ở thị trấn."},
   {id:"rt-voi",c:"vn",place:"Đắk Lắk",cat:"Động vật",scene:"farm",colors:["#F0DDB8","#E39B45","#8A9B5A","#4E5A33"],
    title:"Vì sao mình không cưỡi voi ở Tây Nguyên: cách gặp voi tử tế hơn cho cả người và voi",
+   seo:"Vì sao không nên cưỡi voi ở Tây Nguyên",
+   desc:"Vì sao không nên cưỡi voi ở Tây Nguyên: tình hình voi ở Đắk Lắk, Buôn Đôn dừng cưỡi voi, du lịch thân thiện với voi và cách chọn nơi tử tế.",
    ex:"Ngắm voi tắm suối và đi theo chúng trong rừng thay vì ngồi trên lưng. Câu chuyện về Buôn Đôn, Yok Đôn, mô hình du lịch thân thiện với voi và cách chọn nơi tử tế hơn.",
    body:[["","Đi Tây Nguyên, nhiều người nghĩ đến cưỡi voi như một trải nghiệm phải có. Mình chọn không cưỡi voi sau khi đọc kỹ hơn về những gì voi phải trải qua phía sau, và bài này không phải để phán xét ai, mà để ghi lại những gì mình tìm hiểu được, cùng những lựa chọn mà mình thấy tử tế hơn."],["Một thay đổi đang diễn ra","Điều đáng mừng là Đắk Lắk đã và đang thay đổi. Du lịch cưỡi voi ở Buôn Đôn, vốn là hình ảnh quen thuộc nhiều năm, đã dừng lại, và tỉnh cùng các tổ chức bảo vệ động vật đang chuyển dần sang mô hình ngắm voi không cưỡi."]],
    stories:[
@@ -446,6 +500,8 @@ const GUIDES = [
    tip:"Trước khi đặt tour, hãy hỏi thẳng: 'Ở đây có cưỡi voi không?'"},
   {id:"rt-den",c:"my",place:"Kuala Lumpur & Putrajaya",cat:"Văn hoá",scene:"city",colors:["#F2D6B0","#E5A15A","#7A6E8C","#33304A"],
    title:"Tôn trọng văn hoá khi vào thánh đường Hồi giáo ở Malaysia: trang phục, giờ giấc và cách cư xử",
+   seo:"Vào thánh đường Hồi giáo ở Malaysia: lưu ý",
+   desc:"Vào thánh đường Hồi giáo ở Malaysia: trang phục, mượn áo choàng, giờ cầu nguyện, cách cư xử ở Masjid Negara và Putra Mosque.",
    ex:"Che vai và chân, cởi giày, tránh giờ cầu nguyện và hỏi trước khi chụp ảnh. Những điều cần biết trước khi ghé Masjid Negara ở Kuala Lumpur và Putra Mosque ở Putrajaya.",
    body:[["","Malaysia là đất nước đa văn hoá với nhiều thánh đường Hồi giáo, đền Hindu và chùa Hoa, và mình có hai năm sống ở Kuala Lumpur để nhìn thấy điều đó mỗi ngày. Mỗi nơi có quy tắc riêng nhưng đều cần trang phục kín đáo và một thái độ khiêm nhường. Bài này gom lại những điều mình thấy hữu ích, đặc biệt cho người lần đầu vào thánh đường."],["Đến như một vị khách","Thánh đường không phải điểm tham quan thuần túy mà là nơi cầu nguyện của cộng đồng. Cách tốt nhất để vào là đến như một vị khách, đi nhẹ, nói khẽ và làm theo hướng dẫn của người trông coi."]],
    stories:[
@@ -458,6 +514,8 @@ const GUIDES = [
    tip:"Tra giờ cầu nguyện trong ngày và ghé vào khoảng giữa các giờ đó."},
   {id:"rt-tau",c:"all",place:"Việt Nam, Malaysia & Singapore",cat:"Di chuyển",scene:"tea",colors:["#E2EAD8","#E9B663","#79A061","#33573A"],
    title:"Đi tàu thay vì bay: những chặng đáng thử ở Việt Nam và Malaysia",
+   seo:"Đi tàu thay vì bay: ETS Malaysia, tàu VN",
+   desc:"Đi tàu thay vì bay: tàu ETS Kuala Lumpur – Ipoh – Butterworth trong khoảng 2 đến 3,5 giờ và tàu Thống Nhất đoạn Huế – Đà Nẵng qua đèo Hải Vân.",
    ex:"Tàu Thống Nhất dọc Việt Nam và tàu ETS chạy điện ở Malaysia. Chậm hơn một chút nhưng nhẹ nhàng hơn cho khí hậu và cho cả mình, kèm thời gian di chuyển, cách đặt vé và lời khuyên.",
    body:[["","Với các chặng ngắn và vừa, tàu hoả thường thải ít khí hơn máy bay rất nhiều tính trên mỗi hành khách. Bù lại, bạn được ngắm cảnh suốt đường và đi thẳng từ trung tâm thành phố này đến trung tâm thành phố khác, không phải ra tận sân bay xa."],["Đi chậm cũng là một cách đi","Mình thích tàu vì nó biến thời gian di chuyển thành một phần của chuyến đi: một cuốn sách, một ly cà phê và cửa sổ nhìn ra những cánh đồng lướt qua."]],
    stories:[

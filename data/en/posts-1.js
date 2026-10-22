@@ -2,6 +2,8 @@
 export const EN_1 = {
   "ha-giang": {
     title: "Ha Giang in 4 Days and 3 Nights: Tham Ma, Lung Cu, Dong Van and the Nho Que River",
+    seo: "Ha Giang Loop: 4-Day Itinerary and Food Guide",
+    desc: "Ha Giang travel guide for 4 days and 3 nights: Tham Ma Pass, Lung Cu, Dong Van, the Nho Que River, what to eat and a day-by-day itinerary.",
     ex: "A diary of my Ha Giang trip in winter: Tham Ma Pass, Lung Cu flagpole, Dong Van old quarter at night, the Nho Que River and the Vuong Family Mansion, with an itinerary, food and tips.",
     place: "Ha Giang",
     body: [
@@ -82,6 +84,8 @@ export const EN_1 = {
 
   "ho-chi-minh": {
     title: "Saigon in the Evenings: District 1, the Book Street, Street Food and Favourite Cafés",
+    seo: "Saigon Travel Guide: Where to Go and Eat",
+    desc: "Saigon travel guide: Notre-Dame Cathedral, the Post Office, the book street, street food, cafés and a one-day District 1 itinerary with tips.",
     ex: "Saigon through my evenings: Notre-Dame Cathedral, the Central Post Office, the book street, pavement food, grills, bubble tea and coffee, with a one-day itinerary and tips.",
     place: "Ho Chi Minh City",
     body: [
@@ -155,6 +159,8 @@ export const EN_1 = {
   },
   "ha-noi": {
     title: "Hanoi in Four Visits: Hoan Kiem Lake, the One Pillar Pagoda, the Old Quarter and Familiar Meals",
+    seo: "Hanoi Travel Guide: What to See, Eat and Do",
+    desc: "Hanoi travel guide: Hoan Kiem Lake, the Temple of Literature, One Pillar Pagoda, the old quarter, bun dau, pho and a one-day central itinerary.",
     ex: "A diary of four visits to Hanoi: Hoan Kiem Lake, the Temple of Literature, the One Pillar Pagoda, the Old Quarter, lakeside coffee and simple meals, with a one-day itinerary and tips.",
     place: "Hanoi",
     body: [
@@ -228,6 +234,8 @@ export const EN_1 = {
   },
   "sa-pa": {
     title: "Sa Pa in 2 Days and 1 Night: A Town in the Mist, the Stone Church and Terraced Fields",
+    seo: "Sa Pa in 2 Days and 1 Night: Itinerary and Food",
+    desc: "Sa Pa travel guide for 2 days and 1 night: the Stone Church, terraced fields, the town at night, dishes to eat and a suggested itinerary.",
     ex: "A diary of two days in Sa Pa: the Stone Church by day and by night, check-in corners in the mist and terraced fields under cloud, with an itinerary and tips.",
     place: "Sa Pa",
     body: [

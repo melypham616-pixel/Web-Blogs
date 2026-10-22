@@ -1,6 +1,8 @@
 export const EN_4 = {
   "ipoh": {
     title: "Ipoh in 2 Days and 1 Night: Old Town, White Coffee, Roadside Durian and Temples in Limestone Caves",
+    seo: "Ipoh in 2 Days: Old Town and White Coffee",
+    desc: "Ipoh for 2 days and 1 night: the old town and Concubine Lane, white coffee, dim sum, durian, Tasik Cermin, Gunung Rapat cave temples and an itinerary.",
     ex: "A diary of my visits to Ipoh: mural-lined old streets, dim sum and white coffee, roadside durian, Tasik Cermin and cave temples at Gunung Rapat, with an itinerary, dishes I ate, tips and sources.",
     place: "Ipoh",
     body: [
@@ -77,6 +79,8 @@ export const EN_4 = {
   },
   "pangkor": {
     title: "Pangkor Island, Malaysia: Slow Days by the Bay",
+    seo: "Pangkor Island: Beaches, Food, Itinerary",
+    desc: "Pangkor Island Malaysia: the Lumut ferry, Teluk Nipah, Coral Beach sunsets, the floating Al-Badr mosque, food and a two-night itinerary.",
     ex: "Travel tips for Pangkor Island, Malaysia: swimming at Teluk Nipah, sunsets at Coral Beach, the floating Al-Badr mosque and afternoons feeding hornbills on a street of bougainvillea.",
     place: "Pangkor",
     body: [["", "Some trips I plan very carefully, and some begin with a single sentence: let's go somewhere with a beach. Pangkor came to me like that. This small island off the coast of Perak is not as famous as Langkawi or Tioman, with no luxurious resorts or busy walking streets, yet that very simplicity made me love it in my own way."]],
@@ -144,6 +148,8 @@ export const EN_4 = {
 
   "genting": {
     title: "Genting Highlands: The City in the Clouds",
+    seo: "Genting Highlands from KL: Visitor Guide",
+    desc: "Genting Highlands from Kuala Lumpur: the Awana Skyway cable car, SkyAvenue, the outlets, what to eat, how to get there and tips.",
     ex: "A cable car through the cloud forest, an amusement area on the mountaintop and cool air only an hour from KL.",
     place: "Genting Highlands",
     body: [["", "Genting Highlands sits on the Titiwangsa range at almost 2,000 m above sea level. Only about 50 km from Kuala Lumpur, yet temperatures here are usually just 15 to 22 degrees, with clouds covering it almost all year. For KL residents, Genting is a weekend escape from the heat. For me, it was a slow day to feel a very different side of Malaysia."]],
@@ -198,6 +204,8 @@ export const EN_4 = {
 
   "malacca": {
     title: "Malacca – An Old City by the River",
+    seo: "Malacca Day Trip: Old Town and Jonker Street",
+    desc: "Malacca day trip: Dutch Square, Jonker Street, murals, the Malacca River, a walking itinerary and tips for a trip from Kuala Lumpur.",
     ex: "The red Dutch Square, Jonker Street with its murals and a river flowing past rows of colourful houses. A Malacca full of colour and history.",
     place: "Malacca",
     body: [["", "Malacca was once one of the busiest trading ports in Southeast Asia, bearing the marks of the Portuguese, Dutch and British across centuries. Today the city is a UNESCO World Heritage Site, small, easy to walk and full of colour."]],
