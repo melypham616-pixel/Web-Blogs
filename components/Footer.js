@@ -3,8 +3,9 @@ import { useState } from "react";
 import { CONTACT_EMAIL } from "@/lib/site";
 import { getDict } from "@/lib/i18n";
 
-// Khoá công khai của Web3Forms (đặt trong .env.local và trên Vercel: NEXT_PUBLIC_WEB3FORMS_KEY)
-const FORM_KEY = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+// Địa chỉ nhận form của Formspree (công khai; lời nhắn được gửi về email của chủ blog).
+// Có thể ghi đè bằng NEXT_PUBLIC_FORM_ENDPOINT.
+const FORM_ENDPOINT = process.env.NEXT_PUBLIC_FORM_ENDPOINT || "https://formspree.io/f/mjygnzwq";
 
 export default function Footer({ lang }) {
   const f = getDict(lang).footer;
@@ -12,7 +13,7 @@ export default function Footer({ lang }) {
   const [note, setNote] = useState("");
   const [busy, setBusy] = useState(false);
 
-  // Gửi form tới Web3Forms (về hộp thư của chủ blog). Chưa cấu hình khoá thì mở ứng dụng email như cũ.
+  // Gửi form tới Formspree (về hộp thư của chủ blog). Nếu gửi lỗi, người đọc có thể nhắn qua email.
   async function send(e) {
     e.preventDefault();
     const form = e.currentTarget;
@@ -20,20 +21,14 @@ export default function Footer({ lang }) {
     const name = data.get("name").trim(), email = data.get("email").trim(), msg = data.get("msg").trim();
     const subject = `[${f.topics[topic]}] ${name}`;
     if (data.get("botcheck")) return; // bẫy bot: người thật không thấy ô này
-    if (!FORM_KEY) {
-      location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`${msg}\n\n— ${name} (${email})`)}`;
-      setNote(f.mailOpen);
-      return;
-    }
     setBusy(true); setNote(f.sending);
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
+      const res = await fetch(FORM_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ access_key: FORM_KEY, subject, from_name: "Đi Rồi Kể", name, email, replyto: email, topic: f.topics[topic], message: msg, lang }),
+        body: JSON.stringify({ _subject: subject, name, email, _replyto: email, topic: f.topics[topic], message: msg, lang }),
       });
-      const out = await res.json();
-      if (!out.success) throw new Error(out.message);
+      if (!res.ok) throw new Error("formspree " + res.status);
       form.reset(); setTopic(0); setNote(f.sent);
     } catch {
       setNote(f.failed);
