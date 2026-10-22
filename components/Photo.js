@@ -3,9 +3,9 @@ import { useEffect, useRef } from "react";
 import { SLOTS } from "@/data/slots";
 import { art } from "@/lib/art";
 
-// Nếu đặt NEXT_PUBLIC_IMAGE_CDN (ví dụ https://res.cloudinary.com/<cloud>/image/upload/f_auto,q_auto,a_exif/di-roi-ke)
-// thì ảnh trong /images/ được lấy từ Cloudinary; không đặt thì dùng ảnh trong thư mục public như trước.
-const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN;
+// Ảnh trong /images/ được lấy từ Cloudinary (đã upload bằng scripts/upload-cloudinary.mjs, có tự đổi định dạng và nén).
+// Đặt NEXT_PUBLIC_IMAGE_CDN="" (chuỗi rỗng) để quay lại dùng ảnh trong thư mục public.
+const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN ?? "https://res.cloudinary.com/wzxppref/image/upload/f_auto,q_auto,a_exif/di-roi-ke";
 const abs = src => {
   const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
   return CDN && p && p.startsWith("/images/") ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
