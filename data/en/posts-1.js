@@ -113,36 +113,79 @@ export const EN_1 = {
   },
 
   "ha-noi": {
-    title: "Hanoi – Quiet Corners of the Capital",
-    ex: "Hoan Kiem Lake in the morning, the ancient One Pillar Pagoda, moss-covered old streets and a day escaping to Ba Vi. A slow Hanoi that still feels so familiar.",
+    title: "Hanoi in Four Visits: Hoan Kiem Lake, the One Pillar Pagoda, the Old Quarter and Familiar Meals",
+    ex: "A diary of four visits to Hanoi between September and December 2023: Hoan Kiem Lake, the Temple of Literature, the One Pillar Pagoda, the Old Quarter, lakeside coffee and simple meals, with a one-day itinerary and tips.",
     place: "Hanoi",
-    body: [["", "Hanoi is at its best in autumn, when the weather turns cool, the sun is soft and gold and the streets carry a faint scent of milk flowers. The city is in no hurry. Slow down a little and you will see that every corner holds a story."]],
+    body: [
+      ["", "Hanoi is loveliest in autumn, when the air turns cool, the sun is soft gold and the streets smell faintly of milk-flower blossom. I did not stay long in Hanoi at once, but visited several times in late 2023: the afternoon of 9 September, 25 November, 3 December and two days at the end of December. Each visit was a different slice, and put together they showed me this city does not need rushing; slow down a little and every street corner carries a story."],
+      ["Hanoi is walkable", "The centre around Hoan Kiem Lake, the Old Quarter, the Temple of Literature and the One Pillar Pagoda are all within a few kilometres, so I usually walked and called a ride only in rain or when tired. Walking is also how you stumble on pavement tea stalls, ice-cream shops, sticky-rice sellers and cafés looking onto the lake."],
+    ],
     stories: [
       {
-        k: "The heart of the capital", h: "Hoan Kiem Lake in the morning", where: "Hoan Kiem · 5:30 – 7am",
-        t: "A day in Hanoi should begin at Hoan Kiem Lake, when the water is still covered in thin mist and locals are out exercising around the shore. The red Huc Bridge leads to Ngoc Son Temple, the Turtle Tower sits quietly in the middle of the lake and willows hang down to the water. At weekends the streets around the lake are closed to traffic, perfect for strolling and watching the city light up.",
-        ph: ["Hoan Kiem Lake in the morning mist", "Huc Bridge", "Turtle Tower", "Willows by the lake", "Ngoc Son Temple", "The walking street in the evening"],
+        k: "Quick facts", h: "Before you go to Hanoi",
+        items: [
+          { k: "My visits", v: "9 Sep, 25 Nov, 3 Dec, 23 – 24 Dec 2023: Hoan Kiem Lake, the Old Quarter, the Temple of Literature, the One Pillar Pagoda and West Lake" },
+          { k: "Getting around", v: "The centre is walkable; use ride-hailing for longer trips; going out to Ba Vi needs a car or coach" },
+          { k: "Best season", v: "Autumn and early winter are cool and pleasant; summer is hot and humid, winter has cold, drizzly days" },
+          { k: "Eating", v: "Pho, bun cha, sticky rice, coffee and street sweets are everywhere; many places are crowded at lunch and dinner" },
+        ],
+        note: "Opening hours, ticket prices and routes can change; check before you go.",
       },
       {
-        k: "Ancient sites", h: "One Pillar Pagoda", where: "Ba Dinh · near the Ho Chi Minh Mausoleum",
-        t: "The One Pillar Pagoda is one of the most unusual pieces of architecture in Vietnam: a small temple standing on a single stone pillar in the middle of a square lotus pond, like a lotus rising from the water. It lies right next to the Mausoleum and Ba Dinh Square, so you can visit them in the same morning. The space is small but peaceful, well worth stopping to feel the old charm of Hanoi.",
-        ph: ["One Pillar Pagoda", "The lotus pond around the pagoda", "The ancient pagoda roof"],
+        k: "The heart of the capital", h: "Hoan Kiem Lake, where I kept coming back", where: "Hoan Kiem · many visits",
+        t: "I visited Hoan Kiem Lake more than anywhere else in my four stops in Hanoi. On the afternoon of 9 September I walked around the lake from about two to five, crossed The Huc Bridge to Ngoc Son Temple and stood looking at Turtle Tower in the middle. According to what I read, The Huc Bridge was built in 1865 under Emperor Tu Duc and rebuilt in 1897, while Turtle Tower dates from around 1886. The lake is also tied to the legend of King Le Loi returning the magic sword, so its name sounds both gentle and a little historical.\n\nLate in the afternoon I sat in a café overlooking the water with two iced coffees topped with white cream, listening to people walking past. On 3 December I came back at midday and drank a pot of hot tea by the lake in the cold, then in the afternoon walked the pedestrian streets with a cup of coffee. Moments like these made me realise Hoan Kiem is not only for looking at: it is a place to sit down and watch the city slowly move.",
+        ph: ["Hoan Kiem Lake in early mist", "The Huc Bridge", "Turtle Tower", "Willows by the lake", "Ngoc Son Temple", "The pedestrian street in the evening"],
       },
       {
-        k: "Old Quarter", h: "The Old Quarter and the flavours of Hanoi", where: "Hoan Kiem · all day",
-        t: "The Old Quarter is where the old rhythm of Hanoi is best preserved, with rows of narrow tube houses under mossy tiled roofs, streets named after traditional trades and street vendors passing by. Stop at a long-established pho shop in the morning, have bun cha at lunch and end the day with an egg coffee in a small attic looking down on the street, and you will understand why people say Hanoi has to be felt with your taste buds.",
-        ph: ["The mossy Old Quarter", "A street vendor's shoulder pole", "Hanoi pho", "Bun cha", "Egg coffee", "An attic looking down on the street", "The Old Quarter at night"],
+        k: "25 Nov", h: "The One Pillar Pagoda", where: "Ba Dinh · near the Mausoleum",
+        t: "On 25 November, after a morning at the Temple of Literature, I went over to Ba Dinh to stop at the One Pillar Pagoda. It is so small you can see all of it from the gate: a curved-roof shrine set on a single stone pillar in a lotus pond. According to the sources I read, it was built in 1049 under Emperor Ly Thai Tong, and today's structure is a rebuilding from around 1955 after it was destroyed in 1954. Even so, its form keeps an ancient look, and the lotus pond around it lightens the whole scene.\n\nI stood a good while at the railing watching tree canopies reflected in the water. Some small places say a great deal about history and how people keep it.",
+        ph: ["The One Pillar Pagoda", "The lotus pond around the pagoda", "The old pagoda roof"],
       },
       {
-        k: "Escape the city", h: "Ba Vi – green and cool outside the city", where: "About 60 km from the centre",
-        t: "If you have one more day, leave the city for Ba Vi National Park and enjoy the fresh mountain air. The road winding through pine forest, the ruins of an old church covered in green moss and a summit wrapped in clouds create a scene very different from the rhythm of the city. In the wild sunflower season around November the whole hillside turns brilliant yellow, well worth stopping for photos.",
-        ph: ["Pine forest in Ba Vi", "An old church covered in moss", "A summit in the clouds", "The wild sunflower season", "The road up the mountain", "A view of the mountains and forest"],
+        k: "The Old Quarter", h: "The Old Quarter and the flavours of Hanoi", where: "Hoan Kiem · afternoons and evenings",
+        t: "The Old Quarter is where I wandered most: small streets like Hang Bai, Trang Tien and Lo Ren, shophouses packed together, signs stacked on signs, motorbikes weaving between pedestrians. People often call the area the 36 streets, because each street once specialised in one trade, and though it has changed a lot, the name still suggests a Hanoi of craftsmen and traders.\n\nI ate a great deal here: a platter of bun dau on the afternoon of 9 September, a hand-held Trang Tien ice-cream in front of the Hanoi Drama Theatre, a pavement lemon tea and a creamy iced coffee. On the night of 23 December I came back to walk Lo Ren Street when it had emptied a little, yellow lights falling on the awnings and the smell of night food mixing with cold wind. That may be when I saw the Old Quarter at its best: not crowded, not hurried, just the slow breath of the city.",
+        ph: ["Moss-covered old quarter", "A street vendor's carrying pole", "Hanoi pho", "Bun cha", "Egg coffee", "A small balcony above the street", "The Old Quarter at night"],
+      },
+      {
+        k: "West Lake and the Temple of Literature", h: "25 November: the Temple of Literature, Ba Dinh and painting coffee by West Lake", where: "West Lake · Temple of Literature",
+        quote: "Three places in one day, each at its own pace.",
+        t: "25 November was the fullest day. In the morning I was at the Temple of Literature, where I spent most of the morning walking each courtyard and reading the doctoral steles; you can read my separate post on that place. At noon I ate a bowl of a noodle soup with fried tofu and fresh herbs, then went to Ba Dinh to stop at the One Pillar Pagoda. Late in the afternoon I sat at a café by West Lake and ordered coconut water with a watercolour set to paint on the coconut myself. I paint terribly, but that afternoon the sky was grey, the lake flat and sitting down felt wonderful after a day on foot.",
+      },
+      {
+        k: "What to eat in Hanoi", h: "Hanoi through its meals", where: "What I ate and what to try",
+        quote: "In Hanoi, a good meal is often just a low plastic stool by the road.",
+        t: "Below are the dishes I actually ate across my four visits, plus a few famous ones I did not get to try.",
+        cards: [
+          { title: "Beef pho", text: "A bowl of rare-beef pho with lots of spring onion and fried dough sticks at midday on 3 December. Clear broth, tender beef, steaming hot in cold weather." },
+          { title: "Bun dau and noodle soup", text: "A bun dau platter with sausage, spring rolls and all the sides on the afternoon of 9 September; and a bowl of noodle soup with fried tofu on 25 November." },
+          { title: "Leaf-wrapped sticky rice", text: "Yellow sticky rice with mung bean and fried shallots wrapped in dong leaf, eaten on the morning of 24 December: a humble breakfast that fills and warms the stomach." },
+          { title: "Ice cream, lemon tea, coffee", text: "Trang Tien ice-cream sticks, pavement lemon tea, creamy iced coffee, a hot pot of tea by the lake and takeaway coffee: things I remember because they matched the rhythm of walking." },
+        ],
+      },
+      {
+        k: "Escape the city", h: "Ba Vi, cool green outside the city", where: "About 60 km from the centre",
+        t: "Some days the city felt too crowded and I went up to Ba Vi, about an hour and a half to two hours from the centre by road. I have been a few times, and my separate post on Ba Vi tells what I saw in more detail: pine forest, mountain roads and mist. Here I will only say that if you are tired of horns, a day at Ba Vi is the fastest way to change rhythm.",
+        ph: ["Ba Vi pine forest", "A mossy old church", "A cloud-capped summit", "Wild sunflower season", "The road up the mountain", "A view of mountain forest"],
+      },
+      {
+        k: "Itinerary", h: "How to spend one day in Hanoi", where: "A suggestion for the centre",
+        quote: "Walk around the lake, eat plenty and rest often.",
+        steps: [
+          { time: "Morning", title: "Temple of Literature and One Pillar Pagoda", text: "Go to the Temple of Literature early while it is quiet, then to Ba Dinh for the One Pillar Pagoda." },
+          { time: "Midday", title: "Lunch", text: "A bowl of pho or bun cha at a place full of locals." },
+          { time: "Afternoon", title: "Hoan Kiem and the Old Quarter", text: "Walk around the lake, cross The Huc Bridge, eat Trang Tien ice-cream and have coffee by the water." },
+          { time: "Evening", title: "The Old Quarter at night", text: "Stroll the small streets once the lights are on, eat something light and head back." },
+        ],
+      },
+      {
+        k: "Tips", h: "What I took away", where: "Before you go",
+        quote: "Walking in Hanoi means watching for motorbikes and choosing busy places.",
+        t: "• Cross streets in the Old Quarter slowly and steadily, and the traffic will go around you.\n\n• In autumn and winter bring a light jacket, since evenings often turn cold.\n\n• Choose places full of locals at peak hours; the food is usually good and fairly priced.\n\n• Ask the price before ordering at pavement stalls or carts in tourist areas to avoid surprises.\n\n• At the Temple of Literature or the One Pillar Pagoda, dress modestly and speak quietly.\n\n• A day does not need many stops; two or three places with a few rests is enough.",
       },
     ],
-    closing: "Hanoi does not show off. It is gentle in its own way: the mist on the lake in the morning, the scent of milk flowers on old streets and the familiar taste of simple dishes. You come and go, but Hanoi always leaves a little longing behind.",
-    tip: "At weekends the streets around Hoan Kiem Lake are closed to cars, perfect for an evening stroll.",
+    closing: "Hanoi is not loud or showy but gentle in its own way. It is the flat water of Hoan Kiem in the late afternoon, the smell of hot sticky rice in dong leaf in the morning and the taste of humble familiar dishes. I go and come back, and there is always one more corner I have not walked yet.",
+    tip: "Hanoi tastes best in small places full of locals, so walk and watch which ones are busy.",
   },
-
   "sa-pa": {
     title: "Sa Pa in 2 Days and 1 Night: A Town in the Mist, the Stone Church and Terraced Fields",
     ex: "A diary of two days in Sa Pa in mid-November 2023: the Stone Church by day and by night, check-in corners in the mist and terraced fields under cloud, with an itinerary and tips.",
