@@ -105,6 +105,13 @@ export default function PostPage({ lang, id }) {
 
           <div className="tip"><span className="label accent">{t.tip}</span><span>{p.tip}</span></div>
 
+          {p.sources && p.sources.length > 0 && (
+            <div className="sources">
+              <span className="label">{t.sources}</span>
+              <ul>{p.sources.map(x => <li key={x.u}><a href={x.u} target="_blank" rel="noopener noreferrer">{x.t}</a></li>)}</ul>
+            </div>
+          )}
+
           {related.length > 0 && (
             <div className="related">
               <div className="sec-title"><span className="label">{t.related}</span></div>

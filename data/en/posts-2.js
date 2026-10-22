@@ -80,6 +80,16 @@ export const EN_2 = {
     body: [["", "Walking along the brick paths under old trees at the Temple of Literature, I kept thinking about the people who came here long before: students going to exams, officials coming to pay respects, and scholars hoping to see their names carved in stone. This post is not an itinerary; it walks through Vietnamese history from the Ly dynasty to today by way of this one place: every era left a mark here."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you visit the Temple of Literature",
+        items: [
+          { k: "Address", v: "58 Quoc Tu Giam Street, Dong Da District, Hanoi" },
+          { k: "Opening hours", v: "Many sources give roughly 8:00 – 17:00 daily; some give different seasonal hours" },
+          { k: "Tickets", v: "One December 2025 source gives 70,000 VND for adults; half price for students and people 60+; free for children under 16" },
+          { k: "Time to allow", v: "About 1.5 – 2 hours to see all the courtyards and read the steles" },
+        ],
+        note: "Prices and hours may change; check with the site's management before you go.",
+      },
+      {
         k: "Thang Long", h: "Why there is a temple in the middle of the capital", where: "1010 – 1070",
         ph: ["An old stone gate under the trees"],
         quote: "The country wanted literate people to run the state.",
@@ -95,7 +105,7 @@ export const EN_2 = {
         k: "The Tran dynasty", h: "The age of Chu Van An and the young laureates", where: "13th – 14th centuries",
         ph: ["The exhibition on Confucian scholars of the Tran–Ho era"],
         quote: "The Tran both defended the country against the Mongols and widened learning.",
-        t: "Under the Tran, learning widened: the Imperial Academy took in talented students beyond the royal family, and exams were held more regularly. The teacher Chu Van An, famed for his virtue and learning, served as a head of the Academy and taught here. Many talents passed in this period, such as Nguyen Hien, the young laureate, and Mac Dinh Chi, famed for his wit.\n\nThis was also the era of three resistance wars against the Mongol-Yuan armies in the 13th century, and learning was part of the strength that protected the country.",
+        t: "Under the Tran, learning widened: in 1236 the Imperial Academy was enlarged and renamed Quoc Tu Vien, taking in talented students beyond the royal family, and exams were held more regularly. The teacher Chu Van An, famed for his virtue and learning, served as a head of the Academy and taught here. Many talents passed in this period, such as Nguyen Hien, the young laureate, and Mac Dinh Chi, famed for his wit.\n\nThis was also the era of three resistance wars against the Mongol-Yuan armies in the 13th century, and learning was part of the strength that protected the country.",
       },
       {
         k: "Ho, Ming rule and Lam Son", h: "Interruption and revival", where: "1400 – 1428",
@@ -107,7 +117,7 @@ export const EN_2 = {
         k: "The Le and the doctoral steles", h: "The peak of Confucian learning in Vietnam", where: "15th – 16th centuries",
         ph: ["A doctoral stele on a turtle"],
         quote: "Names carved in stone to be kept for generations.",
-        t: "Under the early Le, especially Emperor Le Thanh Tong, Confucian learning reached its peak. Exams were tightly regulated, the regional and palace exams were held regularly, and the court began erecting stone steles with the names of those who passed to encourage learning and honour talent.\n\n82 steles survive, set on the backs of stone turtles, recording over thirteen hundred doctors from the exams held between 1442 and 1779. People such as Luong The Vinh, a laureate under the Le, had their names carved on them. The steles at the Temple of Literature have been inscribed by UNESCO as documentary heritage.",
+        t: "Under the early Le, especially Emperor Le Thanh Tong, Confucian learning reached its peak. Exams were tightly regulated, the regional and palace exams were held regularly, and the court began erecting stone steles with the names of those who passed to encourage learning and honour talent.\n\nThe first stele was erected in 1484 to record the 1442 exam. The court originally put up 116; 82 survive, set on the backs of stone turtles, recording more than 1,300 doctors from 82 exams held between 1442 and 1779. People such as Luong The Vinh, a laureate under the Le, had their names carved on them. In 2010 the steles were inscribed by UNESCO on the Memory of the World register (Asia-Pacific region).",
       },
       {
         k: "Turbulent centuries", h: "Constant war but the lamps still burned", where: "16th – 18th centuries",
@@ -131,7 +141,7 @@ export const EN_2 = {
         k: "War and modern times", h: "Damage, restoration and renewal", where: "1946 – today",
         ph: ["A shrine hall inside"],
         quote: "A monument that survived war to become a meeting point for learners.",
-        t: "During the war against the French many structures in Hanoi were destroyed, and the Imperial Academy area was badly damaged. After 1954 the Temple was gradually restored, and the Imperial Academy area (the Thai Hoc hall) was rebuilt in the early 2000s. In 2010 the Imperial Citadel of Thang Long was recognised by UNESCO as a World Heritage Site.\n\nToday the Temple of Literature is both a sightseeing spot and a place where students come for luck every exam season, continuing Vietnam's tradition of valuing learning.",
+        t: "In 1906 the French colonial authorities listed the Temple as a monument. During the war against the French the fifth courtyard of the Imperial Academy was destroyed by bombing in 1946, and was only rebuilt in 2000 (the Thai Hoc hall). After 1954 the Temple was also restored several times. In 2010 the Imperial Citadel of Thang Long was recognised by UNESCO as a World Heritage Site.\n\nToday the Temple of Literature is both a sightseeing spot and a place where students come for luck every exam season, continuing Vietnam's tradition of valuing learning.",
       },
     ],
     closing: "The Temple of Literature is more than a sightseeing stop. It keeps the memory of a whole nation's learning. Standing among the stone steles, I felt more than a thousand years of history still there, quiet and enduring.",
@@ -181,6 +191,16 @@ export const EN_2 = {
     body: [["", "The Vietnam Village for Ethnic Culture and Tourism is in Dong Mo, Son Tay, west of Hanoi, and recreates the living spaces and architecture of many ethnic groups across the country. It is about an hour and a half from central Hanoi, which suits a day trip. This post notes what you need to know to go at a comfortable pace and see as much as possible."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you visit the Ethnic Villages",
+        items: [
+          { k: "Location", v: "Dong Mo, Son Tay, Hanoi, about 40 – 45 km west of central Hanoi" },
+          { k: "Scale", v: "Planned at about 1,544 ha in total, with over 600 ha of land and over 900 ha of water" },
+          { k: "Planning", v: "Its master plan was approved by the Prime Minister in 1997 to recreate the culture of 54 peoples" },
+          { k: "Time to allow", v: "A full day to see many zones; half a day for a few zones" },
+        ],
+        note: "Ticket prices and opening hours change; check the village's official channels before you go.",
+      },
+      {
         k: "What's there", h: "One zone per people, one architectural style per zone", where: "Dong Mo, Son Tay",
         t: "The village is divided into zones, each with the house style and decoration of one ethnic group: wooden stilt houses, red-brick towers in the Cham style, signs pointing to villages such as the Tay and many others. Between the zones are tree-lined paths, lakes and flower trellises. If there is a schedule you can also watch cultural performances. It is an easy place to stroll, take photos and learn about the diversity of Vietnam's peoples.",
         ph: ["The lake in the village", "A bridge by the lake", "The path to the stilt houses"],
@@ -191,7 +211,7 @@ export const EN_2 = {
         t: "Each people has its own houses, clothing, language, festivals and instruments, yet many people in the cities rarely get a chance to know them. The village by Dong Mo Lake was created to address that.",
         cards: [
           { title: "54 peoples living together", text: "Vietnam is home to 54 ethnic groups, with the Kinh forming the majority and the others spread from the northern mountains and the Central Highlands to the Mekong Delta." },
-          { title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
+          { title: "Bringing them to one place", text: "The Vietnam Village for Ethnic Culture and Tourism, whose master plan was approved by the Prime Minister in 1997, brings the architecture and daily life of many peoples to one spot, so visitors can travel across the country in a single day." },
           { title: "A village that keeps growing", text: "Since it opened, the village has been built up and added to with zones such as stilt houses, Cham towers and a Khmer pagoda, and it is where ethnic communities come to perform, show their crafts and hold festivals." },
         ],
       },
