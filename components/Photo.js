@@ -3,11 +3,17 @@ import { useEffect, useRef } from "react";
 import { SLOTS } from "@/data/slots";
 import { art } from "@/lib/art";
 
-const abs = src => (src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src);
+// Ảnh trong /images/ được lấy từ Cloudinary (đã upload bằng scripts/upload-cloudinary.mjs, có tự đổi định dạng và nén).
+// Đặt NEXT_PUBLIC_IMAGE_CDN="" (chuỗi rỗng) để quay lại dùng ảnh trong thư mục public.
+const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN ?? "https://res.cloudinary.com/wzxppref/image/upload/f_auto,q_auto,a_exif/di-roi-ke";
+const abs = src => {
+  const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
+  return CDN && p && p.startsWith("/images/") ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
+};
 
 // Ảnh có dịch/phóng: tính lại kích thước theo tỉ lệ khung (giống cách bản thiết kế cắt ảnh).
 // Khung trên web có thể khác tỉ lệ so với lúc cắt, nên giới hạn độ dịch để ảnh luôn phủ kín khung.
-function frame(img, { s = 1, x = 0, y = 0, r = 0 }) {
+function frame(img, { s = 1, x, y, r = 0, fx, fy }) {
   if (!img || !img.naturalWidth) return;
   const box = img.parentElement, fw = box.clientWidth, fh = box.clientHeight;
   if (!fw || !fh) return;
@@ -15,6 +21,9 @@ function frame(img, { s = 1, x = 0, y = 0, r = 0 }) {
   const k = Math.max(fw / iw, fh / ih) * s;
   let w = iw * k / fw * 100, h = ih * k / fh * 100;
   const clamp = (v, lim) => Math.max(-lim, Math.min(lim, v));
+  // Điểm nhấn (fx, fy: 0–1 tính từ góc trên trái của ảnh): tự dịch ảnh để vật chính nằm giữa khung, tùy tỉ lệ khung
+  if (x === undefined) x = fx === undefined ? 0 : (0.5 - fx) * w;
+  if (y === undefined) y = fy === undefined ? 0 : (0.5 - fy) * h;
   // Ảnh xoay nhẹ để nắn thẳng (r độ): phóng thêm vừa đủ để góc ảnh không lộ ra ngoài khung, kể cả khi ảnh bị dịch
   if (r) {
     const a = Math.abs(r) * Math.PI / 180, c = Math.cos(a), sn = Math.sin(a);
@@ -37,7 +46,7 @@ export default function Photo({ id, fallback, caption = "", eager = false }) {
   // Ô chưa có ảnh riêng mà dự phòng là một bài viết: dùng ảnh danh sách / ảnh bìa của bài đó
   const postSlot = fallback && typeof fallback === "object" && fallback.id && (SLOTS["list-" + fallback.id] || SLOTS["cover-" + fallback.id] || SLOTS["guide-" + fallback.id]);
   const sl = (id ? SLOTS[id] : null) || postSlot || null;
-  const framed = sl && (sl.s || sl.x || sl.y || sl.r);
+  const framed = sl && (sl.s || sl.x || sl.y || sl.r || sl.fx !== undefined || sl.fy !== undefined);
   const ref = useRef(null);
 
   useEffect(() => {
