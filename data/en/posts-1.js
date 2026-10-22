@@ -1,34 +1,84 @@
 // Bản dịch tiếng Anh. Cấu trúc khớp với data/posts.js; stories khớp theo thứ tự.
 export const EN_1 = {
   "ha-giang": {
-    title: "Ha Giang – A Journey Along the Mountain Roads",
-    ex: "Tham Ma Pass, the Lung Cu flagpole and the old quarter of Dong Van lighting up at night. A trip that is about more than mountain views: it is about meeting people and slowing down.",
+    title: "Ha Giang in 4 Days and 3 Nights: Tham Ma, Lung Cu, Dong Van and the Nho Que River",
+    ex: "A diary of my Ha Giang trip in late December 2023: Tham Ma Pass, Lung Cu flagpole, Dong Van old quarter at night, the Nho Que River and the Vuong Family Mansion, with an itinerary, food and tips.",
     place: "Ha Giang",
-    body: [["", "My Ha Giang journey began at the foot of the mountains, where I stayed at Moc May to get ready for the ride to Dong Van. Ha Giang has a beauty all of its own, not only the winding roads between towering limestone peaks, but also the simple life of the highland people, the children with their bright smiles and the villages tucked into the mountainsides."]],
+    body: [
+      ["", "My Ha Giang journey began on the evening of 24 December 2023, when I reached Ha Giang city and stayed one night before heading up to Dong Van. Ha Giang has a beauty all its own, not only winding roads between mighty limestone mountains but also the simple life of highland people, children with clear smiles and villages tucked against the slopes. The trip ran until midday on 27 December, three nights, and it is one of the trips I remember best."],
+      ["The Dong Van Karst Plateau", "Most of the route lies in the Dong Van Karst Plateau, recognised as a UNESCO Global Geopark in 2010 and re-recognised in 2014, 2019 and 2023. The rock here is not only scenery but part of people's story: they stack stones as walls, grow terraced fields on rock and live among the sharp karst ridges. So every road made me slow down to look."],
+    ],
     stories: [
       {
-        k: "The road", h: "Tham Ma Pass", where: "On the way up to Dong Van",
-        t: "On the way to Dong Van I rode over Tham Ma Pass, one of the most famous stretches of road, with hairpin bends winding through endless mountains. I stopped here to buy some sweets and small gifts for the children of the highlands. The gifts were small, but they gave me the chance to talk with the kids, spend time with them and understand a little more about life on the rocky plateau. Those meetings made me realise that behind Ha Giang's grand scenery lies a life that is still hard in many ways, yet full of sincerity and warmth.",
-        ph: ["A bend on Tham Ma Pass", "Children of the highlands", "Small gifts on the road"],
+        k: "Quick facts", h: "Before you go up to Ha Giang",
+        items: [
+          { k: "My trip", v: "24 – 27 December 2023, three nights: Ha Giang city, Quan Ba, Yen Minh, Dong Van, Meo Vac, Sa Phin, Lung Cu" },
+          { k: "Main route", v: "From Ha Giang city up to Dong Van on National Road 4C via Quan Ba and Yen Minh, then on to Meo Vac, Sa Phin and Lung Cu" },
+          { k: "Weather in late December", v: "Cold and often foggy; buckwheat is generally planted from September and harvested in December, so I went near the end of the flower season" },
+          { k: "Dong Van market", v: "Held on Sunday mornings each week; I did not arrive on the right day so I missed it" },
+          { k: "Administrative note", v: "Since 2025 Ha Giang province has merged with Tuyen Quang; the name Ha Giang is still the familiar name for the karst plateau" },
+        ],
+        note: "Weather, hours and road conditions can change; check before you go.",
       },
       {
-        k: "The country's northern tip", h: "Lung Cu flagpole", where: "Northernmost point · Lung Cu, Dong Van",
-        t: "Continuing the journey, I stopped at the Lung Cu flagpole, which marks the sacred northernmost point of Vietnam. Standing under the wide sky, looking at ranges of mountains rolling to the horizon, I felt the beauty and the vastness of this land at the edge of the country much more clearly. It is not just a place to look around and take photos. It made me value every trip, and every place I am lucky enough to reach.",
-        ph: ["Lung Cu flagpole", "The flag at the top", "Steps up to the flagpole", "Mountains seen from above", "Portrait", "A village at the foot of the mountain"],
+        k: "Day 2 · 25 Dec", h: "Tham Ma Pass", where: "On the road up to Dong Van",
+        t: "On the morning of 25 December I set off early, stopping for a cup of hot green tea before the road. The road to Dong Van passes Quan Ba and then Yen Minh on National Road 4C, and by midday I had come through Tham Ma Pass, one of the famous roads with bends winding among layered mountains. Stopping at one bend, I looked at the road draped over the slope like a long thread and felt small in the middle of nature.\n\nOn the way I met highland children playing by the road, and a seller on a small path. Little moments like these stay with me longer than any beautiful view: clear smiles, waves from far away.",
+        ph: ["A bend on Tham Ma Pass", "Highland children", "A small gift on the road"],
       },
       {
-        k: "Mountain town at night", h: "The old quarter of Dong Van", where: "Dong Van · evening",
-        t: "Back in Dong Van, I spent the evening wandering around the old quarter. Small streets lit up, people strolled by, and the chat of passers-by mixed with the chilly air to create a very special scene. Dong Van at night is not too busy, but lively enough to make me want to slow down. It was also the time to treat myself to local highland snacks like hot thang den sweet soup, banh da and buckwheat triangle cakes.",
-        ph: ["The old quarter lit up", "Thang den sweet soup", "Banh da", "People strolling", "Buckwheat triangle cakes", "A small street corner", "Dong Van at night"],
+        k: "Day 2 · 25 Dec", h: "Lunch by a charcoal fire on the pass", where: "A roadside grill stop · noon",
+        quote: "The best food is grilled and eaten hot, in the mountain wind.",
+        t: "At about half past twelve I stopped at a rest point beside the road with a parking sign and a few red plastic stools. The charcoal grill held all sorts: charred sweet potatoes, small eggs and big bamboo tubes grilling purple sticky rice, sprinkled with sesame salt. I ate in the cold wind, my hands warmed by a hot sweet potato, and it felt simple yet complete.\n\nA roadside lunch like this showed me why many people remember Ha Giang not only for the scenery, but for how locals sell, grill and share very simple food.",
+      },
+
+      {
+        k: "Day 2 · 25 Dec evening", h: "Dong Van old quarter", where: "Dong Van · evening",
+        t: "On the evening of 25 December I reached Dong Van. The old quarter lit up gently, two-storey houses with tiled roofs glowing with yellow light, and people strolling slowly in the cold. For dinner I ate hotpot around a small warm table, the pot steaming with green mustard greens, rice noodles, fried tofu and meat, dipped in chilli salt. After the meal I stopped at the Pho Co café with a small fire in the yard, then walked the street with a hot cup of thang den dessert.\n\nPeople say the Dong Van market meets on Sunday mornings, but I did not arrive on the right day, so I only saw the old quarter at night, quiet enough to hear my own footsteps. The next morning, when sunlight reached the street, I saw the roofs and the mountains behind them more clearly.",
+        ph: ["The old quarter lit up", "Thang den dessert", "Stone cake", "People strolling", "Buckwheat cake", "A small corner of the street", "Dong Van at night"],
       },
       {
-        k: "Natural beauty", h: "Nho Que River and Pao's House", where: "Meo Vac · Sung La",
-        t: "Continuing my Ha Giang trip, I visited the Nho Que River, famous for its emerald water winding between towering cliffs. Sitting on the boat and looking at Tu San Canyon from the river, I felt how vast and magnificent nature is here. Tall mountains rise on both sides, the water is clear and green and the air is fresh, a scene worth experiencing at least once.\n\nLeaving the Nho Que, I went on to Pao's House, a traditional Hmong house set in the simple landscape of the rocky plateau. Earthen walls, an old tiled roof and a small yard give a familiar, rustic feeling. It is a famous photo spot, but it also helped me understand more about the architecture and the life of the highland people. The more I travelled, the more I realised Ha Giang is beautiful not only for its grand mountains but also for the simple cultural traditions kept alive through generations.",
-        ph: ["The emerald Nho Que River", "A boat through Tu San Canyon", "Pao's House"],
+        k: "Days 3 – 4 · 26 – 27 Dec", h: "The Nho Que River and Pao's House", where: "Meo Vac · Sung La",
+        t: "Day three was the day I covered the most ground, from early morning to evening around Dong Van and Meo Vac. I followed the steep road down to the Nho Que River, its jade-green water flowing under the Tu San canyon, one of the places regarded as the geopark's most striking, and rode a boat through the gap between two sheer walls. My sense of being small before nature peaked as I looked up at the soaring cliffs.\n\nOn the morning of 27 December, on the way to Sa Phin, I stopped at Pao's House in Sung La, a small earthen house on the rock among maize fields, linked with the film Chuyen cua Pao shot in this area. Standing here I understood better why the people of this land both love and cling to the rock.",
+        ph: ["The jade-green Nho Que River", "A boat through the Tu San canyon", "Pao's House"],
+      },
+      {
+        k: "Day 4 · 27 Dec", h: "The Vuong Family Mansion, the story of a Hmong clan", where: "Sa Phin, Dong Van",
+        quote: "A stone house in a valley, built over nearly nine years.",
+        t: "On the last morning I got up early and visited the Vuong Family Mansion in the Sa Phin valley, often called the Hmong King's palace. According to what I read, construction began in 1898 and was completed around 1907, linked with the father and son Vuong Chinh Duc and Vuong Chi Sinh, Hmong leaders of this area. The mansion sits among limestone, with thick stone walls, inner courtyards and tiled roofs, reflecting a period of highland history.\n\nI walked in silence, listening to the guide tell of the clan's life and how the Hmong here once lived. The mansion is also often mentioned in news reports for its deterioration and preservation, so if you visit, please treat it with care and walk lightly.",
+      },
+      {
+        k: "The northernmost point", h: "Lung Cu Flagpole", where: "The northern tip · Lung Cu, Dong Van",
+        t: "On the last day, after stopping at Sa Phin in the morning, I reached Lung Cu, where the flagpole stands on the summit of Dragon Mountain. I climbed 286 stone steps up to the flagpole, and the wind at the top was so strong that the red flag with the yellow star rolled and snapped in front of me. According to the sources, the flag is 54 square metres, symbolising Vietnam's 54 ethnic groups, so standing beneath it I thought at once of the village of 54 peoples in Son Tay I had visited.\n\nFrom the top the fields and ethnic villages at the foot of the mountain came into view, and far away the layered mountains. You do not need to love climbing to want to stay long here, because nowhere else did I feel so clearly that I was standing at the northern tip of the country.",
+        ph: ["Lung Cu flagpole", "The flag on top", "The steps up to the flagpole", "Mountains seen from above", "A portrait", "A village at the foot of the mountain"],
+      },      {
+        k: "What to eat in Ha Giang", h: "Ha Giang through its meals", where: "What I ate and what to try",
+        quote: "Good food in the highlands is usually hot, simple and eaten with whoever is beside you.",
+        t: "Below are the dishes I actually ate on this trip, plus a few famous specialities I did not get to try.",
+        cards: [
+          { title: "Beef pho on the first night", text: "A hot bowl of beef pho after the long journey on the evening of 24 December in Ha Giang city, with sweet clear broth and lots of spring onion. A simple meal at exactly the right time." },
+          { title: "Roadside grill", text: "Sweet potatoes, small eggs and purple sticky rice grilled over charcoal at a rest stop on the road up to Dong Van. Hot, smoky and eaten by hand in the cold wind." },
+          { title: "Mustard-green hotpot", text: "Dinner in Dong Van with a pot of hotpot, mustard greens, rice noodles, fried tofu and meat, dipped in chilli salt. A very good dish for a cold evening." },
+          { title: "Worth trying next", text: "Thang co, smoked buffalo or pork over the kitchen fire, steamed maize meal men men and buckwheat cake are specialities of the karst plateau often named in travel guides." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend four days in Ha Giang", where: "A suggestion from my own trip",
+        quote: "Go slowly and do not cram too many stops into one day.",
+        steps: [
+          { time: "Day 1", title: "Arrive in Ha Giang city", text: "Arrive in the early evening, have dinner and rest before the long road." },
+          { time: "Day 2", title: "Quan Ba, Yen Minh, Tham Ma, Dong Van", text: "Take National Road 4C up to Dong Van, stop for lunch by the road and walk the old quarter at night." },
+          { time: "Day 3", title: "Meo Vac, Nho Que River", text: "Spend the day on Meo Vac, the Tu San canyon and the roads around it." },
+          { time: "Day 4", title: "Sa Phin, Pao's House and Lung Cu", text: "Visit the Vuong Family Mansion in the morning, then climb to the Lung Cu flagpole before heading back." },
+        ],
+      },
+      {
+        k: "Tips", h: "What I took away", where: "Before you go",
+        quote: "Mountain roads need slow, careful riding.",
+        t: "• Fill your tank whenever you pass a petrol station, since stretches from Dong Van to Meo Vac have few stations.\n\n• Late December is cold and foggy, so bring a warm jacket, gloves and a raincoat.\n\n• Mountain roads have sharp bends and steep grades; go slowly, brake early and avoid riding at night.\n\n• Book accommodation ahead on weekends and in flower season.\n\n• Ask permission before photographing local people, especially children.\n\n• If you want to see the Dong Van market, plan to be there on a Sunday morning.",
       },
     ],
-    closing: "For me, Ha Giang is not just a trip for sightseeing or conquering beautiful roads. It was a journey to step out of my familiar rhythm, to meet new people and to understand more about life in faraway places. What I remember most is perhaps not the endless mountains or the famous bends, but the small moments along the way, the smiles I met and the peace of slowing down in the middle of vast nature.",
-    tip: "Fill your tank every time you pass a petrol station, because there are very few between Dong Van and Meo Vac.",
+    closing: "For me, Ha Giang is not only a trip to see scenery or conquer beautiful roads. It is also a journey of stepping out of my usual rhythm, meeting new people and understanding more about life in faraway lands. Perhaps what I remember most is not the layered mountains or the famous bends, but the small moments on the road, the smiles I met and the peace of living slowly in the vastness of nature.",
+    tip: "Fill your tank whenever you pass a petrol station, since stretches from Dong Van to Meo Vac have few stations.",
   },
 
   "ho-chi-minh": {
