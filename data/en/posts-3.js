@@ -6,6 +6,17 @@ export const EN_3 = {
     body: [["", "Kuala Lumpur is a place where skyscrapers stand beside old temples, busy night markets and streets that carry all the colours of Malay, Chinese and Indian culture. The city is easier to get around than you might think, because the metro covers almost all the main sights."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Kuala Lumpur",
+        items: [
+          { k: "Petronas Twin Towers", v: "Completed in 1998, about 451.9 m tall; the Skybridge is on floors 41–42 and the observation deck on floor 86; daily tickets are limited, so book ahead" },
+          { k: "Batu Caves", v: "272 steps lead to a limestone cave, with the Murugan statue at the entrance" },
+          { k: "Merdeka Square", v: "Where Malaysia declared independence in 1957" },
+          { k: "Getting around", v: "Trains (MRT, LRT, monorail) cover almost all main sights; a Touch n Go card works on trains and buses" },
+          { k: "My time in KL", v: "Two years of working and exploring, so this post follows the places I returned to many times" },
+        ],
+        note: "Ticket prices, hours and train routes can change; check before you go.",
+      },
+      {
         k: "Landmark", h: "The Petronas Twin Towers", where: "KLCC · late afternoon to evening",
         t: "The Petronas Twin Towers are the first image people think of when Kuala Lumpur is mentioned. By day the towers glow silver in the sun, and after dark both of them light up brilliantly. Visit KLCC Park in the late afternoon, stroll around the lake and wait for the towers to light up to get the best photos.",
         ph: ["The Petronas Twin Towers", "The towers lit up", "KLCC Park", "The lake in front of the towers"],
@@ -34,6 +45,11 @@ export const EN_3 = {
         t: "Thean Hou Temple is one of the largest and most beautiful Chinese temples in Southeast Asia, set on a small hill looking out over the city. Its curved red tiled roofs, red pillars carved with dragons and hundreds of red lanterns hanging across the courtyard create a scene that is both brilliant and solemn. Visit in the late afternoon, stroll around the courtyard, look at the city from above and wait until the lanterns light up for the best photos. Dress politely and keep quiet when you enter the worship areas.",
         ph: ["Thean Hou Temple", "Red lanterns", "A curved tiled roof", "The temple courtyard"],
         station: "Thean Hou",
+      },
+      {
+        k: "Tips", h: "A few things I learned after two years in KL", where: "Before you go",
+        quote: "KL is easier than you think, if you know how to take the train.",
+        t: "• Trains are the fastest way; avoid morning and evening rush hours if you carry luggage.\n\n• Book Petronas tickets in advance, since daily numbers are limited and prices vary by seller.\n\n• Sun and showers change quickly; keep a folding umbrella in your bag.\n\n• Dress modestly at temples and mosques; see the post on mosques in Malaysia.\n\n• At Jalan Alor and street stalls, ask the price before ordering.\n\n• Leave extra time for the old quarter, where KL feels most everyday.",
       },
     ],
     closing: "Kuala Lumpur is not only soaring skyscrapers. It is where many cultures meet, with street food full of flavour and a rhythm of life that is both modern and close.\n\nClosing two years of working, exploring and experiencing life in KL, I carry away so many memories, from happy days to times that were not easy. It was the first country I set foot in after leaving home, and the place where I spent two years of my youth before returning to Vietnam. There are places you come to and leave, yet always remember. To me, Kuala Lumpur is one of them. ❤️",
