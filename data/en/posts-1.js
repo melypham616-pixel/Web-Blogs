@@ -82,36 +82,79 @@ export const EN_1 = {
   },
 
   "ho-chi-minh": {
-    title: "Saigon – The City That Never Sleeps",
-    ex: "Book street, pavement eateries, the streets of District 1 and great photo spots. A young, busy Saigon that still feels close and friendly.",
+    title: "Saigon in the Evenings: District 1, the Book Street, Street Food and Favourite Cafés",
+    ex: "Saigon through my evenings of 2022 – 2023: Notre-Dame Cathedral, the Central Post Office, the book street, pavement food, grills, bubble tea and coffee, with a one-day itinerary and tips.",
     place: "Ho Chi Minh City",
-    body: [["", "Saigon is at its best early in the morning, when the streets are still cool, and in the evening, when the whole city comes out. All you need is a motorbike or a comfortable pair of shoes, and you will find this city always has something to discover."]],
+    body: [
+      ["", "Saigon is loveliest at dawn when the streets are still cool and in the evening when the whole city comes out. Most of my photos of Saigon were taken between about five and nine in the evening, on the nights I went out to eat, to a café or for a stroll after work, scattered through 2022 and 2023. Perhaps that is why, to me, Saigon is a city of evenings: the sun softens, the lights come on and people begin to leave their homes."],
+      ["A city for eating and sitting", "What I remember about Saigon is not a single sight but that the city always has somewhere for you to sit down: an air-conditioned café, a low plastic stool by the road, a grill table in the corner of a restaurant. With just a motorbike or a pair of comfortable shoes you will find that this city always has something to discover."],
+    ],
     stories: [
       {
+        k: "Quick facts", h: "Before you go to Saigon",
+        items: [
+          { k: "My visits", v: "Many evenings scattered from March 2022 to mid-2023, in District 1, Thu Duc, Binh Thanh and nearby areas" },
+          { k: "Main sights", v: "Notre-Dame Cathedral (completed 1880), the Central Post Office (built 1886 – 1891), Nguyen Hue walking street and Nguyen Van Binh book street" },
+          { k: "Getting around", v: "Ride-hailing and buses; District 1 is walkable between sights; many roads are jammed in the evening" },
+          { k: "Best time", v: "Early morning or late afternoon; midday is fierce" },
+        ],
+        note: "Hours, prices and routes can change; check before you go.",
+      },
+      {
         k: "District 1", h: "Strolling around central District 1", where: "District 1 · early morning or late afternoon",
-        t: "Start at Notre-Dame Cathedral and the Central Post Office, two buildings full of French architectural character in the heart of the city. A few more minutes on foot brings you to Nguyen Hue Walking Street, where the evenings are always lively with music, crowds and lights. Do not forget to stop by 42 Nguyen Hue apartment building, where every floor holds tiny, pretty cafés with balconies overlooking the street.",
-        ph: ["Notre-Dame Cathedral", "The Central Post Office", "Nguyen Hue Walking Street", "42 Nguyen Hue apartments", "A café balcony", "The street lit up"],
+        t: "District 1 is the area I visited on evenings when I wanted to stroll among old buildings. Notre-Dame Cathedral is the first stop: a red-brick church completed in 1880 in Romanesque and Gothic style, with two bell towers about 57 to 60 metres tall depending on the source. Right beside it is the Central Post Office, built between 1886 and 1891, with a long vaulted hall and yellow doorways. Inside there are still service counters and old maps on the walls, so you can step in for a moment.\n\nFrom there I walked on to Nguyen Hue walking street, which is usually busiest in the evening: strollers, groups of young people and whole families. Standing at the corner, looking at the 42 Nguyen Hue apartment block with small cafés on its balconies, I felt Saigon is both old and new, mixed up but lovable.",
+        ph: ["Notre-Dame Cathedral", "The Central Post Office", "Nguyen Hue walking street", "42 Nguyen Hue apartments", "A balcony café", "The street lit up"],
       },
       {
-        k: "Slow living", h: "Nguyen Van Binh Book Street", where: "District 1 · 8am – 9:30pm",
-        t: "Right next to the Central Post Office, Book Street is a quiet pause in the noisy centre. On both sides are bookstalls and small cafés under shady green trees. You can pick out a few books, order a coffee and read in a rare, peaceful atmosphere in the middle of Saigon.",
-        ph: ["Book Street in the shade of trees", "Bookstalls", "A reading corner"],
+        k: "Slow living", h: "Nguyen Van Binh Book Street", where: "District 1 · 8 am – 9:30 pm",
+        t: "The book street sits right next to Notre-Dame and the Post Office, so I often stopped by after a walk. The street is short and shaded, lined with book stalls and, in the middle, reading corners with small seats. The sources I read give opening hours of about 8 am to 9:30 pm, ideal for stopping in at the end of the afternoon when it softens.\n\nI am not someone who buys many books, but standing amid the sound of turning pages and low conversation, I felt Saigon slow down a little. It is a feeling this city of motorbikes and horns rarely gives me.",
+        ph: ["The tree-shaded book street", "A book stall", "A reading corner"],
       },
       {
-        k: "Pavement eating", h: "Saigon street food", where: "All over the city · from late afternoon",
-        t: "To understand Saigon, sit down on a plastic stool by the road. From banh mi, broken rice and Phnom Penh-style noodle soup to snails, mixed rice paper salad or grilled skewers, every dish has its own flavour. Sitting among the sound of traffic, laughter and passers-by, you will feel the lively, friendly rhythm of this city most clearly.",
-        ph: ["A pavement eatery lit up", "Saigon banh mi", "Broken rice", "Snails and grilled food", "Mixed rice paper salad", "Plastic stools by the road", "A food street at night"],
+        k: "Pavement fun", h: "Saigon street food", where: "All over the city · from early evening",
+        t: "Saigon is excellent at late eating. I had many meals on low plastic stools by the road: a table of snails and seafood stir-fried with butter and garlic, a plate of steamed clams, grilled pork sausage rolled in herbs, grilled-pork noodles, and on other days grill tables or a two-sided hotpot, spicy and mild. Each meal started with a big plate of greens and ended with a cool drink.\n\nBecause most of my food photos were taken in the evening, I find food in Saigon tastes best with company: small tables, voices mixed with the clink of bowls, and the times we clinked glasses of soft drinks or tea. If you ask what I remember, I remember the feeling of a full table and everyone laughing.",
+        ph: ["A pavement restaurant lit up", "Saigon banh mi", "Broken-rice with pork", "Snails and grilled food", "Tossed rice-paper salad", "Plastic stools by the road", "A food street at night"],
       },
       {
-        k: "Photo spots", h: "Beautiful places to take photos", where: "All over Saigon",
-        t: "In Saigon, the best frames sometimes come from the most unexpected things. A street vendor in a conical hat walking by in the golden sun, a small café with a few plastic stools lined neatly on the pavement, or an old alley with windows hung with green plants. Just slow down a little and look around, and you will find this city is full of everyday moments worth keeping.",
-        ph: ["A street vendor", "A little shop by the road", "An old alley", "A green window", "Afternoon sun on the street", "An everyday moment"],
+        k: "Coffee and tea", h: "A place to sit for an afternoon", where: "Cafés and tea shops · evening",
+        quote: "A cool drink and a small table are enough to stop for a while.",
+        t: "I have a habit of sitting in a café at least once on every outing. It could be an iced cream coffee in a place with glass windows onto greenery, a cappuccino with a heart on top, or two iced teas beside a work table. Bubble tea and fruit-tea chains are everywhere, so there is always a cool place to sit.\n\nMany afternoons I ordered one drink and sat for two hours, talking about things with no beginning or end. Perhaps that is what makes Saigon comfortable: nobody hurries me to move on.",
+      },
+      {
+        k: "Photo spots", h: "Great spots for photos", where: "All over Saigon's streets",
+        t: "Saigon needs no built-up photo spots. I like everyday moments best: a street vendor pushing a cart past, a small shop by the road, an old alley with blue windows and afternoon light slanting over the street. They are photos I never planned, I only walked slowly, looked and pressed the shutter when something touched me.\n\nIf you want to take photos in Saigon, go in the late afternoon when the light is soft and people start going home from work, and do not forget to ask permission when photographing strangers.",
+        ph: ["A street vendor", "A small shop by the road", "An old alley", "A blue window", "Afternoon light on the street", "An everyday moment"],
+      },
+      {
+        k: "What to eat in Saigon", h: "Saigon through its meals", where: "What I ate and what to try",
+        quote: "Saigon has dishes for every taste, from plastic stools to grill tables.",
+        t: "Below are the dishes I often ate on evenings in Saigon, plus a few to try on a first visit.",
+        cards: [
+          { title: "Grilled pork sausage rolls", text: "Lemongrass-skewered grilled sausage eaten with rice paper, fresh herbs and dipping sauce, grilled hot at the table. I often ordered it with a big group." },
+          { title: "Snails and pavement seafood", text: "Tables of stir-fried snails, steamed clams and grilled food at low plastic-stool places; eating and talking until late." },
+          { title: "Hotpot and table grills", text: "Two-sided hotpot, spicy and mild, with greens and beef; or a table grill of meat with kimchi: a dinner for a group of friends." },
+          { title: "Worth trying on a first visit", text: "Broken rice with pork chop, banh mi, hu tieu, tossed rice-paper salad and iced milk coffee are familiar dishes of the city, eaten in places full of locals." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend one day in Saigon", where: "A suggestion for District 1",
+        quote: "Go in the early morning or late afternoon; sit in the shade at midday.",
+        steps: [
+          { time: "Morning", title: "Notre-Dame and the Post Office", text: "Arrive early while it is cool and crowds are small; step into the Post Office to see the vault." },
+          { time: "Midday", title: "Book street and lunch", text: "Stop at the book street, then have lunch of broken rice or banh mi." },
+          { time: "Afternoon", title: "Coffee and a walk", text: "Sit in an air-conditioned café out of the sun, then walk Nguyen Hue street." },
+          { time: "Evening", title: "Pavement snacks", text: "Snails, grilled sausage or hotpot with friends, ending with a cool drink." },
+        ],
+      },
+      {
+        k: "Tips", h: "What I took away", where: "Before you go",
+        quote: "Saigon is hot and crowded, so go with a plan.",
+        t: "• Avoid walking at midday; bring a hat, sunscreen and water.\n\n• Hold your phone and bag tightly on crowded streets, especially in the centre.\n\n• Ask the price before ordering at carts or places in tourist areas.\n\n• Evening rush hour is very busy; use ride-hailing and allow extra time.\n\n• Places like Notre-Dame may close or be under restoration at times; check the latest information.\n\n• Bring a light raincoat, as afternoon rain arrives suddenly in the wet season.",
       },
     ],
-    closing: "Saigon is not too old-fashioned, nor too calm, but it has an appeal all its own. It is the bustle of the streets, the friendliness of the people and the simple everyday experiences you can only feel when you really join the rhythm of life here.",
-    tip: "Use Grab or the bus to get around, and avoid rush hour from 5pm to 7pm.",
+    closing: "Saigon is not too ancient and not too peaceful, but it has its own pull. It is a city I pass through in the evenings: a cool drink in hand, a hot table of snails, lights coming on along the street and a feeling that this city never hurries to leave anyone behind.",
+    tip: "Saigon is best in the evening; avoid walking at midday and always carry water.",
   },
-
   "ha-noi": {
     title: "Hanoi in Four Visits: Hoan Kiem Lake, the One Pillar Pagoda, the Old Quarter and Familiar Meals",
     ex: "A diary of four visits to Hanoi between September and December 2023: Hoan Kiem Lake, the Temple of Literature, the One Pillar Pagoda, the Old Quarter, lakeside coffee and simple meals, with a one-day itinerary and tips.",
