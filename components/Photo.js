@@ -11,6 +11,18 @@ const abs = src => {
   return CDN && p && p.startsWith("/images/") ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
 };
 
+// Nhiều kích thước cho cùng một ảnh (srcset) để điện thoại chỉ tải bản nhỏ, giúp trang nhanh hơn rõ rệt.
+const WIDTHS = [400, 640, 960, 1280, 1600];
+const SIZES = "(max-width: 640px) 100vw, 720px";
+function responsive(src) {
+  const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
+  const m = CDN && p && p.startsWith("/images/") && CDN.match(/^(.*\/upload\/)([^/]+)\/(.*)$/);
+  if (!m) return { src: abs(src) };
+  const id = p.slice(8).replace(/\.[^./]+$/, "");
+  const url = w => `${m[1]}${m[2]},w_${w}/${m[3]}/${id}`;
+  return { src: url(960), srcSet: WIDTHS.map(w => `${url(w)} ${w}w`).join(", "), sizes: SIZES };
+}
+
 // Ảnh có dịch/phóng: tính lại kích thước theo tỉ lệ khung (giống cách bản thiết kế cắt ảnh).
 // Khung trên web có thể khác tỉ lệ so với lúc cắt, nên giới hạn độ dịch để ảnh luôn phủ kín khung.
 function frame(img, { s = 1, x, y, r = 0, fx, fy }) {
@@ -60,8 +72,8 @@ export default function Photo({ id, fallback, caption = "", eager = false }) {
   }, [framed, sl]);
 
   const loading = eager ? "eager" : "lazy";
-  if (sl) return <div className="ph"><img ref={ref} src={abs(sl.f)} alt={caption} loading={loading} fetchPriority={eager ? "high" : undefined} className={framed ? "framed" : undefined} /></div>;
-  if (typeof fallback === "string" && fallback) return <div className="ph"><img src={abs(fallback)} alt={caption} loading={loading} /></div>;
+  if (sl) return <div className="ph"><img ref={ref} {...responsive(sl.f)} alt={caption} loading={loading} fetchPriority={eager ? "high" : undefined} className={framed ? "framed" : undefined} /></div>;
+  if (typeof fallback === "string" && fallback) return <div className="ph"><img {...responsive(fallback)} alt={caption} loading={loading} fetchPriority={eager ? "high" : undefined} /></div>;
   if (fallback && typeof fallback === "object") return <div className="ph" role="img" aria-label={caption} dangerouslySetInnerHTML={{ __html: art(fallback) }} />;
   return <div className="ph blank"><span>{caption}</span></div>;
 }
