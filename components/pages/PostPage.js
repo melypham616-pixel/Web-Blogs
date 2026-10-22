@@ -6,6 +6,7 @@ import ReadProgress from "@/components/ReadProgress";
 import BackButton from "@/components/BackButton";
 import { SLOTS } from "@/data/slots";
 import { findPost, getGuides, getPosts, isGuideId, label } from "@/lib/content";
+import { relatedPosts, linkTargets, splitLinks } from "@/lib/links";
 import { getDict, OG_LOCALE, route } from "@/lib/i18n";
 import { pageMetadata, paths, trimDesc } from "@/lib/meta";
 import { SITE_URL, pad2, postUrl } from "@/lib/site";
@@ -39,7 +40,8 @@ export default function PostPage({ lang, id }) {
 
   const stories = p.stories || [];
   const hasChapter = stories.some(s => s.layout === "chapter");
-  const related = (isGuideId(id) ? getGuides(lang) : getPosts(lang)).filter(x => x.id !== p.id).slice(0, 3);
+  const related = relatedPosts(p.id, isGuideId(id) ? getGuides(lang) : getPosts(lang));
+  const targets = linkTargets(p.id, lang), used = new Set();
   const img = shareImage(p);
   const jsonLd = {
     "@context": "https://schema.org",
@@ -79,7 +81,7 @@ export default function PostPage({ lang, id }) {
           {(p.body || []).map(([h, text], k) => (
             <div className="sec" key={k}>
               {h && <h2>{h}</h2>}
-              <p>{text}</p>
+              <p>{splitLinks(text, targets, used).map((part, n) => typeof part === "string" ? part : <Link key={n} className="inlink" href={postUrl(lang, part.id)}>{part.text}</Link>)}</p>
             </div>
           ))}
 
