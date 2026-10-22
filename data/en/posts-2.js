@@ -1,30 +1,59 @@
 export const EN_2 = {
   "nui-ba-den": {
-    title: "Ba Den Mountain – The Roof of the South Above a Sea of Clouds",
-    ex: "A cable car over the mountain, a bronze Buddha statue at the summit and cloud-hunting mornings in Tay Ninh. A short trip from Saigon.",
+    title: "Ba Den Mountain in Half a Day: Cable Car, Sea of Clouds, the 986 m Summit and the Great Buddha Statue",
+    ex: "A diary of one morning, 10 October 2026, on Ba Den Mountain in Tay Ninh: the cable car to the summit, a sea of clouds, the 986 m marker, the bronze Guanyin statue and the bonsai gardens, with quick facts, an itinerary and tips.",
     place: "Ba Den Mountain",
-    body: [["", "Ba Den Mountain in Tay Ninh is almost 1,000 m high and is known as the roof of southern Vietnam. Only about two hours by road from Saigon, it is an ideal day trip, both for the views and for a little peace at the Buddhist temples."]],
+    body: [
+      ["", "Ba Den Mountain in Tay Ninh is the highest peak in southern Vietnam, and the marker on the summit says 986 metres. I went up on the morning of Saturday 10 October 2026, just one short morning, but one I remember clearly: sitting in a cabin with clouds lying below my feet, then standing in front of the Guanyin statue against a clear blue sky."],
+      ["A short trip, but enough", "I am not someone who loves hiking, so I took the cable car. I took only about twenty photos all morning because most of the time I was simply looking. Some places do not need a long stay, only that you arrive at the right hour and move slowly enough to see."],
+    ],
     stories: [
       {
-        k: "To the top", h: "The cable car to the cloud-covered summit", where: "Sun World Ba Den · early morning",
-        t: "Instead of climbing thousands of stone steps, I chose the cable car to the top. The cabin glides over mountainsides covered in green forest, with the wide Tay Ninh plain below and Dau Tieng Lake glittering in the distance. At the summit, if you are lucky, you will stand in a sea of drifting white clouds, feeling as if you were in some high mountain region rather than in the south.",
-        ph: ["The summit of Ba Den Mountain", "The cable car over the mountain", "A sea of clouds at the top"],
+        k: "Quick facts", h: "Before you go up Ba Den Mountain",
+        items: [
+          { k: "My trip", v: "Saturday 10 October 2026: on the summit around 8 am, back in the gardens at the foot before 9, and wandering until after 10" },
+          { k: "Height", v: "986 m by the summit marker, the highest in southern Vietnam" },
+          { k: "Cable cars", v: "Sun World Ba Den runs three lines, Van Son (to the summit), Chua Hang and Tam An; the Van Son line takes about 8 minutes from the base to the top" },
+          { k: "From Saigon", v: "About two to three hours by road depending on the time; leave early to avoid traffic" },
+          { k: "Ticket prices", v: "They vary by date and combo package; check the latest on Sun World's official channels before you go" },
+        ],
+        note: "Opening hours, prices and cable car lines can change; check before you go.",
       },
       {
-        k: "Spiritual side", h: "The Tay Bo Da Son Buddha statue", where: "Summit · all day",
-        t: "At the summit stands the bronze Tay Bo Da Son statue of the Lady Buddha, more than 70 m tall, one of the largest bronze Buddha statues in Asia. Standing at its feet, watching clouds drift past and listening to temple bells echo, I felt my mind settle. On the way down, do not forget to stop at Ba Pagoda halfway up the mountain, where locals come to light incense and pray for peace.",
-        ph: ["The Lady Buddha statue at the summit", "Ba Pagoda halfway up the mountain", "Incense smoke at the temple"],
+        k: "Going up", h: "The cable car over the clouds", where: "Sun World Ba Den · early morning",
+        t: "That morning was cool with plenty of low cloud. The cabin left the station at the foot of the mountain and quickly lifted me above the fields of Tay Ninh, and at some point the whole green plain below was hidden by a layer of white cloud. Another cabin slid past, hanging above the cloud tops, as if I were in a mountain range far higher than the real one.\n\nThis was my favourite part of the whole trip, because it gives the feeling of leaving the ground without any effort. If you go early on a cloudy day, do not look at your phone; look out of the window.",
+        ph: ["A cabin above the clouds", "The cable car in mid-air", "The plain under the cloud"],
       },
       {
-        k: "Cloud hunting", h: "Cloud-hunting mornings", where: "Summit · 5 – 7am",
-        t: "Clouds on Ba Den Mountain usually appear early in the morning, especially after rainy days. Take the first cable car to have the best chance of seeing beautiful clouds before the sun comes up.",
-        ph: ["A sea of clouds at dawn", "Sunrise at the summit", "Clouds drifting around the statue", "Sunlight through the clouds", "Mountains in the mist", "A check-in spot among the clouds"],
+        k: "Cloud hunting", h: "Clouds, the summit and the gardens", where: "Summit and Sun World area · morning",
+        t: "On the summit there is a marker reading Nui Ba Den 986 m, where almost everyone stops for a photo. Around it are carefully shaped gardens: a green archway with the words Xin chao, a stair painted with multicoloured lotuses, large bonsai trees and a few small novice-monk statues beside the path.\n\nIn the morning the mist still lingers, so the garden looks softly veiled. It was when I walked slowest on the whole trip, looking more than photographing.",
+        ph: ["Cloud below the cable car", "The morning sea of clouds", "The Xin chao gate", "A garden path", "The lotus stair", "The mountain from the car park"],
+      },
+      {
+        k: "Spiritual", h: "The Tay Bo Da Son Guanyin statue", where: "Summit · morning",
+        quote: "Some structures simply stand still and make me feel a little smaller.",
+        t: "The Tay Bo Da Son statue is the most striking thing on the summit, bronze and more than 70 metres tall according to the sources I read, standing on a round multi-tiered platform. I stood in the courtyard in front and looked up: its dark figure stands out against the blue sky, with a few smaller statues guarding either side.\n\nWhen I arrived the mist had just cleared, so the statue appeared very sharply, and when cloud drifted across again it became only a shadow in the fog. Both were beautiful, in very different ways.",
+        ph: ["The statue against blue sky", "The tiered platform", "The statue in mist"],
+      },
+      {
+        k: "Itinerary", h: "How to spend a morning on Ba Den Mountain", where: "A suggestion from my own trip",
+        quote: "Go early, go slowly, and leave time for the clouds.",
+        steps: [
+          { time: "Early morning", title: "Reach the cable car station", text: "Arrive early to avoid crowds and harsh sun; buy tickets in advance if possible." },
+          { time: "On the cable car", title: "Watch the sea of clouds", text: "Sit by the window; days with low cloud are the best." },
+          { time: "On the summit", title: "The marker, gardens and statue", text: "Take a photo at the 986 m marker, stroll the gardens and stand before the statue." },
+          { time: "Before noon", title: "Head down", text: "Come down before the sun is high and it gets crowded; if you have time, visit the temple halfway down." },
+        ],
+      },
+      {
+        k: "Tips", h: "What I took away", where: "Before you go",
+        quote: "Ba Den suits anyone who wants to go near, go quickly, and still feel they have left the city.",
+        t: "• Go early: the clouds are best in the morning and it is less crowded.\n\n• Bring a light jacket, since the summit is breezy, and comfortable shoes.\n\n• Weekends and holidays are very busy; go on a weekday if you can.\n\n• Check the weather: in heavy rain or very thick cloud the cable car may stop and views may be hidden.\n\n• Dress modestly and keep quiet around the statue and temples.\n\n• Ticket prices and combos change, so ask at the counter or on the official website.",
       },
     ],
-    closing: "Ba Den Mountain is not too far and not too fancy, yet it gave me a very special morning among the clouds. A short trip that is enough to make the heart feel lighter.",
-    tip: "Bring a light jacket because it is quite windy at the top, and go on a weekday to avoid the crowds.",
+    closing: "Ba Den Mountain is not too far and not too elaborate, but it gave me a truly special morning among the clouds. A short trip, yet enough to feel lighter.",
+    tip: "Bring a light jacket since the summit is windy, and go on a weekday to avoid crowds.",
   },
-
   "con-thoi-son": {
     title: "Con Thoi Son – A Guide to a Day Rowing Through Water Coconut Palms",
     ex: "A green islet in the Tien River only a few hours from Saigon: how to get there, what to do, what to eat and how to pace the day so it is easy, not rushed.",
