@@ -33,7 +33,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
       return (
         <section className="st-essay">
           <div className="side">
-            <span className="num">{num}</span><span className="k">{st.k}</span><h3>{st.h}</h3><div className="where">{st.where}</div>
+            <span className="num">{num}</span><span className="k">{st.k}</span><h2>{st.h}</h2><div className="where">{st.where}</div>
             {ph.length > 0 && slot("a", p1, "pic")}
           </div>
           <div className="main-col">{st.quote && <blockquote>“{st.quote}”</blockquote>}<Text t={st.t} /></div>
@@ -44,7 +44,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className="st-cards">
           <div className="head">
             <div className="green-num"><b>{num}</b><span>{st.k}</span></div>
-            <h3>{st.h}</h3>
+            <h2>{st.h}</h2>
             <div className="where">{st.where}</div>
             {st.quote && <blockquote>“{st.quote}”</blockquote>}
             <Text t={st.t} />
@@ -65,7 +65,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
       return (
         <section className="st-timeline">
           <div className="side">
-            <span className="num">{num}</span><span className="k">{st.k}</span><h3>{st.h}</h3><div className="where">{st.where}</div>
+            <span className="num">{num}</span><span className="k">{st.k}</span><h2>{st.h}</h2><div className="where">{st.where}</div>
             {st.quote && <blockquote>“{st.quote}”</blockquote>}
             {ph.length > 0 && slot("a", p1, "pic")}
           </div>
@@ -84,7 +84,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className={"st-cloud bleed-x" + flip}>
           <div className="hero">
             <div className="fill"><Photo id={id + "-a"} caption={p1} /></div><div className="shade" />
-            <div className="glass"><div className="top"><b>{num}</b><span>{st.k}</span></div><h3>{st.h}</h3><div className="where">{st.where}</div><Text t={st.t} /></div>
+            <div className="glass"><div className="top"><b>{num}</b><span>{st.k}</span></div><h2>{st.h}</h2><div className="where">{st.where}</div><Text t={st.t} /></div>
           </div>
           <div className="grid">{slot("b", s2)}{slot("c", s3)}{ph.slice(3).map((c, k) => <Box key={k} id={base + "-" + "defgh"[k]} caption={c} />)}</div>
         </section>
@@ -95,7 +95,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className={"st-tide bleed-x" + flip} style={{ "--tbg": bg, "--tacc": acc }}>
           <div className="wide"><Photo id={id + "-a"} caption={p1} /><div className="wave" /></div>
           <div className="panel">
-            <div className="txt"><div className="top"><b>{num}</b><span>{st.k}</span></div><h3>{st.h}</h3><div className="where">{st.where}</div><Text t={st.t} /></div>
+            <div className="txt"><div className="top"><b>{num}</b><span>{st.k}</span></div><h2>{st.h}</h2><div className="where">{st.where}</div><Text t={st.t} /></div>
             <div className="side">{slot("b", s2)}{slot("c", s3)}</div>
           </div>
         </section>
@@ -111,7 +111,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
             </div>
             <div className="right">
               <div className="head">
-                <div><span className="k">— {st.k} —</span><h3>{st.h}</h3></div>
+                <div><span className="k">— {st.k} —</span><h2>{st.h}</h2></div>
                 <div className="stamp"><div className="perf"><div className="face"><b>{num}</b><small>{post.stamp || post.place.toUpperCase() + " · MY"}</small></div></div><div className="pmark">MALAYSIA<br />· 1928 ·</div></div>
               </div>
               <div className="where">{st.where}</div><Text t={st.t} />
@@ -128,7 +128,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
       return (
         <section className="st-gallery">
           <div className="head">
-            <div><div className="green-num"><b>{num}</b><span>{st.k}</span></div><h3>{st.h}</h3><div className="where">{st.where}</div></div>
+            <div><div className="green-num"><b>{num}</b><span>{st.k}</span></div><h2>{st.h}</h2><div className="where">{st.where}</div></div>
             <Text t={st.t} />
           </div>
           <div className="masonry">{items.map(g => <div key={g.L} style={{ aspectRatio: g.ar }}><Photo id={base + "-" + g.L} fallback={g.src} caption={g.c} /></div>)}</div>
@@ -141,7 +141,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className={"st-terrace" + flip}>
           <div className="row">
             {slot("a", p1, "pic")}
-            <div className="card"><div className="green-num"><b>{num}</b><span>{st.k}</span></div><h3>{st.h}</h3><div className="where">{st.where}</div><Text t={st.t} /></div>
+            <div className="card"><div className="green-num"><b>{num}</b><span>{st.k}</span></div><h2>{st.h}</h2><div className="where">{st.where}</div><Text t={st.t} /></div>
           </div>
           <div className="pair">{slot("b", s2)}{slot("c", s3)}</div>
           {notLast && <Dash />}
@@ -152,7 +152,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className="st-story">
           <div className="head">
             <div className="meta-line"><span>{st.k}</span><i /><span>{st.time || st.where || ""}</span></div>
-            <h3>{st.h}</h3>
+            <h2>{st.h}</h2>
             {st.time && st.where && <div className="st-where">{st.where}</div>}
           </div>
           {slot("a", p1, "wide")}
@@ -166,7 +166,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className="st-night bleed-x">
           <div className="wide">
             <Photo id={id + "-a"} caption={p1} /><div className="shade" />
-            <div className="cap"><div className="top"><b>{num}</b><i /><span>{st.k}</span></div><h3>{st.h}</h3></div>
+            <div className="cap"><div className="top"><b>{num}</b><i /><span>{st.k}</span></div><h2>{st.h}</h2></div>
           </div>
           <div className="body"><div className="where">{st.where}</div><Text t={st.t} /><div className="pair">{slot("b", s2)}{slot("c", s3)}</div></div>
         </section>
@@ -178,7 +178,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
       const four = ph.length === 4;
       return (
         <section className={"st-chapter bleed-x" + flip} style={vars}>
-          <div className="head"><span className="big">{num}</span><div><div className="k">{st.k}</div><h3>{st.h}</h3></div><div className="where">{st.where}</div></div>
+          <div className="head"><span className="big">{num}</span><div><div className="k">{st.k}</div><h2>{st.h}</h2></div><div className="where">{st.where}</div></div>
           <div className="body"><Text t={st.t} /><div className={"imgs" + (four ? " four" : "")}>{slot("a", p1)}{slot("b", s2)}{slot("c", s3)}{four && slot("d", cap(3, d.portraitCap))}</div></div>
           {ph.length > 4 && <div className="strip4">{ph.slice(3).map((c, j) => <Box key={j} id={base + "-" + "defg"[j]} caption={c} />)}</div>}
         </section>
@@ -192,7 +192,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
         <section className="st-metro" style={{ "--mc": mc, "--mline": line, "--mbottom": last ? "0px" : "-48px" }}>
           <div className="rail"><div className="dot">{num}</div></div>
           <div className="content">
-            <div className="st-head"><div className="tags"><span className="ga">{d.stop(st.station || "")}</span><span>{st.k}</span></div><h3>{st.h}</h3><div className="st-where plain">{st.where}</div></div>
+            <div className="st-head"><div className="tags"><span className="ga">{d.stop(st.station || "")}</span><span>{st.k}</span></div><h2>{st.h}</h2><div className="st-where plain">{st.where}</div></div>
             <div className="imgs">{slot("a", p1)}{slot("b", s2)}{slot("c", s3)}</div>
             <Text t={st.t} />
             {ph.length > 4 && <div className="hstrip">{ph.slice(3).map((c, j) => <figure key={j}><Box id={base + "-" + "defg"[j]} caption={c} /><figcaption>{c}</figcaption></figure>)}</div>}
@@ -205,7 +205,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
       const caps = [p1, cap(1, mc[0]), cap(2, mc[1]), cap(3, mc[2]), cap(4, mc[3]), cap(5, mc[4]), cap(6, mc[5])];
       return (
         <section className="st-mosaic bleed-x">
-          <div className="top"><div><div className="label st-k">{num} · {st.k}</div><h3>{st.h}</h3><div className="st-where">{st.where}</div></div><Text t={st.t} /></div>
+          <div className="top"><div><div className="label st-k">{num} · {st.k}</div><h2>{st.h}</h2><div className="st-where">{st.where}</div></div><Text t={st.t} /></div>
           <div className="imgs">{caps.map((c, n) => <Box key={n} id={id + "-" + LETTERS[n]} caption={c} />)}</div>
         </section>
       );
@@ -213,7 +213,7 @@ export default function Story({ lang = "vi", post, st, i, arr }) {
   }
   if (st.layout && st.layout !== "single") return null; // kiểu chưa hỗ trợ
 
-  const head = <div className="st-head"><div className="label st-k">{num} · {st.k}</div><h3>{st.h}</h3><div className="st-where">{st.where}</div><Text t={st.t} /></div>;
+  const head = <div className="st-head"><div className="label st-k">{num} · {st.k}</div><h2>{st.h}</h2><div className="st-where">{st.where}</div><Text t={st.t} /></div>;
   if (!st.layout && (st.k === "Cà phê" || st.full)) {
     const fc = d.fullCaps;
     const caps = [p1, cap(1, fc[0]), cap(2, fc[1]), cap(3, fc[2]), cap(4, fc[3]), cap(5, fc[4])];

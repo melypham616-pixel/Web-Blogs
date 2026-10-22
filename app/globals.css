@@ -354,11 +354,11 @@ main{overflow-x:clip}
 .st-split .imgs > div:first-child{grid-column:span 2;aspect-ratio:4/3}
 .st-split.flip .imgs{order:2}
 .st-split .imgs.one > div:nth-child(2){grid-column:span 2;aspect-ratio:4/3}
-.st-split h3{font-size:26px;text-wrap:pretty}
+.st-split :is(h2,h3){font-size:26px;text-wrap:pretty}
 /* full */
 .st-full{display:flex;flex-direction:column;gap:18px}
 .st-full .st-head{max-width:680px}
-.st-full h3{font-size:30px;text-wrap:pretty}
+.st-full :is(h2,h3){font-size:30px;text-wrap:pretty}
 .st-full .imgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .st-full .imgs > div{aspect-ratio:1/1}
 .st-full .imgs > div:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto;min-height:320px}
@@ -366,7 +366,7 @@ main{overflow-x:clip}
 .st-mosaic{display:flex;flex-direction:column;gap:14px;background:var(--soft);padding:28px var(--bleed)}
 .st-mosaic .top{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:20px 32px;align-items:end}
 .st-mosaic .top > div{display:flex;flex-direction:column;gap:8px}
-.st-mosaic h3{font-size:44px;line-height:1.05}
+.st-mosaic :is(h2,h3){font-size:44px;line-height:1.05}
 .st-mosaic .imgs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:minmax(70px,9vw);gap:8px}
 .st-mosaic .imgs > div:nth-child(1){grid-column:1 / span 4;grid-row:span 3}
 .st-mosaic .imgs > div:nth-child(2){grid-column:5 / span 2;grid-row:span 2}
@@ -380,7 +380,7 @@ main{overflow-x:clip}
 .st-essay .side{flex:1 1 220px;max-width:300px;min-width:0;display:flex;flex-direction:column;gap:12px}
 .st-essay .num{font-family:var(--display);font-size:56px;line-height:.9;color:#A9B8CC}
 .st-essay .k{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:#5C6F8C}
-.st-essay h3{font-size:28px;line-height:1.15;text-wrap:pretty}
+.st-essay :is(h2,h3){font-size:28px;line-height:1.15;text-wrap:pretty}
 .st-essay .where{font-size:13px;color:#5C6F8C}
 .st-essay .pic{aspect-ratio:4/5;border-radius:14px;overflow:hidden;margin-top:8px}
 .st-essay .main-col{flex:2 1 380px;min-width:0;display:flex;flex-direction:column;gap:22px}
@@ -391,7 +391,7 @@ main{overflow-x:clip}
 .st-timeline .side{flex:1 1 240px;max-width:320px;min-width:0;display:flex;flex-direction:column;gap:12px}
 .st-timeline .num{font-family:var(--display);font-size:56px;line-height:.9;color:#A9C4B4}
 .st-timeline .k{font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:#3E7A5C}
-.st-timeline h3{font-size:28px;line-height:1.15;text-wrap:pretty}
+.st-timeline :is(h2,h3){font-size:28px;line-height:1.15;text-wrap:pretty}
 .st-timeline .where{font-size:13px;color:#3E7A5C}
 .st-timeline blockquote{margin:6px 0 0;font-family:var(--display);font-style:italic;font-size:19px;line-height:1.45;color:var(--ink)}
 .st-timeline .pic{aspect-ratio:4/5;border-radius:14px;overflow:hidden;margin-top:10px}
@@ -415,7 +415,7 @@ main{overflow-x:clip}
 .st-cards > .head,.st-cards > .row,.st-cards > .note{width:min(1080px,calc(100% - 2*var(--bleed)));margin-inline:auto}
 .st-cards .head{display:flex;flex-direction:column;gap:10px;max-width:720px;margin-bottom:26px}
 .st-cards .head .st-t{font-size:16px;line-height:1.8;color:var(--body-ink)}
-.st-cards h3{font-size:28px;line-height:1.15;text-wrap:pretty}
+.st-cards :is(h2,h3){font-size:28px;line-height:1.15;text-wrap:pretty}
 .st-cards .where{font-size:13px;color:#8C6B3F}
 .st-cards blockquote{margin:4px 0 0;font-family:var(--display);font-style:italic;font-size:20px;line-height:1.45;color:var(--ink)}
 .st-cards .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
@@ -435,7 +435,7 @@ main{overflow-x:clip}
 .st-cloud .glass{position:relative;max-width:440px;background:rgba(246,248,252,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7);border-radius:22px;padding:26px 26px 24px;display:flex;flex-direction:column;gap:10px;color:#1F2A3C}
 .st-cloud .glass .top{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:#5C6F8C}
 .st-cloud .glass .top b{font-family:var(--display);font-size:26px;letter-spacing:0;color:#2A344A;font-weight:500}
-.st-cloud h3{font-size:28px;line-height:1.15;text-wrap:pretty}
+.st-cloud :is(h2,h3){font-size:28px;line-height:1.15;text-wrap:pretty}
 .st-cloud .where{font-size:12px;color:#5C6F8C}
 .st-cloud .st-t{font-size:15px;line-height:1.75}
 .st-cloud .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;padding:0 var(--bleed)}
@@ -450,7 +450,7 @@ main{overflow-x:clip}
 .st-tide .top{display:flex;align-items:center;gap:12px}
 .st-tide .top b{width:34px;height:34px;border-radius:50%;background:var(--tacc);color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-size:13px}
 .st-tide .top span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--tacc)}
-.st-tide h3{font-size:32px;line-height:1.15;color:#163C44;text-wrap:pretty}
+.st-tide :is(h2,h3){font-size:32px;line-height:1.15;color:#163C44;text-wrap:pretty}
 .st-tide .where{font-size:13px;color:#4E6B70}
 .st-tide .st-t{line-height:1.8;color:#20363A}
 .st-tide .side{flex:1 1 240px;min-width:0;display:flex;flex-direction:column;gap:12px}
@@ -472,7 +472,7 @@ main{overflow-x:clip}
 .st-postcard .head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
 .st-postcard .head > div:first-child{display:flex;flex-direction:column;gap:4px;min-width:0;padding-right:36px}
 .st-postcard .k{font-family:var(--old);font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#7A4A2A}
-.st-postcard h3{font-family:var(--script);font-size:38px;font-weight:700;line-height:1.05;color:#5A2E1A;text-wrap:pretty}
+.st-postcard :is(h2,h3){font-family:var(--script);font-size:38px;font-weight:700;line-height:1.05;color:#5A2E1A;text-wrap:pretty}
 .stamp{flex:0 0 auto;position:relative;width:76px;height:90px}
 .stamp .perf{position:absolute;inset:0;background:#FBF6EA;padding:5px;background-image:radial-gradient(circle,#EFE3C8 3px,transparent 3.5px);background-size:10px 10px;background-position:-5px -5px}
 .stamp .face{width:100%;height:100%;background:#8C3B2A;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:#F3DDB5;font-family:var(--old)}
@@ -495,7 +495,7 @@ main{overflow-x:clip}
 .green-num{display:flex;align-items:baseline;gap:12px}
 .green-num b{font-family:var(--display);font-size:44px;line-height:1;color:#4F7A3A;font-weight:500}
 .green-num span{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:#4F7A3A}
-.st-gallery h3{font-size:30px;line-height:1.15}
+.st-gallery :is(h2,h3){font-size:30px;line-height:1.15}
 .st-gallery .where,.st-terrace .where{font-size:12px;color:#5E6B55}
 .st-gallery .head .st-t{flex:1 1 320px;min-width:0;font-size:15px;line-height:1.75}
 .st-gallery .masonry{columns:3 200px;column-gap:10px}
@@ -507,7 +507,7 @@ main{overflow-x:clip}
 .st-terrace .row > .pic{flex:1 1 380px;min-width:0;aspect-ratio:4/3}
 .st-terrace .card{flex:0 1 360px;min-width:260px;margin-left:-72px;position:relative;z-index:1;background:#F4F1E6;color:#222222;padding:30px 28px;display:flex;flex-direction:column;gap:12px;border-top:6px solid #4F7A3A}
 .st-terrace.flip .card{margin-left:0;margin-right:-72px}
-.st-terrace h3{font-size:28px;line-height:1.15;text-wrap:pretty}
+.st-terrace :is(h2,h3){font-size:28px;line-height:1.15;text-wrap:pretty}
 .st-terrace .st-t{font-size:15px;line-height:1.75}
 .st-terrace .pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
 .st-terrace .pair > div{aspect-ratio:3/2}
@@ -516,7 +516,7 @@ main{overflow-x:clip}
 .st-story .head{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
 .st-story .meta-line{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--accent-ink)}
 .st-story .meta-line i{width:24px;height:1px;background:var(--accent-ink)}
-.st-story h3{font-size:36px;line-height:1.15;font-style:italic;max-width:560px}
+.st-story :is(h2,h3){font-size:36px;line-height:1.15;font-style:italic;max-width:560px}
 .st-story .wide{aspect-ratio:16/9}
 .st-story .st-t{margin:0 auto;max-width:600px;font-family:var(--display);font-size:19px;line-height:1.85}
 .st-story .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;align-items:start}
@@ -535,7 +535,7 @@ main{overflow-x:clip}
 .st-night .top{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;color:#F2C14E}
 .st-night .top b{font-family:var(--display);font-size:30px;letter-spacing:0;font-style:italic;font-weight:500}
 .st-night .top i{width:28px;height:1px;background:#F2C14E}
-.st-night h3{font-size:clamp(26px,3.6vw,38px);line-height:1.1;font-weight:500;color:#FFFFFF}
+.st-night :is(h2,h3){font-size:clamp(26px,3.6vw,38px);line-height:1.1;font-weight:500;color:#FFFFFF}
 .st-night .body{padding:26px 28px 30px;display:flex;flex-direction:column;gap:22px}
 .st-night .where{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8FA3BC}
 .st-night .st-t{line-height:1.85;color:#D7DFEA;max-width:760px}
@@ -547,7 +547,7 @@ main{overflow-x:clip}
 .st-chapter .big{font-family:var(--display);font-size:96px;line-height:.8;font-style:italic;color:var(--chacc)}
 .st-chapter .head > div{display:flex;flex-direction:column;gap:6px;flex:1 1 260px;min-width:0}
 .st-chapter .k{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--chacc)}
-.st-chapter h3{font-size:34px;line-height:1.1;text-wrap:pretty}
+.st-chapter :is(h2,h3){font-size:34px;line-height:1.1;text-wrap:pretty}
 .st-chapter .where{font-size:13px;color:var(--chsub)}
 .st-chapter .body{display:flex;flex-wrap:wrap;gap:32px;align-items:center}
 .st-chapter.flip .body{flex-direction:row-reverse}
@@ -567,7 +567,7 @@ main{overflow-x:clip}
 .st-metro .tags{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .st-metro .ga{background:var(--mc);color:#FFFFFF;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
 .st-metro .tags span:last-child{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--muted)}
-.st-metro h3{font-size:32px;line-height:1.15;text-wrap:pretty}
+.st-metro :is(h2,h3){font-size:32px;line-height:1.15;text-wrap:pretty}
 .st-metro .imgs{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:8px}
 .st-metro .imgs > div:first-child{grid-row:span 2;aspect-ratio:4/3}
 .st-metro .imgs > div{min-height:120px}
@@ -614,7 +614,7 @@ main{overflow-x:clip}
   .gd-banner .inner{padding:40px 20px 16px}
   .gd-banner .tabs{padding:16px 20px 24px}
   .map{min-width:0;flex-basis:100%!important;height:280px}
-  .st-mosaic h3{font-size:34px}
+  .st-mosaic :is(h2,h3){font-size:34px}
   .st-full .imgs > div:first-child{min-height:220px}
   .st-cloud .hero{min-height:420px;padding:16px}
   .st-cloud .glass{padding:20px}
@@ -626,7 +626,7 @@ main{overflow-x:clip}
   .st-metro{grid-template-columns:44px minmax(0,1fr);gap:0 14px}
   .st-metro .dot{width:44px;height:44px;border-width:4px;font-size:12px}
   .st-metro .rail::before{left:19px}
-  .st-metro h3{font-size:26px}
+  .st-metro :is(h2,h3){font-size:26px}
   .st-night .cap{left:18px;right:18px;bottom:16px}
   .st-night .body{padding:20px 18px 24px}
 }
