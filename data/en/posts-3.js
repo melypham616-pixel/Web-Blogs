@@ -1,10 +1,23 @@
 export const EN_3 = {
   "kuala-lumpur": {
     title: "Kuala Lumpur for First-Timers",
+    seo: "Kuala Lumpur for First-Timers: Where to Go",
+    desc: "Kuala Lumpur for first-timers: the Petronas Twin Towers, Batu Caves, Bukit Bintang, Jalan Alor, Merdeka Square, Thean Hou Temple, transport and tips.",
     ex: "The Petronas Twin Towers, Batu Caves and the Bukit Bintang district. How to get around, where to stay and what to eat in Malaysia's capital.",
     place: "Kuala Lumpur",
     body: [["", "Kuala Lumpur is a place where skyscrapers stand beside old temples, busy night markets and streets that carry all the colours of Malay, Chinese and Indian culture. The city is easier to get around than you might think, because the metro covers almost all the main sights."]],
     stories: [
+      {
+        k: "Quick facts", h: "Before you go to Kuala Lumpur",
+        items: [
+          { k: "Petronas Twin Towers", v: "Completed in 1998, about 451.9 m tall; the Skybridge is on floors 41–42 and the observation deck on floor 86; daily tickets are limited, so book ahead" },
+          { k: "Batu Caves", v: "272 steps lead to a limestone cave, with the Murugan statue at the entrance" },
+          { k: "Merdeka Square", v: "Where Malaysia declared independence in 1957" },
+          { k: "Getting around", v: "Trains (MRT, LRT, monorail) cover almost all main sights; a Touch n Go card works on trains and buses" },
+          { k: "My time in KL", v: "Two years of working and exploring, so this post follows the places I returned to many times" },
+        ],
+        note: "Ticket prices, hours and train routes can change; check before you go.",
+      },
       {
         k: "Landmark", h: "The Petronas Twin Towers", where: "KLCC · late afternoon to evening",
         t: "The Petronas Twin Towers are the first image people think of when Kuala Lumpur is mentioned. By day the towers glow silver in the sun, and after dark both of them light up brilliantly. Visit KLCC Park in the late afternoon, stroll around the lake and wait for the towers to light up to get the best photos.",
@@ -35,6 +48,11 @@ export const EN_3 = {
         ph: ["Thean Hou Temple", "Red lanterns", "A curved tiled roof", "The temple courtyard"],
         station: "Thean Hou",
       },
+      {
+        k: "Tips", h: "A few things I learned after two years in KL", where: "Before you go",
+        quote: "KL is easier than you think, if you know how to take the train.",
+        t: "• Trains are the fastest way; avoid morning and evening rush hours if you carry luggage.\n\n• Book Petronas tickets in advance, since daily numbers are limited and prices vary by seller.\n\n• Sun and showers change quickly; keep a folding umbrella in your bag.\n\n• Dress modestly at temples and mosques; see the post on mosques in Malaysia.\n\n• At Jalan Alor and street stalls, ask the price before ordering.\n\n• Leave extra time for the old quarter, where KL feels most everyday.",
+      },
     ],
     closing: "Kuala Lumpur is not only soaring skyscrapers. It is where many cultures meet, with street food full of flavour and a rhythm of life that is both modern and close.\n\nClosing two years of working, exploring and experiencing life in KL, I carry away so many memories, from happy days to times that were not easy. It was the first country I set foot in after leaving home, and the place where I spent two years of my youth before returning to Vietnam. There are places you come to and leave, yet always remember. To me, Kuala Lumpur is one of them. ❤️",
     tip: "Buy a Touch 'n Go card to ride trains and buses more easily.",
@@ -42,10 +60,12 @@ export const EN_3 = {
 
   "penang": {
     title: "A 4-Day Independent Trip to Penang: Dim Sum, Street Art, the Beach and Penang Hill",
-    ex: "A four-day diary from Penang in late April 2026: from a morning dim sum basket and George Town murals to Chew Jetty, blood cockles at Batu Ferringhi, Penang Hill and Kek Lok Si temple, with an itinerary and tips.",
+    seo: "Penang in 4 Days: George Town and What to Eat",
+    desc: "Penang travel guide for 4 days: George Town, murals, Chew Jetty, Batu Ferringhi, Penang Hill, Kek Lok Si, dishes to eat and an itinerary.",
+    ex: "A four-day diary from Penang: from a morning dim sum basket and George Town murals to Chew Jetty, blood cockles at Batu Ferringhi, Penang Hill and Kek Lok Si temple, with an itinerary and tips.",
     place: "Penang",
     body: [
-      ["", "Some cities I visit to look at, and some I visit to slow down. For me Penang is the second kind. I arrived on the morning of 25 April 2026, stayed four nights and left on the morning of 29 April, with a small backpack, walking shoes and a very hungry stomach. I had lived in Malaysia for a while, but this was the first time I gave nearly a whole week to this one island, and what stayed with me was how much slower the city moves than I expected."],
+      ["", "Some cities I visit to look at, and some I visit to slow down. For me Penang is the second kind. I arrived one morning, stayed four nights and left one morning, with a small backpack, walking shoes and a very hungry stomach. I had lived in Malaysia for a while, but this was the first time I gave nearly a whole week to this one island, and what stayed with me was how much slower the city moves than I expected."],
       ["Why Penang is worth the trip", "George Town, the capital of Penang island, was inscribed with Melaka as a UNESCO World Heritage Site in 2008. The city keeps its rows of old Chinese shophouses, temples, mosques and Indian quarter side by side. What I liked is that everything is walkable: in one morning you can eat dim sum in a Chinese shop, walk through a lane hung with colourful umbrellas, then stop at an Indian dessert stall without ever calling a ride."],
     ],
     stories: [
@@ -53,7 +73,6 @@ export const EN_3 = {
         k: "Quick facts", h: "Before you go to Penang",
         items: [
           { k: "Location", v: "Penang island, Penang state, northwest Peninsular Malaysia; the centre is the city of George Town" },
-          { k: "My trip", v: "25 – 29 April 2026, four nights; days one and two in the old town, day three at Batu Ferringhi, day four at Penang Hill and Kek Lok Si" },
           { k: "Getting around", v: "Walk or cycle in the old town; take a bus or ride-hailing car to Batu Ferringhi, Penang Hill and Kek Lok Si" },
           { k: "How long", v: "3 – 4 days to go slowly; 2 days if you only do the old town" },
           { k: "Food note", v: "Many dim sum and noodle shops use pork, so anyone who avoids pork or is vegetarian should ask first" },
@@ -127,28 +146,68 @@ export const EN_3 = {
   },
 
   "cameron": {
-    title: "The Green Tea Hills of Cameron Highlands",
-    ex: "Malaysia's cool highlands, with rolling tea hills, strawberry farms and misty mornings.",
+    title: "Cameron Highlands in 2 Days: BOH Tea Hills, Strawberry Farms, Brinchang and Misty Afternoons",
+    seo: "Cameron Highlands in 2 Days: Tea Hills and Farms",
+    desc: "Cameron Highlands for 2 days and 1 night: the BOH Sungei Palas tea hills, strawberry farms, Brinchang town, food, an itinerary and tips.",
+    ex: "A diary of a trip: the BOH Sungei Palas tea hills, strawberry farms, Brinchang town and a breakfast of egg toast, with quick facts, an itinerary, tips and sources.",
     place: "Cameron Highlands",
-    body: [["", "Cameron Highlands is about three to four hours by road from Kuala Lumpur, where Malaysians go to escape the city heat. The higher you climb, the cooler the air, with lush green tea hills rolling along the mountainsides and morning mist resting lightly on every slope."]],
+    body: [
+      ["", "Cameron Highlands is about three to four hours by road from Kuala Lumpur, where Malaysians go to escape the city heat. I arrived one afternoon and stayed until midday, only two days but enough to see why the place is so loved: the higher you climb the cooler the air, with lush tea hills rolling along the mountainsides and mist resting lightly on every slope."],
+      ["A trip at the right pace", "I chose to go slowly: tea hills and strawberry picking in the afternoon, then the next morning a stroll through Brinchang and breakfast. I did not manage to go up to the Mossy Forest, so this post records only the places I truly visited."],
+    ],
     stories: [
       {
-        k: "Tea hills", h: "The endless BOH tea hills", where: "BOH Sungei Palas · early morning",
-        t: "The BOH tea hills are the best place to feel Cameron Highlands. Lush green rows of tea curve along the hillsides like soft terraces, with mist-covered mountains far beyond. You can walk between the tea rows, then stop at the tea shop on the hill, order a pot of hot tea and a scone, and sit looking at the whole green valley in front of you.",
-        ph: ["The BOH tea hills", "Lush green tea rows", "A pot of hot tea on the hill"],
+        k: "Quick facts", h: "Before you go up to Cameron Highlands",
+        items: [
+          { k: "Location", v: "Pahang state, about three to four hours by road from Kuala Lumpur; I stayed in the Brinchang area" },
+          { k: "BOH Sungei Palas", v: "According to BOH, the first tea garden in Cameron Highlands was set up by J.A. Russell in 1929; the tea centre is free to enter, offers free factory tours every 30 minutes and opens about 9 am to 4:30 pm Tuesday to Sunday, closed Mondays" },
+          { k: "Food", v: "Fresh strawberries sold by the box, and egg toast for breakfast" },
+          { k: "Weather", v: "Cool all year, with clouds and light rain often in the morning and afternoon" },
+        ],
+        note: "Opening hours and prices can change; check before you go.",
       },
       {
-        k: "Moss forest", h: "The fairytale moss forest", where: "Gunung Brinchang · morning",
-        t: "The Mossy Forest is a damp primeval forest where moss covers tree trunks, roots and even the ground. Walking along the boardwalk through the mist, hearing birds and dripping water, I felt as if I had wandered into a fairytale forest. Bring a jacket and shoes with good grip because it is cold and the path is quite slippery.",
-        ph: ["The Mossy Forest", "A boardwalk in the mist", "Moss on tree trunks", "Moss-covered roots", "Mist in the forest", "Fern leaves", "Brinchang peak", "The observation tower", "Light through the canopy"],
+        k: "Tea hills", h: "The endless BOH tea hills", where: "BOH Sungei Palas · afternoon",
+        t: "The BOH tea hills are the best place to feel Cameron Highlands. Lush green rows of tea curve along the hillsides like soft terraces, with mist-covered mountains far beyond. I came one afternoon, when cloud had just cleared and blue sky showed between white clouds, with light falling on every tea row.\n\nYou can walk between the tea rows, then stop at the tea centre on the hill, order a pot of hot tea and a scone, and sit looking at the whole green valley in front of you. According to BOH, the centre offers free factory tours every half hour and a balcony overhanging the tea fields.",
+        ph: ["A bus under a big tree", "Lush green tea hills", "Purple flowers in the cloud"],
       },
       {
-        k: "Farms", h: "Strawberry farms and the farmers' market", where: "Brinchang · all day",
-        t: "Cameron is famous for its strawberry farms, flower gardens and clean-vegetable farms. You can pick strawberries yourself and try strawberry yoghurt or fresh strawberry ice cream. In the evening, stop at the Brinchang night market to buy vegetables and fruit and enjoy a few hot grilled snacks in the chilly highland weather.",
-        ph: ["A strawberry farm", "Fresh strawberries", "Brinchang night market"],
+        k: "Brinchang town", h: "A morning in Brinchang", where: "Brinchang · morning",
+        t: "One morning I walked around Brinchang from about nine until nearly noon. The town sits among green hills, with a row of European-style hotels beside the road, car parks looking out over rain-wet tea hills and clusters of purple flowers among the clouds. From above, the buildings look like small bricks set in the green forest.\n\nThe morning here is cool and quiet, and what I liked most were the small moments: a pine tree under a crystal-clear sky and a lush green clump of plants beside the road.",
+        ph: ["Ferns and pines beside the road", "European-style hotel street", "A car park facing tea hills after rain", "The town from above", "Purple flowers", "", "Blue sky through the pine", "Egg toast breakfast", ""],
+      },
+      {
+        k: "Farms", h: "Strawberry farms and boxes of red fruit", where: "Tringkap and Kea Farm · afternoon and morning",
+        t: "Cameron is famous for its strawberry farms, flower gardens and clean-vegetable farms. I stopped at a strawberry farm with a Big Red Strawberry Farm sign right at the gate and walked through the greenhouse, where hanging pots of strawberries run in long rows with red fruit peeking out of the leaves. I picked one myself and held it.\n\nYou can buy strawberries by the box right at the farm, and prices vary by season and size. I bought a few boxes and lined them up on the artificial grass, then tried one at once: mildly sweet, pleasantly tart, just right for highland strawberries.",
+        ph: ["A strawberry farm sign", "Fresh boxed strawberries", "Strawberries in the greenhouse"],
+      },
+      {
+        k: "What to eat", h: "Cameron Highlands through its meals", where: "What I actually ate",
+        quote: "In a cold place, something hot and something fresh is enough.",
+        t: "Below are the dishes I actually ate on this trip.",
+        cards: [
+          { title: "Egg toast", text: "Breakfast: two slices of toast topped with egg and sausage, drizzled with red sauce and mayonnaise, eaten with a fork on brown paper." },
+          { title: "Fresh strawberries", text: "Boxes of red strawberries bought right at the farm and eaten while still cool." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend two days and one night", where: "A suggestion from my own trip",
+        quote: "Tea hills in the afternoon, town in the morning, strawberries to take home at noon.",
+        steps: [
+          { time: "Morning of day 1", title: "Leave Kuala Lumpur", text: "Three to four hours by road; stop for lunch on the way so you do not get hungry." },
+          { time: "Afternoon of day 1", title: "BOH tea hills", text: "Walk among the tea rows, drink hot tea on the hill and watch the clouds change colour." },
+          { time: "Late afternoon of day 1", title: "A strawberry farm", text: "Pick and buy strawberries; go before the farm closes." },
+          { time: "Morning of day 2", title: "Brinchang", text: "Eat breakfast, stroll the town and photograph the flower clusters." },
+          { time: "Midday of day 2", title: "Back to Kuala Lumpur", text: "Come down before afternoon rain makes the road slippery." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Bring a light jacket, since the highlands change weather fast.",
+        t: "• Bring a light jacket and a folding umbrella because cloud and light rain arrive fast.\n\n• Ask the price of strawberries per box before buying, since every place differs.\n\n• According to the sources I read, BOH is closed on Mondays, so check beforehand.\n\n• If you want to visit the Mossy Forest, go early and wear shoes with good grip because the path is slippery.\n\n• The mountain road has many bends; take motion-sickness medicine first if you are prone.\n\n• Bring a little cash for small roadside stalls.",
       },
     ],
-    closing: "Cameron Highlands is a place to slow down. You do not need a packed schedule, just a morning on the tea hills, a pot of hot tea and a little thin mist to feel lighter.",
-    tip: "Visit the tea hills in the morning for beautiful light and fewer people.",
+    closing: "Cameron Highlands is a place to slow down. You do not need a packed schedule, just an afternoon on the tea hills, a pot of hot tea and a little thin mist to feel lighter.",
+    tip: "Visit the tea hills in the morning or late afternoon for beautiful light and fewer people.",
   },
 };
