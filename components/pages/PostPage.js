@@ -6,8 +6,8 @@ import ReadProgress from "@/components/ReadProgress";
 import BackButton from "@/components/BackButton";
 import { SLOTS } from "@/data/slots";
 import { findPost, getGuides, getPosts, isGuideId, label } from "@/lib/content";
-import { getDict, OG_LOCALE } from "@/lib/i18n";
-import { pageMetadata, paths } from "@/lib/meta";
+import { getDict, OG_LOCALE, route } from "@/lib/i18n";
+import { pageMetadata, paths, trimDesc } from "@/lib/meta";
 import { SITE_URL, pad2, postUrl } from "@/lib/site";
 
 // Ảnh đại diện khi chia sẻ link: ảnh bìa bài, nếu chưa có thì ảnh đầu tiên trong bài
@@ -23,11 +23,12 @@ export function postMetadata(lang, id) {
   if (!p) return {};
   const img = shareImage(p);
   const url = postUrl(lang, id);
+  const desc = trimDesc(p.ex);
   return pageMetadata(lang, paths("post", id), {
     title: p.title,
-    description: p.ex,
-    openGraph: { type: "article", title: p.title, description: p.ex, url, locale: OG_LOCALE[lang], images: img ? [img] : undefined },
-    twitter: { card: img ? "summary_large_image" : "summary", title: p.title, description: p.ex, images: img ? [img] : undefined },
+    description: desc,
+    openGraph: { type: "article", title: p.title, description: desc, url, locale: OG_LOCALE[lang], images: img ? [img] : undefined },
+    twitter: { card: img ? "summary_large_image" : "summary", title: p.title, description: desc, images: img ? [img] : undefined },
   });
 }
 
@@ -44,18 +45,28 @@ export default function PostPage({ lang, id }) {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: p.title,
-    description: p.ex,
+    description: trimDesc(p.ex),
     inLanguage: lang,
     author: { "@type": "Person", name: "Mely" },
+    publisher: { "@type": "Organization", name: "Đi Rồi Kể", url: SITE_URL, logo: { "@type": "ImageObject", url: SITE_URL + "/icon.png" } },
     image: img ? SITE_URL + img : undefined,
     mainEntityOfPage: SITE_URL + postUrl(lang, p.id),
     about: p.place,
+  };
+  const crumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: d.nav.home, item: SITE_URL + route(lang, "home") },
+      { "@type": "ListItem", position: 2, name: p.title, item: SITE_URL + postUrl(lang, p.id) },
+    ],
   };
 
   return (
     <main>
       <ReadProgress />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }} />
       <div className="wrap">
         <article className="article">
           <BackButton lang={lang} />

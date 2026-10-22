@@ -3,7 +3,7 @@ import Link from "next/link";
 import { fontVariables } from "@/lib/fonts";
 import { getDict } from "@/lib/i18n";
 
-export const metadata = { title: "404 | Đi Rồi Kể" };
+export const metadata = { title: "404 | Đi Rồi Kể", robots: { index: false, follow: true } };
 
 // Trang 404 chung cho toàn site (mọi ngôn ngữ): hiện cả tiếng Việt và English
 export default function GlobalNotFound() {

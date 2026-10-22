@@ -51,7 +51,7 @@ export default function Photo({ id, fallback, caption = "", eager = false }) {
   }, [framed, sl]);
 
   const loading = eager ? "eager" : "lazy";
-  if (sl) return <div className="ph"><img ref={ref} src={abs(sl.f)} alt={caption} loading={loading} className={framed ? "framed" : undefined} /></div>;
+  if (sl) return <div className="ph"><img ref={ref} src={abs(sl.f)} alt={caption} loading={loading} fetchPriority={eager ? "high" : undefined} className={framed ? "framed" : undefined} /></div>;
   if (typeof fallback === "string" && fallback) return <div className="ph"><img src={abs(fallback)} alt={caption} loading={loading} /></div>;
   if (fallback && typeof fallback === "object") return <div className="ph" role="img" aria-label={caption} dangerouslySetInnerHTML={{ __html: art(fallback) }} />;
   return <div className="ph blank"><span>{caption}</span></div>;
