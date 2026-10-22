@@ -48,7 +48,7 @@ export const EN_6 = {
     ex: "Walk with a Hmong or Red Dao guide, sleep in a village homestay, ask before photographing and buy brocade directly from the maker. The trip gets deeper, with a route, reference prices and tips.",
     place: "Sa Pa",
     body: [
-      ["", "I went to Sa Pa on 12–13 November 2023, and what I remember most is not only the terraced fields or misty mornings but the feeling that I was passing through places where people live and work every day. The houses, fields and footpaths there are not a stage. So how I go, who guides me, where I sleep and who I spend money with really matter."],
+      ["", "I went to Sa Pa one day, and what I remember most is not only the terraced fields or misty mornings but the feeling that I was passing through places where people live and work every day. The houses, fields and footpaths there are not a stage. So how I go, who guides me, where I sleep and who I spend money with really matter."],
       ["A guide knows more than a map", "A village guide knows paths few people use, can tell stories about the terraces, the seasons and village life, and helps your money stay with their family instead of flowing through many layers of middlemen."],
     ],
     stories: [
@@ -59,7 +59,6 @@ export const EN_6 = {
           { k: "Ethnic groups", v: "Hmong (Black Hmong) at Cat Cat, Lao Chai and Ta Van; Red Dao at Suoi Thau, Ma Tra and Ta Phin" },
           { k: "Reference tour prices", v: "A 2-day tour from Hanoi with a homestay and local guide on booking platforms is about 73 USD per person, a 3-day 2-night tour about 122 USD; prices vary by date and provider" },
           { k: "Usually included", v: "A guide, village entrance fees, meals and transfers; usually not drinks and tips" },
-          { k: "My trip", v: "12–13 November 2023" },
         ],
         note: "Prices, routes and village rules can change; check before you book.",
       },

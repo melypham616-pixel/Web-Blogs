@@ -2,17 +2,16 @@
 export const EN_1 = {
   "ha-giang": {
     title: "Ha Giang in 4 Days and 3 Nights: Tham Ma, Lung Cu, Dong Van and the Nho Que River",
-    ex: "A diary of my Ha Giang trip in late December 2023: Tham Ma Pass, Lung Cu flagpole, Dong Van old quarter at night, the Nho Que River and the Vuong Family Mansion, with an itinerary, food and tips.",
+    ex: "A diary of my Ha Giang trip in winter: Tham Ma Pass, Lung Cu flagpole, Dong Van old quarter at night, the Nho Que River and the Vuong Family Mansion, with an itinerary, food and tips.",
     place: "Ha Giang",
     body: [
-      ["", "My Ha Giang journey began on the evening of 24 December 2023, when I reached Ha Giang city and stayed one night before heading up to Dong Van. Ha Giang has a beauty all its own, not only winding roads between mighty limestone mountains but also the simple life of highland people, children with clear smiles and villages tucked against the slopes. The trip ran until midday on 27 December, three nights, and it is one of the trips I remember best."],
+      ["", "My Ha Giang journey began one evening, when I reached Ha Giang city and stayed one night before heading up to Dong Van. Ha Giang has a beauty all its own, not only winding roads between mighty limestone mountains but also the simple life of highland people, children with clear smiles and villages tucked against the slopes. The trip ran until midday, three nights, and it is one of the trips I remember best."],
       ["The Dong Van Karst Plateau", "Most of the route lies in the Dong Van Karst Plateau, recognised as a UNESCO Global Geopark in 2010 and re-recognised in 2014, 2019 and 2023. The rock here is not only scenery but part of people's story: they stack stones as walls, grow terraced fields on rock and live among the sharp karst ridges. So every road made me slow down to look."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go up to Ha Giang",
         items: [
-          { k: "My trip", v: "24 – 27 December 2023, three nights: Ha Giang city, Quan Ba, Yen Minh, Dong Van, Meo Vac, Sa Phin, Lung Cu" },
           { k: "Main route", v: "From Ha Giang city up to Dong Van on National Road 4C via Quan Ba and Yen Minh, then on to Meo Vac, Sa Phin and Lung Cu" },
           { k: "Weather in late December", v: "Cold and often foggy; buckwheat is generally planted from September and harvested in December, so I went near the end of the flower season" },
           { k: "Dong Van market", v: "Held on Sunday mornings each week; I did not arrive on the right day so I missed it" },
@@ -22,7 +21,7 @@ export const EN_1 = {
       },
       {
         k: "Day 2 · 25 Dec", h: "Tham Ma Pass", where: "On the road up to Dong Van",
-        t: "On the morning of 25 December I set off early, stopping for a cup of hot green tea before the road. The road to Dong Van passes Quan Ba and then Yen Minh on National Road 4C, and by midday I had come through Tham Ma Pass, one of the famous roads with bends winding among layered mountains. Stopping at one bend, I looked at the road draped over the slope like a long thread and felt small in the middle of nature.\n\nOn the way I met highland children playing by the road, and a seller on a small path. Little moments like these stay with me longer than any beautiful view: clear smiles, waves from far away.",
+        t: "One morning I set off early, stopping for a cup of hot green tea before the road. The road to Dong Van passes Quan Ba and then Yen Minh on National Road 4C, and by midday I had come through Tham Ma Pass, one of the famous roads with bends winding among layered mountains. Stopping at one bend, I looked at the road draped over the slope like a long thread and felt small in the middle of nature.\n\nOn the way I met highland children playing by the road, and a seller on a small path. Little moments like these stay with me longer than any beautiful view: clear smiles, waves from far away.",
         ph: ["A bend on Tham Ma Pass", "Highland children", "A small gift on the road"],
       },
       {
@@ -33,12 +32,12 @@ export const EN_1 = {
 
       {
         k: "Day 2 · 25 Dec evening", h: "Dong Van old quarter", where: "Dong Van · evening",
-        t: "On the evening of 25 December I reached Dong Van. The old quarter lit up gently, two-storey houses with tiled roofs glowing with yellow light, and people strolling slowly in the cold. For dinner I ate hotpot around a small warm table, the pot steaming with green mustard greens, rice noodles, fried tofu and meat, dipped in chilli salt. After the meal I stopped at the Pho Co café with a small fire in the yard, then walked the street with a hot cup of thang den dessert.\n\nPeople say the Dong Van market meets on Sunday mornings, but I did not arrive on the right day, so I only saw the old quarter at night, quiet enough to hear my own footsteps. The next morning, when sunlight reached the street, I saw the roofs and the mountains behind them more clearly.",
+        t: "One evening I reached Dong Van. The old quarter lit up gently, two-storey houses with tiled roofs glowing with yellow light, and people strolling slowly in the cold. For dinner I ate hotpot around a small warm table, the pot steaming with green mustard greens, rice noodles, fried tofu and meat, dipped in chilli salt. After the meal I stopped at the Pho Co café with a small fire in the yard, then walked the street with a hot cup of thang den dessert.\n\nPeople say the Dong Van market meets on Sunday mornings, but I did not arrive on the right day, so I only saw the old quarter at night, quiet enough to hear my own footsteps. The next morning, when sunlight reached the street, I saw the roofs and the mountains behind them more clearly.",
         ph: ["The old quarter lit up", "Thang den dessert", "Stone cake", "People strolling", "Buckwheat cake", "A small corner of the street", "Dong Van at night"],
       },
       {
         k: "Days 3 – 4 · 26 – 27 Dec", h: "The Nho Que River and Pao's House", where: "Meo Vac · Sung La",
-        t: "Day three was the day I covered the most ground, from early morning to evening around Dong Van and Meo Vac. I followed the steep road down to the Nho Que River, its jade-green water flowing under the Tu San canyon, one of the places regarded as the geopark's most striking, and rode a boat through the gap between two sheer walls. My sense of being small before nature peaked as I looked up at the soaring cliffs.\n\nOn the morning of 27 December, on the way to Sa Phin, I stopped at Pao's House in Sung La, a small earthen house on the rock among maize fields, linked with the film Chuyen cua Pao shot in this area. Standing here I understood better why the people of this land both love and cling to the rock.",
+        t: "Day three was the day I covered the most ground, from early morning to evening around Dong Van and Meo Vac. I followed the steep road down to the Nho Que River, its jade-green water flowing under the Tu San canyon, one of the places regarded as the geopark's most striking, and rode a boat through the gap between two sheer walls. My sense of being small before nature peaked as I looked up at the soaring cliffs.\n\nOne morning, on the way to Sa Phin, I stopped at Pao's House in Sung La, a small earthen house on the rock among maize fields, linked with the film Chuyen cua Pao shot in this area. Standing here I understood better why the people of this land both love and cling to the rock.",
         ph: ["The jade-green Nho Que River", "A boat through the Tu San canyon", "Pao's House"],
       },
       {
@@ -55,7 +54,7 @@ export const EN_1 = {
         quote: "Good food in the highlands is usually hot, simple and eaten with whoever is beside you.",
         t: "Below are the dishes I actually ate on this trip, plus a few famous specialities I did not get to try.",
         cards: [
-          { title: "Beef pho on the first night", text: "A hot bowl of beef pho after the long journey on the evening of 24 December in Ha Giang city, with sweet clear broth and lots of spring onion. A simple meal at exactly the right time." },
+          { title: "Beef pho on the first night", text: "A hot bowl of beef pho after the long journey one evening in Ha Giang city, with sweet clear broth and lots of spring onion. A simple meal at exactly the right time." },
           { title: "Roadside grill", text: "Sweet potatoes, small eggs and purple sticky rice grilled over charcoal at a rest stop on the road up to Dong Van. Hot, smoky and eaten by hand in the cold wind." },
           { title: "Mustard-green hotpot", text: "Dinner in Dong Van with a pot of hotpot, mustard greens, rice noodles, fried tofu and meat, dipped in chilli salt. A very good dish for a cold evening." },
           { title: "Worth trying next", text: "Thang co, smoked buffalo or pork over the kitchen fire, steamed maize meal men men and buckwheat cake are specialities of the karst plateau often named in travel guides." },
@@ -83,17 +82,16 @@ export const EN_1 = {
 
   "ho-chi-minh": {
     title: "Saigon in the Evenings: District 1, the Book Street, Street Food and Favourite Cafés",
-    ex: "Saigon through my evenings of 2022 – 2023: Notre-Dame Cathedral, the Central Post Office, the book street, pavement food, grills, bubble tea and coffee, with a one-day itinerary and tips.",
+    ex: "Saigon through my evenings: Notre-Dame Cathedral, the Central Post Office, the book street, pavement food, grills, bubble tea and coffee, with a one-day itinerary and tips.",
     place: "Ho Chi Minh City",
     body: [
-      ["", "Saigon is loveliest at dawn when the streets are still cool and in the evening when the whole city comes out. Most of my photos of Saigon were taken between about five and nine in the evening, on the nights I went out to eat, to a café or for a stroll after work, scattered through 2022 and 2023. Perhaps that is why, to me, Saigon is a city of evenings: the sun softens, the lights come on and people begin to leave their homes."],
+      ["", "Saigon is loveliest at dawn when the streets are still cool and in the evening when the whole city comes out. Most of my photos of Saigon were taken between about five and nine in the evening, on the nights I went out to eat, to a café or for a stroll after work, scattered over several years. Perhaps that is why, to me, Saigon is a city of evenings: the sun softens, the lights come on and people begin to leave their homes."],
       ["A city for eating and sitting", "What I remember about Saigon is not a single sight but that the city always has somewhere for you to sit down: an air-conditioned café, a low plastic stool by the road, a grill table in the corner of a restaurant. With just a motorbike or a pair of comfortable shoes you will find that this city always has something to discover."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Saigon",
         items: [
-          { k: "My visits", v: "Many evenings scattered from March 2022 to mid-2023, in District 1, Thu Duc, Binh Thanh and nearby areas" },
           { k: "Main sights", v: "Notre-Dame Cathedral (completed 1880), the Central Post Office (built 1886 – 1891), Nguyen Hue walking street and Nguyen Van Binh book street" },
           { k: "Getting around", v: "Ride-hailing and buses; District 1 is walkable between sights; many roads are jammed in the evening" },
           { k: "Best time", v: "Early morning or late afternoon; midday is fierce" },
@@ -157,17 +155,16 @@ export const EN_1 = {
   },
   "ha-noi": {
     title: "Hanoi in Four Visits: Hoan Kiem Lake, the One Pillar Pagoda, the Old Quarter and Familiar Meals",
-    ex: "A diary of four visits to Hanoi between September and December 2023: Hoan Kiem Lake, the Temple of Literature, the One Pillar Pagoda, the Old Quarter, lakeside coffee and simple meals, with a one-day itinerary and tips.",
+    ex: "A diary of four visits to Hanoi: Hoan Kiem Lake, the Temple of Literature, the One Pillar Pagoda, the Old Quarter, lakeside coffee and simple meals, with a one-day itinerary and tips.",
     place: "Hanoi",
     body: [
-      ["", "Hanoi is loveliest in autumn, when the air turns cool, the sun is soft gold and the streets smell faintly of milk-flower blossom. I did not stay long in Hanoi at once, but visited several times in late 2023: the afternoon of 9 September, 25 November, 3 December and two days at the end of December. Each visit was a different slice, and put together they showed me this city does not need rushing; slow down a little and every street corner carries a story."],
+      ["", "Hanoi is loveliest in autumn, when the air turns cool, the sun is soft gold and the streets smell faintly of milk-flower blossom. I did not stay long in Hanoi at once, but visited several times: one afternoon, two days in the middle of the year and two days at the end. Each visit was a different slice, and put together they showed me this city does not need rushing; slow down a little and every street corner carries a story."],
       ["Hanoi is walkable", "The centre around Hoan Kiem Lake, the Old Quarter, the Temple of Literature and the One Pillar Pagoda are all within a few kilometres, so I usually walked and called a ride only in rain or when tired. Walking is also how you stumble on pavement tea stalls, ice-cream shops, sticky-rice sellers and cafés looking onto the lake."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Hanoi",
         items: [
-          { k: "My visits", v: "9 Sep, 25 Nov, 3 Dec, 23 – 24 Dec 2023: Hoan Kiem Lake, the Old Quarter, the Temple of Literature, the One Pillar Pagoda and West Lake" },
           { k: "Getting around", v: "The centre is walkable; use ride-hailing for longer trips; going out to Ba Vi needs a car or coach" },
           { k: "Best season", v: "Autumn and early winter are cool and pleasant; summer is hot and humid, winter has cold, drizzly days" },
           { k: "Eating", v: "Pho, bun cha, sticky rice, coffee and street sweets are everywhere; many places are crowded at lunch and dinner" },
@@ -176,32 +173,32 @@ export const EN_1 = {
       },
       {
         k: "The heart of the capital", h: "Hoan Kiem Lake, where I kept coming back", where: "Hoan Kiem · many visits",
-        t: "I visited Hoan Kiem Lake more than anywhere else in my four stops in Hanoi. On the afternoon of 9 September I walked around the lake from about two to five, crossed The Huc Bridge to Ngoc Son Temple and stood looking at Turtle Tower in the middle. According to what I read, The Huc Bridge was built in 1865 under Emperor Tu Duc and rebuilt in 1897, while Turtle Tower dates from around 1886. The lake is also tied to the legend of King Le Loi returning the magic sword, so its name sounds both gentle and a little historical.\n\nLate in the afternoon I sat in a café overlooking the water with two iced coffees topped with white cream, listening to people walking past. On 3 December I came back at midday and drank a pot of hot tea by the lake in the cold, then in the afternoon walked the pedestrian streets with a cup of coffee. Moments like these made me realise Hoan Kiem is not only for looking at: it is a place to sit down and watch the city slowly move.",
+        t: "I visited Hoan Kiem Lake more than anywhere else in my four stops in Hanoi. One afternoon I walked around the lake from about two to five, crossed The Huc Bridge to Ngoc Son Temple and stood looking at Turtle Tower in the middle. According to what I read, The Huc Bridge was built in 1865 under Emperor Tu Duc and rebuilt in 1897, while Turtle Tower dates from around 1886. The lake is also tied to the legend of King Le Loi returning the magic sword, so its name sounds both gentle and a little historical.\n\nLate in the afternoon I sat in a café overlooking the water with two iced coffees topped with white cream, listening to people walking past. One day I came back at midday and drank a pot of hot tea by the lake in the cold, then in the afternoon walked the pedestrian streets with a cup of coffee. Moments like these made me realise Hoan Kiem is not only for looking at: it is a place to sit down and watch the city slowly move.",
         ph: ["Hoan Kiem Lake in early mist", "The Huc Bridge", "Turtle Tower", "Willows by the lake", "Ngoc Son Temple", "The pedestrian street in the evening"],
       },
       {
         k: "25 Nov", h: "The One Pillar Pagoda", where: "Ba Dinh · near the Mausoleum",
-        t: "On 25 November, after a morning at the Temple of Literature, I went over to Ba Dinh to stop at the One Pillar Pagoda. It is so small you can see all of it from the gate: a curved-roof shrine set on a single stone pillar in a lotus pond. According to the sources I read, it was built in 1049 under Emperor Ly Thai Tong, and today's structure is a rebuilding from around 1955 after it was destroyed in 1954. Even so, its form keeps an ancient look, and the lotus pond around it lightens the whole scene.\n\nI stood a good while at the railing watching tree canopies reflected in the water. Some small places say a great deal about history and how people keep it.",
+        t: "One day, after a morning at the Temple of Literature, I went over to Ba Dinh to stop at the One Pillar Pagoda. It is so small you can see all of it from the gate: a curved-roof shrine set on a single stone pillar in a lotus pond. According to the sources I read, it was built in 1049 under Emperor Ly Thai Tong, and today's structure is a rebuilding from around 1955 after it was destroyed in 1954. Even so, its form keeps an ancient look, and the lotus pond around it lightens the whole scene.\n\nI stood a good while at the railing watching tree canopies reflected in the water. Some small places say a great deal about history and how people keep it.",
         ph: ["The One Pillar Pagoda", "The lotus pond around the pagoda", "The old pagoda roof"],
       },
       {
         k: "The Old Quarter", h: "The Old Quarter and the flavours of Hanoi", where: "Hoan Kiem · afternoons and evenings",
-        t: "The Old Quarter is where I wandered most: small streets like Hang Bai, Trang Tien and Lo Ren, shophouses packed together, signs stacked on signs, motorbikes weaving between pedestrians. People often call the area the 36 streets, because each street once specialised in one trade, and though it has changed a lot, the name still suggests a Hanoi of craftsmen and traders.\n\nI ate a great deal here: a platter of bun dau on the afternoon of 9 September, a hand-held Trang Tien ice-cream in front of the Hanoi Drama Theatre, a pavement lemon tea and a creamy iced coffee. On the night of 23 December I came back to walk Lo Ren Street when it had emptied a little, yellow lights falling on the awnings and the smell of night food mixing with cold wind. That may be when I saw the Old Quarter at its best: not crowded, not hurried, just the slow breath of the city.",
+        t: "The Old Quarter is where I wandered most: small streets like Hang Bai, Trang Tien and Lo Ren, shophouses packed together, signs stacked on signs, motorbikes weaving between pedestrians. People often call the area the 36 streets, because each street once specialised in one trade, and though it has changed a lot, the name still suggests a Hanoi of craftsmen and traders.\n\nI ate a great deal here: a platter of bun dau one afternoon, a hand-held Trang Tien ice-cream in front of the Hanoi Drama Theatre, a pavement lemon tea and a creamy iced coffee. One night I came back to walk Lo Ren Street when it had emptied a little, yellow lights falling on the awnings and the smell of night food mixing with cold wind. That may be when I saw the Old Quarter at its best: not crowded, not hurried, just the slow breath of the city.",
         ph: ["Moss-covered old quarter", "A street vendor's carrying pole", "Hanoi pho", "Bun cha", "Egg coffee", "A small balcony above the street", "The Old Quarter at night"],
       },
       {
-        k: "West Lake and the Temple of Literature", h: "25 November: the Temple of Literature, Ba Dinh and painting coffee by West Lake", where: "West Lake · Temple of Literature",
+        k: "West Lake and the Temple of Literature", h: "One day: the Temple of Literature, Ba Dinh and painting coffee by West Lake", where: "West Lake · Temple of Literature",
         quote: "Three places in one day, each at its own pace.",
-        t: "25 November was the fullest day. In the morning I was at the Temple of Literature, where I spent most of the morning walking each courtyard and reading the doctoral steles; you can read my separate post on that place. At noon I ate a bowl of a noodle soup with fried tofu and fresh herbs, then went to Ba Dinh to stop at the One Pillar Pagoda. Late in the afternoon I sat at a café by West Lake and ordered coconut water with a watercolour set to paint on the coconut myself. I paint terribly, but that afternoon the sky was grey, the lake flat and sitting down felt wonderful after a day on foot.",
+        t: "That was the fullest day. In the morning I was at the Temple of Literature, where I spent most of the morning walking each courtyard and reading the doctoral steles; you can read my separate post on that place. At noon I ate a bowl of a noodle soup with fried tofu and fresh herbs, then went to Ba Dinh to stop at the One Pillar Pagoda. Late in the afternoon I sat at a café by West Lake and ordered coconut water with a watercolour set to paint on the coconut myself. I paint terribly, but that afternoon the sky was grey, the lake flat and sitting down felt wonderful after a day on foot.",
       },
       {
         k: "What to eat in Hanoi", h: "Hanoi through its meals", where: "What I ate and what to try",
         quote: "In Hanoi, a good meal is often just a low plastic stool by the road.",
         t: "Below are the dishes I actually ate across my four visits, plus a few famous ones I did not get to try.",
         cards: [
-          { title: "Beef pho", text: "A bowl of rare-beef pho with lots of spring onion and fried dough sticks at midday on 3 December. Clear broth, tender beef, steaming hot in cold weather." },
-          { title: "Bun dau and noodle soup", text: "A bun dau platter with sausage, spring rolls and all the sides on the afternoon of 9 September; and a bowl of noodle soup with fried tofu on 25 November." },
-          { title: "Leaf-wrapped sticky rice", text: "Yellow sticky rice with mung bean and fried shallots wrapped in dong leaf, eaten on the morning of 24 December: a humble breakfast that fills and warms the stomach." },
+          { title: "Beef pho", text: "A bowl of rare-beef pho with lots of spring onion and fried dough sticks at midday. Clear broth, tender beef, steaming hot in cold weather." },
+          { title: "Bun dau and noodle soup", text: "A bun dau platter with sausage, spring rolls and all the sides one afternoon; and a bowl of noodle soup with fried tofu at midday." },
+          { title: "Leaf-wrapped sticky rice", text: "Yellow sticky rice with mung bean and fried shallots wrapped in dong leaf, eaten one morning: a humble breakfast that fills and warms the stomach." },
           { title: "Ice cream, lemon tea, coffee", text: "Trang Tien ice-cream sticks, pavement lemon tea, creamy iced coffee, a hot pot of tea by the lake and takeaway coffee: things I remember because they matched the rhythm of walking." },
         ],
       },
@@ -231,17 +228,16 @@ export const EN_1 = {
   },
   "sa-pa": {
     title: "Sa Pa in 2 Days and 1 Night: A Town in the Mist, the Stone Church and Terraced Fields",
-    ex: "A diary of two days in Sa Pa in mid-November 2023: the Stone Church by day and by night, check-in corners in the mist and terraced fields under cloud, with an itinerary and tips.",
+    ex: "A diary of two days in Sa Pa: the Stone Church by day and by night, check-in corners in the mist and terraced fields under cloud, with an itinerary and tips.",
     place: "Sa Pa",
     body: [
-      ["", "Sa Pa lies in the Hoang Lien Son range, cool all year and often wrapped in mist in the early morning. I arrived on the morning of 12 November 2023 and stayed one night, just two days, but enough to see the town change colour hour by hour: pale sunshine in the morning, yellow lights before the Stone Church in the evening and white mist covering the hills the next morning. Each season here has its own beauty, from golden ripe rice to cold winter days, and I came in early winter when it was already chilly."],
+      ["", "Sa Pa lies in the Hoang Lien Son range, cool all year and often wrapped in mist in the early morning. I arrived one morning and stayed one night, just two days, but enough to see the town change colour hour by hour: pale sunshine in the morning, yellow lights before the Stone Church in the evening and white mist covering the hills the next morning. Each season here has its own beauty, from golden ripe rice to cold winter days, and I came in early winter when it was already chilly."],
       ["A town you can walk", "Central Sa Pa is compact: from the square, the Stone Church and the lake to the night market, everything is walkable. It made me like Sa Pa differently from places where you must keep travelling: I could stop at any time, sit down with a hot drink and then walk on."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Sa Pa",
         items: [
-          { k: "My trip", v: "12 – 13 November 2023, two days and one night, staying in the centre" },
           { k: "What to see", v: "The Stone Church (built from 1895, Roman Gothic architecture), the central square, Ham Rong mountain near town, and the Muong Hoa valley with terraced fields" },
           { k: "When to go", v: "Golden ripe rice is usually recommended around September; early winter, when I went, is chilly and misty" },
           { k: "Getting around", v: "The centre is walkable; for the villages and terraces, hire a ride or join a tour" },
@@ -260,7 +256,7 @@ export const EN_1 = {
       },
       {
         k: "Day 2 · 13 Nov", h: "Check-in corners in the mist", where: "The hill near the centre · early morning",
-        t: "On the morning of 13 November I got up early and went to the hill near the centre, where many photo corners have been built: a big SA PA sign in the mist, a red doorway, a wooden ring, a swing and a heart-shaped frame. Most of my photos here were taken between eight and ten in the morning, when the mist was still thick and there were few people.\n\nI think these corners are cute, but what I remember most is still the mist: it hid half the view, making everything hazy and quiet, like a photo that had not yet come into focus.",
+        t: "One morning I got up early and went to the hill near the centre, where many photo corners have been built: a big SA PA sign in the mist, a red doorway, a wooden ring, a swing and a heart-shaped frame. Most of my photos here were taken between eight and ten in the morning, when the mist was still thick and there were few people.\n\nI think these corners are cute, but what I remember most is still the mist: it hid half the view, making everything hazy and quiet, like a photo that had not yet come into focus.",
         ph: ["The SA PA sign in the mist", "A red doorway", "A wooden ring", "A swing", "A heart-shaped frame", "A big SA PA sign", "A stone hand in the mist"],
       },
       {

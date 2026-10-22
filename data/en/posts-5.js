@@ -8,7 +8,6 @@ export const EN_5 = {
       {
         k: "Quick facts", h: "Before you go to Colmar Tropicale",
         items: [
-          { k: "My trip", v: "Afternoon of 6 September 2025, about 1 to 4 pm" },
           { k: "Location", v: "Berjaya Hills, Bukit Tinggi, Bentong, Pahang, about 45 minutes to an hour from Kuala Lumpur" },
           { k: "Elevation", v: "About 790 – 820 m above sea level depending on the source" },
           { k: "Inspiration", v: "Opened in 2000, inspired by the villages of Riquewihr, Turckheim and Kaysersberg near Colmar in Alsace" },
@@ -17,9 +16,9 @@ export const EN_5 = {
         note: "Ticket prices and hours can change; check the official site.",
       },
       {
-        k: "An afternoon", h: "An afternoon in the French village", where: "6 September 2025",
+        k: "An afternoon", h: "An afternoon in the French village", where: "One afternoon",
         quote: "On a street this short, every window has time to be looked at.",
-        t: "I reached Colmar Tropicale on the afternoon of Saturday 6 September 2025 and stayed about three hours, from one to four, taking nearly ninety photos on a single street. It was cloudy, and the awning stretched across the street and the colourful umbrellas beneath made the whole village glow against a grey sky.\n\nI had a late European-style lunch at a roadside restaurant: a hot cup of coffee on a red-and-white checked tablecloth, and a plate of tomato and prawn spaghetti with fries. Eating in a fake French village in the Pahang forest felt both strange and charming.",
+        t: "I reached Colmar Tropicale one afternoon and stayed about three hours, from one to four, taking nearly ninety photos on a single street. It was cloudy, and the awning stretched across the street and the colourful umbrellas beneath made the whole village glow against a grey sky.\n\nI had a late European-style lunch at a roadside restaurant: a hot cup of coffee on a red-and-white checked tablecloth, and a plate of tomato and prawn spaghetti with fries. Eating in a fake French village in the Pahang forest felt both strange and charming.",
       },
       {
         k: "The village", h: "Stepping through the gate into the French village", where: "Bukit Tinggi · morning",
@@ -73,7 +72,6 @@ export const EN_5 = {
       {
         k: "Quick facts", h: "Before you go to Merlion Park",
         items: [
-          { k: "My trip", v: "Evening of 7 January 2025, staying until late" },
           { k: "Spectra show", v: "Free; at 8 pm and 9 pm Sunday to Thursday, with an extra 10 pm show on Friday and Saturday; best viewed from the Event Plaza, and from Merlion Park you miss the projections and soundtrack" },
           { k: "Getting there", v: "MRT to Raffles Place, then about a 5-minute walk" },
           { k: "Best time", v: "Around 5:30 pm when the sun softens, staying until the lights come on" },
@@ -104,7 +102,6 @@ export const EN_5 = {
       {
         k: "Quick facts", h: "Before you go to Gardens by the Bay",
         items: [
-          { k: "My trip", v: "8 January 2025, from about 10 am to 9 pm, crossing the Helix bridge and Marina Bay" },
           { k: "Garden Rhapsody", v: "Free, at 7:45 pm and 8:45 pm at the Supertree Grove, about 10 minutes long" },
           { k: "Tickets", v: "The outdoor garden is free; the two domes and OCBC Skyway need tickets" },
           { k: "From Marina Bay Sands", v: "About a 10-minute walk to Gardens by the Bay" },
@@ -130,7 +127,6 @@ export const EN_5 = {
       {
         k: "Quick facts", h: "Before you go to Chinatown",
         items: [
-          { k: "My trip", v: "7 January 2025, around the Tanjong Pagar and Chinatown area" },
           { k: "Getting there", v: "Chinatown MRT, where exit A leads into Pagoda Street" },
           { k: "Stops", v: "Buddha Tooth Relic Temple, Sri Mariamman Temple, Pagoda Street, Ann Siang Hill and Maxwell Food Centre" },
           { k: "Lunch", v: "Maxwell is usually busy from noon; arrive early or wait a little" },
@@ -169,7 +165,6 @@ export const EN_5 = {
       {
         k: "Quick facts", h: "Before you go to Clarke Quay",
         items: [
-          { k: "My trip", v: "The evenings of 7 and 8 January 2025, around Robertson Quay and Clarke Quay" },
           { k: "Best time", v: "After 7 pm, when the riverside lights come on" },
           { k: "On foot", v: "You can walk along the river from Marina Bay to Clarke Quay" },
           { k: "Note", v: "The area is lively at night, so keep your things safe and ask prices before ordering" },

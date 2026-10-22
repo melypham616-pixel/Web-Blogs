@@ -1,17 +1,16 @@
 export const EN_4 = {
   "ipoh": {
     title: "Ipoh in 2 Days and 1 Night: Old Town, White Coffee, Roadside Durian and Temples in Limestone Caves",
-    ex: "A diary of my visits to Ipoh (7–8 August 2025 and 17 January 2026): mural-lined old streets, dim sum and white coffee, roadside durian, Tasik Cermin and cave temples at Gunung Rapat, with an itinerary, dishes I ate, tips and sources.",
+    ex: "A diary of my visits to Ipoh: mural-lined old streets, dim sum and white coffee, roadside durian, Tasik Cermin and cave temples at Gunung Rapat, with an itinerary, dishes I ate, tips and sources.",
     place: "Ipoh",
     body: [
-      ["", "Ipoh sits between Kuala Lumpur and Penang, an old city once enriched by tin mining. I went twice: a two-day, one-night trip on 7–8 August 2025 and one long day on 17 January 2026. Both times I did the same thing, ate a lot and walked slowly, and Ipoh never disappointed me."],
+      ["", "Ipoh sits between Kuala Lumpur and Penang, an old city once enriched by tin mining. I went twice: a two-day, one-night trip and one long day. Both times I did the same thing, ate a lot and walked slowly, and Ipoh never disappointed me."],
       ["A city for going slowly", "Ipoh is not as loud as Kuala Lumpur or as famous as Penang, but it has a comfort all its own. The old town is quiet, the food is hard to resist, and the outskirts have limestone ranges hiding cave temples and lakes."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Ipoh",
         items: [
-          { k: "My visits", v: "The evening of 7 August and all of 8 August 2025; one long day on 17 January 2026" },
           { k: "Location", v: "Perak state, between Kuala Lumpur and Penang" },
           { k: "Getting there", v: "The ETS train from KL Sentral takes only about two and a half hours, handy for a short trip" },
           { k: "Areas to visit", v: "The Old Town and Concubine Lane for food and murals; Gunung Rapat for Tasik Cermin and the cave temples" },
@@ -21,21 +20,21 @@ export const EN_4 = {
       },
       {
         k: "Old Town", h: "The old town and Concubine Lane", where: "Old Town · morning",
-        t: "Ipoh's old town keeps rows of colonial shophouses with faded painted fronts, murals by Ernest Zacharevic and a station as white as a palace. Concubine Lane is tiny but always lively, lined with eateries, lanterns and snack stalls.\n\nThe first time I came to this area was in the early evening of 7 August 2025, as the lanterns began to glow, and the second time on 17 January 2026 from about nine in the morning. In the morning the lanes are quiet and easy for photographing murals, and in the evening the shops light up beautifully.",
+        t: "Ipoh's old town keeps rows of colonial shophouses with faded painted fronts, murals by Ernest Zacharevic and a station as white as a palace. Concubine Lane is tiny but always lively, lined with eateries, lanterns and snack stalls.\n\nThe first time I came to this area was in the early evening, as the lanterns began to glow, and the second time from about nine in the morning. In the morning the lanes are quiet and easy for photographing murals, and in the evening the shops light up beautifully.",
         ph: ["Ipoh old town", "Concubine Lane", "Ipoh railway station"],
       },
       {
         k: "Coffee", h: "A glass of white coffee", where: "Old Town · all day",
-        t: "White coffee is Ipoh's pride: beans roasted with margarine and brewed with condensed milk, so it tastes rich, fragrant and very smooth. On the morning of 8 August I sat at a white marble table in an old dim sum place, ordered siu mai, fried rolls and a bowl of congee, then drank iced white coffee with a slice of butter kaya toast. The barista poured the coffee from a steel pot into a glass full of ice, and the sound was very satisfying.\n\nOn the January 2026 trip I stopped at a white coffee shop with a Chang Jiang White Coffee sign, drinking iced coffee and eating toast at midday. A simple thing, but the one I remember best from the trip.",
+        t: "White coffee is Ipoh's pride: beans roasted with margarine and brewed with condensed milk, so it tastes rich, fragrant and very smooth. One morning I sat at a white marble table in an old dim sum place, ordered siu mai, fried rolls and a bowl of congee, then drank iced white coffee with a slice of butter kaya toast. The barista poured the coffee from a steel pot into a glass full of ice, and the sound was very satisfying.\n\nOn the second trip I stopped at a white coffee shop with a Chang Jiang White Coffee sign, drinking iced coffee and eating toast at midday. A simple thing, but the one I remember best from the trip.",
         ph: ["A glass of white coffee", "An old kopitiam", "Egg tarts"],
       },
       {
-        k: "Evening", h: "An evening in Ipoh: blue drinks and roadside durian", where: "Old Town · evening of 7 August 2025",
+        k: "Evening", h: "An evening in Ipoh: blue drinks and roadside durian", where: "Old Town · evening",
         quote: "Some dishes are only good outdoors on a warm evening.",
-        t: "On the evening of 7 August I ate Thai food in a small restaurant, with a plate of pad thai-style noodles, crisp fried pork and yellow rice, then sat at Hourglass Coffee in an old brick courtyard and ordered two iced drinks, one blue and one orange-red. Yellow light, brick walls and soft music slowed the evening down.\n\nAfter nine I walked past a row of roadside durian stalls. Each basket had a handwritten card with the type and price, such as Kampung or Lampung. I bought one, pried it open, and the golden flesh sent its smell along the street. If you are new to durian, start with a mildly sweet type and ask the seller first.",
+        t: "One evening I ate Thai food in a small restaurant, with a plate of pad thai-style noodles, crisp fried pork and yellow rice, then sat at Hourglass Coffee in an old brick courtyard and ordered two iced drinks, one blue and one orange-red. Yellow light, brick walls and soft music slowed the evening down.\n\nAfter nine I walked past a row of roadside durian stalls. Each basket had a handwritten card with the type and price, such as Kampung or Lampung. I bought one, pried it open, and the golden flesh sent its smell along the street. If you are new to durian, start with a mildly sweet type and ask the seller first.",
       },
       {
-        k: "Nature", h: "Tasik Cermin (Mirror Lake)", where: "Gunung Rapat · midday on 8 August",
+        k: "Nature", h: "Tasik Cermin (Mirror Lake)", where: "Gunung Rapat · midday",
         t: "Tasik Cermin, the Mirror Lake, is a small lake tucked among limestone cliffs at Gunung Rapat. According to some sources I read, it was once a quarry and is now a geopark. To get in I walked through a dark rock tunnel, and suddenly the still water opened out before me, reflecting the cliffs perfectly. In a small boat, wearing an orange life jacket, I drifted slowly across the lake with only the sound of paddles and birds.\n\nSources give about RM4 for entry and about RM25 for the boat per person, but figures may have changed, so ask. Go in the morning while the sun is gentle for the loveliest view of the lake.",
         ph: ["Tasik Cermin", "The rock tunnel into the lake", "A boat on the lake", "Cliffs reflected"],
       },
@@ -49,11 +48,11 @@ export const EN_4 = {
         quote: "In Ipoh, every meal is worth sitting over.",
         t: "Below are the dishes I actually ate on these trips.",
         cards: [
-          { title: "Dim sum and congee for breakfast", text: "Morning of 8 August: siu mai, crisp fried rolls and a hot bowl of congee in an old dim sum place, with tea." },
+          { title: "Dim sum and congee for breakfast", text: "Morning: siu mai, crisp fried rolls and a hot bowl of congee in an old dim sum place, with tea." },
           { title: "White coffee and kaya toast", text: "Rich fragrant iced coffee with a slice of butter kaya toast; the simplest and most memorable dish." },
           { title: "Silky tofu pudding", text: "A smooth white dessert eaten cold, cooling after a sunny morning, right near the dim sum place." },
-          { title: "Curry noodles and fried chicken rice", text: "Afternoon of 8 August: a mildly spicy curry noodle bowl with egg and tofu, plus a plate of crispy chicken rice, with iced tea." },
-          { title: "Roadside durian", text: "Evening of 7 August: a durian stall with handwritten prices on each basket, buying one to eat on the spot." },
+          { title: "Curry noodles and fried chicken rice", text: "Afternoon: a mildly spicy curry noodle bowl with egg and tofu, plus a plate of crispy chicken rice, with iced tea." },
+          { title: "Roadside durian", text: "Evening: a durian stall with handwritten prices on each basket, buying one to eat on the spot." },
         ],
       },
       {
@@ -85,7 +84,6 @@ export const EN_4 = {
       {
         k: "Quick facts", h: "Before you head to Pangkor",
         items: [
-          { k: "My trip", v: "8–10 June 2025: arrived on the afternoon of the 8th and stayed at Teluk Nipah, ate and rode around the island on the 9th until evening, and returned on the 10th" },
           { k: "Getting there", v: "A ferry from Lumut to the island, about 30–45 minutes depending on the source; it stops at Sungai Pinang Kecil before Pangkor Town" },
           { k: "Reference ferry fare", v: "One source gives a return ticket for foreigners of about RM14 for adults and RM7 for children; schedules and prices change, so ask" },
           { k: "West-coast beaches", v: "Pasir Bogak, Teluk Nipah and Coral Beach" },
@@ -118,9 +116,9 @@ export const EN_4 = {
         quote: "Everything tastes better beside the sea.",
         t: "Below are the dishes I actually ate on the island.",
         cards: [
-          { title: "Fresh coconut", text: "Afternoon of 8 June: two chilled young coconuts in hand with straws already in, drunk right in the street." },
+          { title: "Fresh coconut", text: "Afternoon: two chilled young coconuts in hand with straws already in, drunk right in the street." },
           { title: "Green rice with grilled chicken", text: "Rice coloured green by pandan leaf with red-sauce chicken, fresh greens and a hot bowl of soup, on the familiar red and yellow striped table." },
-          { title: "Watermelon juice by the sea", text: "Morning of 9 June: watermelon juice and a red fruit drink on a table facing the waves." },
+          { title: "Watermelon juice by the sea", text: "Morning: watermelon juice and a red fruit drink on a table facing the waves." },
           { title: "Fried noodles and greens", text: "A plate of fried noodles, stir-fried greens and two drinks, looking at the blue sea and small islands in the distance." },
         ],
       },
@@ -153,7 +151,6 @@ export const EN_4 = {
       {
         k: "Quick facts", h: "Before you go up Genting",
         items: [
-          { k: "My visits", v: "26 October 2024 (afternoon), 3 December 2024 (midday), 1 June 2026 (afternoon to evening); I also stopped at nearby Colmar Tropicale on 6 September 2025" },
           { k: "Location", v: "Titiwangsa range, Pahang state, about 50 km from Kuala Lumpur" },
           { k: "Cable car", v: "Awana Skyway links Sky Sentral (the Premium Outlets area), Chin Swee Temple and SkyAvenue on the summit in about 10 minutes, with glass-floor cabins. It has scheduled maintenance closures, when the Genting SkyWay runs instead" },
           { k: "Temperature", v: "Cool and often cloudy, especially in the late afternoon and evening" },
@@ -162,9 +159,9 @@ export const EN_4 = {
         note: "Ticket prices, schedules and cable car maintenance dates can change; check before you go.",
       },
       {
-        k: "My visits", h: "Genting across the times I went", where: "From 2024 to 2026",
+        k: "My visits", h: "Genting across the times I went", where: "Across several visits",
         quote: "Every time I go up Genting I bring back a bag and a little cold.",
-        t: "I first went up on the afternoon of 26 October 2024, at the shopping area at the foot of the mountain from about one to six in the afternoon. On 3 December 2024 I came back and had a late lunch of a Malaysian spread of many plates: yellow rice, sauced chicken, fried noodles, fried rolls and dipping sauce. On the most recent trip, 1 June 2026, I went to the summit from about three to seven in the evening, strolled through SkyAvenue and watched cloud cover everything white outside the glass.\n\nIf you like shopping, stop at the outlets right at the foot before or after going up; if you prefer going slowly, choose a weekday afternoon.",
+        t: "I first went up one afternoon, at the shopping area at the foot of the mountain from about one to six in the afternoon. One day I came back and had a late lunch of a Malaysian spread of many plates: yellow rice, sauced chicken, fried noodles, fried rolls and dipping sauce. On the most recent trip I went to the summit from about three to seven in the evening, strolled through SkyAvenue and watched cloud cover everything white outside the glass.\n\nIf you like shopping, stop at the outlets right at the foot before or after going up; if you prefer going slowly, choose a weekday afternoon.",
       },
       {
         k: "Getting there", h: "The road up to the city in the clouds", where: "From Kuala Lumpur · about 1 hour",
@@ -208,7 +205,6 @@ export const EN_4 = {
       {
         k: "Quick facts", h: "Before you go to Malacca",
         items: [
-          { k: "My trip", v: "10 November 2025, from about 10 am to 5 pm, walking around the old town" },
           { k: "Heritage", v: "Malacca's historic centre was listed by UNESCO in 2008" },
           { k: "Key buildings", v: "Christ Church (1753) and the Stadthuys (around 1650), around Dutch Square" },
           { k: "Jonker Street", v: "The night market runs at weekends, sources say from Friday evening to Sunday; I went by day, when it is quieter" },
@@ -217,9 +213,9 @@ export const EN_4 = {
         note: "Market hours and ticket prices can change; check before you go.",
       },
       {
-        k: "A day in Malacca", h: "A day on foot from morning to afternoon", where: "10 November 2025",
+        k: "A day in Malacca", h: "A day on foot from morning to afternoon", where: "One day in Malacca",
         quote: "A small city, so slow that every street has time to tell its story.",
-        t: "I reached Malacca on the morning of Monday 10 November 2025 and walked around the old town almost all day, from about ten until five in the afternoon. Most of the time I was around Jonker Street and nearby roads such as Jalan Hang Kasturi, Jalan Temenggong and Jalan Kota, where everything is close and the scene changes in a few steps.\n\nPast noon, with the sun fierce, I stopped at a roadside stall for a watermelon ice pop and a whole watermelon with a straw. Simple and cold, exactly what I needed in the heat of the old city.",
+        t: "I reached Malacca one morning and walked around the old town almost all day, from about ten until five in the afternoon. Most of the time I was around Jonker Street and nearby roads such as Jalan Hang Kasturi, Jalan Temenggong and Jalan Kota, where everything is close and the scene changes in a few steps.\n\nPast noon, with the sun fierce, I stopped at a roadside stall for a watermelon ice pop and a whole watermelon with a straw. Simple and cold, exactly what I needed in the heat of the old city.",
       },
       {
         k: "Old town", h: "The red Dutch Square", where: "Dutch Square · morning",

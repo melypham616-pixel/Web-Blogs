@@ -1,17 +1,16 @@
 export const EN_2 = {
   "nui-ba-den": {
     title: "Ba Den Mountain in Half a Day: Cable Car, Sea of Clouds, the 986 m Summit and the Great Buddha Statue",
-    ex: "A diary of one morning, 10 October 2026, on Ba Den Mountain in Tay Ninh: the cable car to the summit, a sea of clouds, the 986 m marker, the bronze Guanyin statue and the bonsai gardens, with quick facts, an itinerary and tips.",
+    ex: "A diary of one morning on Ba Den Mountain in Tay Ninh: the cable car to the summit, a sea of clouds, the 986 m marker, the bronze Guanyin statue and the bonsai gardens, with quick facts, an itinerary and tips.",
     place: "Ba Den Mountain",
     body: [
-      ["", "Ba Den Mountain in Tay Ninh is the highest peak in southern Vietnam, and the marker on the summit says 986 metres. I went up on the morning of Saturday 10 October 2026, just one short morning, but one I remember clearly: sitting in a cabin with clouds lying below my feet, then standing in front of the Guanyin statue against a clear blue sky."],
+      ["", "Ba Den Mountain in Tay Ninh is the highest peak in southern Vietnam, and the marker on the summit says 986 metres. I went up one morning, just one short morning, but one I remember clearly: sitting in a cabin with clouds lying below my feet, then standing in front of the Guanyin statue against a clear blue sky."],
       ["A short trip, but enough", "I am not someone who loves hiking, so I took the cable car. I took only about twenty photos all morning because most of the time I was simply looking. Some places do not need a long stay, only that you arrive at the right hour and move slowly enough to see."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go up Ba Den Mountain",
         items: [
-          { k: "My trip", v: "Saturday 10 October 2026: on the summit around 8 am, back in the gardens at the foot before 9, and wandering until after 10" },
           { k: "Height", v: "986 m by the summit marker, the highest in southern Vietnam" },
           { k: "Cable cars", v: "Sun World Ba Den runs three lines, Van Son (to the summit), Chua Hang and Tam An; the Van Son line takes about 8 minutes from the base to the top" },
           { k: "From Saigon", v: "About two to three hours by road depending on the time; leave early to avoid traffic" },
@@ -56,17 +55,16 @@ export const EN_2 = {
   },
   "con-thoi-son": {
     title: "Thoi Son Islet in 2 Days and 1 Night: Rowing Through Nipa Palms, Orchard Stops and Meals in My Tho",
-    ex: "A diary of a trip on 29–30 August 2026: a night in My Tho, a bowl of pho for breakfast, a rowing boat through nipa-palm canals and a fruit plate at an orchard, with quick facts, an itinerary, tips and sources.",
+    ex: "A diary of a trip: a night in My Tho, a bowl of pho for breakfast, a rowing boat through nipa-palm canals and a fruit plate at an orchard, with quick facts, an itinerary, tips and sources.",
     place: "Thoi Son Islet",
     body: [
-      ["", "Thoi Son Islet sits in the Tien River, on the My Tho branch, and now belongs to Thoi Son ward in Dong Thap province after the 2025 administrative merger (it was previously in Tien Giang). I went for two days and one night at the end of August 2026: I reached My Tho on the afternoon of 29 August, ate dinner and stayed overnight, then on the morning of 30 August went out to the islet from about eight and came back before noon. I took more than a hundred and fifty photos in two days, mostly of the boats lined up in the canal."],
+      ["", "Thoi Son Islet sits in the Tien River, on the My Tho branch, and now belongs to Thoi Son ward in Dong Thap province after the 2025 administrative merger (it was previously in Tien Giang). I went for two days and one night I reached My Tho one afternoon, ate dinner and stayed overnight, then one morning went out to the islet from about eight and came back before noon. I took more than a hundred and fifty photos in two days, mostly of the boats lined up in the canal."],
       ["A slow trip", "I like Thoi Son because everything there is slow. The oars barely ripple the water, nipa leaves close over almost the whole sky, and nobody on the boats is in a hurry. It is a stop for one morning, not a place for ticking off sights."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Thoi Son",
         items: [
-          { k: "My trip", v: "29 – 30 August 2026: afternoon and evening of the 29th in My Tho, the morning of the 30th on the islet from about 8 am until nearly noon" },
           { k: "Location", v: "An islet in the Tien River (My Tho branch), Thoi Son ward, Dong Thap province after the 2025 merger" },
           { k: "From Saigon", v: "About two hours by road to My Tho, then a boat or rowing boat out to the islet" },
           { k: "Highlights", v: "Hand-rowed boats through nipa-palm canals, orchard stops with honey tea, fruit and don ca tai tu music" },
@@ -81,9 +79,9 @@ export const EN_2 = {
         ph: ["Boats threading through the nipa palms"],
       },
       {
-        k: "My Tho night", h: "A night in My Tho before the islet", where: "My Tho · afternoon and evening of 29 August",
+        k: "My Tho night", h: "A night in My Tho before the islet", where: "My Tho · afternoon and evening",
         quote: "I was going out to the islet the next morning, so I ate well the night before.",
-        t: "I reached My Tho on the afternoon of 29 August and walked around the centre until evening. Dinner was a hot hotpot in a small restaurant, plus a plate of golden crisp spring rolls: afterwards I felt full and slept very well. Close to midnight I stopped at a drinks place for a little longer.\n\nIf you travel from Saigon and want to reach the islet while it is quiet, staying one night in My Tho is a sensible choice: the next morning you can leave early without the traffic.",
+        t: "I reached My Tho one afternoon and walked around the centre until evening. Dinner was a hot hotpot in a small restaurant, plus a plate of golden crisp spring rolls: afterwards I felt full and slept very well. Close to midnight I stopped at a drinks place for a little longer.\n\nIf you travel from Saigon and want to reach the islet while it is quiet, staying one night in My Tho is a sensible choice: the next morning you can leave early without the traffic.",
       },
       {
         k: "Experiences", h: "Holding a python, a honeycomb frame and don ca tai tu", where: "An orchard on the islet",
@@ -93,7 +91,7 @@ export const EN_2 = {
       },
       {
         k: "Eating", h: "Fresh fruit and local specialities", where: "An orchard on the islet",
-        t: "On the morning of 30 August, near eleven, I sat in the orchard with a plate of fruit: red-fleshed dragon fruit, a few slices of golden pineapple and ripe guava cut into wedges. The fruit here is mildly sweet, and after a morning in the sun it cooled me down. Before that I also stopped to look at stone grinders, the hand-operated kind still used to make specialities to take home.\n\nIf you want souvenirs, you can buy specialities at the orchard itself, but ask the price first.",
+        t: "One morning, near eleven, I sat in the orchard with a plate of fruit: red-fleshed dragon fruit, a few slices of golden pineapple and ripe guava cut into wedges. The fruit here is mildly sweet, and after a morning in the sun it cooled me down. Before that I also stopped to look at stone grinders, the hand-operated kind still used to make specialities to take home.\n\nIf you want souvenirs, you can buy specialities at the orchard itself, but ask the price first.",
         ph: ["A plate of seasonal fruit", "A cool drink in the garden"],
       },
       {
@@ -101,8 +99,8 @@ export const EN_2 = {
         quote: "Two days, but I remember every meal.",
         t: "Below are the dishes I actually ate on this trip.",
         cards: [
-          { title: "Hotpot and spring rolls", text: "Dinner on 29 August: a hot pot, greens and a plate of golden crisp spring rolls; I was full and slept well afterwards." },
-          { title: "Beef pho for breakfast", text: "Morning of 30 August: beef pho piled with herbs, bean sprouts and chilli lime, eaten quickly before heading out." },
+          { title: "Hotpot and spring rolls", text: "Dinner: a hot pot, greens and a plate of golden crisp spring rolls; I was full and slept well afterwards." },
+          { title: "Beef pho for breakfast", text: "Morning: beef pho piled with herbs, bean sprouts and chilli lime, eaten quickly before heading out." },
           { title: "Orchard fruit", text: "Near 11 am: red-fleshed dragon fruit, pineapple cut like a flower and ripe guava, mildly sweet." },
           { title: "Cold drinks in the garden", text: "An iced drink held in the shade, which everyone going to the islet ends up wanting." },
         ],
@@ -206,20 +204,19 @@ export const EN_2 = {
 
   "ba-vi": {
     title: "Ba Vi in a Day Escape: Mist, Clover, the Uncle Ho Temple and Valley Views from Above",
-    ex: "A diary of my 2023 visits to Ba Vi (17 September, 1 October and 2 November): green forest, valley and lake views from above, clover in the mist and the Uncle Ho Temple, with quick facts, an itinerary, tips and sources.",
+    ex: "A diary of my visits to Ba Vi: green forest, valley and lake views from above, clover in the mist and the Uncle Ho Temple, with quick facts, an itinerary, tips and sources.",
     place: "Ba Vi",
     body: [
-      ["", "The Ba Vi range lies west of Hanoi, known for green forest, cool air and viewpoints over the valley and lakes below. In 2023 I went up three times, on the afternoon of 17 September, on 1 October and on the morning of 2 November, and each time it looked different: some days so clear I could see the whole valley, others so white with mist I could see only a few metres ahead. This post is what I saw and what I learned."],
+      ["", "The Ba Vi range lies west of Hanoi, known for green forest, cool air and viewpoints over the valley and lakes below. I went up three times, one afternoon, one midday and one morning, and each time it looked different: some days so clear I could see the whole valley, others so white with mist I could see only a few metres ahead. This post is what I saw and what I learned."],
       ["A mountain near the city", "I like Ba Vi because half a day is enough to feel far from Hanoi: cooler, quieter and greener. You do not need much preparation, just a light jacket and shoes that are easy to walk in."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go up Ba Vi",
         items: [
-          { k: "My visits", v: "Afternoon of 17 September 2023, midday on 1 October 2023 and the morning of 2 November 2023 (about 7 – 11 am)" },
           { k: "Location", v: "West of Hanoi, about an hour and a half to two hours from the centre by road" },
           { k: "Main peaks", v: "Vua 1,296 m, Tan Vien 1,227 m and Ngoc Hoa 1,131 m according to many sources; one source gives Tan Vien as 1,281 m" },
-          { k: "National park", v: "Established on 16 January 1991, protecting the Ba Vi range" },
+          { k: "National park", v: "Established one day, protecting the Ba Vi range" },
           { k: "Thuong Temple", v: "At about 1,100 m, from where you walk up to the Uncle Ho Temple near the summit" },
           { k: "Best time", v: "Early morning or clear days; on thick-mist days the views over the valley are hidden" },
         ],
@@ -231,9 +228,9 @@ export const EN_2 = {
         ph: ["Ba Vi mountain among clouds", "The valley and lake from above", "Green forest on the road up"],
       },
       {
-        k: "Mist and clover", h: "A misty morning on the mountain", where: "Ba Vi · morning of 2 November 2023",
+        k: "Mist and clover", h: "A misty morning on the mountain", where: "Ba Vi · morning",
         quote: "Some mornings the loveliest thing is right at your feet.",
-        t: "On 2 November I went up early. It was misty and a little cold, and looking far I saw only white. At nine o'clock I stopped by the road because a whole carpet of clover was covered in tiny dew drops, every leaf shining. I bent down to look for a four-leaf clover and was happier than I expected to find one right in my palm.\n\nClose to half past nine, in the cold white fog, I came across a pair of black statues side by side: two faces each raising a finger to their lips, as if reminding each other to keep quiet. In a place already so quiet, they seemed to fit.",
+        t: "One day I went up early. It was misty and a little cold, and looking far I saw only white. At nine o'clock I stopped by the road because a whole carpet of clover was covered in tiny dew drops, every leaf shining. I bent down to look for a four-leaf clover and was happier than I expected to find one right in my palm.\n\nClose to half past nine, in the cold white fog, I came across a pair of black statues side by side: two faces each raising a finger to their lips, as if reminding each other to keep quiet. In a place already so quiet, they seemed to fit.",
       },
       {
         k: "Temples, tower", h: "The Uncle Ho Temple and the tower on the mountain", where: "On Ba Vi mountain",
@@ -273,7 +270,6 @@ export const EN_2 = {
       {
         k: "Quick facts", h: "Before you visit the Ethnic Villages",
         items: [
-          { k: "My visit", v: "1 October 2023, from about 9 am to 4 pm; I dropped by once more on the afternoon of 19 October 2023" },
           { k: "Location", v: "Dong Mo, Son Tay, Hanoi, about 40 – 45 km west of central Hanoi" },
           { k: "Scale", v: "Planned at about 1,544 ha in total, with over 600 ha of land and over 900 ha of water" },
           { k: "Planning", v: "Its master plan was approved by the Prime Minister in 1997 to recreate the culture of 54 peoples" },
@@ -357,17 +353,16 @@ export const EN_2 = {
 
   "binh-phuoc": {
     title: "Binh Phuoc for a Resort Morning: a Lake, Rock Towers, a Japanese Garden and a Pool in the June Sun",
-    ex: "A diary of the morning of 21 June 2026 at an eco-resort in the Binh Phuoc area: a lake walk, a Japanese-style garden, palm-lined paths and a pool with a slide, with quick facts, an itinerary and tips.",
+    ex: "A diary of one morning at an eco-resort in the Binh Phuoc area: a lake walk, a Japanese-style garden, palm-lined paths and a pool with a slide, with quick facts, an itinerary and tips.",
     place: "Binh Phuoc",
     body: [
-      ["", "Binh Phuoc lies north of Ho Chi Minh City, about three hours by road. By today's administrative names, the place I visited belongs to Tan Khai ward in Dong Nai province after the 2025 merger. I went to an eco-resort on the morning of 21 June 2026, from about nine until nearly noon, and took more than three hundred photos in those three hours, because everywhere in the grounds had enough light and green to stop for."],
+      ["", "Binh Phuoc lies north of Ho Chi Minh City, about three hours by road. By today's administrative names, the place I visited belongs to Tan Khai ward in Dong Nai province after the 2025 merger. I went to an eco-resort one morning, from about nine until nearly noon, and took more than three hundred photos in those three hours, because everywhere in the grounds had enough light and green to stop for."],
       ["A slow morning", "Nothing elaborate, just a slow morning among greenery, fierce June sunshine and paths under palm trees. I remember walking while looking up at rock formations standing like ancient towers, reflected in the green lake."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Binh Phuoc",
         items: [
-          { k: "My trip", v: "Sunday morning, 21 June 2026, from about 9 am to nearly noon" },
           { k: "Location", v: "Tan Khai ward, the former Binh Phuoc area, now in Dong Nai province after the 2025 administrative merger" },
           { k: "From Ho Chi Minh City", v: "About three hours by road, heading north" },
           { k: "Highlights", v: "A lake, rock formations like ancient towers, a Japanese-style garden, palm-lined paths and a pool with a slide" },
@@ -381,7 +376,7 @@ export const EN_2 = {
         ph: ["A path under the palms", "The Japanese-style garden", "A pool with a slide"],
       },
       {
-        k: "One morning", h: "Nine o'clock to twelve", where: "Morning of 21 June 2026",
+        k: "One morning", h: "Nine o'clock to twelve", where: "One morning",
         quote: "Three hours somewhere slow enough are enough to feel lighter.",
         t: "I arrived close to nine, when the sun was up but the path under the palms was still cool. The first thing I did was walk around the lake, looking at the rock towers reflected in the green water. Then I went through the small Japanese-style garden, where the wooden roof, stone lanterns and white gravel made the whole corner look very neat.\n\nNear noon it got properly hot, so I went down to the pool to cool off. With my hair still wet I took a quick photo in the sun, then rested under the palm shade before heading back. I did not photograph any food on this trip, so this post has no food section, only sun, water and greenery.",
       },
@@ -409,17 +404,16 @@ export const EN_2 = {
   },
   "vung-tau": {
     title: "Vung Tau as a Day Trip: Banh Khot, Seafood, Back Beach and the Times I Went Back",
-    ex: "Five trips to Vung Tau between 2023 and 2026: banh khot and takeaway seafood, strolls along Back Beach, Dau Beach, Dua Beach and the mountain road, with a day-trip itinerary, dishes to try and tips.",
+    ex: "Several trips to Vung Tau: banh khot and takeaway seafood, strolls along Back Beach, Dau Beach, Dua Beach and the mountain road, with a day-trip itinerary, dishes to try and tips.",
     place: "Vung Tau",
     body: [
-      ["", "Vung Tau is only about two hours from Saigon, and since 1 July 2025 it has belonged to Ho Chi Minh City after the administrative merger. I have been several times: 8–9 April, 13–14 May, 11–12 July and 19–20 August 2023, then 3–4 July 2026, each time for just a day or two. Some days I only came to eat banh khot and watch the waves, others I rode along the mountain road as far as Dau Beach."],
+      ["", "Vung Tau is only about two hours from Saigon, and since 1 July 2025 it has belonged to Ho Chi Minh City after the administrative merger. I have been several times, each time for just a day or two. Some days I only came to eat banh khot and watch the waves, others I rode along the mountain road as far as Dau Beach."],
       ["Close, and still worth it", "What I like most about Vung Tau is that it is so close you barely need to prepare. A light shirt, beach sandals and an early start are enough for a day. This post records what is worth knowing, following what I actually did."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Vung Tau",
         items: [
-          { k: "My trips", v: "8–9 April, 13–14 May, 11–12 July, 19–20 August 2023 and 3–4 July 2026" },
           { k: "Location", v: "Vung Tau ward, Ho Chi Minh City (since 1 July 2025, when Ba Ria – Vung Tau province merged into the city)" },
           { k: "From Saigon", v: "About two hours by road; weekends and holidays are usually crowded, so leave early" },
           { k: "Beaches I visited", v: "Back Beach (Thuy Van street), Dau Beach (Tran Phu street), Dua Beach (Ha Long street)" },
@@ -433,9 +427,9 @@ export const EN_2 = {
         ph: ["A rocky headland and the sea from the coast road"],
       },
       {
-        k: "Going back", h: "Each time, a slightly different Vung Tau", where: "From 2023 to 2026",
+        k: "Going back", h: "Each time, a slightly different Vung Tau", where: "Across several trips",
         quote: "A place I go back to many times stops being a destination and becomes somewhere I know the way.",
-        t: "In April 2023 I reached Vung Tau on Saturday evening, 8 April, and ate dinner quite late. The next morning, 9 April, I ate banh khot and strolled along the street. In May 2023, on the evening of 13 May, I ate takeaway seafood, a meal of foam boxes full of prawns, crab, clams and stir-fried greens shared on the floor.\n\nJuly 2023 was a short trip, with a late-night supper. In early August 2023, on the morning of 19 August, I went to Dua Beach, ate crispy noodles with herbs at lunch, then the next morning, 20 August, got up at seven to go back to the beach. On the early-July 2026 trip I stayed two days: on 3 July I had milk tea at midday, walked Back Beach and ate hotpot in the evening; on the morning of 4 July I rode out to Dau Beach, where the mountain road was emptier and prettier than I expected, then ate ice cream on the sand before heading home.",
+        t: "The first time, I reached Vung Tau on a weekend evening and ate dinner quite late. The next morning I ate banh khot and strolled along the street. Another time, one evening, I ate takeaway seafood, a meal of foam boxes full of prawns, crab, clams and stir-fried greens shared on the floor.\n\nOne trip was short, with a late-night supper. On another I went to Dua Beach one morning, ate crispy noodles with herbs at lunch, then the next morning got up at seven to go back to the beach. On the most recent trip I stayed two days: on the first I had milk tea at midday, walked Back Beach and ate hotpot in the evening; the next morning I rode out to Dau Beach, where the mountain road was emptier and prettier than I expected, then ate ice cream on the sand before heading home.",
       },
       {
         k: "What to eat", h: "Banh khot, fresh herbs and seafood", where: "Local restaurants",
@@ -449,8 +443,8 @@ export const EN_2 = {
         cards: [
           { title: "Banh khot", text: "Crisp small pancakes with prawn, eaten wrapped in herbs and dipped in sweet and sour fish sauce; a dish I ordered almost every trip." },
           { title: "Takeaway seafood", text: "Prawns, crab, clams and stir-fried greens in foam boxes, eaten sitting on the floor with the whole group." },
-          { title: "Clear-broth hotpot", text: "Dinner on 3 July 2026: a lightly sour clear-broth hotpot with vermicelli, fresh herbs and a chilli dipping bowl; good for a group dinner." },
-          { title: "Ice cream on the sand", text: "Vanilla and chocolate cones eaten right on the sand on the morning of 4 July at Back Beach, worth trying once on every trip." },
+          { title: "Clear-broth hotpot", text: "Dinner: a lightly sour clear-broth hotpot with vermicelli, fresh herbs and a chilli dipping bowl; good for a group dinner." },
+          { title: "Ice cream on the sand", text: "Vanilla and chocolate cones eaten right on the sand one morning at Back Beach, worth trying once on every trip." },
         ],
       },
       {
@@ -476,18 +470,17 @@ export const EN_2 = {
   },
   "da-lat": {
     title: "Da Lat in 4 Days and 3 Nights: Cloud Hunting, Cafés, Thon 13 and Hot Food in the Cold",
-    ex: "A diary of four days in Da Lat in mid-October 2026: cloud hunting from 5 am, coffee and tea in wooden cafés, Thon 13, Truc Lam Zen Monastery, grilled chicken with bamboo rice and the night market, with an itinerary and tips.",
+    ex: "A diary of four days in Da Lat: cloud hunting from 5 am, coffee and tea in wooden cafés, Thon 13, Truc Lam Zen Monastery, grilled chicken with bamboo rice and the night market, with an itinerary and tips.",
     place: "Da Lat in Me",
     menu: "Da Lat",
     body: [
-      ["", "Da Lat sits at about 1,500 metres on the Lam Vien plateau, so it is cool all year, and I always feel life here runs slower than in the rest of the country. I arrived in Da Lat on the morning of 12 October 2026 and stayed until midday on 15 October, four days and three nights, with more than five hundred photos, mostly coffee, food and slopes. I had also visited in February and October 2022, so this time felt like returning to a familiar place, walking slowly and eating a lot."],
+      ["", "Da Lat sits at about 1,500 metres on the Lam Vien plateau, so it is cool all year, and I always feel life here runs slower than in the rest of the country. I arrived in Da Lat one morning and stayed until midday, four days and three nights, with more than five hundred photos, mostly coffee, food and slopes. I had also visited twice before, so this time felt like returning to a familiar place, walking slowly and eating a lot."],
       ["A city of small places", "What I like about Da Lat is how the city is organised around small places: cafés on a hillside, grilled-chicken restaurants by the road, food carts at the night market. Each day I had one long sit in a café looking out over the hills, and that is the part I remember best."],
     ],
     stories: [
       {
         k: "Quick facts", h: "Before you go to Da Lat",
         items: [
-          { k: "My trip", v: "12 – 15 October 2026, three nights; day one eating and walking the centre, day two cloud hunting, day three Thon 13 and Truc Lam Monastery, day four Xuan Huong Lake" },
           { k: "Climate", v: "Cool all year, cold in early mornings and evenings; sunny days can change by afternoon" },
           { k: "Getting around", v: "Walk in the centre; for Thon 13, Truc Lam Monastery and cloud-hunting spots, hire a motorbike or ride-hail" },
           { k: "How long", v: "3 – 4 days to go slowly" },
@@ -497,19 +490,19 @@ export const EN_2 = {
       },
       {
         k: "Cloud hunting", h: "Hunting clouds at the Vung Ngoai O café at dawn", where: "Da Lat outskirts · 5 – 6 am",
-        t: "On the morning of 13 October I woke very early and rode out to the outskirts to hunt clouds. It was still dark and so cold I pulled my collar up. I reached the Vung Ngoai O café as the sky began to lighten, sat at a wooden table on the hillside and waited. Clouds drifted slowly past, threading between the hills, making a hazy, strangely peaceful scene.\n\nIf you want to hunt clouds, come between about 5 and 6 am for the best chance, and bring warm clothes because it is very cold then. It also reminded me that some of the most beautiful things appear only for a short time, and only for those who are willing to get up early.",
+        t: "One morning I woke very early and rode out to the outskirts to hunt clouds. It was still dark and so cold I pulled my collar up. I reached the Vung Ngoai O café as the sky began to lighten, sat at a wooden table on the hillside and waited. Clouds drifted slowly past, threading between the hills, making a hazy, strangely peaceful scene.\n\nIf you want to hunt clouds, come between about 5 and 6 am for the best chance, and bring warm clothes because it is very cold then. It also reminded me that some of the most beautiful things appear only for a short time, and only for those who are willing to get up early.",
       },
       {
         k: "Breakfast", h: "A bowl of noodles and a hot coffee in the morning", where: "Hoa Binh area · 7 – 8 am",
-        t: "On the morning of 12 October, just after arriving in Da Lat, I had a small bowl of noodles at a place with a red table by the road, then went up to a rooftop with a hot coffee looking down over the roofs of the Hoa Binh area. A morning here needs nothing special: just a hot cup in hand, the chill of a mountain town, people beginning their day and the familiar sounds of a city waking up.\n\nCoffee or hot milk is up to you, as long as it is hot and sipped slowly. Eating breakfast early like this is how I felt most clearly that I was somewhere different from Saigon.",
+        t: "One morning, just after arriving in Da Lat, I had a small bowl of noodles at a place with a red table by the road, then went up to a rooftop with a hot coffee looking down over the roofs of the Hoa Binh area. A morning here needs nothing special: just a hot cup in hand, the chill of a mountain town, people beginning their day and the familiar sounds of a city waking up.\n\nCoffee or hot milk is up to you, as long as it is hot and sipped slowly. Eating breakfast early like this is how I felt most clearly that I was somewhere different from Saigon.",
       },
       {
         k: "Fun", h: "Xuan Huong Lake and the pine hills", where: "Centre · early morning or late afternoon",
-        t: "On the last morning, 15 October, I walked around Xuan Huong Lake from about nine until nearly midday. The still water in thin mist and the pine-shaded paths made me walk very slowly. It is the ideal place to feel Da Lat's slow rhythm, and the place I chose to say goodbye to the city.\n\nYou can stroll around the lake in the morning or late afternoon, when there are fewer people and the light is lovely. Sometimes simply sitting on a bench by the lake is enough to make a day feel worthwhile.",
+        t: "On the last morning I walked around Xuan Huong Lake from about nine until nearly midday. The still water in thin mist and the pine-shaded paths made me walk very slowly. It is the ideal place to feel Da Lat's slow rhythm, and the place I chose to say goodbye to the city.\n\nYou can stroll around the lake in the morning or late afternoon, when there are fewer people and the light is lovely. Sometimes simply sitting on a bench by the lake is enough to make a day feel worthwhile.",
       },
       {
         k: "Coffee", full: true, h: "Nha Cua Thong", where: "Da Lat · best in the early morning",
-        t: "On the afternoon of 12 October at ten past four I sat in a small wooden café among the pines, with two windows looking out to green hills, and ordered two hot flower teas in glass cups. The place is rustic, with wooden tables, brocade cloth and conical hats hanging on the walls. Wind from the hill gently moved the curtain.\n\nNha Cua Thong suits those who like to sit for a long time: I stayed almost two hours, talking and watching mist rise from the valley. Come early in the morning to avoid crowds and enjoy better light.",
+        t: "One afternoon at ten past four I sat in a small wooden café among the pines, with two windows looking out to green hills, and ordered two hot flower teas in glass cups. The place is rustic, with wooden tables, brocade cloth and conical hats hanging on the walls. Wind from the hill gently moved the curtain.\n\nNha Cua Thong suits those who like to sit for a long time: I stayed almost two hours, talking and watching mist rise from the valley. Come early in the morning to avoid crowds and enjoy better light.",
       },
       {
         k: "Coffee", full: true, h: "Binh Yen Garden", where: "Da Lat · best in the afternoon",
@@ -517,32 +510,32 @@ export const EN_2 = {
       },
       {
         k: "Fun", h: "Thon 13", where: "Da Lat · 8 – 9 am",
-        t: "On 14 October I spent almost the whole day at Thon 13, more than a hundred and thirty photos in this area alone. Thon 13 has the look of a corner of Switzerland in the middle of Da Lat, with clear jade-green water, lush green hills and a peaceful scene. It is a place worth experiencing for those who like photography and exploring nature. The area charges an entrance fee, so check the price first and go in the morning when it is quiet.",
+        t: "One day I spent almost the whole day at Thon 13, more than a hundred and thirty photos in this area alone. Thon 13 has the look of a corner of Switzerland in the middle of Da Lat, with clear jade-green water, lush green hills and a peaceful scene. It is a place worth experiencing for those who like photography and exploring nature. The area charges an entrance fee, so check the price first and go in the morning when it is quiet.",
       },
       {
         k: "Lunch", h: "Chicken hotpot with e leaves", where: "Tang Bat Ho Street · 11 am – 2 pm",
-        t: "On 12 October at lunch I ate chicken hotpot with e leaves in a small restaurant. The pot of free-range chicken smells of e leaf, mildly sour and not too spicy, eaten with rice noodles, greens and a dip with green chilli. It suits groups of three to four, adding bamboo shoots and mushrooms to sweeten the broth. In the gentle Da Lat chill, sitting before a steaming pot was one of the meals I remember best.",
+        t: "At lunch one day I ate chicken hotpot with e leaves in a small restaurant. The pot of free-range chicken smells of e leaf, mildly sour and not too spicy, eaten with rice noodles, greens and a dip with green chilli. It suits groups of three to four, adding bamboo shoots and mushrooms to sweeten the broth. In the gentle Da Lat chill, sitting before a steaming pot was one of the meals I remember best.",
       },
       {
         k: "Dinner", h: "Grilled chicken with bamboo rice", where: "Thon 13, 178 Hung Vuong Street, Da Lat, Lam Dong",
-        t: "On the evening of 12 October at quarter past six I ate hill chicken grilled over glowing charcoal: golden crisp skin and firm meat, dipped in green chilli salt, with a tube of sticky bamboo rice and a bowl of wild-vegetable soup. It was the most mountain-flavoured dinner of the trip, and the dish I would order again if I come back.",
+        t: "One evening at quarter past six I ate hill chicken grilled over glowing charcoal: golden crisp skin and firm meat, dipped in green chilli salt, with a tube of sticky bamboo rice and a bowl of wild-vegetable soup. It was the most mountain-flavoured dinner of the trip, and the dish I would order again if I come back.",
       },
       {
         k: "Evening", h: "Da Lat night market", where: "Hoa Binh area · 5 – 11 pm",
-        t: "The night market at eight on 12 October glowed with grilled rice paper, grilled sweet potatoes, hot soy milk and woollen clothes. I held two cups of hot soy milk, walked among the crowd and then sat on a step looking down at the market. Walking, snacking and then sitting to watch people pass is very Da Lat.",
+        t: "The night market at eight in the evening glowed with grilled rice paper, grilled sweet potatoes, hot soy milk and woollen clothes. I held two cups of hot soy milk, walked among the crowd and then sat on a step looking down at the market. Walking, snacking and then sitting to watch people pass is very Da Lat.",
       },
       {
         k: "Truc Lam Monastery", h: "A quiet afternoon at Truc Lam Zen Monastery", where: "Phuong Hoang mountain, overlooking Tuyen Lam Lake",
         quote: "The busiest part of my day turned out to be the quietest place.",
-        t: "On the afternoon of 14 October, after Thon 13, I went to Truc Lam Zen Monastery and stayed about two hours, more than eighty photos in one visit. According to the sources I read, the monastery was founded by the Venerable Thich Thanh Tu in 1993 and completed in 1994, on Phuong Hoang mountain looking over Tuyen Lam Lake. From above, the green lake stretches below rows of pines, and in the monastery yard it is full of flowers and very quiet.\n\nI walked slowly, spoke softly and dressed modestly as at any sacred place. After several days of eating, coffee and sightseeing, this was the visit that let me rest and think about what I had done.",
+        t: "One afternoon, after Thon 13, I went to Truc Lam Zen Monastery and stayed about two hours, more than eighty photos in one visit. According to the sources I read, the monastery was founded by the Venerable Thich Thanh Tu in 1993 and completed in 1994, on Phuong Hoang mountain looking over Tuyen Lam Lake. From above, the green lake stretches below rows of pines, and in the monastery yard it is full of flowers and very quiet.\n\nI walked slowly, spoke softly and dressed modestly as at any sacred place. After several days of eating, coffee and sightseeing, this was the visit that let me rest and think about what I had done.",
       },
       {
         k: "What to eat in Da Lat", h: "Da Lat through its meals", where: "What I ate and what to try",
         quote: "In Da Lat, hot food eaten in the cold always tastes better than usual.",
         t: "Below are the dishes I actually ate on this trip, plus a few famous ones that many guides mention.",
         cards: [
-          { title: "Chicken hotpot with e leaves", text: "Lunch on 12 October: free-range chicken, fragrant e leaves, mildly sour and not too spicy, with noodles and greens. Best with a group of 3 – 4." },
-          { title: "Grilled chicken and bamboo rice", text: "Dinner on 12 October: hill chicken grilled over charcoal, bamboo-tube rice and wild-vegetable soup. Full of mountain flavour." },
+          { title: "Chicken hotpot with e leaves", text: "Lunch: free-range chicken, fragrant e leaves, mildly sour and not too spicy, with noodles and greens. Best with a group of 3 – 4." },
+          { title: "Grilled chicken and bamboo rice", text: "Dinner: hill chicken grilled over charcoal, bamboo-tube rice and wild-vegetable soup. Full of mountain flavour." },
           { title: "Flower tea and coffee in a wooden café", text: "A hot early-morning coffee, two flower teas at four in the afternoon and a green drink held up over the valley. Every day had a long sit." },
           { title: "Night-market grills and soy milk", text: "Grilled rice paper, grilled sweet potatoes and hot soy milk at the Hoa Binh night market, snacking as you walk." },
         ],
