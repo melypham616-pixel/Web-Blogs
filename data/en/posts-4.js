@@ -83,6 +83,17 @@ export const EN_4 = {
     body: [["", "Some trips I plan very carefully, and some begin with a single sentence: let's go somewhere with a beach. Pangkor came to me like that. This small island off the coast of Perak is not as famous as Langkawi or Tioman, with no luxurious resorts or busy walking streets, yet that very simplicity made me love it in my own way."]],
     stories: [
       {
+        k: "Quick facts", h: "Before you head to Pangkor",
+        items: [
+          { k: "My trip", v: "8–10 June 2025: arrived on the afternoon of the 8th and stayed at Teluk Nipah, ate and rode around the island on the 9th until evening, and returned on the 10th" },
+          { k: "Getting there", v: "A ferry from Lumut to the island, about 30–45 minutes depending on the source; it stops at Sungai Pinang Kecil before Pangkor Town" },
+          { k: "Reference ferry fare", v: "One source gives a return ticket for foreigners of about RM14 for adults and RM7 for children; schedules and prices change, so ask" },
+          { k: "West-coast beaches", v: "Pasir Bogak, Teluk Nipah and Coral Beach" },
+          { k: "Getting around", v: "Renting a motorbike is the most convenient way" },
+        ],
+        note: "Ferry times, prices and services can change; check before you go.",
+      },
+      {
         k: "The beach", h: "Clear water at Teluk Nipah", where: "Teluk Nipah · morning",
         t: "From the town of Lumut I took a ferry for about forty minutes to the island, then rented a motorbike and rode straight to Teluk Nipah. White sand, sea so clear you can see the bottom, and a few small forested islands in front of me. In the morning the sea was as calm as a lake. I swam for a while, then lay stretched out on the sand, letting the early sun dry my hair.\n\nIn the city I am used to everything being fast: eating fast, walking fast, replying to messages fast. At Teluk Nipah, time slowed to the rhythm of the waves. I realised it had been a very long time since I last had a morning with nowhere to hurry to.",
         ph: ["Teluk Nipah beach", "Clear blue water", "A boat out to the small islands"],
@@ -101,6 +112,32 @@ export const EN_4 = {
         k: "Street corner", h: "Hornbills and flower-lined streets", where: "Teluk Nipah · late afternoon",
         t: "If I had to choose one moment to remember Pangkor by, it would be the afternoons on the small road near Teluk Nipah. Pink bougainvillea lined both sides of the road, and red flowering vines covered the gates of pretty homestays. At the right time, locals brought out bananas, and hornbills swooped down one by one from the power lines, diving to take the food right in front of me.\n\nI stood there, nervous and delighted like a child. In the city I rarely get to see nature so close. That moment reminded me that happiness is sometimes very simple: just standing on a street full of flowers, looking at wild birds and feeling like a small part of this world.",
         ph: ["The street near Teluk Nipah", "Feeding hornbills", "A homestay gate covered in flowers"],
+      },
+      {
+        k: "What to eat", h: "Pangkor through its meals", where: "What I actually ate",
+        quote: "Everything tastes better beside the sea.",
+        t: "Below are the dishes I actually ate on the island.",
+        cards: [
+          { title: "Fresh coconut", text: "Afternoon of 8 June: two chilled young coconuts in hand with straws already in, drunk right in the street." },
+          { title: "Green rice with grilled chicken", text: "Rice coloured green by pandan leaf with red-sauce chicken, fresh greens and a hot bowl of soup, on the familiar red and yellow striped table." },
+          { title: "Watermelon juice by the sea", text: "Morning of 9 June: watermelon juice and a red fruit drink on a table facing the waves." },
+          { title: "Fried noodles and greens", text: "A plate of fried noodles, stir-fried greens and two drinks, looking at the blue sea and small islands in the distance." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend two nights in Pangkor", where: "A suggestion from my own trip",
+        quote: "Sea in the morning, around the island in the afternoon, sunset in the evening.",
+        steps: [
+          { time: "Day 1", title: "Out to the island and rest at Teluk Nipah", text: "Take the ferry from Lumut, rent a motorbike, check in, drink coconut and watch the sunset." },
+          { time: "Day 2 morning", title: "Teluk Nipah beach", text: "Swim early while the sea is calm and eat lunch right by the shore." },
+          { time: "Day 2 afternoon", title: "Around the island", text: "Stop at Pangkor Town and Al-Badr mosque, then go to Coral Beach for the sunset." },
+          { time: "Day 3", title: "Back to Lumut", text: "Take an early ferry and leave time for a slow breakfast before leaving the island." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Pangkor suits people who want to do nothing at all.",
+        t: "• Rent a motorbike at the ferry jetty or at Teluk Nipah; wear a helmet and check the bike before riding.\n\n• Bring sunscreen and a hat, since the sun by the sea is fierce.\n\n• At Al-Badr mosque dress modestly and keep quiet.\n\n• When feeding hornbills, follow the local people's instructions and never put your hand near the bird's beak.\n\n• Ferry times can change, so check before you plan your return.",
       },
     ],
     closing: "Pangkor has nothing especially remarkable to tell others, yet it gave me so much to bring home: mornings without a rush, sunsets that left me silent and gratitude for small things. If you are looking for a peaceful island in Malaysia to truly rest, try Pangkor, and remember to let yourself slow down.",
