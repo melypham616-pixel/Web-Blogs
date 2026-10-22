@@ -347,48 +347,94 @@ export const EN_2 = {
   },
 
   "da-lat": {
-    title: "A Little Da Lat Through Days of Wandering",
-    ex: "Where to go and what to eat in Da Lat? From pretty street corners to hot dishes in the chilly air, these are experiences you should try when you visit.",
-    place: "Da Lat in my heart",
+    title: "Da Lat in 4 Days and 3 Nights: Cloud Hunting, Cafés, Thon 13 and Hot Food in the Cold",
+    ex: "A diary of four days in Da Lat in mid-October 2026: cloud hunting from 5 am, coffee and tea in wooden cafés, Thon 13, Truc Lam Zen Monastery, grilled chicken with bamboo rice and the night market, with an itinerary and tips.",
+    place: "Da Lat in Me",
     menu: "Da Lat",
-    tip: "The night market is busiest from 7pm to 9pm, so go earlier to find a seat easily.",
+    body: [
+      ["", "Da Lat sits at about 1,500 metres on the Lam Vien plateau, so it is cool all year, and I always feel life here runs slower than in the rest of the country. I arrived in Da Lat on the morning of 12 October 2026 and stayed until midday on 15 October, four days and three nights, with more than five hundred photos, mostly coffee, food and slopes. I had also visited in February and October 2022, so this time felt like returning to a familiar place, walking slowly and eating a lot."],
+      ["A city of small places", "What I like about Da Lat is how the city is organised around small places: cafés on a hillside, grilled-chicken restaurants by the road, food carts at the night market. Each day I had one long sit in a café looking out over the hills, and that is the part I remember best."],
+    ],
     stories: [
       {
-        k: "Cloud hunting", h: "Cloud hunting in the morning at Vung Ngoai O café", where: "Outskirts of Da Lat · 5 – 6am",
-        t: "Hunting clouds at Vung Ngoai O café is an experience well worth trying in Da Lat. Clouds drift slowly past, slipping between the hills, creating a hazy scene of strange calm. Arrive around 5 to 6am for the best chance of beautiful clouds and to fully feel the chilly air of the mountain town. The road is a little hard, but once you arrive and sit in a sea of clouds watching the sunrise, you will feel the journey was completely worth it.",
+        k: "Quick facts", h: "Before you go to Da Lat",
+        items: [
+          { k: "My trip", v: "12 – 15 October 2026, three nights; day one eating and walking the centre, day two cloud hunting, day three Thon 13 and Truc Lam Monastery, day four Xuan Huong Lake" },
+          { k: "Climate", v: "Cool all year, cold in early mornings and evenings; sunny days can change by afternoon" },
+          { k: "Getting around", v: "Walk in the centre; for Thon 13, Truc Lam Monastery and cloud-hunting spots, hire a motorbike or ride-hail" },
+          { k: "How long", v: "3 – 4 days to go slowly" },
+          { k: "Truc Lam Monastery", v: "Founded in 1993 and completed in 1994, on Phuong Hoang mountain overlooking Tuyen Lam Lake" },
+        ],
+        note: "Ticket prices, hours and weather can change; check before you go.",
       },
       {
-        k: "Breakfast", h: "Hot milk and the morning atmosphere", where: "Hoa Binh area · 6 – 8am",
-        t: "Mornings in the Hoa Binh area of Da Lat need nothing very special. Just a cup of hot milk in your hands, sitting in the cool air of the mountain town, watching people start a new day and listening to the familiar sounds of the city waking up. The hot milk is rich and fragrant, its warmth creeping through your fingertips, and time itself seems to slow down a little. Perhaps, sometimes, enjoying a peaceful morning like this is enough to make a trip memorable.",
+        k: "Cloud hunting", h: "Hunting clouds at the Vung Ngoai O café at dawn", where: "Da Lat outskirts · 5 – 6 am",
+        t: "On the morning of 13 October I woke very early and rode out to the outskirts to hunt clouds. It was still dark and so cold I pulled my collar up. I reached the Vung Ngoai O café as the sky began to lighten, sat at a wooden table on the hillside and waited. Clouds drifted slowly past, threading between the hills, making a hazy, strangely peaceful scene.\n\nIf you want to hunt clouds, come between about 5 and 6 am for the best chance, and bring warm clothes because it is very cold then. It also reminded me that some of the most beautiful things appear only for a short time, and only for those who are willing to get up early.",
       },
       {
-        k: "Things to do", h: "Xuan Huong Lake and the pine hills", where: "City centre · early morning or late afternoon",
-        t: "Xuan Huong Lake and its pine hills are the ideal place to feel the slow rhythm of Da Lat. You can stroll around the lake in the morning, watching the calm water in thin mist, or head down shady pine-lined roads to enjoy the fresh air. Sometimes you do not need a fancy plan. Walking, taking a few photos and enjoying a little peace in the mountain town is enough to make the trip memorable.",
+        k: "Breakfast", h: "A bowl of noodles and a hot coffee in the morning", where: "Hoa Binh area · 7 – 8 am",
+        t: "On the morning of 12 October, just after arriving in Da Lat, I had a small bowl of noodles at a place with a red table by the road, then went up to a rooftop with a hot coffee looking down over the roofs of the Hoa Binh area. A morning here needs nothing special: just a hot cup in hand, the chill of a mountain town, people beginning their day and the familiar sounds of a city waking up.\n\nCoffee or hot milk is up to you, as long as it is hot and sipped slowly. Eating breakfast early like this is how I felt most clearly that I was somewhere different from Saigon.",
       },
       {
-        k: "Café", h: "Nha Cua Thong", where: "Da Lat · best in the early morning",
-        t: "A small café tucked into the pine forest, simple and rustic with wooden materials, windows opening onto green hills and the green of nature all around. In ripe persimmon season you may even find small corners covered in orange-red, making many pretty frames. Order a hot coffee, sit and listen to the wind pass through the pines while looking at nature, and that is enough to feel a truly peaceful Da Lat.",
+        k: "Fun", h: "Xuan Huong Lake and the pine hills", where: "Centre · early morning or late afternoon",
+        t: "On the last morning, 15 October, I walked around Xuan Huong Lake from about nine until nearly midday. The still water in thin mist and the pine-shaded paths made me walk very slowly. It is the ideal place to feel Da Lat's slow rhythm, and the place I chose to say goodbye to the city.\n\nYou can stroll around the lake in the morning or late afternoon, when there are fewer people and the light is lovely. Sometimes simply sitting on a bench by the lake is enough to make a day feel worthwhile.",
       },
       {
-        k: "Café", h: "Vuon Binh Yen", where: "Da Lat · best in the afternoon",
-        t: "True to its name (the Peaceful Garden), this café is a cool green garden with flowers and plants along every path. A quiet corner to read, chat or simply sit watching the afternoon sun slowly fade over the mountain town.",
+        k: "Coffee", h: "Nha Cua Thong", where: "Da Lat · best in the early morning",
+        t: "On the afternoon of 12 October at ten past four I sat in a small wooden café among the pines, with two windows looking out to green hills, and ordered two hot flower teas in glass cups. The place is rustic, with wooden tables, brocade cloth and conical hats hanging on the walls. Wind from the hill gently moved the curtain.\n\nNha Cua Thong suits those who like to sit for a long time: I stayed almost two hours, talking and watching mist rise from the valley. Come early in the morning to avoid crowds and enjoy better light.",
       },
       {
-        k: "Things to do", h: "Thon 13", where: "Da Lat · 8 – 9am",
-        t: "Thon 13 has the beauty of a little corner of Switzerland in the middle of Da Lat, with a crystal-clear turquoise lake, lush green hills and a peaceful setting. It is a place worth experiencing for anyone who loves photography and exploring nature. The entrance ticket is about 100,000 dong per person. Go around 8 to 9am to enjoy the beautiful light and easily capture the clearest, most poetic frames!",
+        k: "Coffee", h: "Binh Yen Garden", where: "Da Lat · best in the afternoon",
+        t: "True to its name, the café is a cool green garden with flowers and plants along every path. It is a quiet corner to read, chat or simply watch the afternoon sun fade over the mountain town. Afternoon is the loveliest time here: a light wind, golden light and nobody hurrying.",
       },
       {
-        k: "Lunch", h: "Chicken hot pot with la e leaves", where: "Tang Bat Ho Street · 11am–2pm",
-        t: "A pot of free-range chicken hot pot fragrant with la e leaves, lightly sour and mildly spicy. Go in a group of three or four and order extra bamboo shoots and mushrooms to sweeten the broth.",
+        k: "Fun", h: "Thon 13", where: "Da Lat · 8 – 9 am",
+        t: "On 14 October I spent almost the whole day at Thon 13, more than a hundred and thirty photos in this area alone. Thon 13 has the look of a corner of Switzerland in the middle of Da Lat, with clear jade-green water, lush green hills and a peaceful scene. It is a place worth experiencing for those who like photography and exploring nature. The area charges an entrance fee, so check the price first and go in the morning when it is quiet.",
       },
       {
-        k: "Dinner", h: "Grilled chicken with bamboo-tube rice", where: "Thon 13, 178 Hung Vuong Street, Da Lat, Lam Dong",
-        t: "Hill chicken grilled over glowing charcoal, with golden crispy skin and firm meat, dipped in green chilli salt. Served with sticky bamboo-tube rice that smells of bamboo, plus a bowl of wild vegetable soup, it makes a dinner full of mountain flavour.",
+        k: "Lunch", h: "Chicken hotpot with e leaves", where: "Tang Bat Ho Street · 11 am – 2 pm",
+        t: "On 12 October at lunch I ate chicken hotpot with e leaves in a small restaurant. The pot of free-range chicken smells of e leaf, mildly sour and not too spicy, eaten with rice noodles, greens and a dip with green chilli. It suits groups of three to four, adding bamboo shoots and mushrooms to sweeten the broth. In the gentle Da Lat chill, sitting before a steaming pot was one of the meals I remember best.",
       },
       {
-        k: "Evening", h: "Da Lat night market", where: "Hoa Binh area · 5 – 11pm",
-        t: "Grilled rice paper, roasted sweet potatoes, hot soy milk and woollen clothes. Strolling, snacking and then sitting on the steps looking down at the crowd is a very Da Lat experience.",
+        k: "Dinner", h: "Grilled chicken with bamboo rice", where: "Thon 13, 178 Hung Vuong Street, Da Lat, Lam Dong",
+        t: "On the evening of 12 October at quarter past six I ate hill chicken grilled over glowing charcoal: golden crisp skin and firm meat, dipped in green chilli salt, with a tube of sticky bamboo rice and a bowl of wild-vegetable soup. It was the most mountain-flavoured dinner of the trip, and the dish I would order again if I come back.",
+      },
+      {
+        k: "Evening", h: "Da Lat night market", where: "Hoa Binh area · 5 – 11 pm",
+        t: "The night market at eight on 12 October glowed with grilled rice paper, grilled sweet potatoes, hot soy milk and woollen clothes. I held two cups of hot soy milk, walked among the crowd and then sat on a step looking down at the market. Walking, snacking and then sitting to watch people pass is very Da Lat.",
+      },
+      {
+        k: "Truc Lam Monastery", h: "A quiet afternoon at Truc Lam Zen Monastery", where: "Phuong Hoang mountain, overlooking Tuyen Lam Lake",
+        quote: "The busiest part of my day turned out to be the quietest place.",
+        t: "On the afternoon of 14 October, after Thon 13, I went to Truc Lam Zen Monastery and stayed about two hours, more than eighty photos in one visit. According to the sources I read, the monastery was founded by the Venerable Thich Thanh Tu in 1993 and completed in 1994, on Phuong Hoang mountain looking over Tuyen Lam Lake. From above, the green lake stretches below rows of pines, and in the monastery yard it is full of flowers and very quiet.\n\nI walked slowly, spoke softly and dressed modestly as at any sacred place. After several days of eating, coffee and sightseeing, this was the visit that let me rest and think about what I had done.",
+      },
+      {
+        k: "What to eat in Da Lat", h: "Da Lat through its meals", where: "What I ate and what to try",
+        quote: "In Da Lat, hot food eaten in the cold always tastes better than usual.",
+        t: "Below are the dishes I actually ate on this trip, plus a few famous ones that many guides mention.",
+        cards: [
+          { title: "Chicken hotpot with e leaves", text: "Lunch on 12 October: free-range chicken, fragrant e leaves, mildly sour and not too spicy, with noodles and greens. Best with a group of 3 – 4." },
+          { title: "Grilled chicken and bamboo rice", text: "Dinner on 12 October: hill chicken grilled over charcoal, bamboo-tube rice and wild-vegetable soup. Full of mountain flavour." },
+          { title: "Flower tea and coffee in a wooden café", text: "A hot early-morning coffee, two flower teas at four in the afternoon and a green drink held up over the valley. Every day had a long sit." },
+          { title: "Night-market grills and soy milk", text: "Grilled rice paper, grilled sweet potatoes and hot soy milk at the Hoa Binh night market, snacking as you walk." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend four days in Da Lat", where: "A suggestion from my own trip",
+        quote: "One main thing each day, and the rest is sitting over coffee.",
+        steps: [
+          { time: "Day 1", title: "Eating and the centre", text: "Noodles and coffee in the Hoa Binh area in the morning, chicken hotpot at lunch, a wooden café in the afternoon, grilled chicken and the night market in the evening." },
+          { time: "Day 2", title: "Cloud hunting", text: "Get up very early to hunt clouds on the outskirts, then rest, and wander in the afternoon." },
+          { time: "Day 3", title: "Thon 13 and Truc Lam Monastery", text: "A whole morning at Thon 13, then up to Truc Lam Monastery to look over Tuyen Lam Lake." },
+          { time: "Day 4", title: "Xuan Huong Lake", text: "Walk around the lake in the morning and say goodbye before midday." },
+        ],
+      },
+      {
+        k: "Tips", h: "What I took away", where: "Before you go",
+        quote: "Da Lat is cold, so bring warm clothes and get up early for what is worth getting up for.",
+        t: "• Bring warm clothes, a scarf and comfortable shoes; mornings and evenings are quite cold.\n\n• The night market is busiest from 7 to 9 pm, so go earlier to find a seat easily.\n\n• Cloud hunting needs a very early start and cooperative weather; on days of low cloud it may be hidden completely.\n\n• Mountain roads and slopes get slippery in rain; ride carefully.\n\n• Ask ticket prices at tourist sites like Thon 13 before you go.\n\n• Dress modestly and keep quiet when you enter Truc Lam Monastery.",
       },
     ],
+    tip: "The night market is busiest from 7 to 9 pm, so go earlier to find a seat easily.",
   },
 };
