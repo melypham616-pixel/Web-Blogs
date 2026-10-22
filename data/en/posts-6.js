@@ -136,23 +136,83 @@ export const EN_6 = {
     tip: "Before booking a tour, ask directly: \"Do you offer elephant riding here?\"",
   },
   "rt-den": {
-    title: "Respecting Culture When Visiting a Mosque in Malaysia",
-    ex: "Cover your shoulders and legs, take off your shoes and avoid prayer times. What to know before visiting the major mosques in KL.",
+    title: "Respecting Culture in Malaysia's Mosques: Clothing, Timing and Manners",
+    ex: "Cover shoulders and legs, take off your shoes, avoid prayer times and ask before photographing. What to know before visiting Masjid Negara in Kuala Lumpur and Putra Mosque in Putrajaya.",
     place: "Kuala Lumpur & Putrajaya",
     body: [
-      ["", "Malaysia is a multicultural country with many mosques, Hindu temples and Chinese temples. Each has its own rules, but all ask for modest clothing."],
-      ["What to wear", "Many large mosques lend robes and headscarves to female visitors at the entrance."],
+      ["", "Malaysia is a multicultural country with many mosques, Hindu temples and Chinese temples, and I spent two years living in Kuala Lumpur seeing that every day. Each place has its own rules but all call for modest clothing and humility. This post gathers what I found useful, especially for first-time visitors to a mosque."],
+      ["Arrive as a guest", "A mosque is not purely a sightseeing stop but a community's place of prayer. The best way to enter is as a guest, walking lightly, speaking softly and following the caretakers' guidance."],
     ],
-    tip: "Check the prayer times for the day and visit in the gaps between them.",
+    stories: [
+      {
+        k: "Quick facts", h: "Two mosques worth knowing",
+        items: [
+          { k: "Masjid Negara (Kuala Lumpur)", v: "According to sources, non-Muslim visitors may enter between prayer times, about 9 am – 12 pm, 3 – 4 pm and 5:30 – 6:30 pm Saturday to Thursday; on Friday only two afternoon windows. Entry is free" },
+          { k: "Putra Mosque (Putrajaya)", v: "Non-Muslim visitors may enter outside prayer times, free of charge; sources give different hours, so confirm with the administration" },
+          { k: "Clothing", v: "No sleeveless tops, shorts or tight outfits; both places lend robes at a desk near the gate" },
+          { k: "Shoes", v: "Take off your shoes before the steps to the main prayer hall" },
+        ],
+        note: "Opening hours change with holidays and events; check before you go.",
+      },
+      {
+        k: "Clothing", h: "What to wear into a mosque", where: "Before you reach the gate",
+        quote: "Cover shoulders, cover legs, and keep your knees out of sight.",
+        t: "The general rule is modest dress for both men and women.",
+        cards: [
+          { title: "Cover shoulders and arms", text: "Sleeves or a shawl over your shoulders; avoid spaghetti straps or open-back tops." },
+          { title: "Cover legs to the ankle", text: "Long trousers or a long skirt; shorts and short skirts are usually not allowed in." },
+          { title: "Borrow a robe at the gate", text: "Both Masjid Negara and Putra Mosque lend women hooded robes at a desk near the gate, free of charge; you only need to queue." },
+          { title: "Bring a scarf", text: "A thin scarf in your bag helps you cover your shoulders and hair on your own when needed." },
+        ],
+      },
+      {
+        k: "Timing", h: "Avoid prayer times", where: "Before you go",
+        quote: "Arriving between two prayers is when the mosque is quietest for visitors.",
+        t: "Mosques close to sightseers during prayer, and on Friday the main midday prayer runs longer. So check the day's times and come between them. If you arrive late you may have to wait outside or come back later.\n\nWhile in the grounds, stop photographing if people are praying, and avoid walking in front of anyone kneeling.",
+      },
+      {
+        k: "Manners", h: "How to behave inside", where: "Inside the mosque",
+        quote: "Walk slowly, speak softly, ask before photographing.",
+        t: "• Take your shoes off at the steps to the main hall and leave them neatly.\n\n• Speak softly and silence your phone.\n\n• Do not touch anyone praying and do not photograph their faces without permission.\n\n• Ask the caretaker if you are unsure which areas are open.\n\n• Do not eat or drink in the grounds.\n\n• If you want to learn more, mosques often have people glad to explain the architecture and customs; listen and thank them.",
+      },
+    ],
+    tip: "Check the day's prayer times and visit between them.",
   },
   "rt-tau": {
-    title: "Take the Train Instead of Flying: Routes Worth Trying",
-    ex: "The Reunification Express along Vietnam and the electric ETS trains in Malaysia. A little slower but gentler on the climate.",
+    title: "Take the Train Instead of Flying: Routes Worth Trying in Vietnam and Malaysia",
+    ex: "The Reunification Express along Vietnam and the electric ETS in Malaysia. A little slower but gentler on the climate and on me, with travel times, how to book and tips.",
     place: "Vietnam, Malaysia & Singapore",
     body: [
-      ["", "On short and medium routes, trains usually emit far less per passenger than planes. In return, you get to watch the scenery the whole way."],
-      ["Suggestions", "In Vietnam, the Hue – Da Nang section over the Hai Van Pass is beautiful. In Malaysia, the ETS train links Kuala Lumpur with Ipoh and Penang (via Butterworth)."],
+      ["", "On short and medium routes a train usually emits far less per passenger than a plane. In return you see the landscape all the way, and travel straight from one city centre to another without going out to a distant airport."],
+      ["Slow is also a way to travel", "I like trains because they turn travel time into part of the trip: a book, a coffee and a window onto fields sliding past."],
     ],
-    tip: "Book early around Tet and other holidays because trains sell out very quickly.",
+    stories: [
+      {
+        k: "Quick facts", h: "Trains in Vietnam and Malaysia",
+        items: [
+          { k: "Malaysia: ETS", v: "KTMB's electric train links KL Sentral with Ipoh in about two hours on express services, and with Butterworth (opposite Penang) in about three and a half hours" },
+          { k: "Booking ETS", v: "Through KTMB's online portal; book ahead in holidays and school breaks" },
+          { k: "Vietnam", v: "The Reunification Express runs the length of the country; the Hue – Da Nang section over the Hai Van Pass is one of the most beautiful" },
+          { k: "Why try it", v: "Lower emissions per passenger than a plane, straight into the centre and scenery all the way" },
+        ],
+        note: "Timetables and fares change; check the official sites.",
+      },
+      {
+        k: "In Malaysia", h: "The ETS: fast, clean and on time", where: "Kuala Lumpur – Ipoh – Penang",
+        quote: "Two hours on a train instead of half a day going to the airport.",
+        t: "The ETS is KTMB's electric train linking Kuala Lumpur with several northern cities. Express services from KL Sentral take about two hours to Ipoh and about three and a half hours to Butterworth; services with more stops take longer. From Butterworth you can reach Penang island by ferry or car.\n\nSeats are wide, with sockets, and the window looks out over fields, hills and limestone all the way. Tickets are sold on KTMB's online portal; in holidays and school breaks trains fill up quite early.",
+      },
+      {
+        k: "In Vietnam", h: "Hue – Da Nang over the Hai Van Pass", where: "The Reunification Railway",
+        quote: "A short stretch, but memorable for the whole trip.",
+        t: "The Reunification Express runs the length of the country, and the Hue – Da Nang section hugs the sea and crosses the Hai Van Pass, often mentioned as one of the most beautiful sections. Choose a window seat on the sea side and travel in daylight to see the view.\n\nTrains in Vietnam are slower than the ETS and not every one runs on time, so leave spare time and do not schedule things too tightly after you get off.",
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Book early for the Tet holiday, since trains sell out fast.",
+        t: "• Book early for the Tet holiday since trains sell out very quickly.\n\n• Reach the station at least half an hour before departure to find the right platform.\n\n• Bring a light jacket since the air-conditioning on trains can be quite cold.\n\n• Bring snacks and water, especially on long routes.\n\n• Check the timetable on the official site before you go, as routes can be adjusted.",
+      },
+    ],
+    tip: "Book early for the Tet holiday, since trains sell out very fast.",
   },
 };
