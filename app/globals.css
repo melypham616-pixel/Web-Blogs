@@ -139,7 +139,7 @@ aside{flex:0 1 300px;min-width:260px;display:flex;flex-direction:column;gap:42px
 .widget h4{font-family:var(--body);font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;text-align:center;padding:10px;border:1px solid var(--line);margin-bottom:20px}
 .about{text-align:center}
 .about .avatar{width:150px;height:150px;margin:0 auto 16px;border-radius:50%;overflow:hidden}
-.about p{color:var(--muted);margin:0 0 12px;text-align:justify;hyphens:auto}
+.about p{color:var(--muted);margin:0 0 12px;text-align:justify;hyphens:manual}
 .sig{font-family:var(--display);font-style:italic;font-size:22px}
 .search{display:flex;border:1px solid var(--line)}
 .search input{flex:1;min-width:0;border:0;padding:11px 12px;background:transparent;outline:none}
