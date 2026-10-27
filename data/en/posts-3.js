@@ -210,4 +210,62 @@ export const EN_3 = {
     closing: "Cameron Highlands is a place to slow down. You do not need a packed schedule, just an afternoon on the tea hills, a pot of hot tea and a little thin mist to feel lighter.",
     tip: "Visit the tea hills in the morning or late afternoon for beautiful light and fewer people.",
   },
+  "leo-nui-kl": {
+    title: "Hiking in Kuala Lumpur: Malaysia's Jungle-Trail Culture and How to Build Fitness",
+    seo: "Hiking in Kuala Lumpur: Trails and Fitness",
+    desc: "Hiking in Kuala Lumpur: Bukit Gasing, Bukit Kiara, Taman Tugu, Broga Hill, Malaysia's jungle-trail culture, how to build fitness and safety tips.",
+    ex: "Hiking trails near Kuala Lumpur such as Bukit Gasing, Bukit Kiara, Taman Tugu and Broga Hill, why jungle walking became a habit for many Malaysians, how to build fitness step by step and what to know to stay safe.",
+    place: "Kuala Lumpur",
+    menu: "Hiking in KL",
+    body: [
+      ["", "What surprised me while living in Kuala Lumpur was that half an hour from the centre by road you are already in tropical forest, with trails and the sound of insects. Hiking in KL is not the activity of any one group; many Malaysians treat it as a way to stay healthy, relieve stress and meet friends on weekends. This post gathers easy trails, what I read about Malaysia's jungle-walking culture, and how to start building fitness if you are not used to it."],
+      ["A note on how I write", "When researching I found no source with statistics on the hiking habits of individual communities in Malaysia, so I write about Malaysians in general and do not attribute habits to any specific ethnic group."],
+    ],
+    stories: [
+      {
+        k: "Quick facts", h: "Trails near Kuala Lumpur",
+        items: [
+          { k: "Taman Tugu", v: "The closest to the centre, with shaded forest paths and clear signs, easy to moderate" },
+          { k: "Bukit Gasing", v: "Short and easy, about 20 minutes to the watch tower, with the option to continue to a suspension bridge; some quite steep stretches, very busy on weekends" },
+          { k: "Bukit Kiara", v: "The longest trail is about 12 km but most people do 4 – 6 km loops; many entrances from Mont Kiara, Sri Hartamas and Taman Tun Dr Ismail" },
+          { k: "Broga Hill", v: "About an hour's drive from the city, in Semenyih; sources give 30 – 60 minutes to the top or 3 – 4 hours round trip, and the grassy slopes can be slippery after rain" },
+          { k: "Bukit Tabur", v: "Not for beginners: steep, rocky, with scrambling along a narrow ridge; usually needs a permit from the Selangor Forestry Department and has sometimes been closed" },
+        ],
+        note: "Difficulty, timing and rules at each place can change; check trail conditions before you go.",
+      },
+      {
+        k: "Culture", h: "Why many Malaysians love hiking", where: "Jungle-walking habits in Malaysia",
+        quote: "One small slope on a weekend morning is enough to feel different.",
+        t: "According to a Penang Monthly article, lockdowns left many city people feeling stifled and sent them to nature, and walking in the forest became the activity of choice to relieve stress. A 2014 expat newspaper piece likewise described hiking as an inexpensive way to keep fit that also eases the mind. More recent sources link the trend to wellness culture, and social media has turned lesser-known trails, summits and waterfalls into weekend destinations.\n\nA ranking of trails in Southeast Asia also found Malaysia taking the most top places, with the Bukit Gasing Circular first. The downside of popularity is a rise in rescues: according to CNN in August 2026, Malaysia is tightening rules, including mandatory guides at 189 high-risk locations. So going the right way matters as much as going often.",
+      },
+      {
+        k: "Fitness", h: "How hiking builds fitness", where: "Step by step",
+        quote: "No heavy training needed, only steady walking and gradual increases.",
+        t: "These are general suggestions from hiking experience, not medical advice; if you have heart, blood pressure or joint problems, ask a doctor first.",
+        cards: [
+          { title: "Heart and lungs", text: "Walking uphill raises your heart rate steadily, like a light to moderate cardio session." },
+          { title: "Legs and hips", text: "Climbing uses the thighs and glutes, descending uses the knees and calves; after many outings your legs feel stronger and steadier." },
+          { title: "Balance", text: "Roots, rocks and slippery ground force you to keep your balance, very different from walking on flat ground." },
+          { title: "Mind", text: "Walking in the forest, hearing birds and water, helps clear the head, as the sources say about stress relief." },
+        ],
+      },
+      {
+        k: "Training", h: "Four weeks to get used to forest trails", where: "A four-week suggestion",
+        quote: "Add a little each week, and always have rest days.",
+        steps: [
+          { time: "Week 1", title: "Brisk walks and stairs", text: "Walk briskly for 30 minutes a few times and climb stairs a few times so your legs get used to slopes." },
+          { time: "Week 2", title: "Taman Tugu or Bukit Gasing", text: "Choose a short trail with clear signs and go in the morning while it is cool." },
+          { time: "Week 3", title: "A 4 – 6 km loop at Bukit Kiara", text: "Lengthen your time and practise descending slowly to protect your knees." },
+          { time: "Week 4", title: "Broga Hill at dawn", text: "Go early to catch the sunrise and avoid the sun, and wear shoes with good grip because the grass can be slippery." },
+        ],
+      },
+      {
+        k: "Safety", h: "What to know to stay safe", where: "Before entering the forest",
+        quote: "Every summit will wait until next time.",
+        t: "• Go early to avoid sun and crowds; at Bukit Tabur locals recommend about 4 – 6:30 am to avoid the sun on the ridge.\n\n• For a first hike choose a signed, busy trail, since it is easy to follow and easy to get help.\n\n• Avoid Bukit Tabur without experience: the narrow ridge has drops on both sides, few safety features, and the trail has at times been closed after accidents. Ask the Selangor Forestry Department about permits and current status.\n\n• Check the forecast: grassy slopes and rock are slippery after rain, so go after dry days.\n\n• Bring plenty of water, snacks, a small torch and a power bank, and tell someone your route and return time.\n\n• Carry your rubbish out, walk lightly, speak softly and give way to people coming the other way.\n\n• Many people in Malaysia are Muslim and prayer times may fall while you are walking; keep your distance and stay quiet if you see someone praying by the trail.",
+      },
+    ],
+    closing: "Hiking in Kuala Lumpur does not need a great summit. A small slope on a weekend morning, a bottle of water and a pair of good shoes are enough to make your legs stronger and your head lighter.",
+    tip: "Start with a short signed trail such as Bukit Gasing, go early and always carry enough water.",
+  },
 };
