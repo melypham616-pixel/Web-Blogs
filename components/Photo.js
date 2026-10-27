@@ -6,9 +6,11 @@ import { art } from "@/lib/art";
 // Ảnh trong /images/ được lấy từ Cloudinary (đã upload bằng scripts/upload-cloudinary.mjs, có tự đổi định dạng và nén).
 // Đặt NEXT_PUBLIC_IMAGE_CDN="" (chuỗi rỗng) để quay lại dùng ảnh trong thư mục public.
 const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN ?? "https://res.cloudinary.com/wzxppref/image/upload/f_auto,q_auto,a_exif/di-roi-ke";
+// Ảnh mới chưa upload Cloudinary thì phục vụ trực tiếp từ thư mục public (xoá dòng này sau khi đã upload).
+const LOCAL = /^\/images\/slots\/leo-nui-kl-/;
 const abs = src => {
   const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
-  return CDN && p && p.startsWith("/images/") ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
+  return CDN && p && p.startsWith("/images/") && !LOCAL.test(p) ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;
 };
 
 // Nhiều kích thước cho cùng một ảnh (srcset) để điện thoại chỉ tải bản nhỏ, giúp trang nhanh hơn rõ rệt.
@@ -16,7 +18,7 @@ const WIDTHS = [400, 640, 960, 1280, 1600];
 const SIZES = "(max-width: 640px) 100vw, 720px";
 function responsive(src) {
   const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
-  const m = CDN && p && p.startsWith("/images/") && CDN.match(/^(.*\/upload\/)([^/]+)\/(.*)$/);
+  const m = CDN && p && p.startsWith("/images/") && !LOCAL.test(p) && CDN.match(/^(.*\/upload\/)([^/]+)\/(.*)$/);
   if (!m) return { src: abs(src) };
   const id = p.slice(8).replace(/\.[^./]+$/, "");
   const url = w => `${m[1]}${m[2]},w_${w}/${m[3]}/${id}`;
