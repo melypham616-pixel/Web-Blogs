@@ -302,10 +302,9 @@ export const EN_3 = {
         ph: ["A red-railed wooden bridge on the lake", "Still water and an island of trees", "A bay of kayaks by the lake", "A café terrace facing the lake", "Palms under blue sky"],
       },
       {
-        k: "Putra Mosque", h: "Putra Mosque and its patterned facades", where: "Putra Square",
-        quote: "The closer you get, the more each small detail shows.",
-        ph: ["The Putra Mosque facade", "A patterned arched gateway"],
-        t: "Putra Mosque is famous for its pink dome, but what I remember most are the facades covered in lattice-like patterned panels that form great arched gateways. Up close I saw light passing through the panels and throwing geometric shadows on the stone.\n\nVisitors must dress modestly; many visitors borrowed a hooded robe at the desk near the gate, and it is best to avoid prayer times. I gathered these tips in the post on mosques in Malaysia, which you should read before going in.",
+        k: "Putra Mosque", h: "Putra Mosque: the pink dome, patterned facades and maroon robes", where: "Putra Square",
+        t: "Putra Mosque is famous for its pink dome covered in white patterns, and standing in the courtyard looking up I saw a whole tiered structure with small domed towers in the same colour. But what I remember most are the facades covered in lattice-like patterned panels that form great arched gateways; light passes through the panels and throws geometric shadows on the stone.\n\nVisitors must dress modestly, and at the desk near the gate visitors can borrow a hooded maroon robe printed with the words Putra Mosque. Inside, the walls are covered in floral designs and bands of Arabic calligraphy, and visitors stand behind a red rope to look into the prayer hall. Avoid prayer times; I gathered these tips in the post on mosques in Malaysia.",
+        ph: ["The Putra Mosque facade", "A patterned arched gateway", "The pink dome with white patterns", "Visitors in maroon robes in front of the facade", "Inside the prayer hall"],
       },
       {
         k: "Equestrian Park", h: "The equestrian park and a meal among the lawns", where: "Taman Ekuestrian Putrajaya (Putrajaya Equestrian Park)",
