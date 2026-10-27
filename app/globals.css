@@ -518,7 +518,7 @@ main{overflow-x:clip}
 .st-story .meta-line i{width:24px;height:1px;background:var(--accent-ink)}
 .st-story :is(h2,h3){font-size:36px;line-height:1.15;font-style:italic;max-width:560px}
 .st-story .wide{aspect-ratio:16/9}
-.st-story .st-t{margin:0 auto;max-width:600px;font-family:var(--display);font-size:19px;line-height:1.85}
+.st-story .st-t{margin:0 auto;max-width:600px;font-size:16.5px;line-height:1.85;color:var(--body-ink)}
 .st-story .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;align-items:start}
 .st-story figure{margin:0;display:flex;flex-direction:column;gap:8px}
 .st-story figure:nth-child(even){margin-top:48px}
