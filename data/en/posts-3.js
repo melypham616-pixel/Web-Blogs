@@ -234,8 +234,14 @@ export const EN_3 = {
         note: "Difficulty, timing and rules at each place can change; check trail conditions before you go.",
       },
       {
+        k: "Bukit Gasing", h: "Bukit Gasing: the trail I walked with friends", where: "Bukit Gasing Educational Forest",
+        t: "Bukit Gasing is where I hiked most in KL. I went twice with friends, starting at the wooden gate with the sign Hutan Pendidikan Bukit Gasing (Bukit Gasing Educational Forest), then along palm-lined paved roads into the forest and up earth steps full of roots. I stopped many times on the way: a strange flower shaped like a pair of bat wings, resembling the bat flower (Tacca) though I have not verified its name; clusters of fungi on rotting logs; palm trunks covered in ferns; and an orange peeled and eaten halfway up a slippery slope.\n\nAt the top is a sign reading Anda telah tiba di puncak Bukit Gasing (You have arrived at the summit of Bukit Gasing), where everyone stops for a photo. I did not go to conquer anything, only to sweat and let my head grow lighter.",
+        ph: ["A fern-filled forest trail", "A bat-wing-shaped flower", "Fungi on a rotting log", "A palm trunk covered in ferns", "The Bukit Gasing summit sign"],
+      },
+      {
         k: "Culture", h: "Why many Malaysians love hiking", where: "Jungle-walking habits in Malaysia",
         quote: "One small slope on a weekend morning is enough to feel different.",
+        ph: ["Hikers climbing steps in the forest"],
         t: "According to a Penang Monthly article, lockdowns left many city people feeling stifled and sent them to nature, and walking in the forest became the activity of choice to relieve stress. A 2014 expat newspaper piece likewise described hiking as an inexpensive way to keep fit that also eases the mind. More recent sources link the trend to wellness culture, and social media has turned lesser-known trails, summits and waterfalls into weekend destinations.\n\nA ranking of trails in Southeast Asia also found Malaysia taking the most top places, with the Bukit Gasing Circular first. The downside of popularity is a rise in rescues: according to CNN in August 2026, Malaysia is tightening rules, including mandatory guides at 189 high-risk locations. So going the right way matters as much as going often.",
       },
       {
