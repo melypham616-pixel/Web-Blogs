@@ -7,7 +7,7 @@ import { art } from "@/lib/art";
 // Đặt NEXT_PUBLIC_IMAGE_CDN="" (chuỗi rỗng) để quay lại dùng ảnh trong thư mục public.
 const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN ?? "https://res.cloudinary.com/wzxppref/image/upload/f_auto,q_auto,a_exif/di-roi-ke";
 // Ảnh mới chưa upload Cloudinary thì phục vụ trực tiếp từ thư mục public (xoá dòng này sau khi đã upload).
-const LOCAL = /^\/images\/slots\/leo-nui-kl-/;
+const LOCAL = /^\/images\/slots\/(?:leo-nui-kl|putrajaya)-/;
 const abs = src => {
   const p = src && !src.startsWith("/") && !src.startsWith("http") && !src.startsWith("data:") ? "/" + src : src;
   return CDN && p && p.startsWith("/images/") && !LOCAL.test(p) ? CDN + "/" + p.slice(8).replace(/\.[^./]+$/, "") : p;

@@ -274,4 +274,73 @@ export const EN_3 = {
     closing: "Hiking in Kuala Lumpur does not need a great summit. A small slope on a weekend morning, a bottle of water and a pair of good shoes are enough to make your legs stronger and your head lighter.",
     tip: "Start with a short signed trail such as Bukit Gasing, go early and always carry enough water.",
   },
+  "putrajaya": {
+    title: "Putrajaya: The Lakeside Administrative Capital, Putra Mosque and a Slow Day Out",
+    seo: "Putrajaya Travel: Putra Mosque, Lake, Itinerary",
+    desc: "Putrajaya travel from Kuala Lumpur: Putra Mosque, Putrajaya Lake, the Seri Wawasan Bridge, Perdana Putra, the wetlands park, MRT directions and a one-day itinerary.",
+    ex: "Putrajaya is a planned administrative city by a lake, about half an hour by train from Kuala Lumpur: the pink Putra Mosque, the man-made lake, the Seri Wawasan Bridge, lawns with horses and cafés facing the water, with directions, an itinerary and tips.",
+    place: "Putrajaya",
+    body: [
+      ["", "Putrajaya is a place I did not expect to like so much. It is Malaysia's administrative city, home to the Prime Minister's office and many government agencies, planned very neatly around a large man-made lake. I went twice, once to walk by the lake and once to visit Putra Mosque and then sit in a café looking at the Seri Wawasan Bridge. The city is wide and few people walk, but that very openness made me feel at ease."],
+      ["A city drawn before it was built", "Unlike places that grow slowly over the years, Putrajaya was drawn first and built after: wide boulevards, large squares, a lake in the middle and administrative buildings around it. Walking here feels like walking inside a blueprint."],
+    ],
+    stories: [
+      {
+        k: "Quick facts", h: "Before you go to Putrajaya",
+        items: [
+          { k: "What it is", v: "Malaysia's federal administrative city, home to Perdana Putra, the complex of offices for the Prime Minister, Deputy Prime Minister and Cabinet Secretariat" },
+          { k: "Putrajaya Lake", v: "A man-made lake of about 650 ha, with a cruise of about an hour passing Putra Mosque, the Millennium Monument, the Seri Wawasan Bridge and Perdana Putra" },
+          { k: "Putra Mosque", v: "A pink-domed mosque by the lake; sources give a capacity of about 15,000 and a minaret about 116 m high; non-Muslim visitors may enter outside prayer times, free of charge" },
+          { k: "Wetlands park", v: "Putrajaya Wetlands Park, about 138 ha, described as among the largest man-made freshwater wetlands in the tropics" },
+          { k: "Getting there", v: "The MRT Putrajaya Line connects with KLIA Transit at Putrajaya Sentral station; from central KL it takes about half an hour to an hour depending on the route" },
+        ],
+        note: "Opening hours, cruise prices and train schedules can change; check before you go.",
+      },
+      {
+        k: "Putrajaya Lake", h: "A walk by the lake in an administrative city", where: "Around Putrajaya Lake",
+        t: "The lake is the heart of Putrajaya, and I spent most of my time here. I walked the brick-paved path beside the water to a wooden bridge with red railings reaching out over the lake, watching big clouds drift over the still surface. In one corner a bay of colourful kayaks was piled under a slope, with a price board for anyone who wants to paddle; across the water, tall palms stood against the blue sky.\n\nIn the afternoon there is a café facing the lake, and from a table on its terrace I could see the white Seri Wawasan Bridge in the distance like a sail. Drinking something cold there, I understood why so many people choose Putrajaya for a slow afternoon.",
+        ph: ["A red-railed wooden bridge on the lake", "Still water and an island of trees", "A bay of kayaks by the lake", "A café terrace facing the lake", "Palms under blue sky"],
+      },
+      {
+        k: "Putra Mosque", h: "Putra Mosque and its patterned facades", where: "Putra Square",
+        quote: "The closer you get, the more each small detail shows.",
+        ph: ["The Putra Mosque facade", "A patterned arched gateway"],
+        t: "Putra Mosque is famous for its pink dome, but what I remember most are the facades covered in lattice-like patterned panels that form great arched gateways. Up close I saw light passing through the panels and throwing geometric shadows on the stone.\n\nVisitors must dress modestly; many visitors borrowed a hooded robe at the desk near the gate, and it is best to avoid prayer times. I gathered these tips in the post on mosques in Malaysia, which you should read before going in.",
+      },
+      {
+        k: "Eating", h: "A meal among the lawns and horses", where: "The southern lawns",
+        quote: "In Putrajaya even meals are slow.",
+        ph: ["A countryside-style café menu"],
+        t: "In the south of the city is a green lawn with white wooden fences, where I saw a few people riding horses across the grass. Nearby was a café whose menu was printed like a newspaper, introducing Western and local countryside dishes right in Putrajaya. I sat, ate slowly and watched horses pass.\n\nIf you want a scene different from the centre, this is worth a stop.",
+      },
+      {
+        k: "What to see", h: "What there is to see in Putrajaya", where: "Highlights",
+        quote: "Everything is around the lake, so just go slowly.",
+        t: "Below are the highlights according to the sources I read.",
+        cards: [
+          { title: "Putra Mosque", text: "A pink-domed mosque by the lake, free to enter outside prayer times." },
+          { title: "A lake cruise", text: "About an hour, passing Putra Mosque, the Millennium Monument, the Seri Wawasan Bridge and Perdana Putra." },
+          { title: "Perdana Putra", text: "The complex of offices for the Prime Minister and Cabinet; mainly seen from afar since it is an administrative area." },
+          { title: "Botanical garden and wetlands", text: "The botanical garden has over 700 tropical plant types according to one source; the wetlands park is about 138 ha." },
+        ],
+      },
+      {
+        k: "Itinerary", h: "How to spend a day in Putrajaya", where: "A suggestion for a day from Kuala Lumpur",
+        quote: "A lake walk in the morning, Putra Mosque in the afternoon, and sit looking at the bridge at the end.",
+        steps: [
+          { time: "Morning", title: "Reach Putrajaya Sentral", text: "Take the MRT or a train to Putrajaya Sentral, then a ride-hailing car into the lake area." },
+          { time: "Midday", title: "Stroll by the lake", text: "Walk the brick path, go out on the wooden bridge and watch the lake while the clouds are many." },
+          { time: "Afternoon", title: "Putra Mosque", text: "Come outside prayer times, borrow a robe if needed and stroll around the square." },
+          { time: "Late afternoon", title: "A café facing the Seri Wawasan Bridge", text: "Rest and watch the lake light up before heading back to KL." },
+        ],
+      },
+      {
+        k: "Tips", h: "A few things to know", where: "Before you go",
+        quote: "Putrajaya is wide, so pick a few places instead of trying to see everything.",
+        t: "• Bring a hat, sunscreen and water since the lake area has little shade and sights are far apart.\n\n• Use ride-hailing or rent a bicycle between sights, since walking all day is tiring.\n\n• Dress modestly at Putra Mosque and avoid prayer times; confirm the visiting hours since sources differ.\n\n• Government areas such as Perdana Putra are best viewed from a distance.\n\n• Weekends and holidays are busier; go on a weekday for fewer people and easier photos.\n\n• Check MRT and KLIA Transit times at Putrajaya Sentral before you head back.",
+      },
+    ],
+    closing: "Putrajaya is not loud and has little to do in a hurry. But an afternoon by the lake, a mosque with patterned facades and a cold drink facing a white bridge are enough to make me remember this place longer than I expected.",
+    tip: "Visit Putra Mosque outside prayer times and bring a hat and water, since the lake area has little shade.",
+  },
 };
