@@ -281,7 +281,7 @@ export const EN_3 = {
     ex: "Putrajaya is a planned administrative city by a lake, about half an hour by train from Kuala Lumpur: the pink Putra Mosque, the man-made lake, the Seri Wawasan Bridge, lawns with horses and cafés facing the water, with directions, an itinerary and tips.",
     place: "Putrajaya",
     body: [
-      ["", "Putrajaya is a place I did not expect to like so much. It is Malaysia's administrative city, home to the Prime Minister's office and many government agencies, planned very neatly around a large man-made lake. I went twice, once to walk by the lake and once to visit Putra Mosque and then sit in a café looking at the Seri Wawasan Bridge. The city is wide and few people walk, but that very openness made me feel at ease."],
+      ["", "Putrajaya is a place I did not expect to like so much. It is Malaysia's administrative city, home to the Prime Minister's office and many government agencies, planned very neatly around a large man-made lake. I went twice, once to walk by the lake and once to visit Putra Mosque, sit in a café looking at the Seri Wawasan Bridge and then go on to the equestrian park. The city is wide and few people walk, but that very openness made me feel at ease."],
       ["A city drawn before it was built", "Unlike places that grow slowly over the years, Putrajaya was drawn first and built after: wide boulevards, large squares, a lake in the middle and administrative buildings around it. Walking here feels like walking inside a blueprint."],
     ],
     stories: [
@@ -308,10 +308,9 @@ export const EN_3 = {
         t: "Putra Mosque is famous for its pink dome, but what I remember most are the facades covered in lattice-like patterned panels that form great arched gateways. Up close I saw light passing through the panels and throwing geometric shadows on the stone.\n\nVisitors must dress modestly; many visitors borrowed a hooded robe at the desk near the gate, and it is best to avoid prayer times. I gathered these tips in the post on mosques in Malaysia, which you should read before going in.",
       },
       {
-        k: "Eating", h: "A meal among the lawns and horses", where: "The southern lawns",
-        quote: "In Putrajaya even meals are slow.",
-        ph: ["A countryside-style café menu"],
-        t: "In the south of the city is a green lawn with white wooden fences, where I saw a few people riding horses across the grass. Nearby was a café whose menu was printed like a newspaper, introducing Western and local countryside dishes right in Putrajaya. I sat, ate slowly and watched horses pass.\n\nIf you want a scene different from the centre, this is worth a stop.",
+        k: "Equestrian Park", h: "The equestrian park and a meal among the lawns", where: "Taman Ekuestrian Putrajaya (Putrajaya Equestrian Park)",
+        t: "In the south of the city is Taman Ekuestrian Putrajaya, an equestrian park with a wide green lawn, white wooden fences and a red-tiled grandstand looking onto the field. I stood watching a rider on a black horse walk slowly around the ground, and passers-by stopping by the fence to photograph the horse. It is very quiet here, with only hooves and soft voices.\n\nRight beside it is the EKUES café, whose menu is printed like a newspaper introducing Western and local countryside dishes. I ordered a plate of fried rice with grilled chicken wings, colourful prawn crackers and a small dish of spicy sauce, plus an iced milk coffee. Afterwards I sat watching people pass through the café area, many families bringing small children to see the horses.",
+        ph: ["A plate of fried rice, grilled wings and an iced milk coffee", "The newspaper-style menu at EKUES", "The lawn and the red-tiled grandstand", "Yellow seats facing the field", "A rider by the white fence", "A horse walking slowly across the lawn", "Visitors waiting outside the café", "Families passing the EKUES café area"],
       },
       {
         k: "What to see", h: "What there is to see in Putrajaya", where: "Highlights",
